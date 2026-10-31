@@ -925,6 +925,46 @@ def trim(sig, thr=0.012):
     return sig[a:b]
 
 
+ELEVEN_VOICE = os.environ.get("ELEVENLABS_VOICE_ID", "pNInz6obpgDQGcFmaJgB")   # "Adam" (premade)
+ELEVEN_MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
+
+
+def synth_voice_elevenlabs(lines, cache_dir, voice_id=ELEVEN_VOICE):
+    """Narration via the ElevenLabs API (needs ELEVENLABS_API_KEY). Returns None if unavailable."""
+    import json
+    import urllib.error
+    import urllib.request
+    key = os.environ.get("ELEVENLABS_API_KEY")
+    if not key:
+        print("ELEVENLABS_API_KEY not set -> skipping ElevenLabs")
+        return None
+    os.makedirs(cache_dir, exist_ok=True)
+    out = []
+    for text in lines:
+        h = hashlib.md5(f"eleven|{voice_id}|{ELEVEN_MODEL}|{text}".encode()).hexdigest()[:16]
+        p = os.path.join(cache_dir, h + ".npy")
+        if os.path.exists(p):
+            out.append(np.load(p))
+            continue
+        url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=pcm_{SR}"
+        body = json.dumps({"text": text, "model_id": ELEVEN_MODEL,
+                           "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3}}).encode()
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "xi-api-key": key, "Content-Type": "application/json", "Accept": "audio/pcm"})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                pcm = r.read()
+        except (urllib.error.URLError, OSError) as e:
+            detail = e.read().decode(errors="replace")[:300] if hasattr(e, "read") else ""
+            print(f"ElevenLabs request failed: {e} {detail}")
+            return None
+        s = trim(np.frombuffer(pcm, dtype="<i2").astype(np.float32) / 32768.0)
+        np.save(p, s)
+        out.append(s)
+        print("  elevenlabs:", text)
+    return out
+
+
 def synth_voice(lines, kokoro_dir, cache_dir):
     try:
         from kokoro_onnx import Kokoro
@@ -1298,10 +1338,20 @@ def main():
     ap.add_argument("--kokoro-dir", default=os.environ.get("KOKORO_DIR", os.path.join(HERE, "kokoro")))
     ap.add_argument("--preview", help="comma separated times: save PNG stills only")
     ap.add_argument("--workers", type=int, default=os.cpu_count() or 2)
+    ap.add_argument("--tts", choices=["auto", "elevenlabs", "kokoro", "none"], default="auto",
+                    help="auto = ElevenLabs if ELEVENLABS_API_KEY is set, otherwise Kokoro")
+    ap.add_argument("--eleven-voice", default=ELEVEN_VOICE, help="ElevenLabs voice ID")
     args = ap.parse_args()
 
     lines = [l for sc in SCENES for l in sc["lines"]]
-    voices = synth_voice(lines, args.kokoro_dir, os.path.join(HERE, ".tts_cache"))
+    cache = os.path.join(HERE, ".tts_cache")
+    voices = None
+    if args.tts == "elevenlabs" or (args.tts == "auto" and os.environ.get("ELEVENLABS_API_KEY")):
+        voices = synth_voice_elevenlabs(lines, cache, args.eleven_voice)
+        if voices is None and args.tts == "elevenlabs":
+            sys.exit("ElevenLabs narration failed (see message above).")
+    if voices is None and args.tts in ("auto", "kokoro"):
+        voices = synth_voice(lines, args.kokoro_dir, cache)
     tl, caps, voice_at, total = build_timeline(voices)
     init_worker(tl, caps, total)
     print(f"Video length: {total:.1f}s")

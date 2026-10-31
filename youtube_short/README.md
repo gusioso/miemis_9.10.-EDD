@@ -82,3 +82,13 @@ cd ../.. && python youtube_short/story_short.py
 - If Kokoro is not installed, the script still renders the video, but with captions only and no voice.
 - To change the story, edit the `SCENES` list. The narration lines control the timing, so a new line automatically gets its own voice clip, captions and timing.
 - To change the voice, edit `VOICE` and `SPEED`. The default voice is `am_michael`.
+
+### Using an ElevenLabs voice instead
+
+Set `ELEVENLABS_API_KEY`, and optionally `ELEVENLABS_VOICE_ID` (default: Adam), then run:
+
+```bash
+python youtube_short/story_short.py --tts elevenlabs
+```
+
+With `--tts auto` (the default), the script uses ElevenLabs when the key is set and Kokoro otherwise.
