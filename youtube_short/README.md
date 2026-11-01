@@ -252,3 +252,39 @@ python youtube_short/crush_swap_short.py --preview 6,40,99   # saves PNG stills 
 - Missing music or sound effects are generated automatically from the prompts in `music_plan()` and `SFX`. To regenerate one, delete its file in `audio/crush_swap/`. Use `--no-gen` to skip generating, or `--assets-only` to generate without rendering.
 - Every voice clip is matched to the same speech level, the score is capped so it never covers a voice, and the final mix is normalised to −14 LUFS with two-pass loudnorm.
 - Mia is blonde. Her hair colour is `MIA_HAIR` in the script, and `person()` in `story_short.py` takes a `hair_col` option (the default stays brown, so the other videos are unchanged).
+
+---
+
+# Story Short: "What if you lived for 1 quadrillion years?" (Part 1)
+
+**Video:** [`quadrillion_years_story.mp4`](quadrillion_years_story.mp4) is vertical 1080×1920, 30 fps, 2:40 long (under the 3-minute Shorts limit), narrated by Mike.
+
+[`quadrillion_short.py`](quadrillion_short.py) uses the story engine. The chapter name is in the top-left tag, and a live **YEAR** counter in the top-right runs from 0 to 1,000,000,000,000,000. You can't age, can't get hurt, and never need food, water or air. Each era gets its own scene of about 6–9 seconds. A personal thread runs through the story: Mom's last words, "whenever it gets dark, look up", pay off at the very end.
+
+The science uses round numbers from current estimates:
+
+| Year | What happens |
+|------|--------------|
+| 0 | You stop aging and nothing can hurt you. A quadrillion is a 1 with 15 zeros. |
+| 82 | Mom is dying. "Promise me... whenever it gets dark, look up." |
+| 1,000 | Your language, your country and your name are gone. |
+| 10,000 | You forget Mom's face, but never her words. |
+| 100,000 | Ice age. The stars have moved, and the Big Dipper falls apart. |
+| 1,000,000 | Humans are gone or changed. You haven't heard a voice in ages. |
+| 250,000,000 | The continents merge into one supercontinent. |
+| 600,000,000 | The Sun is about 6% brighter, plants can't survive, and the forests die. |
+| 1,000,000,000 | The oceans boil away. Only microbes survive underground. |
+| 5,000,000,000 | Andromeda (probably) collides with the Milky Way. |
+| 7,600,000,000 | The Sun becomes a red giant and swallows Earth. It doesn't hurt you. |
+| ~8,000,000,000 | The Sun is a white dwarf inside its planetary nebula. |
+| 150,000,000,000 | Expansion has carried every other galaxy out of sight. |
+| 10,000,000,000,000 | Only red dwarfs are left, and they burn out one by one. |
+| 100,000,000,000,000 | The last star goes out. |
+| 1,000,000,000,000,000 | The Sun is a black dwarf. You look up, two brown dwarfs collide, and a new star is born. |
+
+Voices: Mike (narrator) and Matilda (Mom; her last words echo at the end). The score (5 cues) and sound effects (wind, campfire, the red giant's roar, the new star) were made with ElevenLabs Music and sound effects and are saved in [`audio/quadrillion/`](audio/quadrillion/).
+
+```bash
+python youtube_short/quadrillion_short.py                     # renders the MP4 (~5 min on 4 cores)
+python youtube_short/quadrillion_short.py --preview 6,88,150  # saves PNG stills for quick checks
+```
