@@ -16,4 +16,6 @@ Defaults for the "What If" story Shorts:
 - Deliver the MP4 to the user, then commit and push it to the working branch.
 - Explain things to the user in simple, numbered steps. They often work from a phone.
 
+Also available: the official **Remotion** skills in `.claude/skills/remotion-*`, from `remotion-dev/skills` at commit `30d4553`. They cover React-based video with smooth animation, captions and rendering. Consider them for new videos that need more polished motion than the Python or animation-studio pipeline gives. Start with `/remotion-best-practices`.
+
 If one of these tools isn't available in a session (for example, if its MCP server didn't connect), say so up front, carry on with the rest, and don't fake its output.
