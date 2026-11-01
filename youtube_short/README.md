@@ -206,3 +206,48 @@ The story starts from real facts as of November 1, 2026: GTA 6 is set for Novemb
 python youtube_short/gta6_delay_short.py                    # renders the MP4 (~12-15 min on 4 cores)
 python youtube_short/gta6_delay_short.py --preview 2,20,60  # saves PNG stills for quick checks
 ```
+
+---
+
+# Story Short: "What if you switched bodies with your crush?" (Part 1)
+
+**Video:** [`crush_swap_story.mp4`](crush_swap_story.mp4) is vertical 1080×1920, 30 fps, 2:09 long (under the 3-minute Shorts limit), narrated by Mike.
+
+[`crush_swap_short.py`](crush_swap_short.py) uses the same engine and layout as the first story video: plaid frame, title box, cartoon panel, **Part 1** label, synced captions, a time-of-day tag and a live countdown to midnight. New in this one:
+- **Soul badges:** a small bubble over each head shows whose mind is inside that body (blue **ME**, pink **MIA**). At midnight the two badges fly back to their own bodies.
+- **The voice follows the body.** Mia talking from my body uses my voice (Mike), and I talk from her body with her voice (Jessica). Caption colours follow the mind: white for the narrator, pink for Mia, blue for me.
+- **A real sung line** for the talent show ("You sit in the back row… and you never say hi"), plus a piano score, both made with the ElevenLabs Music API. Applause, crowd, hallway, birds and the "swap" whoosh come from the ElevenLabs sound-effects API. Everything is saved in [`audio/crush_swap/`](audio/crush_swap/), so re-renders sound the same.
+- Camera push-ins and punch-ins on the big moments (the mirror reveal, the notebook, the confession).
+
+| Time | What happens |
+|------|--------------|
+| 7:00 AM | I wake up in a room that isn't mine, walk to the mirror, and see Mia, my crush. I'm in her body. |
+| 7:01 AM | A text from my own number: "why am i in your body??" Then a notification with no app and no sender: to switch back, each of us must do the thing the other is most afraid of, by midnight, or we stay like this forever. |
+| 8:00 AM | We meet behind the school. My body walks up wearing my hoodie backwards. Her fear: singing her own song at tonight's talent show. Mine: "public speaking" (a lie). |
+| 11:00 AM | She gives a speech in my class and nails it. Nothing happens. "what are you ACTUALLY scared of??" I type a reply, then delete it. |
+| 5:00 PM | Her notebook has a song about a boy in the back row who never says hi, with a doodle of a boy with my hair in the margin. "Lucky guy." |
+| 9:30 PM | Backstage, her hands won't stop shaking, and I finally get how she feels every day. |
+| 9:31 PM | I sing her song in her voice, and the whole gym stands up. "1 of 2 complete." |
+| 11:59 PM | She found my notes app: 214 unsent messages that all start with "Mia". She says my confession out loud in my voice. 3, 2, 1, and our minds switch back. |
+| Next morning | I'm back in my own body. At my locker she tells me the song was about me ("it was always you"), so this time I say hi. |
+| Ending | "Would you switch bodies with your crush?" with a YES 💘 / NO WAY 😳 split screen. |
+
+### Voices
+
+| Role | ElevenLabs voice |
+|------|------------------|
+| Narrator, and my body | Mike - 2D & 3D POV/Storytime |
+| Mia's body | Jessica |
+| Talent-show host | Roger |
+| Sung line | Eleven Music (`music_v1`) |
+
+### Rendering
+
+```bash
+python youtube_short/crush_swap_short.py                     # renders the MP4 (~4-5 min on 4 cores)
+python youtube_short/crush_swap_short.py --preview 6,40,99   # saves PNG stills for quick checks
+```
+
+- The narration is about 2,100 characters of ElevenLabs credits, cached in `youtube_short/.tts_cache/`.
+- Missing music or sound effects are generated automatically from the prompts in `music_plan()` and `SFX`. To regenerate one, delete its file in `audio/crush_swap/`. Use `--no-gen` to skip generating, or `--assets-only` to generate without rendering.
+- Every voice clip is matched to the same speech level, the score is capped so it never covers a voice, and the final mix is normalised to −14 LUFS with two-pass loudnorm.
