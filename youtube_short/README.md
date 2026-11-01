@@ -140,3 +140,38 @@ python youtube_short/thoughts_short.py --preview 3,20,40   # saves PNG stills fo
 - The whole script is about 1,000 characters of ElevenLabs credits. Clips are cached in `youtube_short/.tts_cache/`, so re-renders only pay for lines you change.
 - Change the narrator with `--narrator <voice id>` or `ELEVENLABS_VOICE_ID`, and the other voices in `CAST`.
 - Edit the story in `SCENES`: `N(...)` is a narrator line, and `SAY(who, ...)` and `THINK(who, ...)` are character lines.
+
+---
+
+# Story Short: "What if you lived for 100 million years?" (Part 1)
+
+**Video:** [`100m_years_story.mp4`](100m_years_story.mp4) is vertical 1080×1920, 30 fps, about 2:42 long (under the 3-minute Shorts limit), narrated by Mike.
+
+[`million_years_short.py`](million_years_short.py) uses the same engine and layout. The top-left tag names the chapter, and the top-right tag is a live year counter that runs from **YEAR 0** to **YEAR 100,000,000**.
+
+The story sticks to real science (round numbers from current estimates):
+
+| Year | What happens |
+|------|--------------|
+| 0 | You can't die. Even if you only stopped aging, accidents would get you within a few thousand years. |
+| 80–100 | Everyone you love grows old and dies. You still look 25. |
+| 1,000 | Nobody speaks your language. English from 1,000 years ago ("Fæder ūre, þū þe eart on heofonum") is unreadable today. |
+| 10,000 | 125 lifetimes. Memories of your first life fade. |
+| 13,000 | Earth's 26,000-year wobble makes Vega the North Star instead of Polaris. |
+| 50,000 | Niagara Falls erodes back to Lake Erie and disappears. Ice sheets start growing again. |
+| 100,000 | Ice age. Sea level drops enough to walk from Asia to Alaska. The constellations are unrecognizable. |
+| 1,000,000 | You've lived 3× longer than Homo sapiens has existed, and seen 10+ supervolcano eruptions. |
+| 10,000,000 | East Africa splits off along the rift and a new ocean forms. LA slides toward San Francisco. Most species are replaced. |
+| 50,000,000 | Africa hits Europe: the Mediterranean closes into new mountains. Australia hits Asia. |
+| 66,000,000 | As long as the time since the dinosaurs died. A dinosaur-killer-size asteroid hits about once per 100 million years. |
+| 100,000,000 | Days are ~30 min longer, the Moon is ~3,800 km farther away, the Sun is ~1% brighter, and the continents are converging into a new supercontinent. All of human history is a thin layer in the rock. |
+
+### Rendering
+
+```bash
+python youtube_short/million_years_short.py                     # renders the MP4 (~5 min on 4 cores)
+python youtube_short/million_years_short.py --preview 3,60,140  # saves PNG stills for quick checks
+```
+
+- The narration is about 2,600 characters of ElevenLabs credits, cached in `youtube_short/.tts_cache/`.
+- Each narration line can have a separate caption text, so captions show digits ("YEAR 100,000,000") while the voice reads the words.
