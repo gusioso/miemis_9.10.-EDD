@@ -14,5 +14,6 @@ Defaults for the "What If" story Shorts:
 - Shorts are vertical 1080×1920 and under 60 s. Open with a strong hook in the first 2 s, with text on screen from the first frame.
 - Narration uses ElevenLabs with the Mike voice (`zfc8CJQpe8Kqyl0vvCzo`). Check the remaining credits first, and keep the generated clips in the project's `assets/vo/` so re-renders cost nothing.
 - Deliver the MP4 to the user, then commit and push it to the working branch.
+- Explain things to the user in simple, numbered steps. They often work from a phone.
 
 If one of these tools isn't available in a session (for example, if its MCP server didn't connect), say so up front, carry on with the rest, and don't fake its output.
