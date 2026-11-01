@@ -43,7 +43,11 @@ W, H, FPS, SR = 1080, 1920, 30, 24000
 SS = 2
 PW, PH = 1080, 620                 # panel size in the final frame
 WW, WH = PW * SS, PH * SS          # "world" drawing resolution
-PANEL_Y = 450
+# Shorts safe zone: phones crop ~50-100 px off each side of a 9:16 video and YouTube draws its
+# buttons over the top ~380 px and the bottom-right, so the title sits lower and narrower and the
+# panel tags are inset from the edges.
+PANEL_Y = 560
+TAG_INSET = 100
 FLOOR = 1040
 
 INK = (22, 22, 28)
@@ -1092,9 +1096,9 @@ def static_frame():
     global _STATIC, _VIGN
     if _STATIC is None:
         im = plaid()
-        tb = label_box(TITLE, 44)
+        tb = label_box(TITLE, 44, maxw=860)
         sh = glow(tb, 10, (0, 0, 0), 0.4)
-        paste(im, sh, (W - sh.width) / 2, 330 - sh.height / 2)
+        paste(im, sh, (W - sh.width) / 2, PANEL_Y - 36 - tb.height - 20)
         pb = label_box(PART, 54)
         sh = glow(pb, 10, (0, 0, 0), 0.4)
         paste(im, sh, (W - sh.width) / 2, PANEL_Y + PH + 95 - sh.height / 2)
@@ -1179,16 +1183,16 @@ def render_panel(t):
     # tags
     if sc["tod"]:
         tg = tag(sc["tod"], 28)
-        paste(pan, tg, 18, 16)
+        paste(pan, tg, TAG_INSET, 16)
     tt = timer_text(k, lt)
     if tt:
         txt, red = tt
         tg = tag("{⏳} " + txt, 30, (215, 30, 40) if red or txt.startswith("0") else (10, 10, 10))
-        paste(pan, tg, PW - tg.width - 18, 16)
+        paste(pan, tg, PW - tg.width - TAG_INSET, 16)
     # captions
     for c0, c1, txt in CAPS:
         if c0 <= t < c1:
-            cs = text_sprite(txt, 64, (255, 255, 255), (255, 255, 255), "bold", stroke=3, shadow=True, maxw=1000)
+            cs = text_sprite(txt, 64, (255, 255, 255), (255, 255, 255), "bold", stroke=3, shadow=True, maxw=820)
             sc_ = 0.85 + 0.15 * ease_out_back((t - c0) / 0.12)
             place(pan, cs, PW / 2, PH * 0.80, scale=sc_)
             break

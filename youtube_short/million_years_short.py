@@ -311,8 +311,8 @@ def bg_niagara():
     for poly_ in (ERIE, ONTARIO):
         d.polygon(poly_, fill=(56, 130, 200), outline=(40, 100, 160), width=6)
     d.line(RIVER, fill=(60, 140, 210), width=46, joint="curve")
-    label(d, (300, 640), "LAKE ERIE", 46)
-    label(d, (1880, 420), "LAKE ONTARIO", 46)
+    label(d, (380, 640), "LAKE ERIE", 46)
+    label(d, (1770, 400), "LAKE ONTARIO", 46)
     label(d, (980, 900), "USA", 40, fill=(235, 245, 225))
     label(d, (1150, 320), "CANADA", 40, fill=(235, 245, 225))
     return im
@@ -422,7 +422,7 @@ def sc_wake(img, d, lt, S):
         for i, (emo, lab) in enumerate((("👴", "OLD AGE"), ("🦠", "SICKNESS"), ("💥", "ANYTHING"))):
             t0 = ts(S, 1, i * span / 3)
             if lt >= t0:
-                place(img, icon_card(emo, lab), 330 + i * 280, 360,
+                place(img, icon_card(emo, lab), 420 + i * 270, 360,
                       scale=0.4 + 0.6 * ease_out_back(prog(lt, t0, t0 + 0.3)),
                       alpha=1 - prog(lt, ts(S, 2), ts(S, 2, 0.2)))
     if ts(S, 2) <= lt < ts(S, 3):
@@ -454,12 +454,12 @@ def sc_family(img, d, lt, S):
            expr="sad" if sad else "happy")
 
     def fam(dd):
-        old_person(dd, 1300, FLOOR, 0.97, shirt=MOM, cane=False, bun=True, facing=-1, look=-1, t=lt, seed=4,
+        old_person(dd, 1200, FLOOR, 0.97, shirt=MOM, cane=False, bun=True, facing=-1, look=-1, t=lt, seed=4,
                    expr="happy")
-        old_person(dd, 1560, FLOOR, 0.97, shirt=DAD, facing=-1, look=-1, t=lt, seed=5, expr="happy")
-        old_person(dd, 1820, FLOOR, 0.95, shirt=FRIEND, facing=-1, look=-1, t=lt, seed=6, expr="laugh")
+        old_person(dd, 1440, FLOOR, 0.97, shirt=DAD, facing=-1, look=-1, t=lt, seed=5, expr="happy")
+        old_person(dd, 1680, FLOOR, 0.95, shirt=FRIEND, facing=-1, look=-1, t=lt, seed=6, expr="laugh")
     ghost(img, 1 - fade, fam)
-    for i, (x, lab) in enumerate(((1180, "MOM"), (1420, "DAD"), (1660, "SIS"), (1900, "BEST\nFRIEND"))):
+    for i, (x, lab) in enumerate(((1060, "MOM"), (1280, "DAD"), (1500, "SIS"), (1720, "BEST\nFRIEND"))):
         t0 = gone + 0.25 + i * 0.25
         if lt < t0:
             continue
@@ -495,8 +495,8 @@ def sc_future(img, d, lt, S):
     return {}
 
 
-MEMS = [("👩", "MOM", 400, 360, -8), ("🏠", "FIRST HOME", 1760, 330, 7), ("🐶", "MAX", 330, 770, 6),
-        ("🎂", "10TH BIRTHDAY", 1800, 750, -5), ("👫", "BEST FRIEND", 1080, 190, 2)]
+MEMS = [("👩", "MOM", 440, 360, -8), ("🏠", "FIRST HOME", 1720, 330, 7), ("🐶", "MAX", 420, 770, 6),
+        ("🎂", "10TH BIRTHDAY", 1730, 750, -5), ("👫", "BEST FRIEND", 1080, 190, 2)]
 FADE_ORDER = {"FIRST HOME": 0, "10TH BIRTHDAY": 1, "MAX": 2, "BEST FRIEND": 3, "MOM": 4}
 
 
@@ -568,7 +568,7 @@ def sc_stars(img, d, lt, S):
               scale=max(0.01, ease_out_back(prog(lt, te(S, 1, -0.4), te(S, 1, -0.1)))))
     if ts(S, 0, 0.6) < lt < ts(S, 1, 0.6):
         al = clamp01((lt - ts(S, 0, 0.6)) / 0.3) * (1 - prog(lt, ts(S, 1, 0.3), ts(S, 1, 0.6)))
-        cx, cy, r = 1820, 600, 110
+        cx, cy, r = 1700, 600, 110
         tilt = math.radians(23.5)
         L = r + 100
         ex, ey = math.sin(tilt) * L, math.cos(tilt) * L
@@ -719,7 +719,7 @@ def sc_ice(img, d, lt, S):
                       fill=(255, 255, 255, int(150 * (1 - q / 0.9))))
     if ts(S, 1, -0.1) <= lt and night < 0.98:
         step = int(round(20 * ease_in_out(prog(lt, ts(S, 1, 0.3), te(S, 1, -0.2)))))
-        place(img, bering_sprite(step), 1780, 410, scale=0.5 + 0.5 * ease_out_back(prog(lt, ts(S, 1, -0.1),
+        place(img, bering_sprite(step), 1600, 410, scale=0.5 + 0.5 * ease_out_back(prog(lt, ts(S, 1, -0.1),
                                                                                          ts(S, 1, 0.2))),
               alpha=1 - night)
     return {}
@@ -796,22 +796,30 @@ AUSTRALIA = [(1800, 880), (1880, 830), (1980, 820), (2060, 850), (2120, 920), (2
 ISLANDS = [(1700, 660, 1760, 690), (1770, 700, 1850, 730), (1870, 690, 1970, 722), (1990, 700, 2070, 736)]
 
 
+MAP_S, MAP_C = 0.86, (1080, 560)
+
+
+def M(x, y):
+    """Shrink the world map toward the centre so it stays inside the Shorts safe zone."""
+    return MAP_C[0] + (x - MAP_C[0]) * MAP_S, MAP_C[1] + (y - MAP_C[1]) * MAP_S
+
+
 def poly(d, pts, dx=0.0, dy=0.0):
-    d.polygon([(x + dx, y + dy) for x, y in pts], fill=LAND, outline=COAST, width=6)
+    d.polygon([M(x + dx, y + dy) for x, y in pts], fill=LAND, outline=COAST, width=6)
 
 
 def draw_world(d, africa_dy=0.0, somali=(0.0, 0.0), aus_dy=0.0):
     for p in (EUROPE, ASIA, INDIA, ARABIA):
         poly(d, p)
     for (a, b, c, e) in ISLANDS:
-        d.ellipse((a, b, c, e), fill=LAND, outline=COAST, width=5)
+        d.ellipse((*M(a, b), *M(c, e)), fill=LAND, outline=COAST, width=5)
     poly(d, AFRICA_W, dy=africa_dy)
     poly(d, SOMALI, dx=somali[0], dy=somali[1] + africa_dy)
     poly(d, AUSTRALIA, dy=aus_dy)
-    label(d, (790, 230), "EUROPE", 44)
-    label(d, (1650, 280), "ASIA", 48)
-    label(d, (800, 640 + africa_dy), "AFRICA", 48)
-    label(d, (1960, 940 + aus_dy), "AUSTRALIA", 40)
+    label(d, M(790, 230), "EUROPE", 44)
+    label(d, M(1650, 280), "ASIA", 48)
+    label(d, M(800, 640 + africa_dy), "AFRICA", 48)
+    label(d, M(1960, 940 + aus_dy), "AUSTRALIA", 38)
 
 
 @functools.lru_cache(maxsize=32)
@@ -849,25 +857,25 @@ def sc_rift(img, d, lt, S):
     draw_world(d, somali=(70 * k, 26 * k))
     if ts(S, 0, 1.0) < lt and k < 0.25:
         r = random.Random(int(lt * 20))
-        pts = [(x + r.uniform(-6, 6), y) for x, y in RIFT]
+        pts = [M(x + r.uniform(-6, 6), y) for x, y in RIFT]
         d.line(pts, fill=(255, 90, 60), width=8)
     if k > 0.5:
-        place(img, text_sprite("NEW OCEAN", 48, (210, 240, 255), (210, 240, 255), "black"), 1260, 860,
+        place(img, text_sprite("NEW OCEAN", 48, (210, 240, 255), (210, 240, 255), "black"), *M(1290, 870),
               scale=max(0.01, ease_out_back(prog(k, 0.5, 0.8))))
-        d.line((1150, 840, 1060, 790), fill=(210, 240, 255), width=6)
+        d.line((*M(1170, 845), *M(1065, 790)), fill=(210, 240, 255), width=6)
     if ts(S, 1, -0.1) <= lt < ts(S, 2, 0.1):
         step = int(round(20 * ease_in_out(prog(lt, ts(S, 1, 0.4), te(S, 1, -0.2)))))
-        place(img, california_sprite(step), 1780, 520,
+        place(img, california_sprite(step), 1640, 520,
               scale=0.5 + 0.5 * ease_out_back(prog(lt, ts(S, 1, -0.1), ts(S, 1, 0.2))),
               alpha=1 - prog(lt, ts(S, 2, -0.1), ts(S, 2, 0.1)))
     if lt >= ts(S, 2, -0.1):
         al = clamp01((lt - ts(S, 2, -0.1)) / 0.25)
-        d.rounded_rectangle((1170, 120, 2040, 330), radius=30, fill=(255, 255, 252, int(240 * al)), outline=INK,
+        d.rounded_rectangle((1080, 120, 1940, 330), radius=30, fill=(255, 255, 252, int(240 * al)), outline=INK,
                             width=4)
         span = S["te"][2] - S["ts"][2]
         swap = ts(S, 2, span * 0.62)
         for i, emo in enumerate(ANIMALS):
-            x = 1260 + i * 172
+            x = 1165 + i * 170
             if lt < swap:
                 place(img, emoji_sized(emo, 120), x, 225, alpha=al)
                 t0 = ts(S, 2, 0.3 + i * span * 0.1)
@@ -884,7 +892,7 @@ def sc_collide(img, d, lt, S):
     k2 = ease_in_out(prog(lt, ts(S, 1, 0.2), te(S, 1, 0.4)))
     draw_world(d, africa_dy=-64 * k1, somali=(70, 26), aus_dy=-150 * k2)
     if k1 < 0.7:
-        label(d, (790, 398 - 30 * k1), "MEDITERRANEAN SEA", 36, fill=(210, 235, 255, int(255 * (1 - k1 / 0.7))),
+        label(d, M(790, 398 - 30 * k1), "MEDITERRANEAN SEA", 36, fill=(210, 235, 255, int(255 * (1 - k1 / 0.7))),
               stroke=(20, 40, 70, int(255 * (1 - k1 / 0.7))))
     if k1 > 0.3:
         r = random.Random(3)
@@ -893,18 +901,18 @@ def sc_collide(img, d, lt, S):
             w = r.uniform(50, 90)
             hgt = r.uniform(60, 120) * prog(k1, 0.3, 1.0)
             yb = 392 + r.uniform(-8, 8)
-            d.polygon([(x, yb), (x + w / 2, yb - hgt), (x + w, yb)], fill=(126, 104, 86), outline=(84, 68, 56))
+            d.polygon([M(x, yb), M(x + w / 2, yb - hgt), M(x + w, yb)], fill=(126, 104, 86), outline=(84, 68, 56))
             if hgt > 50:
-                d.polygon([(x + w / 2 - w * 0.13, yb - hgt * 0.76), (x + w / 2, yb - hgt),
-                           (x + w / 2 + w * 0.13, yb - hgt * 0.76)], fill=(250, 250, 255))
+                d.polygon([M(x + w / 2 - w * 0.13, yb - hgt * 0.76), M(x + w / 2, yb - hgt),
+                           M(x + w / 2 + w * 0.13, yb - hgt * 0.76)], fill=(250, 250, 255))
             x += w * 0.62
     if k1 > 0.75:
         sc_ = max(0.01, ease_out_back(prog(k1, 0.75, 1.0)))
-        place(img, text_sprite("NEW MOUNTAINS", 44, (255, 255, 255), (255, 255, 255), "black"), 310, 470, scale=sc_)
+        place(img, text_sprite("NEW MOUNTAINS", 44, (255, 255, 255), (255, 255, 255), "black"), 400, 500, scale=sc_)
         if sc_ > 0.9:
-            d.line((420, 440, 560, 400), fill=(255, 255, 255), width=6)
+            d.line((560, 470, 628, 428), fill=(255, 255, 255), width=6)
     if k2 > 0.1:
-        place(img, text_sprite("AUSTRALIA → ASIA", 46, (255, 240, 170), (255, 240, 170), "black"), 1560, 820,
+        place(img, text_sprite("AUSTRALIA → ASIA", 46, (255, 240, 170), (255, 240, 170), "black"), 1500, 870,
               scale=max(0.01, ease_out_back(prog(k2, 0.1, 0.35))))
     fx = {}
     for t_hit in (te(S, 0, 0.2), te(S, 1, 0.4)):
@@ -922,10 +930,10 @@ def sc_dino(img, d, lt, S):
     a0 = ts(S, 1, 0.2)
     if lt < ts(S, 1, 0.2):
         bk = ease_out_cubic(prog(lt, ts(S, 0, 1.2), te(S, 0, -0.4)))
-        compare_bars(img, d, 640, 170, 1440, [("🦖", "SINCE THE DINOSAURS DIED: 66,000,000 YEARS", 1.0, (110, 170, 90)),
+        compare_bars(img, d, 500, 170, 1400, [("🦖", "SINCE THE DINOSAURS DIED: 66,000,000 YEARS", 1.0, (110, 170, 90)),
                                                ("🧍", "YOU: 66,000,000 YEARS", bk, BLUE)], 1.0)
         if bk > 0.98:
-            place(img, emoji_sized("✅", 90), 1990, 460, scale=max(0.01, ease_out_back(prog(lt, te(S, 0, -0.4),
+            place(img, emoji_sized("✅", 90), 1830, 460, scale=max(0.01, ease_out_back(prog(lt, te(S, 0, -0.4),
                                                                                             te(S, 0, -0.1)))))
     fx = {}
     if a0 <= lt < it:
@@ -1024,7 +1032,7 @@ def sc_space(img, d, lt, S):
                   ts(S, 0, 1.2), ts(S, 1, 0.1))
         if ts(S, 2) <= lt:
             al = int(255 * clamp01((lt - ts(S, 2)) / 0.3))
-            label(d, (330, 200), "+1% BRIGHTER", 52, fill=(255, 220, 120, al), stroke=(40, 20, 0, al))
+            label(d, (440, 200), "+1% BRIGHTER", 52, fill=(255, 220, 120, al), stroke=(40, 20, 0, al))
         if merge > 0.2:
             place(img, text_sprite("NEW SUPERCONTINENT FORMING", 46, (200, 240, 210), (200, 240, 210), "black"), 820,
                   880, scale=max(0.01, ease_out_back(prog(merge, 0.2, 0.45))))
@@ -1034,15 +1042,15 @@ def sc_space(img, d, lt, S):
         img.paste(strata_img(), (0, yo))
         if k > 0.95:
             al = int(255 * clamp01((lt - st - 0.7) / 0.3))
-            d.line((1500, STRATA_HUMAN - 90, 1320, STRATA_HUMAN + 8), fill=(255, 245, 170, al), width=7)
-            label(d, (1640, STRATA_HUMAN - 130), "ALL OF HUMAN HISTORY", 48, fill=(255, 245, 170, al),
+            d.line((1420, STRATA_HUMAN - 90, 1260, STRATA_HUMAN + 8), fill=(255, 245, 170, al), width=7)
+            label(d, (1560, STRATA_HUMAN - 130), "ALL OF HUMAN HISTORY", 48, fill=(255, 245, 170, al),
                   stroke=(30, 20, 10, al))
             label(d, (1240, STRATA_DINO - 70), "DINOSAURS (66 MILLION YEARS OLDER)", 38, fill=(255, 255, 255, al),
                   stroke=(30, 20, 10, al))
-            d.line((90, 110, 90, STRATA_HUMAN - 10), fill=(255, 255, 255, al), width=6)
+            d.line((260, 110, 260, STRATA_HUMAN - 10), fill=(255, 255, 255, al), width=6)
             for yy in (110, STRATA_HUMAN - 10):
-                d.line((70, yy, 110, yy), fill=(255, 255, 255, al), width=6)
-            label(d, (130, (110 + STRATA_HUMAN) / 2), "100,000,000 YEARS OF NEW ROCK", 40, anchor="lm",
+                d.line((240, yy, 280, yy), fill=(255, 255, 255, al), width=6)
+            label(d, (300, (110 + STRATA_HUMAN) / 2), "100,000,000 YEARS OF NEW ROCK", 40, anchor="lm",
                   fill=(255, 255, 255, al), stroke=(30, 20, 10, al))
     return {}
 
@@ -1052,7 +1060,7 @@ def sc_end(img, d, lt, S):
         t0 = ts(S, 0, 0.2 + i * 0.45)
         if t0 <= lt:
             a = math.radians(200 + i * 35)
-            place(img, emoji_sized(emo, 110), 1540 + math.cos(a) * 430, 560 + math.sin(a) * 300,
+            place(img, emoji_sized(emo, 110), 1540 + math.cos(a) * 380, 560 + math.sin(a) * 300,
                   scale=max(0.01, ease_out_back(prog(lt, t0, t0 + 0.3))), alpha=1 - prog(lt, ts(S, 1, 0.2), ts(S, 1, 0.8)))
     gk = ease_in_out(prog(lt, ts(S, 1, 0.6), ts(S, 1, 1.8)))
 
@@ -1070,16 +1078,16 @@ def sc_end(img, d, lt, S):
 def sc_cta(img, d, lt, S):
     d.rectangle((0, 0, WW // 2, WH), fill=(12, 14, 34))
     draw_stars(d, 31, 90, (0, 0, WW // 2, WH), lt)
-    earth(img, 300, 420, 110, lt * 0.03)
+    earth(img, 380, 420, 110, lt * 0.03)
     d.rectangle((WW // 2, 0, WW, WH), fill=(240, 186, 104))
     d.ellipse((WW * 0.75 - 420, 140, WW * 0.75 + 420, 1000), fill=(255, 214, 140))
     d.line((WW // 2, 0, WW // 2, WH), fill=(255, 255, 255), width=8)
     hx, hy = head_of(640, FLOOR)
     aura(d, hx, hy, lt, 1.0, col=GOLD)
     person(d, 640, FLOOR, 1.0, hair=HAIR, t=lt, seed=1, expr="neutral", look=0.3)
-    person(d, 1400, FLOOR, 1.0, hair=HAIR, t=lt, seed=3, expr="laugh", look=1)
-    person(d, 1660, FLOOR, 0.98, shirt=MOM, hair="bun", hood=False, t=lt, seed=4, expr="happy", look=-1, facing=-1)
-    person(d, 1920, FLOOR, 0.97, shirt=FRIEND, hair="cap", hood=False, t=lt, seed=8, expr="laugh", look=-1,
+    person(d, 1360, FLOOR, 1.0, hair=HAIR, t=lt, seed=3, expr="laugh", look=1)
+    person(d, 1580, FLOOR, 0.98, shirt=MOM, hair="bun", hood=False, t=lt, seed=4, expr="happy", look=-1, facing=-1)
+    person(d, 1800, FLOOR, 0.97, shirt=FRIEND, hair="cap", hood=False, t=lt, seed=8, expr="laugh", look=-1,
            facing=-1, arms=("down", "wave"))
     for x, lab in ((540, "100,000,000 YEARS {⏳}"), (1620, "NORMAL LIFE {❤️}")):
         s = text_sprite(lab, 52, INK, INK, "black", stroke=0, shadow=False)

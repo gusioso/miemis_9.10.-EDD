@@ -461,8 +461,8 @@ def sc_overload(img, d, lt, S):
 
 
 FADE_CLOUDS = [("Loser.", 1000, 380, "left", "mean"), ("Hoodie?!", 1040, 620, "left", "think"),
-               ("Money again...", 200, 400, "left", "think"), ("So tired...", 160, 680, "left", "think"),
-               ("I'm not okay.", 600, 320, "left", "sad")]
+               ("Money again...", 300, 400, "left", "think"), ("So tired...", 270, 680, "left", "think"),
+               ("I'm not okay.", 640, 320, "left", "sad")]
 
 
 def sc_fade(img, d, lt, S):
@@ -473,10 +473,10 @@ def sc_fade(img, d, lt, S):
     if lt >= n0:
         n = max(1, nmax - int((lt - n0) / tick))
     left = nmax if n is None else n
-    hx, hy = head_of(640, FLOOR)
+    hx, hy = head_of(740, FLOOR)
     aura(d, hx, hy, lt, left / nmax * (0.6 + 0.4 * abs(math.sin(lt * 9))))
     d.ellipse((1150, 120, 2050, 1020), fill=(255, 40, 60, 40 if n is None else int(40 + 40 * (1 - ((lt - n0) % tick) / tick))))
-    person(d, 640, FLOOR, 1.0, hair=HAIR, t=lt, seed=1, look_y=-0.6, look=0.4,
+    person(d, 740, FLOOR, 1.0, hair=HAIR, t=lt, seed=1, look_y=-0.6, look=0.4,
            expr="tired" if n is None else ("sad" if n <= 1 else "neutral"))
     for i, (text, x, y, side, mood) in enumerate(FADE_CLOUDS):
         show_thought(img, text, x, y, lt, 0.15 + i * 0.12, n0 + (i + 1) * tick - 0.05, side=side, size=44, mood=mood,
@@ -528,7 +528,7 @@ def sc_cta(img, d, lt, S):
     aura(d, hx, hy, lt, 1.0)
     person(d, 540, FLOOR, 1.0, hair=HAIR, t=lt, seed=1, expr="smug", look=0.4)
     person(d, 1620, FLOOR, 1.0, hair=HAIR, t=lt, seed=3, expr="happy", arms=("head", "head"))
-    for i, (txt, x, y) in enumerate((("hmm...", 180, 520), ("lol", 880, 560), ("?!", 860, 330))):
+    for i, (txt, x, y) in enumerate((("hmm...", 300, 520), ("lol", 830, 580), ("?!", 810, 330))):
         show_thought(img, txt, x, y, lt, 0.3 + i * 0.25, side="left", size=44)
     for x, lab in ((540, "YES {🧠}"), (1620, "NO {🙉}")):
         s = text_sprite(lab, 66, INK, INK, "black", stroke=0, shadow=False)
@@ -553,7 +553,7 @@ SCENES = [
              ("c1", "Did I lock the door?!", 400, 410, "left", "think"),
              ("c4", "Don't fall asleep...", 1600, 410, "right", "think"),
              ("c3", "I hate Mondays.", 720, 390, "right", "think"),
-             ("c2", "Is he staring at me?", 1900, 390, "right", "think")])),
+             ("c2", "Is he staring at me?", 1810, 390, "right", "think")])),
     dict(fn=sc_hallway, bg="hallway", tod="9:30 AM", timer=2.5, lines=[
         N("At school, your crush looks at you, and thinks..."),
         THINK("crush", "Why is his hoodie inside out?")], extra=1.0),
@@ -566,14 +566,13 @@ SCENES = [
         N("By evening, there's no off switch."),
         N("Judging. Worrying. Fake smiles. Your head is about to explode.")],
          chatter=dict(at=(0, 0.5), gap=0.36, items=[
-             ("c2", "Ew. Nice shoes.", 200, 380, "left", "mean"),
-             ("c1", "I'm so tired.", 1950, 380, "right", "think"),
-             ("c6", "Nobody likes me.", 300, 600, "left", "sad"),
-             ("c4", "Smile. Just smile.", 1880, 600, "right", "think"),
-             ("c3", "I'm gonna be late!", 180, 810, "left", "think"),
-             ("c5", "Everyone's staring.", 1980, 810, "right", "think"),
-             ("c2", "Why am I like this?", 857, 330, "left", "sad"),
-             ("c1", "Loser.", 700, 820, "left", "mean")])),
+             ("c2", "Ew. Nice shoes.", 330, 380, "left", "mean"),
+             ("c1", "I'm so tired.", 1840, 380, "right", "think"),
+             ("c6", "Nobody likes me.", 360, 600, "left", "sad"),
+             ("c4", "Smile. Just smile.", 1800, 600, "right", "think"),
+             ("c3", "I'm gonna be late!", 330, 810, "left", "think"),
+             ("c5", "Everyone's staring.", 1840, 810, "right", "think"),
+             ("c2", "Why am I like this?", 860, 300, "left", "sad")])),
     dict(fn=sc_fade, bg="dark", tod="6:59 AM", timer="count", count_n=5, tick=0.7, lines=[
         N("Six fifty-nine. The voices start to fade.")], extra=5 * 0.7 + 0.6),
     dict(fn=sc_talk, bg="park", tod="NEXT DAY", timer=None, lines=[

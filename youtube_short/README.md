@@ -175,3 +175,15 @@ python youtube_short/million_years_short.py --preview 3,60,140  # saves PNG stil
 
 - The narration is about 2,600 characters of ElevenLabs credits, cached in `youtube_short/.tts_cache/`.
 - Each narration line can have a separate caption text, so captions show digits ("YEAR 100,000,000") while the voice reads the words.
+
+---
+
+## Shorts safe zone (story videos)
+
+On phones, YouTube zooms 9:16 Shorts to fill the screen, which crops about 50–100 px off each side. It also draws its own buttons over the top (Subscriptions / Live / Lens) and the bottom-right (like, comment, share). The story engine keeps everything important out of those areas:
+
+- `PANEL_Y = 560`: the title box sits just above the panel, below YouTube's top buttons, and is at most 860 px wide.
+- `TAG_INSET = 100`: the time/countdown tags are 100 px in from the panel edges, so the numbers aren't cut off.
+- Captions wrap at 820 px. In the scenes, clouds, cards and labels stay roughly between x = 100 and 980 of the frame.
+
+If a video was already uploaded with the old layout, upload the re-rendered file as a new Short. YouTube doesn't let you replace the video file of an existing upload.
