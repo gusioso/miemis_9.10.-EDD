@@ -251,3 +251,4 @@ python youtube_short/crush_swap_short.py --preview 6,40,99   # saves PNG stills 
 - The narration is about 2,100 characters of ElevenLabs credits, cached in `youtube_short/.tts_cache/`.
 - Missing music or sound effects are generated automatically from the prompts in `music_plan()` and `SFX`. To regenerate one, delete its file in `audio/crush_swap/`. Use `--no-gen` to skip generating, or `--assets-only` to generate without rendering.
 - Every voice clip is matched to the same speech level, the score is capped so it never covers a voice, and the final mix is normalised to −14 LUFS with two-pass loudnorm.
+- Mia is blonde. Her hair colour is `MIA_HAIR` in the script, and `person()` in `story_short.py` takes a `hair_col` option (the default stays brown, so the other videos are unchanged).

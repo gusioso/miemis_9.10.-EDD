@@ -53,6 +53,7 @@ GARAMOND_IT = os.path.join(HERE, "fonts", "EBGaramond-Italic.ttf")
 
 BLUE = base.BLUE
 PINK = (236, 120, 160)
+MIA_HAIR = (238, 198, 110)       # Mia is blonde
 MIA_U = 0.96
 SOUL = {"me": (70, 160, 255), "mia": (255, 96, 165)}
 CAP_COL = {"@": (255, 150, 200), "#": (130, 200, 255), "^": (255, 224, 120), "%": (255, 238, 175)}
@@ -142,20 +143,20 @@ def body_me(d, x, yf, lt, backwards=False, **kw):
 
 def body_mia(d, x, yf, lt, **kw):
     sit = kw.get("pose") == "sit"
-    person(d, x, yf, MIA_U, shirt=PINK, hair="long", hood=False, t=lt, seed=2, **kw)
+    person(d, x, yf, MIA_U, shirt=PINK, hair="long", hair_col=MIA_HAIR, hood=False, t=lt, seed=2, **kw)
     return head(x, yf, MIA_U, sit)
 
 
 def mini_head(d, cx, cy, r, who):
     k = r / 88
     if who == "mia":
-        d.rounded_rectangle((cx - 100 * k, cy - 96 * k, cx + 100 * k, cy + 150 * k), radius=90 * k, fill=(58, 38, 30))
+        d.rounded_rectangle((cx - 100 * k, cy - 96 * k, cx + 100 * k, cy + 150 * k), radius=90 * k, fill=MIA_HAIR)
     d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=INK)
     if who == "me":
         pts = [(-74, -46), (-66, -92), (-14, -132), (58, -134), (98, -96), (86, -48), (36, -80), (-18, -70)]
         d.polygon([(cx + px * k, cy + py * k) for px, py in pts], fill=(96, 62, 38))
     else:
-        d.chord((cx - r - 6 * k, cy - r - 8 * k, cx + r + 6 * k, cy + r * 0.3), 180, 360, fill=(58, 38, 30))
+        d.chord((cx - r - 6 * k, cy - r - 8 * k, cx + r + 6 * k, cy + r * 0.3), 180, 360, fill=MIA_HAIR)
     for s in (-1, 1):
         ex, ey = cx + s * 31 * k, cy - 6 * k
         d.ellipse((ex - 21 * k, ey - 25 * k, ex + 21 * k, ey + 25 * k), fill=EYE)
@@ -794,7 +795,8 @@ def sc_wake(img, d, lt, S):
     near = prog(lt, t_walk1 - 0.6, t_walk1)
     if near > 0:
         refl = Image.new("RGBA", glass.size, (0, 0, 0, 0))
-        person(ImageDraw.Draw(refl, "RGBA"), 140, gy1 - gy0 - 4, 0.92, shirt=PINK, hair="long", hood=False, t=lt,
+        person(ImageDraw.Draw(refl, "RGBA"), 140, gy1 - gy0 - 4, 0.92, shirt=PINK, hair="long", hair_col=MIA_HAIR,
+               hood=False, t=lt,
                seed=2, expr=expr, look=-0.5,
                arms=("head", "head") if ts(S, 3, 0.2) < lt < ts(S, 3, 1.6) else ("down", "down"))
         glass.alpha_composite(Image.blend(Image.new("RGBA", glass.size, (0, 0, 0, 0)), refl, near))

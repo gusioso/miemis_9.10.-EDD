@@ -100,7 +100,7 @@ ARM_POSES = {
 
 def person(d, x, yf, u=1.0, shirt=BLUE, pants=PANTS, pose="stand", expr="neutral", look=0.0, look_y=0.0,
            talk=False, t=0.0, hair="messy", hot=0.0, arms=("down", "down"), facing=1, seed=0,
-           walk=None, hood=True, tie=None, cup=False, phone_hand=None, chair=None):
+           walk=None, hood=True, tie=None, cup=False, phone_hand=None, chair=None, hair_col=(58, 38, 30)):
     """Draw a 'What If'-style character.  d must be ImageDraw.Draw(img, 'RGBA')."""
     U = lambda v: v * u
     sit = pose == "sit"
@@ -169,7 +169,7 @@ def person(d, x, yf, u=1.0, shirt=BLUE, pants=PANTS, pose="stand", expr="neutral
 
     # ---- head
     if hair == "long":
-        d.rounded_rectangle((hx - U(100), hy - U(96), hx + U(100), hy + U(150)), radius=U(90), fill=(58, 38, 30))
+        d.rounded_rectangle((hx - U(100), hy - U(96), hx + U(100), hy + U(150)), radius=U(90), fill=hair_col)
     if hot > 0:
         for rr, a in ((hr + U(44), 40), (hr + U(28), 70)):
             d.ellipse((hx - rr, hy - rr, hx + rr, hy + rr), fill=(255, 210, 110, int(a * hot)))
@@ -194,7 +194,7 @@ def person(d, x, yf, u=1.0, shirt=BLUE, pants=PANTS, pose="stand", expr="neutral
         d.rounded_rectangle((min(hx, bx + facing * U(80)), hy - U(36), max(hx, bx + facing * U(80)), hy - U(16)),
                             radius=U(8), fill=(180, 55, 50))
     elif hair == "long":
-        d.chord((hx - hr - U(6), hy - hr - U(8), hx + hr + U(6), hy + hr * 0.3), 180, 360, fill=(58, 38, 30))
+        d.chord((hx - hr - U(6), hy - hr - U(8), hx + hr + U(6), hy + hr * 0.3), 180, 360, fill=hair_col)
 
     # ---- face
     blink = ((t + seed * 1.37) % 3.4) < 0.11 and expr not in ("shock", "love")
