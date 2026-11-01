@@ -44,7 +44,7 @@ python youtube_short/make_short.py --preview 2,13,46  # saves PNG stills for qui
 
 # Story version (Part 1)
 
-**Video:** [`attractive_24h_story.mp4`](attractive_24h_story.mp4) is 1:49 long, vertical 1080×1920, and has a narrator voice.
+**Video:** [`attractive_24h_story.mp4`](attractive_24h_story.mp4) is 1:35 long, vertical 1080×1920, and narrated by the ElevenLabs voice "Mike - 2D & 3D POV/Storytime".
 
 [`story_short.py`](story_short.py) makes the video in the popular "What If…" story style:
 - a plaid frame with a white title box at the top and a **Part 1** label
@@ -92,3 +92,51 @@ python youtube_short/story_short.py --tts elevenlabs
 ```
 
 With `--tts auto` (the default), the script uses ElevenLabs when the key is set and Kokoro otherwise.
+
+---
+
+# Story Short: "What if you could hear everyone's thoughts for 24 hours?" (Part 1)
+
+**Video:** [`thoughts_24h_story.mp4`](thoughts_24h_story.mp4) is vertical 1080×1920, 30 fps, 57 s, with H.264 video and AAC audio. You can upload it to YouTube Shorts as it is.
+
+[`thoughts_short.py`](thoughts_short.py) reuses the `story_short.py` engine (same layout, characters, captions and tags) and adds:
+- thought clouds next to the normal speech bubbles, and a purple "mind-reading" aura around the hero
+- a separate ElevenLabs voice for each character. Thoughts get an echo so they sound like a voice in your head, and crowds whisper over each other
+- captions for every line: white for the narrator, yellow for what people say, purple for what they think
+- audio loudness normalised to YouTube's playback level (about −14 LUFS)
+
+| Time | What happens |
+|------|--------------|
+| 7:00 AM | You wake up and can hear thoughts. Mom says "Morning, sweetie!" but thinks "Please don't ask for money again." |
+| 8:00 AM | Everyone on the bus looks calm, but their heads are screaming. |
+| 9:30 AM | Your crush looks at you and thinks… "Why is his hoodie inside out?" |
+| 12:30 PM | Your best friend laughs the loudest, but thinks "I'm not okay. Please don't notice." |
+| 6:00 PM | There's no off switch: judging, worrying and fake smiles everywhere. |
+| 6:59 AM | A 5-second countdown. The voices fade one by one, and the last one is "I'm not okay." |
+| Next day | You ask "Are you actually okay?" He says "No. Not really." For the first time, he talks. |
+| Ending | "Sometimes the loudest laugh hides the most pain." Then a split-screen question: YES 🧠 or NO 🙉? |
+
+### Voices
+
+| Role | ElevenLabs voice |
+|------|------------------|
+| Narrator | Mike - 2D & 3D POV/Storytime (Voice Library, needs a paid plan for API use) |
+| Mom | Matilda |
+| Crush | Jessica |
+| Best friend | Will |
+| Crowd | Roger, Laura, Chris, Sarah, Bill, Charlie |
+
+Everyone except Mike is a premade voice that works on every plan. Mike was picked after reading the same line with Mike, Liam, Tyler and Marcus and comparing pace and expressiveness.
+
+### Rendering
+
+You need `pip install pillow numpy`, `ffmpeg`, and `ELEVENLABS_API_KEY` set.
+
+```bash
+python youtube_short/thoughts_short.py                     # renders the MP4 (~2 min on 4 cores)
+python youtube_short/thoughts_short.py --preview 3,20,40   # saves PNG stills for quick checks
+```
+
+- The whole script is about 1,000 characters of ElevenLabs credits. Clips are cached in `youtube_short/.tts_cache/`, so re-renders only pay for lines you change.
+- Change the narrator with `--narrator <voice id>` or `ELEVENLABS_VOICE_ID`, and the other voices in `CAST`.
+- Edit the story in `SCENES`: `N(...)` is a narrator line, and `SAY(who, ...)` and `THINK(who, ...)` are character lines.
