@@ -187,3 +187,22 @@ On phones, YouTube zooms 9:16 Shorts to fill the screen, which crops about 50–
 - Captions wrap at 820 px. In the scenes, clouds, cards and labels stay roughly between x = 100 and 980 of the frame.
 
 If a video was already uploaded with the old layout, upload the re-rendered file as a new Short. YouTube doesn't let you replace the video file of an existing upload.
+
+---
+
+# POV Short: "What if GTA 6 was delayed for another year?"
+
+**Video:** [`gta6_delay_story.mp4`](gta6_delay_story.mp4) is vertical 1080×1920, 30 fps, about 1:25 long, narrated by Mike.
+
+This one uses a different, cinematic POV style: full-screen blocky low-poly 3D scenes seen through your own eyes, with minimal serif typography. A small letter-spaced kicker ("DELAYED") sits above a big serif chapter label ("MINUTE 3", "DAY 1", "MONTH 6"), with one italic caption per narration line.
+
+- [`pov3d.py`](pov3d.py) is a tiny box-based 3D renderer written with numpy and Pillow. It handles cameras with look-at targets, near-plane clipping, flat shading with point lights and fog, a layered painter's sort, perspective-correct textured screens, glow sprites, bloom, a vignette and the text overlays.
+- [`gta6_delay_short.py`](gta6_delay_short.py) contains the story: the sets (bedroom, game store, studio meeting room, birthday party), the screen contents (earnings-call stream, stock chart, phone notifications, countdown TV, whiteboard, leak files, platform list, trailer, loading screen), the camera moves, Mike's narration, and ambient music with sound design.
+- Fonts: EB Garamond (SIL Open Font License, see [`fonts/OFL.txt`](fonts/OFL.txt)) and Inter.
+
+The story starts from real facts as of November 1, 2026: GTA 6 is set for November 19, 2026, it was delayed twice before and Take-Two's stock fell both times, there's no PC version at launch, GTA 5 came out September 17, 2013, about 90 clips leaked in 2022, and trailer 1 got 90M+ views in 24 hours. It then imagines the extra year: the stock drop, the phone blowing up, stores, other studios moving their games, leaks, the PC problem, a kid turning 14, a new trailer, and a launch-night twist.
+
+```bash
+python youtube_short/gta6_delay_short.py                    # renders the MP4 (~12-15 min on 4 cores)
+python youtube_short/gta6_delay_short.py --preview 2,20,60  # saves PNG stills for quick checks
+```
