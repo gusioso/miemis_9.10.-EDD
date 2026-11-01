@@ -288,3 +288,62 @@ Voices: Mike (narrator) and Matilda (Mom; her last words echo at the end). The s
 python youtube_short/quadrillion_short.py                     # renders the MP4 (~5 min on 4 cores)
 python youtube_short/quadrillion_short.py --preview 6,88,150  # saves PNG stills for quick checks
 ```
+
+---
+
+# Story Short v2: "What If You Were The Most Attractive Man In The World For 24 Hours?" (Part 1)
+
+**Video:** [`attractive_24h_story_v2.mp4`](attractive_24h_story_v2.mp4) is a tighter remake of the 1:35 story video. It is vertical 1080×1920, 30 fps, **51 s** long, narrated by Mike (ElevenLabs), and mastered to −14 LUFS.
+
+It keeps the same "What If" look: the plaid frame, the white title box, the **Part 1** label, black-headed cartoon characters in coloured hoodies, word-synced captions, a time-of-day tag and a live 24h countdown tag.
+
+What changed from v1:
+- **A cold-open hook.** The first frame is the climax: a crowd with phones outside your window at 9 PM, with 10 hours left on the clock. The first line is "There's a crowd outside your house. And it's all because of your face." Then a VHS rewind cuts to "12 HOURS EARLIER" and the story plays from 7 AM.
+- **Under 60 seconds.** Every scene is one beat (3–5 s), with one narration line each.
+- **Captions highlight each word as it's spoken.** The times come from ElevenLabs' character alignment, not estimates.
+- **Every sound effect is tied to the picture.** Camera flashes from the crowd, the stranger's phone shutter, a ping per jump of the view counter, the halo's bell, a record scratch when the fun stops, the map pin slamming down, ticks on 5-4-3-2-1, and a beat of silence before the POOF.
+
+| Time | What happens |
+|------|--------------|
+| 0:00 | 9 PM, a crowd outside the window, flashes. "There's a crowd outside your house…" |
+| 0:04 | ◀◀ REWIND, "12 HOURS EARLIER" |
+| 0:05 | 7 AM, the mirror reveal. The 24h countdown tag drops in on "24 hours". |
+| 0:10 | The bus: a stranger snaps your photo |
+| 0:14 | The view counter rolls to 2,000,000, then 🔥 TRENDING #1 |
+| 0:17 | The office: the boss laughs at every joke, FREE COFFEE, SKIP THE LINE |
+| 0:20 | The halo effect: the halo drops on, then SMARTER / KINDER / MORE TRUSTED |
+| 0:24 | Record scratch, and someone posts your home address |
+| 0:27 | Back at the window, hiding |
+| 0:30 | 400 messages, and not one asks how you're doing |
+| 0:35 | 6:59 AM, 5-4-3-2-1, POOF |
+| 0:39 | Your old face is back. Best friend: "pizza? like normal? 🍕" |
+| 0:44 | "Being liked for who you are is the real flex." Then a split screen with YES / NO / COMMENT 👇 |
+
+### How it's made
+
+The project lives in [`attractive-24h-v2/`](attractive-24h-v2/), built with the animation-studio engine (vendored into `engine/`). Every frame is drawn with canvas code in headless Chrome, and the music and sound effects are synthesized in JavaScript. One timeline file (`score.js`) drives both, so they can't drift apart.
+
+| File | What it does |
+|------|--------------|
+| `lines.js` | The narration script. `say` is what the voice reads, and `cap` is what the captions show (e.g. "24" for "twenty-four"). |
+| `tts.js` | Fetches each line from ElevenLabs once (Mike voice, `eleven_flash_v2_5`, `/with-timestamps`). It saves the MP3 and alignment to `assets/vo/`, and writes `vo-data.js` with the durations and word times. |
+| `score.js` | The timeline. Each line is placed on a 100 BPM grid and each scene starts on its line. Every hit (flash, ping, pin, countdown, poof…) is an event here. |
+| `song.js` | Builds the soundtrack: a heartbeat and crowd for the hook, a bouncy day groove, a dark pad, rain and music box for the night, and a warm ending. It places the voice, ducks the music under it, and masters to −14 LUFS. |
+| `chars.js` | The black-headed cast (expressions, hairstyles, hoodies, arm poses, props) and small drawing helpers |
+| `scenes.js` | The 13 scenes, drawn inside the story panel |
+| `film.js` | The "What If" frame: plaid, title box, panel and camera, tags, captions, Part 1 |
+
+### Re-rendering
+
+You need Node 22+, ffmpeg and Chrome/Chromium. There is no `npm install`. The narration is already in `assets/vo/`, so re-rendering costs no ElevenLabs credits.
+
+```bash
+cd youtube_short/attractive-24h-v2
+node song.js                        # soundtrack -> out/music.wav
+node engine/render.js video         # frames -> out/video.mp4 (~2-4 min)
+node engine/render.js mux           # -> out/attractive-24h-v2.mp4
+node engine/render.js stills 0 12.2 38.4   # PNG stills for quick checks
+```
+
+- To change a line, edit `lines.js` and run `ELEVENLABS_API_KEY=... node tts.js`. Only changed lines are fetched. The whole script is about 600 characters, which is about 300 credits on the Flash model.
+- To change the voice, set `ELEVENLABS_VOICE_ID`. To change the model, set `ELEVENLABS_MODEL`; `eleven_multilingual_v2` sounds a little richer but costs twice the credits.
