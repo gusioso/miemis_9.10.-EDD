@@ -1,0 +1,946 @@
+{
+ "fps": 30,
+ "total": 116.737,
+ "durationInFrames": 3503,
+ "scenes": [
+  {
+   "id": "deposit",
+   "tag": "12:00 AM",
+   "clock": 0,
+   "balance": 1000000000,
+   "final": false,
+   "start": 0.3,
+   "end": 11.654,
+   "lines": [
+    {
+     "text": "At midnight, your phone buzzes. One billion dollars just hit your account.",
+     "file": "assets/vo/aa5271ac196d.wav",
+     "start": 0.3,
+     "end": 4.295,
+     "caps": [
+      {
+       "start": 0.3,
+       "end": 1.049,
+       "text": "AT MIDNIGHT"
+      },
+      {
+       "start": 1.049,
+       "end": 2.098,
+       "text": "YOUR PHONE BUZZES"
+      },
+      {
+       "start": 2.098,
+       "end": 2.947,
+       "text": "$1,000,000,000"
+      },
+      {
+       "start": 2.947,
+       "end": 3.746,
+       "text": "JUST HIT YOUR"
+      },
+      {
+       "start": 3.746,
+       "end": 4.295,
+       "text": "ACCOUNT"
+      }
+     ]
+    },
+    {
+     "text": "There's one rule. Spend all of it in twenty four hours. Anything left at midnight disappears. And you can't just give it away.",
+     "file": "assets/vo/eae1380f11c1.wav",
+     "start": 4.515,
+     "end": 11.134,
+     "caps": [
+      {
+       "start": 4.515,
+       "end": 5.489,
+       "text": "THERE'S ONE RULE"
+      },
+      {
+       "start": 5.489,
+       "end": 6.219,
+       "text": "SPEND ALL OF"
+      },
+      {
+       "start": 6.219,
+       "end": 6.754,
+       "text": "IT IN 24"
+      },
+      {
+       "start": 6.754,
+       "end": 7.192,
+       "text": "HOURS"
+      },
+      {
+       "start": 7.192,
+       "end": 7.971,
+       "text": "ANYTHING LEFT"
+      },
+      {
+       "start": 7.971,
+       "end": 9.236,
+       "text": "AT MIDNIGHT DISAPPEARS"
+      },
+      {
+       "start": 9.236,
+       "end": 10.015,
+       "text": "AND YOU CAN'T"
+      },
+      {
+       "start": 10.015,
+       "end": 10.745,
+       "text": "JUST GIVE IT"
+      },
+      {
+       "start": 10.745,
+       "end": 11.134,
+       "text": "AWAY"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math",
+   "tag": "12:05 AM",
+   "clock": 300,
+   "balance": 1000000000,
+   "final": false,
+   "start": 11.654,
+   "end": 18.742,
+   "lines": [
+    {
+     "text": "Sounds easy. It's not. You'd have to spend eleven thousand, five hundred seventy four dollars... every single second.",
+     "file": "assets/vo/c04edd72b023.wav",
+     "start": 11.654,
+     "end": 18.122,
+     "caps": [
+      {
+       "start": 11.654,
+       "end": 12.796,
+       "text": "SOUNDS EASY"
+      },
+      {
+       "start": 12.796,
+       "end": 13.709,
+       "text": "IT'S NOT"
+      },
+      {
+       "start": 13.709,
+       "end": 14.926,
+       "text": "YOU'D HAVE TO"
+      },
+      {
+       "start": 14.926,
+       "end": 16.372,
+       "text": "SPEND $11,574"
+      },
+      {
+       "start": 16.372,
+       "end": 18.122,
+       "text": "EVERY SINGLE SECOND"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "coffee",
+   "tag": "8:00 AM",
+   "clock": 28800,
+   "balance": 1000000000,
+   "final": false,
+   "start": 18.742,
+   "end": 27.836,
+   "lines": [
+    {
+     "text": "Eight a.m. You buy a coffee with your new card. The bank freezes it for fraud.",
+     "file": "assets/vo/44f863924aba.wav",
+     "start": 18.742,
+     "end": 23.009,
+     "caps": [
+      {
+       "start": 18.742,
+       "end": 19.139,
+       "text": "8 AM"
+      },
+      {
+       "start": 19.139,
+       "end": 19.735,
+       "text": "YOU BUY A"
+      },
+      {
+       "start": 19.735,
+       "end": 20.677,
+       "text": "COFFEE WITH YOUR"
+      },
+      {
+       "start": 20.677,
+       "end": 21.273,
+       "text": "NEW CARD"
+      },
+      {
+       "start": 21.273,
+       "end": 22.215,
+       "text": "THE BANK FREEZES"
+      },
+      {
+       "start": 22.215,
+       "end": 23.009,
+       "text": "IT FOR FRAUD"
+      }
+     ]
+    },
+    {
+     "text": "Forty minutes on hold. That's twenty seven million dollars of wasted time.",
+     "file": "assets/vo/7db3e1d51fa1.wav",
+     "start": 23.229,
+     "end": 27.316,
+     "caps": [
+      {
+       "start": 23.229,
+       "end": 24.267,
+       "text": "40 MINUTES ON"
+      },
+      {
+       "start": 24.267,
+       "end": 24.786,
+       "text": "HOLD"
+      },
+      {
+       "start": 24.786,
+       "end": 26.148,
+       "text": "THAT'S $27,000,000"
+      },
+      {
+       "start": 26.148,
+       "end": 27.316,
+       "text": "OF WASTED TIME"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cars",
+   "tag": "10:00 AM",
+   "clock": 36000,
+   "balance": 959000000,
+   "final": false,
+   "start": 27.836,
+   "end": 37.008,
+   "lines": [
+    {
+     "text": "Ten a.m. You walk into a car dealership and buy every single car. Twenty three cars. Forty one million dollars.",
+     "file": "assets/vo/2ce7bbfa8678.wav",
+     "start": 27.836,
+     "end": 34.562,
+     "caps": [
+      {
+       "start": 27.836,
+       "end": 28.441,
+       "text": "10 AM"
+      },
+      {
+       "start": 28.441,
+       "end": 29.517,
+       "text": "YOU WALK INTO"
+      },
+      {
+       "start": 29.517,
+       "end": 30.795,
+       "text": "A CAR DEALERSHIP"
+      },
+      {
+       "start": 30.795,
+       "end": 31.872,
+       "text": "AND BUY EVERY"
+      },
+      {
+       "start": 31.872,
+       "end": 32.813,
+       "text": "SINGLE CAR"
+      },
+      {
+       "start": 32.813,
+       "end": 33.553,
+       "text": "23 CARS"
+      },
+      {
+       "start": 33.553,
+       "end": 34.562,
+       "text": "$41,000,000"
+      }
+     ]
+    },
+    {
+     "text": "The salesman starts crying.",
+     "file": "assets/vo/a937e3b843eb.wav",
+     "start": 34.782,
+     "end": 36.288,
+     "caps": [
+      {
+       "start": 34.782,
+       "end": 35.817,
+       "text": "THE SALESMAN STARTS"
+      },
+      {
+       "start": 35.817,
+       "end": 36.288,
+       "text": "CRYING"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jet",
+   "tag": "12:00 PM",
+   "clock": 43200,
+   "balance": 897000000,
+   "final": false,
+   "start": 37.008,
+   "end": 43.308,
+   "lines": [
+    {
+     "text": "Noon. A used private jet. Sixty two million. The seller makes you prove the money is real. Twice.",
+     "file": "assets/vo/29a6b6dd96aa.wav",
+     "start": 37.008,
+     "end": 42.688,
+     "caps": [
+      {
+       "start": 37.008,
+       "end": 37.429,
+       "text": "NOON"
+      },
+      {
+       "start": 37.429,
+       "end": 38.323,
+       "text": "A USED PRIVATE"
+      },
+      {
+       "start": 38.323,
+       "end": 38.691,
+       "text": "JET"
+      },
+      {
+       "start": 38.691,
+       "end": 39.48,
+       "text": "$62,000,000"
+      },
+      {
+       "start": 39.48,
+       "end": 40.479,
+       "text": "THE SELLER MAKES"
+      },
+      {
+       "start": 40.479,
+       "end": 41.321,
+       "text": "YOU PROVE THE"
+      },
+      {
+       "start": 41.321,
+       "end": 42.215,
+       "text": "MONEY IS REAL"
+      },
+      {
+       "start": 42.215,
+       "end": 42.688,
+       "text": "TWICE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mansion",
+   "tag": "2:00 PM",
+   "clock": 50400,
+   "balance": 897000000,
+   "final": false,
+   "start": 43.308,
+   "end": 50.035,
+   "lines": [
+    {
+     "text": "Two p.m. You find your dream mansion... but the agent says closing takes thirty days. Way too slow.",
+     "file": "assets/vo/01ca854f1bfd.wav",
+     "start": 43.308,
+     "end": 49.415,
+     "caps": [
+      {
+       "start": 43.308,
+       "end": 43.765,
+       "text": "2 PM"
+      },
+      {
+       "start": 43.765,
+       "end": 44.678,
+       "text": "YOU FIND YOUR"
+      },
+      {
+       "start": 44.678,
+       "end": 45.762,
+       "text": "DREAM MANSION"
+      },
+      {
+       "start": 45.762,
+       "end": 46.675,
+       "text": "BUT THE AGENT"
+      },
+      {
+       "start": 46.675,
+       "end": 47.874,
+       "text": "SAYS CLOSING TAKES"
+      },
+      {
+       "start": 47.874,
+       "end": 48.502,
+       "text": "30 DAYS"
+      },
+      {
+       "start": 48.502,
+       "end": 49.415,
+       "text": "WAY TOO SLOW"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "art",
+   "tag": "4:00 PM",
+   "clock": 57600,
+   "balance": 812000000,
+   "final": false,
+   "start": 50.035,
+   "end": 57.39,
+   "lines": [
+    {
+     "text": "Four p.m. An art auction. You buy a painting of... a blue square. Eighty five million dollars.",
+     "file": "assets/vo/b217340644b3.wav",
+     "start": 50.035,
+     "end": 55.428,
+     "caps": [
+      {
+       "start": 50.035,
+       "end": 50.531,
+       "text": "4 PM"
+      },
+      {
+       "start": 50.531,
+       "end": 51.646,
+       "text": "AN ART AUCTION"
+      },
+      {
+       "start": 51.646,
+       "end": 52.39,
+       "text": "YOU BUY A"
+      },
+      {
+       "start": 52.39,
+       "end": 53.444,
+       "text": "PAINTING OF"
+      },
+      {
+       "start": 53.444,
+       "end": 54.498,
+       "text": "A BLUE SQUARE"
+      },
+      {
+       "start": 54.498,
+       "end": 55.428,
+       "text": "$85,000,000"
+      }
+     ]
+    },
+    {
+     "text": "You don't get it either.",
+     "file": "assets/vo/328fe6519ab2.wav",
+     "start": 55.648,
+     "end": 56.77,
+     "caps": [
+      {
+       "start": 55.648,
+       "end": 56.267,
+       "text": "YOU DON'T GET"
+      },
+      {
+       "start": 56.267,
+       "end": 56.77,
+       "text": "IT EITHER"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panic",
+   "tag": "6:00 PM",
+   "clock": 64800,
+   "balance": 812000000,
+   "final": false,
+   "start": 57.39,
+   "end": 68.904,
+   "lines": [
+    {
+     "text": "Six p.m. You've spent less than twenty percent. Spending a billion dollars is actually really hard.",
+     "file": "assets/vo/6f7db7f9200c.wav",
+     "start": 57.39,
+     "end": 63.074,
+     "caps": [
+      {
+       "start": 57.39,
+       "end": 57.854,
+       "text": "6 PM"
+      },
+      {
+       "start": 57.854,
+       "end": 59.014,
+       "text": "YOU'VE SPENT LESS"
+      },
+      {
+       "start": 59.014,
+       "end": 59.71,
+       "text": "THAN 20%"
+      },
+      {
+       "start": 59.71,
+       "end": 60.928,
+       "text": "SPENDING A BILLION"
+      },
+      {
+       "start": 60.928,
+       "end": 62.204,
+       "text": "DOLLARS IS ACTUALLY"
+      },
+      {
+       "start": 62.204,
+       "end": 63.074,
+       "text": "REALLY HARD"
+      }
+     ]
+    },
+    {
+     "text": "Your best friend says: buy a solid gold gaming console. Your mom says: buy groceries.",
+     "file": "assets/vo/15c7c7e15d5a.wav",
+     "start": 63.294,
+     "end": 68.284,
+     "caps": [
+      {
+       "start": 63.294,
+       "end": 64.261,
+       "text": "YOUR BEST FRIEND"
+      },
+      {
+       "start": 64.261,
+       "end": 64.669,
+       "text": "SAYS"
+      },
+      {
+       "start": 64.669,
+       "end": 65.381,
+       "text": "BUY A SOLID"
+      },
+      {
+       "start": 65.381,
+       "end": 66.553,
+       "text": "GOLD GAMING CONSOLE"
+      },
+      {
+       "start": 66.553,
+       "end": 67.418,
+       "text": "YOUR MOM SAYS"
+      },
+      {
+       "start": 67.418,
+       "end": 68.284,
+       "text": "BUY GROCERIES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "debt",
+   "tag": "10:00 PM",
+   "clock": 79200,
+   "balance": 812000000,
+   "final": false,
+   "start": 68.904,
+   "end": 81.108,
+   "lines": [
+    {
+     "text": "Ten p.m. You read something that changes everything. Millions of people are drowning in medical debt.",
+     "file": "assets/vo/e5e665f668f3.wav",
+     "start": 68.904,
+     "end": 74.844,
+     "caps": [
+      {
+       "start": 68.904,
+       "end": 69.381,
+       "text": "10 PM"
+      },
+      {
+       "start": 69.381,
+       "end": 70.495,
+       "text": "YOU READ SOMETHING"
+      },
+      {
+       "start": 70.495,
+       "end": 71.927,
+       "text": "THAT CHANGES EVERYTHING"
+      },
+      {
+       "start": 71.927,
+       "end": 73.04,
+       "text": "MILLIONS OF PEOPLE"
+      },
+      {
+       "start": 73.04,
+       "end": 73.995,
+       "text": "ARE DROWNING IN"
+      },
+      {
+       "start": 73.995,
+       "end": 74.844,
+       "text": "MEDICAL DEBT"
+      }
+     ]
+    },
+    {
+     "text": "And charities can buy that debt for pennies. About one dollar erases a hundred dollars of it.",
+     "file": "assets/vo/105e4021362f.wav",
+     "start": 75.064,
+     "end": 80.488,
+     "caps": [
+      {
+       "start": 75.064,
+       "end": 76.109,
+       "text": "AND CHARITIES"
+      },
+      {
+       "start": 76.109,
+       "end": 77.09,
+       "text": "CAN BUY THAT"
+      },
+      {
+       "start": 77.09,
+       "end": 78.397,
+       "text": "DEBT FOR PENNIES"
+      },
+      {
+       "start": 78.397,
+       "end": 79.573,
+       "text": "ABOUT $1 ERASES"
+      },
+      {
+       "start": 79.573,
+       "end": 80.488,
+       "text": "$100 OF IT"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "buy",
+   "tag": "11:00 PM",
+   "clock": 82800,
+   "balance": 12000000,
+   "final": false,
+   "start": 81.108,
+   "end": 91.316,
+   "lines": [
+    {
+     "text": "That's not giving money away. That's buying something. So you buy it. Eight hundred million dollars of it.",
+     "file": "assets/vo/ff9d7536be78.wav",
+     "start": 81.108,
+     "end": 86.406,
+     "caps": [
+      {
+       "start": 81.108,
+       "end": 82.108,
+       "text": "THAT'S NOT GIVING"
+      },
+      {
+       "start": 82.108,
+       "end": 82.807,
+       "text": "MONEY AWAY"
+      },
+      {
+       "start": 82.807,
+       "end": 83.607,
+       "text": "THAT'S BUYING"
+      },
+      {
+       "start": 83.607,
+       "end": 84.257,
+       "text": "SOMETHING"
+      },
+      {
+       "start": 84.257,
+       "end": 84.906,
+       "text": "SO YOU BUY"
+      },
+      {
+       "start": 84.906,
+       "end": 85.206,
+       "text": "IT"
+      },
+      {
+       "start": 85.206,
+       "end": 86.106,
+       "text": "$800,000,000 OF"
+      },
+      {
+       "start": 86.106,
+       "end": 86.406,
+       "text": "IT"
+      }
+     ]
+    },
+    {
+     "text": "Around eighty billion dollars of debt... gone. For millions of strangers.",
+     "file": "assets/vo/9746a87e9687.wav",
+     "start": 86.626,
+     "end": 90.496,
+     "caps": [
+      {
+       "start": 86.626,
+       "end": 87.882,
+       "text": "AROUND $80,000,000,000"
+      },
+      {
+       "start": 87.882,
+       "end": 88.536,
+       "text": "OF DEBT"
+      },
+      {
+       "start": 88.536,
+       "end": 88.938,
+       "text": "GONE"
+      },
+      {
+       "start": 88.938,
+       "end": 89.843,
+       "text": "FOR MILLIONS OF"
+      },
+      {
+       "start": 89.843,
+       "end": 90.496,
+       "text": "STRANGERS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "tag": "11:59 PM",
+   "clock": 86340,
+   "balance": 0,
+   "final": true,
+   "start": 91.316,
+   "end": 99.417,
+   "lines": [
+    {
+     "text": "Eleven fifty nine. Twelve million left. You buy the pizza place down the street.",
+     "file": "assets/vo/fb5434497316.wav",
+     "start": 91.316,
+     "end": 95.597,
+     "caps": [
+      {
+       "start": 91.316,
+       "end": 91.823,
+       "text": "11:59"
+      },
+      {
+       "start": 91.823,
+       "end": 92.95,
+       "text": "$12,000,000 LEFT"
+      },
+      {
+       "start": 92.95,
+       "end": 93.738,
+       "text": "YOU BUY THE"
+      },
+      {
+       "start": 93.738,
+       "end": 94.809,
+       "text": "PIZZA PLACE DOWN"
+      },
+      {
+       "start": 94.809,
+       "end": 95.597,
+       "text": "THE STREET"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morning",
+   "tag": "NEXT MORNING",
+   "clock": null,
+   "balance": null,
+   "final": false,
+   "start": 99.417,
+   "end": 112.397,
+   "lines": [
+    {
+     "text": "The next morning, your mailbox is full. Thank you letters, from people you'll never meet.",
+     "file": "assets/vo/2ef9d5270290.wav",
+     "start": 99.417,
+     "end": 103.767,
+     "caps": [
+      {
+       "start": 99.417,
+       "end": 100.27,
+       "text": "THE NEXT MORNING"
+      },
+      {
+       "start": 100.27,
+       "end": 101.038,
+       "text": "YOUR MAILBOX IS"
+      },
+      {
+       "start": 101.038,
+       "end": 101.379,
+       "text": "FULL"
+      },
+      {
+       "start": 101.379,
+       "end": 102.275,
+       "text": "THANK YOU LETTERS"
+      },
+      {
+       "start": 102.275,
+       "end": 103.17,
+       "text": "FROM PEOPLE YOU'LL"
+      },
+      {
+       "start": 103.17,
+       "end": 103.767,
+       "text": "NEVER MEET"
+      }
+     ]
+    },
+    {
+     "text": "And your mom just asks: so... did you buy groceries?",
+     "file": "assets/vo/e1efd49547af.wav",
+     "start": 103.987,
+     "end": 106.793,
+     "caps": [
+      {
+       "start": 103.987,
+       "end": 104.655,
+       "text": "AND YOUR MOM"
+      },
+      {
+       "start": 104.655,
+       "end": 105.234,
+       "text": "JUST ASKS"
+      },
+      {
+       "start": 105.234,
+       "end": 105.591,
+       "text": "SO"
+      },
+      {
+       "start": 105.591,
+       "end": 106.214,
+       "text": "DID YOU BUY"
+      },
+      {
+       "start": 106.214,
+       "end": 106.793,
+       "text": "GROCERIES?"
+      }
+     ]
+    },
+    {
+     "text": "Turns out, the best thing a billion dollars can buy... is someone else's fresh start.",
+     "file": "assets/vo/b57ca8295805.wav",
+     "start": 107.013,
+     "end": 111.577,
+     "caps": [
+      {
+       "start": 107.013,
+       "end": 107.619,
+       "text": "TURNS OUT"
+      },
+      {
+       "start": 107.619,
+       "end": 108.411,
+       "text": "THE BEST THING"
+      },
+      {
+       "start": 108.411,
+       "end": 109.342,
+       "text": "A BILLION DOLLARS"
+      },
+      {
+       "start": 109.342,
+       "end": 109.947,
+       "text": "CAN BUY"
+      },
+      {
+       "start": 109.947,
+       "end": 110.879,
+       "text": "IS SOMEONE ELSE'S"
+      },
+      {
+       "start": 110.879,
+       "end": 111.577,
+       "text": "FRESH START"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "tag": null,
+   "clock": null,
+   "balance": null,
+   "final": false,
+   "start": 112.397,
+   "end": 116.537,
+   "lines": [
+    {
+     "text": "What would you spend a billion dollars on? Tell me in the comments.",
+     "file": "assets/vo/ad175f47064c.wav",
+     "start": 112.397,
+     "end": 115.517,
+     "caps": [
+      {
+       "start": 112.397,
+       "end": 113.077,
+       "text": "WHAT WOULD YOU"
+      },
+      {
+       "start": 113.077,
+       "end": 113.797,
+       "text": "SPEND A BILLION"
+      },
+      {
+       "start": 113.797,
+       "end": 114.357,
+       "text": "DOLLARS ON?"
+      },
+      {
+       "start": 114.357,
+       "end": 114.877,
+       "text": "TELL ME IN"
+      },
+      {
+       "start": 114.877,
+       "end": 115.517,
+       "text": "THE COMMENTS"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
