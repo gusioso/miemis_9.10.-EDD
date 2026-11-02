@@ -18,4 +18,8 @@ Defaults for the "What If" story Shorts:
 
 The Remotion skills come from `remotion-dev/skills` at commit `30d4553`. Remotion needs Node.js (installed) and renders with the pre-installed Chromium at `/opt/pw-browsers/chromium` if it can't find its own.
 
+Also in `.claude/skills/`:
+- **youtube**, from `agricidaniel/claude-youtube` at `84c3fa6` (MIT). Use `/youtube shorts` and `/youtube hook` to write the hook, script, title, description and hashtags before you build a Short. Use `/youtube thumbnail` for thumbnail briefs.
+- **canvas-design**, from `anthropics/skills` at `ca45fc4` (Apache-2.0). It designs PNG thumbnails and covers, and is the fallback when Abracadabrax isn't connected.
+
 If one of these tools isn't available in a session (for example, if its MCP server didn't connect), say so up front, carry on with the rest, and don't fake its output.
