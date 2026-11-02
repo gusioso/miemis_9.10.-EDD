@@ -211,7 +211,7 @@ export const alex: SceneFn = ({ S, t }) => {
       <View c={cA} op={shot(t, 0, E.msg - 0.4, 0.4)}>
         <BedRoom t={t} id="a-bed" expr="relaxed" look={0.3} steps={[[-100, 0]]} phone={1} sky={["#ffe2b8", "#fff6e3"]} />
         <Ring x={690} y={FLOOR - 582} t={t} t0={E.zero} />
-        <Chip x={1060} y={440} text="ALEX · 22" t={t} t0={0.5} />
+        <Chip x={1180} y={640} text="ALEX · 22" t={t} t0={0.5} />
         <Bubble x={980} y={430} lines={["☕ Brew & Co."]} t={t} t0={2.4} t1={E.zero - 0.2} think size={48} />
       </View>
       <View c={cB} op={shot(t, E.msg - 0.4, E.reply + 1.0, 0.4)}>

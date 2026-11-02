@@ -41,11 +41,11 @@ const Capsule: React.FC<{ text: string; size: number }> = ({ text, size }) => (
 export const Thumb: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: "#e8cca6" }}>
     <Img src={staticFile("plaid.png")} style={{ position: "absolute", inset: 0, width: 1280, height: 2276, objectFit: "cover" }} />
-    <div style={{ position: "absolute", left: 40, top: 150, width: 1200, height: 530, overflow: "hidden", borderRadius: 28, border: "8px solid #141419", boxShadow: "0 14px 30px rgba(0,0,0,0.35)" }}>
-      <Split w={1184} h={680} />
+    <div style={{ position: "absolute", left: 56, top: 170, width: 1168, height: 506, overflow: "hidden", borderRadius: 28, border: "8px solid #141419", boxShadow: "0 14px 30px rgba(0,0,0,0.35)" }}>
+      <Split w={1152} h={662} />
     </div>
     <div style={{ position: "absolute", top: 30, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-      <Capsule text="WHO WOULD YOU TRUST?" size={84} />
+      <Capsule text="WHO WOULD YOU TRUST?" size={70} />
     </div>
   </AbsoluteFill>
 );
@@ -60,7 +60,7 @@ export const Cover: React.FC = () => (
       <Split w={1080} h={620} />
     </div>
     <div style={{ position: "absolute", top: 1250, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-      <Capsule text="WHO WOULD YOU TRUST?" size={76} />
+      <Capsule text="WHO WOULD YOU TRUST?" size={60} />
     </div>
   </AbsoluteFill>
 );
