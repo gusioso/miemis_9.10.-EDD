@@ -4,7 +4,8 @@ Script, voiceover and soundtrack for "What If Hypergamy Didn't Exist?".
 
   python tools/make_audio.py          # writes public/assets/vo/*.wav, public/soundtrack.wav, src/timeline.json
 
-Voice: Kokoro (free, offline) "am_michael", because the ElevenLabs credits ran out. The clips are cached in
+Voice: Kokoro (free, offline), a 60/40 blend of "am_puck" and "am_liam" chosen to match Mike's pitch, tone and pace
+(no ElevenLabs needed). The clips are cached in
 public/assets/vo/, so re-runs cost nothing. To switch to ElevenLabs Mike later, set VOICE_ENGINE=elevenlabs.
 Music and sound effects are synthesized with numpy (no external files).
 """
@@ -22,7 +23,8 @@ VO = os.path.join(ROOT, "public", "assets", "vo")
 KOKORO = os.path.join(ROOT, "..", "kokoro")
 SR = 24000
 FPS = 30
-VOICE, SPEED = "am_michael", 1.16
+VOICE, SPEED = "puck60_liam40", 1.0   # free Kokoro blend picked to sound close to Mike (pitch, tone, pace)
+BLEND = {"am_puck": 0.6, "am_liam": 0.4}
 ENGINE = os.environ.get("VOICE_ENGINE", "kokoro")
 
 # Each scene: id, top-left tag, matches counter (top-right), lines, extra seconds at the end.
@@ -105,7 +107,8 @@ def tts(text):
     if _kokoro is None:
         from kokoro_onnx import Kokoro
         _kokoro = Kokoro(os.path.join(KOKORO, "kokoro-v1.0.onnx"), os.path.join(KOKORO, "voices-v1.0.bin"))
-    s, sr = _kokoro.create(text, voice=VOICE, speed=SPEED, lang="en-us")
+    style = sum(w * _kokoro.get_voice_style(n) for n, w in BLEND.items())
+    s, sr = _kokoro.create(text, voice=style, speed=SPEED, lang="en-us")
     assert sr == SR
     s = trim(np.asarray(s, np.float32))
     write_wav(path, s)

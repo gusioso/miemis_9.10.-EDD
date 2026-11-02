@@ -1,62 +1,62 @@
 {
  "fps": 30,
- "total": 59.514,
- "durationInFrames": 1786,
+ "total": 56.545,
+ "durationInFrames": 1697,
  "scenes": [
   {
    "id": "hook",
    "tag": "DAY 1 \u00b7 7:00 AM",
    "matches": 0,
    "start": 0.3,
-   "end": 6.618,
+   "end": 6.507,
    "lines": [
     {
      "text": "Overnight, hypergamy disappears.",
-     "file": "assets/vo/0436c06f3066.wav",
+     "file": "assets/vo/cf3b47faeae4.wav",
      "start": 0.3,
-     "end": 2.32,
+     "end": 2.241,
      "caps": [
       {
        "start": 0.3,
-       "end": 1.01,
+       "end": 0.982,
        "text": "OVERNIGHT"
       },
       {
-       "start": 1.01,
-       "end": 2.32,
+       "start": 0.982,
+       "end": 2.241,
        "text": "HYPERGAMY DISAPPEARS"
       }
      ]
     },
     {
      "text": "Nobody, men or women, cares about money, height, or status anymore.",
-     "file": "assets/vo/f545f13f714f.wav",
-     "start": 2.52,
-     "end": 6.218,
+     "file": "assets/vo/0ef5aacf87d7.wav",
+     "start": 2.441,
+     "end": 6.107,
      "caps": [
       {
-       "start": 2.52,
-       "end": 2.994,
+       "start": 2.441,
+       "end": 2.911,
        "text": "NOBODY"
       },
       {
-       "start": 2.994,
-       "end": 3.753,
+       "start": 2.911,
+       "end": 3.663,
        "text": "MEN OR WOMEN"
       },
       {
-       "start": 3.753,
-       "end": 4.749,
+       "start": 3.663,
+       "end": 4.65,
        "text": "CARES ABOUT MONEY"
       },
       {
-       "start": 4.749,
-       "end": 5.223,
+       "start": 4.65,
+       "end": 5.12,
        "text": "HEIGHT"
       },
       {
-       "start": 5.223,
-       "end": 6.218,
+       "start": 5.12,
+       "end": 6.107,
        "text": "OR STATUS ANYMORE"
       }
      ]
@@ -67,61 +67,61 @@
    "id": "app",
    "tag": "DAY 1 \u00b7 9:00 AM",
    "matches": 3,
-   "start": 6.618,
-   "end": 13.403,
+   "start": 6.507,
+   "end": 13.136,
    "lines": [
     {
      "text": "Dating apps panic. The six foot filter? Gone.",
-     "file": "assets/vo/5a321953905c.wav",
-     "start": 6.618,
-     "end": 9.268,
+     "file": "assets/vo/209454d856c0.wav",
+     "start": 6.507,
+     "end": 9.061,
      "caps": [
       {
-       "start": 6.618,
-       "end": 7.731,
+       "start": 6.507,
+       "end": 7.58,
        "text": "DATING APPS PANIC"
       },
       {
-       "start": 7.731,
-       "end": 8.314,
+       "start": 7.58,
+       "end": 8.142,
        "text": "THE 6 FT"
       },
       {
-       "start": 8.314,
-       "end": 8.844,
+       "start": 8.142,
+       "end": 8.652,
        "text": "FILTER?"
       },
       {
-       "start": 8.844,
-       "end": 9.268,
+       "start": 8.652,
+       "end": 9.061,
        "text": "GONE"
       }
      ]
     },
     {
      "text": "You finally delete six foot from your profile. You're five seven.",
-     "file": "assets/vo/919f6d3a6050.wav",
-     "start": 9.468,
-     "end": 13.003,
+     "file": "assets/vo/dbbe266bdf5e.wav",
+     "start": 9.261,
+     "end": 12.736,
      "caps": [
       {
-       "start": 9.468,
-       "end": 10.593,
+       "start": 9.261,
+       "end": 10.367,
        "text": "YOU FINALLY DELETE"
       },
       {
-       "start": 10.593,
-       "end": 11.343,
+       "start": 10.367,
+       "end": 11.104,
        "text": "\"6 FT\" FROM"
       },
       {
-       "start": 11.343,
-       "end": 12.2,
+       "start": 11.104,
+       "end": 11.946,
        "text": "YOUR PROFILE"
       },
       {
-       "start": 12.2,
-       "end": 13.003,
+       "start": 11.946,
+       "end": 12.736,
        "text": "YOU'RE 5'7\""
       }
      ]
@@ -132,56 +132,56 @@
    "id": "lambo",
    "tag": "DAY 1 \u00b7 2:00 PM",
    "matches": 7,
-   "start": 13.403,
-   "end": 20.788,
+   "start": 13.136,
+   "end": 20.388,
    "lines": [
     {
      "text": "A guy rents a Lamborghini for nine hundred dollars. Nobody even looks.",
-     "file": "assets/vo/c364834046ae.wav",
-     "start": 13.403,
-     "end": 17.713,
+     "file": "assets/vo/8516205e840e.wav",
+     "start": 13.136,
+     "end": 17.352,
      "caps": [
       {
-       "start": 13.403,
-       "end": 14.361,
+       "start": 13.136,
+       "end": 14.073,
        "text": "A GUY RENTS"
       },
       {
-       "start": 14.361,
-       "end": 15.455,
+       "start": 14.073,
+       "end": 15.144,
        "text": "A LAMBORGHINI"
       },
       {
-       "start": 15.455,
-       "end": 16.276,
+       "start": 15.144,
+       "end": 15.947,
        "text": "FOR $900"
       },
       {
-       "start": 16.276,
-       "end": 17.713,
+       "start": 15.947,
+       "end": 17.352,
        "text": "NOBODY EVEN LOOKS"
       }
      ]
     },
     {
      "text": "They're all petting the golden retriever next to it.",
-     "file": "assets/vo/f52336895c71.wav",
-     "start": 17.913,
-     "end": 20.288,
+     "file": "assets/vo/e88d83ee859c.wav",
+     "start": 17.552,
+     "end": 19.888,
      "caps": [
       {
-       "start": 17.913,
-       "end": 18.799,
+       "start": 17.552,
+       "end": 18.424,
        "text": "THEY'RE ALL PETTING"
       },
       {
-       "start": 18.799,
-       "end": 19.725,
+       "start": 18.424,
+       "end": 19.334,
        "text": "THE GOLDEN RETRIEVER"
       },
       {
-       "start": 19.725,
-       "end": 20.288,
+       "start": 19.334,
+       "end": 19.888,
        "text": "NEXT TO IT"
       }
      ]
@@ -192,38 +192,38 @@
    "id": "news",
    "tag": "WEEK 1",
    "matches": 12,
-   "start": 20.788,
-   "end": 26.079,
+   "start": 20.388,
+   "end": 25.19,
    "lines": [
     {
      "text": "Week one. Luxury watch sales crash. Private jet selfies get zero likes.",
-     "file": "assets/vo/638551e8cd91.wav",
-     "start": 20.788,
-     "end": 25.679,
+     "file": "assets/vo/cac55ac46bd2.wav",
+     "start": 20.388,
+     "end": 24.79,
      "caps": [
       {
-       "start": 20.788,
-       "end": 21.424,
+       "start": 20.388,
+       "end": 20.96,
        "text": "WEEK 1"
       },
       {
-       "start": 21.424,
-       "end": 22.757,
+       "start": 20.96,
+       "end": 22.161,
        "text": "LUXURY WATCH SALES"
       },
       {
-       "start": 22.757,
-       "end": 23.329,
+       "start": 22.161,
+       "end": 22.675,
        "text": "CRASH"
       },
       {
-       "start": 23.329,
-       "end": 24.727,
+       "start": 22.675,
+       "end": 23.933,
        "text": "PRIVATE JET SELFIES"
       },
       {
-       "start": 24.727,
-       "end": 25.679,
+       "start": 23.933,
+       "end": 24.79,
        "text": "GET 0 LIKES"
       }
      ]
@@ -234,71 +234,71 @@
    "id": "date",
    "tag": "MONTH 1",
    "matches": 19,
-   "start": 26.079,
-   "end": 34.594,
+   "start": 25.19,
+   "end": 33.192,
    "lines": [
     {
      "text": "Month one. You finally get a date, and talk about yourself for two hours.",
-     "file": "assets/vo/7b51031c894a.wav",
-     "start": 26.079,
-     "end": 30.103,
+     "file": "assets/vo/a00c15089db1.wav",
+     "start": 25.19,
+     "end": 28.977,
      "caps": [
       {
-       "start": 26.079,
-       "end": 26.619,
+       "start": 25.19,
+       "end": 25.698,
        "text": "MONTH 1"
       },
       {
-       "start": 26.619,
-       "end": 27.502,
+       "start": 25.698,
+       "end": 26.53,
        "text": "YOU FINALLY GET"
       },
       {
-       "start": 27.502,
-       "end": 27.993,
+       "start": 26.53,
+       "end": 26.991,
        "text": "A DATE"
       },
       {
-       "start": 27.993,
-       "end": 28.827,
+       "start": 26.991,
+       "end": 27.777,
        "text": "AND TALK ABOUT"
       },
       {
-       "start": 28.827,
-       "end": 29.662,
+       "start": 27.777,
+       "end": 28.562,
        "text": "YOURSELF FOR 2"
       },
       {
-       "start": 29.662,
-       "end": 30.103,
+       "start": 28.562,
+       "end": 28.977,
        "text": "HOURS"
       }
      ]
     },
     {
      "text": "No second date. Without status, personality is all you've got.",
-     "file": "assets/vo/76d8dc5b5169.wav",
-     "start": 30.303,
-     "end": 34.094,
+     "file": "assets/vo/15e7c05b681b.wav",
+     "start": 29.177,
+     "end": 32.692,
      "caps": [
       {
-       "start": 30.303,
-       "end": 31.264,
+       "start": 29.177,
+       "end": 30.068,
        "text": "NO SECOND DATE"
       },
       {
-       "start": 31.264,
-       "end": 32.225,
+       "start": 30.068,
+       "end": 30.96,
        "text": "WITHOUT STATUS"
       },
       {
-       "start": 32.225,
-       "end": 33.133,
+       "start": 30.96,
+       "end": 31.801,
        "text": "PERSONALITY IS"
       },
       {
-       "start": 33.133,
-       "end": 34.094,
+       "start": 31.801,
+       "end": 32.692,
        "text": "ALL YOU'VE GOT"
       }
      ]
@@ -309,61 +309,61 @@
    "id": "pottery",
    "tag": "MONTH 6",
    "matches": 19,
-   "start": 34.594,
-   "end": 41.194,
+   "start": 33.192,
+   "end": 39.48,
    "lines": [
     {
      "text": "So you learn to cook, you actually listen, and you take a pottery class.",
-     "file": "assets/vo/fec7c8d062f4.wav",
-     "start": 34.594,
-     "end": 38.48,
+     "file": "assets/vo/894fcb6d7e1b.wav",
+     "start": 33.192,
+     "end": 36.879,
      "caps": [
       {
-       "start": 34.594,
-       "end": 35.296,
+       "start": 33.192,
+       "end": 33.859,
        "text": "SO YOU LEARN"
       },
       {
-       "start": 35.296,
-       "end": 35.811,
+       "start": 33.859,
+       "end": 34.347,
        "text": "TO COOK"
       },
       {
-       "start": 35.811,
-       "end": 36.888,
+       "start": 34.347,
+       "end": 35.369,
        "text": "YOU ACTUALLY LISTEN"
       },
       {
-       "start": 36.888,
-       "end": 37.59,
+       "start": 35.369,
+       "end": 36.035,
        "text": "AND YOU TAKE"
       },
       {
-       "start": 37.59,
-       "end": 38.48,
+       "start": 36.035,
+       "end": 36.879,
        "text": "A POTTERY CLASS"
       }
      ]
     },
     {
      "text": "Your first bowl looks like a potato.",
-     "file": "assets/vo/451eefdae636.wav",
-     "start": 38.68,
-     "end": 40.694,
+     "file": "assets/vo/e36b2e8447b5.wav",
+     "start": 37.079,
+     "end": 38.98,
      "caps": [
       {
-       "start": 38.68,
-       "end": 39.523,
+       "start": 37.079,
+       "end": 37.875,
        "text": "YOUR FIRST BOWL"
       },
       {
-       "start": 39.523,
-       "end": 40.226,
+       "start": 37.875,
+       "end": 38.538,
        "text": "LOOKS LIKE A"
       },
       {
-       "start": 40.226,
-       "end": 40.694,
+       "start": 38.538,
+       "end": 38.98,
        "text": "POTATO"
       }
      ]
@@ -374,61 +374,61 @@
    "id": "billionaire",
    "tag": "YEAR 1",
    "matches": 24,
-   "start": 41.194,
-   "end": 47.116,
+   "start": 39.48,
+   "end": 44.926,
    "lines": [
     {
      "text": "Year one. A billionaire's date asks what he does for fun.",
-     "file": "assets/vo/6348554718f0.wav",
-     "start": 41.194,
-     "end": 44.416,
+     "file": "assets/vo/703a23f87e8e.wav",
+     "start": 39.48,
+     "end": 42.437,
      "caps": [
       {
-       "start": 41.194,
-       "end": 41.682,
+       "start": 39.48,
+       "end": 39.928,
        "text": "YEAR 1"
       },
       {
-       "start": 41.682,
-       "end": 42.561,
+       "start": 39.928,
+       "end": 40.734,
        "text": "A BILLIONAIRE'S"
       },
       {
-       "start": 42.561,
-       "end": 43.391,
+       "start": 40.734,
+       "end": 41.496,
        "text": "DATE ASKS WHAT"
       },
       {
-       "start": 43.391,
-       "end": 44.074,
+       "start": 41.496,
+       "end": 42.123,
        "text": "HE DOES FOR"
       },
       {
-       "start": 44.074,
-       "end": 44.416,
+       "start": 42.123,
+       "end": 42.437,
        "text": "FUN"
       }
      ]
     },
     {
      "text": "He says: business. Left on read.",
-     "file": "assets/vo/55379863ae8e.wav",
-     "start": 44.616,
-     "end": 46.616,
+     "file": "assets/vo/4b38ae574bcf.wav",
+     "start": 42.637,
+     "end": 44.426,
      "caps": [
       {
-       "start": 44.616,
-       "end": 45.18,
+       "start": 42.637,
+       "end": 43.141,
        "text": "HE SAYS"
       },
       {
-       "start": 45.18,
-       "end": 45.796,
+       "start": 43.141,
+       "end": 43.692,
        "text": "BUSINESS"
       },
       {
-       "start": 45.796,
-       "end": 46.616,
+       "start": 43.692,
+       "end": 44.426,
        "text": "LEFT ON READ"
       }
      ]
@@ -439,38 +439,38 @@
    "id": "wedding",
    "tag": "YEAR 10",
    "matches": 1,
-   "start": 47.116,
-   "end": 51.155,
+   "start": 44.926,
+   "end": 48.744,
    "lines": [
     {
      "text": "Year ten. You marry the girl who laughed at your potato bowl.",
-     "file": "assets/vo/4e7c2d1a6bcd.wav",
-     "start": 47.116,
-     "end": 50.355,
+     "file": "assets/vo/452e509a95f2.wav",
+     "start": 44.926,
+     "end": 47.944,
      "caps": [
       {
-       "start": 47.116,
-       "end": 47.618,
+       "start": 44.926,
+       "end": 45.394,
        "text": "YEAR 10"
       },
       {
-       "start": 47.618,
-       "end": 48.348,
+       "start": 45.394,
+       "end": 46.074,
        "text": "YOU MARRY THE"
       },
       {
-       "start": 48.348,
-       "end": 49.214,
+       "start": 46.074,
+       "end": 46.881,
        "text": "GIRL WHO LAUGHED"
       },
       {
-       "start": 49.214,
-       "end": 49.99,
+       "start": 46.881,
+       "end": 47.604,
        "text": "AT YOUR POTATO"
       },
       {
-       "start": 49.99,
-       "end": 50.355,
+       "start": 47.604,
+       "end": 47.944,
        "text": "BOWL"
       }
      ]
@@ -481,38 +481,38 @@
    "id": "fact",
    "tag": "REAL LIFE",
    "matches": null,
-   "start": 51.155,
-   "end": 56.242,
+   "start": 48.744,
+   "end": 53.373,
    "lines": [
     {
      "text": "Fun fact: in real studies, men and women both rate kindness near the top.",
-     "file": "assets/vo/87f223619b0f.wav",
-     "start": 51.155,
-     "end": 55.742,
+     "file": "assets/vo/2b0c3263d21e.wav",
+     "start": 48.744,
+     "end": 52.873,
      "caps": [
       {
-       "start": 51.155,
-       "end": 51.81,
+       "start": 48.744,
+       "end": 49.334,
        "text": "FUN FACT"
       },
       {
-       "start": 51.81,
-       "end": 52.848,
+       "start": 49.334,
+       "end": 50.268,
        "text": "IN REAL STUDIES"
       },
       {
-       "start": 52.848,
-       "end": 53.722,
+       "start": 50.268,
+       "end": 51.054,
        "text": "MEN AND WOMEN"
       },
       {
-       "start": 53.722,
-       "end": 54.869,
+       "start": 51.054,
+       "end": 52.086,
        "text": "BOTH RATE KINDNESS"
       },
       {
-       "start": 54.869,
-       "end": 55.742,
+       "start": 52.086,
+       "end": 52.873,
        "text": "NEAR THE TOP"
       }
      ]
@@ -523,28 +523,28 @@
    "id": "cta",
    "tag": null,
    "matches": null,
-   "start": 56.242,
-   "end": 59.314,
+   "start": 53.373,
+   "end": 56.345,
    "lines": [
     {
      "text": "Would this world be better? Comment below.",
-     "file": "assets/vo/2f16a4b698ff.wav",
-     "start": 56.242,
-     "end": 58.314,
+     "file": "assets/vo/4c0e67f878f7.wav",
+     "start": 53.373,
+     "end": 55.345,
      "caps": [
       {
-       "start": 56.242,
-       "end": 57.046,
+       "start": 53.373,
+       "end": 54.138,
        "text": "WOULD THIS WORLD"
       },
       {
-       "start": 57.046,
-       "end": 57.595,
+       "start": 54.138,
+       "end": 54.661,
        "text": "BE BETTER?"
       },
       {
-       "start": 57.595,
-       "end": 58.314,
+       "start": 54.661,
+       "end": 55.345,
        "text": "COMMENT BELOW"
       }
      ]

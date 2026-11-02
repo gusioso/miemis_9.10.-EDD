@@ -1,9 +1,12 @@
 # "What If Hypergamy Didn't Exist?" (Part 1), made with Remotion
 
-**Video:** [`../hypergamy_story.mp4`](../hypergamy_story.mp4) is vertical 1080×1920, 30 fps, 59.5 s, −14 LUFS.
+**Video:** [`../hypergamy_story.mp4`](../hypergamy_story.mp4) is vertical 1080×1920, 30 fps, 56.6 s, −14 LUFS.
 
 Same channel style as the other story Shorts (plaid frame, title box, **Part 1**, black-headed characters in hoodies,
 word-synced captions, a time tag and a 💘 MATCHES counter), but built in Remotion (React + SVG).
+
+**Voice:** free and offline (no ElevenLabs): a Kokoro blend of 60% "am_puck" + 40% "am_liam", chosen by measuring
+pitch, tone and pace against Mike (Mike ≈ 115 Hz / 3.35 words/s; the blend ≈ 121 Hz / 3.30 words/s).
 
 | Time | What happens |
 |------|--------------|
@@ -19,7 +22,7 @@ word-synced captions, a time tag and a 💘 MATCHES counter), but built in Remot
 
 ## How it's built
 
-1. `tools/make_audio.py` holds the script. It makes the voiceover (free Kokoro voice "am_michael", cached in `public/assets/vo/`), synthesizes the music and sound effects, mixes everything to `public/soundtrack.wav` (−14 LUFS) and writes `src/timeline.json` (scene and caption timings).
+1. `tools/make_audio.py` holds the script. It makes the voiceover (free Kokoro Mike-like blend, cached in `public/assets/vo/`), synthesizes the music and sound effects, mixes everything to `public/soundtrack.wav` (−14 LUFS) and writes `src/timeline.json` (scene and caption timings).
 2. `src/` is the Remotion project: `Person.tsx` (the character), `ui.tsx` (bubbles, stamps, cards, chips), `scenes.tsx` (the 10 scenes with camera moves) and `Video.tsx` (frame, title, tags, captions, audio).
 3. Render, then normalise the loudness (Remotion's stereo mix comes out about 3 dB hot):
 
