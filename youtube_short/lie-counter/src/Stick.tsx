@@ -168,12 +168,10 @@ export const Stick: React.FC<StickProps> = ({
     if (mode === "wave") hxx += Math.sin(t * 9 + seed) * 16;
     if (mode === "talk") hyy += Math.sin(t * 4 + seed + idx) * 14;
     if (mode === "cheer") hyy += Math.sin(t * 8 + idx * 2) * 10;
-    const sh: [number, number] = [x + s * U(58), shY + U(30)];
+    const sh: [number, number] = [x + s * U(62), shY + U(34)];
     const el: [number, number] = [sh[0] + flip * U(ex), sh[1] + U(ey)];
     const hd: [number, number] = [sh[0] + flip * U(hxx), sh[1] + U(hyy)];
-    const sleeve = outfit === "apron" ? "#f4ead8" : outfit === "dress" ? color : outfit === "coat" ? color : color;
     line([sh, el, hd]);
-    parts.push(<circle key={k()} cx={sh[0]} cy={sh[1]} r={U(24)} fill={sleeve} stroke={INK} strokeWidth={U(5)} />);
     parts.push(<circle key={k()} cx={hd[0]} cy={hd[1]} r={U(13)} fill={INK} />);
     if (hold && idx === holdHand) {
       const [hX, hY] = hd;

@@ -4,7 +4,8 @@ Script, voiceover, word timings and soundtrack for "What If Everyone Had a Lie C
 
   python3 tools/make_audio.py      # -> public/assets/vo/*.wav, public/soundtrack.wav, src/timeline.json
 
-Voice: Kokoro (free, offline), the same 60/40 am_puck + am_liam blend used on the channel's other Remotion Shorts.
+Voice: Kokoro (free, offline) "am_liam". It scored closest to the ElevenLabs "Mike" voice (0.82 speaker similarity on the
+real Mike clips in ../attractive-24h-v2/assets/vo; blends and pitch-shifted variants scored lower).
 Clips are cached in public/assets/vo/. Word timings come from a pause-anchored, syllable-weighted alignment
 of each line's audio, so captions follow the voice. Music, ambience and sound effects are synthesized with numpy.
 
@@ -27,9 +28,9 @@ VO = os.path.join(ROOT, "public", "assets", "vo")
 KOKORO = os.path.join(ROOT, "..", "kokoro")
 SR = 24000
 FPS = 30
-BLEND = {"am_puck": 0.6, "am_liam": 0.4}
-SPEED = float(os.environ.get("VO_SPEED", "0.81"))
-VOICE = "puck60_liam40"
+BLEND = {"am_liam": 1.0}   # closest free voice to ElevenLabs "Mike" (speaker similarity 0.82, measured on real Mike clips)
+SPEED = float(os.environ.get("VO_SPEED", "0.85"))
+VOICE = "am_liam"
 GAP = 0.5            # pause between lines inside a scene
 B = 1_000_000_000
 
