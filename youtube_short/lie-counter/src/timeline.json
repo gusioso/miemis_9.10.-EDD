@@ -1,0 +1,3109 @@
+{
+ "fps": 30,
+ "total": 170.728,
+ "durationInFrames": 5122,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": null,
+   "world": null,
+   "start": 0.35,
+   "end": 13.24,
+   "lines": [
+    {
+     "text": "Imagine waking up tomorrow and seeing a number floating above every person's head.",
+     "file": "assets/vo/552a60155f8b.wav",
+     "start": 0.35,
+     "end": 5.448,
+     "words": [
+      {
+       "w": "Imagine",
+       "s": 0.37,
+       "e": 0.945
+      },
+      {
+       "w": "waking",
+       "s": 0.945,
+       "e": 1.285
+      },
+      {
+       "w": "up",
+       "s": 1.285,
+       "e": 1.565
+      },
+      {
+       "w": "tomorrow",
+       "s": 1.565,
+       "e": 2.154
+      },
+      {
+       "w": "and",
+       "s": 2.154,
+       "e": 2.33
+      },
+      {
+       "w": "seeing",
+       "s": 2.33,
+       "e": 2.617
+      },
+      {
+       "w": "a",
+       "s": 2.617,
+       "e": 2.849
+      },
+      {
+       "w": "number",
+       "s": 2.849,
+       "e": 3.252
+      },
+      {
+       "w": "floating",
+       "s": 3.252,
+       "e": 3.655
+      },
+      {
+       "w": "above",
+       "s": 3.655,
+       "e": 3.97
+      },
+      {
+       "w": "every",
+       "s": 3.97,
+       "e": 4.54
+      },
+      {
+       "w": "person's",
+       "s": 4.54,
+       "e": 5.08
+      },
+      {
+       "w": "head.",
+       "s": 5.08,
+       "e": 5.37
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.37,
+       "end": 1.285,
+       "text": "IMAGINE WAKING"
+      },
+      {
+       "start": 1.285,
+       "end": 2.33,
+       "text": "UP TOMORROW AND"
+      },
+      {
+       "start": 2.33,
+       "end": 3.252,
+       "text": "SEEING A NUMBER"
+      },
+      {
+       "start": 3.252,
+       "end": 3.97,
+       "text": "FLOATING ABOVE"
+      },
+      {
+       "start": 3.97,
+       "end": 5.37,
+       "text": "EVERY PERSON'S HEAD."
+      }
+     ]
+    },
+    {
+     "text": "It's not their age, money, or popularity.",
+     "file": "assets/vo/0feb38bd55a3.wav",
+     "start": 6.348,
+     "end": 8.981,
+     "words": [
+      {
+       "w": "It's",
+       "s": 6.388,
+       "e": 6.498
+      },
+      {
+       "w": "not",
+       "s": 6.498,
+       "e": 6.649
+      },
+      {
+       "w": "their",
+       "s": 6.649,
+       "e": 6.793
+      },
+      {
+       "w": "age,",
+       "s": 6.793,
+       "e": 6.968
+      },
+      {
+       "w": "money,",
+       "s": 7.018,
+       "e": 7.838
+      },
+      {
+       "w": "or",
+       "s": 7.888,
+       "e": 8.038
+      },
+      {
+       "w": "popularity.",
+       "s": 8.038,
+       "e": 8.858
+      }
+     ],
+     "caps": [
+      {
+       "start": 6.388,
+       "end": 7.018,
+       "text": "IT'S NOT THEIR AGE"
+      },
+      {
+       "start": 7.018,
+       "end": 7.888,
+       "text": "MONEY"
+      },
+      {
+       "start": 7.888,
+       "end": 8.858,
+       "text": "OR POPULARITY."
+      }
+     ]
+    },
+    {
+     "text": "It's the number of lies they've told.",
+     "file": "assets/vo/cc13c6e59e45.wav",
+     "start": 9.481,
+     "end": 11.64,
+     "words": [
+      {
+       "w": "It's",
+       "s": 9.501,
+       "e": 9.746
+      },
+      {
+       "w": "the",
+       "s": 9.746,
+       "e": 10.002
+      },
+      {
+       "w": "number",
+       "s": 10.002,
+       "e": 10.438
+      },
+      {
+       "w": "of",
+       "s": 10.438,
+       "e": 10.796
+      },
+      {
+       "w": "lies",
+       "s": 10.796,
+       "e": 10.996
+      },
+      {
+       "w": "they've",
+       "s": 10.996,
+       "e": 11.096
+      },
+      {
+       "w": "told.",
+       "s": 11.096,
+       "e": 11.551
+      }
+     ],
+     "caps": [
+      {
+       "start": 9.501,
+       "end": 10.438,
+       "text": "IT'S THE NUMBER"
+      },
+      {
+       "start": 10.438,
+       "end": 11.096,
+       "text": "OF LIES THEY'VE"
+      },
+      {
+       "start": 11.096,
+       "end": 11.551,
+       "text": "TOLD."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "number": 2.499,
+    "street": 5.748,
+    "lies": 10.446
+   }
+  },
+  {
+   "id": "day1",
+   "tag": "DAY 1",
+   "world": [
+    0,
+    2790000000.0
+   ],
+   "start": 13.24,
+   "end": 26.768,
+   "lines": [
+    {
+     "text": "At seven in the morning, the counters appear, and every single one starts at zero.",
+     "file": "assets/vo/c510cc5e9ce2.wav",
+     "start": 13.24,
+     "end": 18.203,
+     "words": [
+      {
+       "w": "At",
+       "s": 13.26,
+       "e": 13.415
+      },
+      {
+       "w": "seven",
+       "s": 13.415,
+       "e": 13.763
+      },
+      {
+       "w": "in",
+       "s": 13.763,
+       "e": 13.946
+      },
+      {
+       "w": "the",
+       "s": 13.946,
+       "e": 14.13
+      },
+      {
+       "w": "morning,",
+       "s": 14.13,
+       "e": 14.53
+      },
+      {
+       "w": "the",
+       "s": 14.57,
+       "e": 14.825
+      },
+      {
+       "w": "counters",
+       "s": 14.825,
+       "e": 15.18
+      },
+      {
+       "w": "appear,",
+       "s": 15.18,
+       "e": 15.63
+      },
+      {
+       "w": "and",
+       "s": 15.88,
+       "e": 16.165
+      },
+      {
+       "w": "every",
+       "s": 16.165,
+       "e": 16.633
+      },
+      {
+       "w": "single",
+       "s": 16.633,
+       "e": 17.105
+      },
+      {
+       "w": "one",
+       "s": 17.105,
+       "e": 17.325
+      },
+      {
+       "w": "starts",
+       "s": 17.325,
+       "e": 17.53
+      },
+      {
+       "w": "at",
+       "s": 17.53,
+       "e": 17.658
+      },
+      {
+       "w": "zero.",
+       "s": 17.658,
+       "e": 18.13
+      }
+     ],
+     "caps": [
+      {
+       "start": 13.26,
+       "end": 13.946,
+       "text": "AT 7 IN"
+      },
+      {
+       "start": 13.946,
+       "end": 14.57,
+       "text": "THE MORNING"
+      },
+      {
+       "start": 14.57,
+       "end": 15.88,
+       "text": "THE COUNTERS APPEAR"
+      },
+      {
+       "start": 15.88,
+       "end": 17.105,
+       "text": "AND EVERY SINGLE"
+      },
+      {
+       "start": 17.105,
+       "end": 17.658,
+       "text": "ONE STARTS AT"
+      },
+      {
+       "start": 17.658,
+       "end": 18.13,
+       "text": "ZERO."
+      }
+     ]
+    },
+    {
+     "text": "By lunchtime, your neighbor has three.",
+     "file": "assets/vo/8334764f7362.wav",
+     "start": 19.103,
+     "end": 21.269,
+     "words": [
+      {
+       "w": "By",
+       "s": 19.133,
+       "e": 19.299
+      },
+      {
+       "w": "lunchtime,",
+       "s": 19.299,
+       "e": 19.663
+      },
+      {
+       "w": "your",
+       "s": 19.713,
+       "e": 20.048
+      },
+      {
+       "w": "neighbor",
+       "s": 20.048,
+       "e": 20.378
+      },
+      {
+       "w": "has",
+       "s": 20.378,
+       "e": 20.773
+      },
+      {
+       "w": "three.",
+       "s": 20.773,
+       "e": 21.193
+      }
+     ],
+     "caps": [
+      {
+       "start": 19.133,
+       "end": 19.713,
+       "text": "BY LUNCHTIME"
+      },
+      {
+       "start": 19.713,
+       "end": 21.193,
+       "text": "YOUR NEIGHBOR HAS 3."
+      }
+     ]
+    },
+    {
+     "text": "Your teacher has eight.",
+     "file": "assets/vo/65bce0b5f03d.wav",
+     "start": 21.769,
+     "end": 23.206,
+     "words": [
+      {
+       "w": "Your",
+       "s": 21.799,
+       "e": 22.019
+      },
+      {
+       "w": "teacher",
+       "s": 22.019,
+       "e": 22.502
+      },
+      {
+       "w": "has",
+       "s": 22.502,
+       "e": 22.689
+      },
+      {
+       "w": "eight.",
+       "s": 22.689,
+       "e": 23.129
+      }
+     ],
+     "caps": [
+      {
+       "start": 21.799,
+       "end": 23.129,
+       "text": "YOUR TEACHER HAS 8."
+      }
+     ]
+    },
+    {
+     "text": "And your best friend? Twelve.",
+     "file": "assets/vo/aa918561053f.wav",
+     "start": 23.706,
+     "end": 25.468,
+     "words": [
+      {
+       "w": "And",
+       "s": 23.736,
+       "e": 23.979
+      },
+      {
+       "w": "your",
+       "s": 23.979,
+       "e": 24.276
+      },
+      {
+       "w": "best",
+       "s": 24.276,
+       "e": 24.465
+      },
+      {
+       "w": "friend?",
+       "s": 24.465,
+       "e": 24.816
+      },
+      {
+       "w": "Twelve.",
+       "s": 24.866,
+       "e": 25.376
+      }
+     ],
+     "caps": [
+      {
+       "start": 23.736,
+       "end": 24.866,
+       "text": "AND YOUR BEST FRIEND?"
+      },
+      {
+       "start": 24.866,
+       "end": 25.376,
+       "text": "12."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "clock": 1.29,
+    "zeros": 1.94,
+    "zero": 4.418,
+    "neighbor": 5.663,
+    "n3": 7.533,
+    "teacher": 8.279,
+    "t8": 9.449,
+    "friend": 10.216,
+    "f12": 11.626
+   }
+  },
+  {
+   "id": "alex",
+   "tag": "DAY 1 \u00b7 7:42 AM",
+   "world": null,
+   "start": 26.768,
+   "end": 39.479,
+   "lines": [
+    {
+     "text": "Meet Alex. He's twenty-two, works at a tiny coffee shop, and starts the day with a clean zero.",
+     "file": "assets/vo/5aa696b6c738.wav",
+     "start": 26.768,
+     "end": 32.773,
+     "words": [
+      {
+       "w": "Meet",
+       "s": 26.788,
+       "e": 27.113
+      },
+      {
+       "w": "Alex.",
+       "s": 27.113,
+       "e": 27.488
+      },
+      {
+       "w": "He's",
+       "s": 27.558,
+       "e": 27.913
+      },
+      {
+       "w": "twenty-two,",
+       "s": 27.913,
+       "e": 28.948
+      },
+      {
+       "w": "works",
+       "s": 28.988,
+       "e": 29.263
+      },
+      {
+       "w": "at",
+       "s": 29.263,
+       "e": 29.368
+      },
+      {
+       "w": "a",
+       "s": 29.368,
+       "e": 29.571
+      },
+      {
+       "w": "tiny",
+       "s": 29.571,
+       "e": 30.008
+      },
+      {
+       "w": "coffee",
+       "s": 30.008,
+       "e": 30.283
+      },
+      {
+       "w": "shop,",
+       "s": 30.283,
+       "e": 30.528
+      },
+      {
+       "w": "and",
+       "s": 30.718,
+       "e": 30.923
+      },
+      {
+       "w": "starts",
+       "s": 30.923,
+       "e": 31.128
+      },
+      {
+       "w": "the",
+       "s": 31.128,
+       "e": 31.371
+      },
+      {
+       "w": "day",
+       "s": 31.371,
+       "e": 31.678
+      },
+      {
+       "w": "with",
+       "s": 31.678,
+       "e": 31.833
+      },
+      {
+       "w": "a",
+       "s": 31.833,
+       "e": 32.024
+      },
+      {
+       "w": "clean",
+       "s": 32.024,
+       "e": 32.242
+      },
+      {
+       "w": "zero.",
+       "s": 32.242,
+       "e": 32.718
+      }
+     ],
+     "caps": [
+      {
+       "start": 26.788,
+       "end": 27.558,
+       "text": "MEET ALEX."
+      },
+      {
+       "start": 27.558,
+       "end": 28.988,
+       "text": "HE'S 22"
+      },
+      {
+       "start": 28.988,
+       "end": 29.571,
+       "text": "WORKS AT A"
+      },
+      {
+       "start": 29.571,
+       "end": 30.718,
+       "text": "TINY COFFEE SHOP"
+      },
+      {
+       "start": 30.718,
+       "end": 31.371,
+       "text": "AND STARTS THE"
+      },
+      {
+       "start": 31.371,
+       "end": 32.024,
+       "text": "DAY WITH A"
+      },
+      {
+       "start": 32.024,
+       "end": 32.718,
+       "text": "CLEAN ZERO."
+      }
+     ]
+    },
+    {
+     "text": "Then his boss asks, \"Are you on your way?\"",
+     "file": "assets/vo/423c0b78bf3b.wav",
+     "start": 33.273,
+     "end": 35.677,
+     "words": [
+      {
+       "w": "Then",
+       "s": 33.293,
+       "e": 33.613
+      },
+      {
+       "w": "his",
+       "s": 33.613,
+       "e": 33.757
+      },
+      {
+       "w": "boss",
+       "s": 33.757,
+       "e": 33.993
+      },
+      {
+       "w": "asks,",
+       "s": 33.993,
+       "e": 34.323
+      },
+      {
+       "w": "\"Are",
+       "s": 34.383,
+       "e": 34.508
+      },
+      {
+       "w": "you",
+       "s": 34.508,
+       "e": 34.843
+      },
+      {
+       "w": "on",
+       "s": 34.843,
+       "e": 35.073
+      },
+      {
+       "w": "your",
+       "s": 35.073,
+       "e": 35.303
+      },
+      {
+       "w": "way?\"",
+       "s": 35.303,
+       "e": 35.533
+      }
+     ],
+     "caps": [
+      {
+       "start": 33.293,
+       "end": 34.383,
+       "text": "THEN HIS BOSS ASKS"
+      },
+      {
+       "start": 34.383,
+       "end": 35.073,
+       "text": "ARE YOU ON"
+      },
+      {
+       "start": 35.073,
+       "end": 35.533,
+       "text": "YOUR WAY?"
+      }
+     ]
+    },
+    {
+     "text": "Alex says, \"Almost.\"",
+     "file": "assets/vo/3649e0e16326.wav",
+     "start": 36.577,
+     "end": 38.179,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 36.607,
+       "e": 36.907
+      },
+      {
+       "w": "says,",
+       "s": 36.907,
+       "e": 37.297
+      },
+      {
+       "w": "\"Almost.\"",
+       "s": 37.337,
+       "e": 38.087
+      }
+     ],
+     "caps": [
+      {
+       "start": 36.607,
+       "end": 37.337,
+       "text": "ALEX SAYS"
+      },
+      {
+       "start": 37.337,
+       "end": 38.087,
+       "text": "ALMOST."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "zero": 5.474,
+    "msg": 6.989,
+    "reply": 10.569
+   }
+  },
+  {
+   "id": "public",
+   "tag": "DAY 1 \u00b7 8:05 AM",
+   "world": [
+    4099999999.9999995,
+    6200000000.0
+   ],
+   "start": 39.479,
+   "end": 53.966,
+   "lines": [
+    {
+     "text": "His counter jumps to one.",
+     "file": "assets/vo/773c5eba1425.wav",
+     "start": 39.479,
+     "end": 41.298,
+     "words": [
+      {
+       "w": "His",
+       "s": 39.519,
+       "e": 39.729
+      },
+      {
+       "w": "counter",
+       "s": 39.729,
+       "e": 40.284
+      },
+      {
+       "w": "jumps",
+       "s": 40.284,
+       "e": 40.554
+      },
+      {
+       "w": "to",
+       "s": 40.554,
+       "e": 40.83
+      },
+      {
+       "w": "one.",
+       "s": 40.83,
+       "e": 41.229
+      }
+     ],
+     "caps": [
+      {
+       "start": 39.519,
+       "end": 40.554,
+       "text": "HIS COUNTER JUMPS"
+      },
+      {
+       "start": 40.554,
+       "end": 41.229,
+       "text": "TO ONE."
+      }
+     ]
+    },
+    {
+     "text": "When he walks into work, his boss sees it.",
+     "file": "assets/vo/b3e4fbb37cc3.wav",
+     "start": 43.098,
+     "end": 45.531,
+     "words": [
+      {
+       "w": "When",
+       "s": 43.128,
+       "e": 43.341
+      },
+      {
+       "w": "he",
+       "s": 43.341,
+       "e": 43.563
+      },
+      {
+       "w": "walks",
+       "s": 43.563,
+       "e": 43.768
+      },
+      {
+       "w": "into",
+       "s": 43.768,
+       "e": 44.248
+      },
+      {
+       "w": "work,",
+       "s": 44.248,
+       "e": 44.448
+      },
+      {
+       "w": "his",
+       "s": 44.518,
+       "e": 44.707
+      },
+      {
+       "w": "boss",
+       "s": 44.707,
+       "e": 44.913
+      },
+      {
+       "w": "sees",
+       "s": 44.913,
+       "e": 45.168
+      },
+      {
+       "w": "it.",
+       "s": 45.168,
+       "e": 45.358
+      }
+     ],
+     "caps": [
+      {
+       "start": 43.128,
+       "end": 43.768,
+       "text": "WHEN HE WALKS"
+      },
+      {
+       "start": 43.768,
+       "end": 44.518,
+       "text": "INTO WORK"
+      },
+      {
+       "start": 44.518,
+       "end": 45.358,
+       "text": "HIS BOSS SEES IT."
+      }
+     ]
+    },
+    {
+     "text": "Within hours, people across the world are filming each other's numbers, and arguing over what they mean.",
+     "file": "assets/vo/900aba36a4d7.wav",
+     "start": 46.031,
+     "end": 52.466,
+     "words": [
+      {
+       "w": "Within",
+       "s": 46.051,
+       "e": 46.592
+      },
+      {
+       "w": "hours,",
+       "s": 46.592,
+       "e": 47.041
+      },
+      {
+       "w": "people",
+       "s": 47.141,
+       "e": 47.596
+      },
+      {
+       "w": "across",
+       "s": 47.596,
+       "e": 47.936
+      },
+      {
+       "w": "the",
+       "s": 47.936,
+       "e": 48.222
+      },
+      {
+       "w": "world",
+       "s": 48.222,
+       "e": 48.446
+      },
+      {
+       "w": "are",
+       "s": 48.446,
+       "e": 48.656
+      },
+      {
+       "w": "filming",
+       "s": 48.656,
+       "e": 49.151
+      },
+      {
+       "w": "each",
+       "s": 49.151,
+       "e": 49.301
+      },
+      {
+       "w": "other's",
+       "s": 49.301,
+       "e": 49.731
+      },
+      {
+       "w": "numbers,",
+       "s": 49.731,
+       "e": 50.311
+      },
+      {
+       "w": "and",
+       "s": 50.611,
+       "e": 50.751
+      },
+      {
+       "w": "arguing",
+       "s": 50.751,
+       "e": 51.351
+      },
+      {
+       "w": "over",
+       "s": 51.351,
+       "e": 51.511
+      },
+      {
+       "w": "what",
+       "s": 51.511,
+       "e": 51.791
+      },
+      {
+       "w": "they",
+       "s": 51.791,
+       "e": 52.083
+      },
+      {
+       "w": "mean.",
+       "s": 52.083,
+       "e": 52.411
+      }
+     ],
+     "caps": [
+      {
+       "start": 46.051,
+       "end": 47.141,
+       "text": "WITHIN HOURS"
+      },
+      {
+       "start": 47.141,
+       "end": 48.222,
+       "text": "PEOPLE ACROSS THE"
+      },
+      {
+       "start": 48.222,
+       "end": 49.151,
+       "text": "WORLD ARE FILMING"
+      },
+      {
+       "start": 49.151,
+       "end": 50.611,
+       "text": "EACH OTHER'S NUMBERS"
+      },
+      {
+       "start": 50.611,
+       "end": 51.511,
+       "text": "AND ARGUING OVER"
+      },
+      {
+       "start": 51.511,
+       "end": 52.411,
+       "text": "WHAT THEY MEAN."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "ding": 1.351,
+    "work": 3.619,
+    "sees": 5.434,
+    "world": 6.352,
+    "argue": 11.272
+   }
+  },
+  {
+   "id": "week1",
+   "tag": "WEEK 1",
+   "world": [
+    52000000000,
+    61000000000
+   ],
+   "start": 53.966,
+   "end": 68.756,
+   "lines": [
+    {
+     "text": "By the end of week one, zero becomes the most valuable number on Earth.",
+     "file": "assets/vo/d913013cecc6.wav",
+     "start": 53.966,
+     "end": 58.619,
+     "words": [
+      {
+       "w": "By",
+       "s": 53.996,
+       "e": 54.195
+      },
+      {
+       "w": "the",
+       "s": 54.195,
+       "e": 54.393
+      },
+      {
+       "w": "end",
+       "s": 54.393,
+       "e": 54.601
+      },
+      {
+       "w": "of",
+       "s": 54.601,
+       "e": 54.811
+      },
+      {
+       "w": "week",
+       "s": 54.811,
+       "e": 54.989
+      },
+      {
+       "w": "one,",
+       "s": 54.989,
+       "e": 55.276
+      },
+      {
+       "w": "zero",
+       "s": 55.456,
+       "e": 55.849
+      },
+      {
+       "w": "becomes",
+       "s": 55.849,
+       "e": 56.441
+      },
+      {
+       "w": "the",
+       "s": 56.441,
+       "e": 56.635
+      },
+      {
+       "w": "most",
+       "s": 56.635,
+       "e": 56.861
+      },
+      {
+       "w": "valuable",
+       "s": 56.861,
+       "e": 57.351
+      },
+      {
+       "w": "number",
+       "s": 57.351,
+       "e": 57.814
+      },
+      {
+       "w": "on",
+       "s": 57.814,
+       "e": 58.061
+      },
+      {
+       "w": "Earth.",
+       "s": 58.061,
+       "e": 58.366
+      }
+     ],
+     "caps": [
+      {
+       "start": 53.996,
+       "end": 54.601,
+       "text": "BY THE END"
+      },
+      {
+       "start": 54.601,
+       "end": 55.456,
+       "text": "OF WEEK ONE"
+      },
+      {
+       "start": 55.456,
+       "end": 56.635,
+       "text": "ZERO BECOMES THE"
+      },
+      {
+       "start": 56.635,
+       "end": 57.814,
+       "text": "MOST VALUABLE NUMBER"
+      },
+      {
+       "start": 57.814,
+       "end": 58.366,
+       "text": "ON EARTH."
+      }
+     ]
+    },
+    {
+     "text": "Employers want zeroes.",
+     "file": "assets/vo/2e661b27ef19.wav",
+     "start": 59.619,
+     "end": 61.276,
+     "words": [
+      {
+       "w": "Employers",
+       "s": 59.649,
+       "e": 60.244
+      },
+      {
+       "w": "want",
+       "s": 60.244,
+       "e": 60.509
+      },
+      {
+       "w": "zeroes.",
+       "s": 60.509,
+       "e": 61.199
+      }
+     ],
+     "caps": [
+      {
+       "start": 59.649,
+       "end": 60.509,
+       "text": "EMPLOYERS WANT"
+      },
+      {
+       "start": 60.509,
+       "end": 61.199,
+       "text": "ZEROES."
+      }
+     ]
+    },
+    {
+     "text": "Dating apps filter by zeroes.",
+     "file": "assets/vo/33f295285971.wav",
+     "start": 61.776,
+     "end": 63.836,
+     "words": [
+      {
+       "w": "Dating",
+       "s": 61.796,
+       "e": 62.161
+      },
+      {
+       "w": "apps",
+       "s": 62.161,
+       "e": 62.496
+      },
+      {
+       "w": "filter",
+       "s": 62.496,
+       "e": 62.886
+      },
+      {
+       "w": "by",
+       "s": 62.886,
+       "e": 63.204
+      },
+      {
+       "w": "zeroes.",
+       "s": 63.204,
+       "e": 63.766
+      }
+     ],
+     "caps": [
+      {
+       "start": 61.796,
+       "end": 62.886,
+       "text": "DATING APPS FILTER"
+      },
+      {
+       "start": 62.886,
+       "end": 63.766,
+       "text": "BY ZEROES."
+      }
+     ]
+    },
+    {
+     "text": "Strangers trust people they've never actually met.",
+     "file": "assets/vo/4e7f34152c81.wav",
+     "start": 64.336,
+     "end": 67.456,
+     "words": [
+      {
+       "w": "Strangers",
+       "s": 64.376,
+       "e": 64.846
+      },
+      {
+       "w": "trust",
+       "s": 64.846,
+       "e": 65.171
+      },
+      {
+       "w": "people",
+       "s": 65.171,
+       "e": 65.661
+      },
+      {
+       "w": "they've",
+       "s": 65.661,
+       "e": 65.941
+      },
+      {
+       "w": "never",
+       "s": 65.941,
+       "e": 66.326
+      },
+      {
+       "w": "actually",
+       "s": 66.326,
+       "e": 66.996
+      },
+      {
+       "w": "met.",
+       "s": 66.996,
+       "e": 67.386
+      }
+     ],
+     "caps": [
+      {
+       "start": 64.376,
+       "end": 65.171,
+       "text": "STRANGERS TRUST"
+      },
+      {
+       "start": 65.171,
+       "end": 65.941,
+       "text": "PEOPLE THEY'VE"
+      },
+      {
+       "start": 65.941,
+       "end": 67.386,
+       "text": "NEVER ACTUALLY MET."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "valuable": 2.895,
+    "jobs": 5.453,
+    "dating": 7.61,
+    "shop": 10.17
+   }
+  },
+  {
+   "id": "perfect",
+   "tag": "MONTH 1",
+   "world": [
+    150000000000,
+    176000000000
+   ],
+   "start": 68.756,
+   "end": 81.205,
+   "lines": [
+    {
+     "text": "Alex promises himself he'll never lie again.",
+     "file": "assets/vo/2114b9d8f57b.wav",
+     "start": 68.756,
+     "end": 71.551,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 68.796,
+       "e": 69.206
+      },
+      {
+       "w": "promises",
+       "s": 69.206,
+       "e": 69.755
+      },
+      {
+       "w": "himself",
+       "s": 69.755,
+       "e": 70.196
+      },
+      {
+       "w": "he'll",
+       "s": 70.196,
+       "e": 70.377
+      },
+      {
+       "w": "never",
+       "s": 70.377,
+       "e": 70.773
+      },
+      {
+       "w": "lie",
+       "s": 70.773,
+       "e": 71.0
+      },
+      {
+       "w": "again.",
+       "s": 71.0,
+       "e": 71.496
+      }
+     ],
+     "caps": [
+      {
+       "start": 68.796,
+       "end": 70.196,
+       "text": "ALEX PROMISES HIMSELF"
+      },
+      {
+       "start": 70.196,
+       "end": 71.0,
+       "text": "HE'LL NEVER LIE"
+      },
+      {
+       "start": 71.0,
+       "end": 71.496,
+       "text": "AGAIN."
+      }
+     ]
+    },
+    {
+     "text": "And for a while, it works. His number stays at one.",
+     "file": "assets/vo/aaef2bad9636.wav",
+     "start": 72.051,
+     "end": 75.16,
+     "words": [
+      {
+       "w": "And",
+       "s": 72.081,
+       "e": 72.281
+      },
+      {
+       "w": "for",
+       "s": 72.281,
+       "e": 72.459
+      },
+      {
+       "w": "a",
+       "s": 72.459,
+       "e": 72.648
+      },
+      {
+       "w": "while,",
+       "s": 72.648,
+       "e": 73.061
+      },
+      {
+       "w": "it",
+       "s": 73.111,
+       "e": 73.411
+      },
+      {
+       "w": "works.",
+       "s": 73.411,
+       "e": 73.581
+      },
+      {
+       "w": "His",
+       "s": 73.761,
+       "e": 73.979
+      },
+      {
+       "w": "number",
+       "s": 73.979,
+       "e": 74.326
+      },
+      {
+       "w": "stays",
+       "s": 74.326,
+       "e": 74.577
+      },
+      {
+       "w": "at",
+       "s": 74.577,
+       "e": 74.701
+      },
+      {
+       "w": "one.",
+       "s": 74.701,
+       "e": 75.111
+      }
+     ],
+     "caps": [
+      {
+       "start": 72.081,
+       "end": 72.648,
+       "text": "AND FOR A"
+      },
+      {
+       "start": 72.648,
+       "end": 73.111,
+       "text": "WHILE"
+      },
+      {
+       "start": 73.111,
+       "end": 73.761,
+       "text": "IT WORKS."
+      },
+      {
+       "start": 73.761,
+       "end": 74.577,
+       "text": "HIS NUMBER STAYS"
+      },
+      {
+       "start": 74.577,
+       "end": 75.111,
+       "text": "AT ONE."
+      }
+     ]
+    },
+    {
+     "text": "People begin to treat him like someone who can never do wrong.",
+     "file": "assets/vo/466e95164719.wav",
+     "start": 76.26,
+     "end": 79.805,
+     "words": [
+      {
+       "w": "People",
+       "s": 76.28,
+       "e": 76.671
+      },
+      {
+       "w": "begin",
+       "s": 76.671,
+       "e": 77.155
+      },
+      {
+       "w": "to",
+       "s": 77.155,
+       "e": 77.28
+      },
+      {
+       "w": "treat",
+       "s": 77.28,
+       "e": 77.43
+      },
+      {
+       "w": "him",
+       "s": 77.43,
+       "e": 77.66
+      },
+      {
+       "w": "like",
+       "s": 77.66,
+       "e": 77.865
+      },
+      {
+       "w": "someone",
+       "s": 77.865,
+       "e": 78.45
+      },
+      {
+       "w": "who",
+       "s": 78.45,
+       "e": 78.6
+      },
+      {
+       "w": "can",
+       "s": 78.6,
+       "e": 78.8
+      },
+      {
+       "w": "never",
+       "s": 78.8,
+       "e": 79.15
+      },
+      {
+       "w": "do",
+       "s": 79.15,
+       "e": 79.416
+      },
+      {
+       "w": "wrong.",
+       "s": 79.416,
+       "e": 79.74
+      }
+     ],
+     "caps": [
+      {
+       "start": 76.28,
+       "end": 77.28,
+       "text": "PEOPLE BEGIN TO"
+      },
+      {
+       "start": 77.28,
+       "end": 77.865,
+       "text": "TREAT HIM LIKE"
+      },
+      {
+       "start": 77.865,
+       "end": 78.8,
+       "text": "SOMEONE WHO CAN"
+      },
+      {
+       "start": 78.8,
+       "end": 79.74,
+       "text": "NEVER DO WRONG."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "works": 3.295,
+    "stays": 5.57,
+    "praise": 7.504
+   }
+  },
+  {
+   "id": "tv",
+   "tag": "MONTH 1",
+   "world": [
+    176400000000.0,
+    176900000000.0
+   ],
+   "start": 81.205,
+   "end": 95.325,
+   "lines": [
+    {
+     "text": "But one afternoon, Alex watches a famous businessman make a promise on television.",
+     "file": "assets/vo/bf8b8faef8d5.wav",
+     "start": 81.205,
+     "end": 86.753,
+     "words": [
+      {
+       "w": "But",
+       "s": 81.235,
+       "e": 81.48
+      },
+      {
+       "w": "one",
+       "s": 81.48,
+       "e": 81.726
+      },
+      {
+       "w": "afternoon,",
+       "s": 81.726,
+       "e": 82.445
+      },
+      {
+       "w": "Alex",
+       "s": 82.605,
+       "e": 83.005
+      },
+      {
+       "w": "watches",
+       "s": 83.005,
+       "e": 83.399
+      },
+      {
+       "w": "a",
+       "s": 83.399,
+       "e": 83.62
+      },
+      {
+       "w": "famous",
+       "s": 83.62,
+       "e": 84.105
+      },
+      {
+       "w": "businessman",
+       "s": 84.105,
+       "e": 84.758
+      },
+      {
+       "w": "make",
+       "s": 84.758,
+       "e": 85.04
+      },
+      {
+       "w": "a",
+       "s": 85.04,
+       "e": 85.21
+      },
+      {
+       "w": "promise",
+       "s": 85.21,
+       "e": 85.611
+      },
+      {
+       "w": "on",
+       "s": 85.611,
+       "e": 85.76
+      },
+      {
+       "w": "television.",
+       "s": 85.76,
+       "e": 86.675
+      }
+     ],
+     "caps": [
+      {
+       "start": 81.235,
+       "end": 82.605,
+       "text": "BUT ONE AFTERNOON"
+      },
+      {
+       "start": 82.605,
+       "end": 83.62,
+       "text": "ALEX WATCHES A"
+      },
+      {
+       "start": 83.62,
+       "end": 84.758,
+       "text": "FAMOUS BUSINESSMAN"
+      },
+      {
+       "start": 84.758,
+       "end": 85.611,
+       "text": "MAKE A PROMISE"
+      },
+      {
+       "start": 85.611,
+       "end": 86.675,
+       "text": "ON TELEVISION."
+      }
+     ]
+    },
+    {
+     "text": "His counter doesn't move. The crowd cheers.",
+     "file": "assets/vo/a8ed0461203f.wav",
+     "start": 87.253,
+     "end": 89.951,
+     "words": [
+      {
+       "w": "His",
+       "s": 87.293,
+       "e": 87.483
+      },
+      {
+       "w": "counter",
+       "s": 87.483,
+       "e": 88.102
+      },
+      {
+       "w": "doesn't",
+       "s": 88.102,
+       "e": 88.397
+      },
+      {
+       "w": "move.",
+       "s": 88.397,
+       "e": 88.823
+      },
+      {
+       "w": "The",
+       "s": 88.883,
+       "e": 89.238
+      },
+      {
+       "w": "crowd",
+       "s": 89.238,
+       "e": 89.353
+      },
+      {
+       "w": "cheers.",
+       "s": 89.353,
+       "e": 89.883
+      }
+     ],
+     "caps": [
+      {
+       "start": 87.293,
+       "end": 88.397,
+       "text": "HIS COUNTER DOESN'T"
+      },
+      {
+       "start": 88.397,
+       "end": 88.883,
+       "text": "MOVE."
+      },
+      {
+       "start": 88.883,
+       "end": 89.883,
+       "text": "THE CROWD CHEERS."
+      }
+     ]
+    },
+    {
+     "text": "Alex notices what nobody else does.",
+     "file": "assets/vo/6ca88430269d.wav",
+     "start": 91.151,
+     "end": 93.625,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 91.191,
+       "e": 91.586
+      },
+      {
+       "w": "notices",
+       "s": 91.586,
+       "e": 92.151
+      },
+      {
+       "w": "what",
+       "s": 92.151,
+       "e": 92.351
+      },
+      {
+       "w": "nobody",
+       "s": 92.351,
+       "e": 93.076
+      },
+      {
+       "w": "else",
+       "s": 93.076,
+       "e": 93.224
+      },
+      {
+       "w": "does.",
+       "s": 93.224,
+       "e": 93.561
+      }
+     ],
+     "caps": [
+      {
+       "start": 91.191,
+       "end": 92.351,
+       "text": "ALEX NOTICES WHAT"
+      },
+      {
+       "start": 92.351,
+       "end": 93.561,
+       "text": "NOBODY ELSE DOES."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "promise": 4.005,
+    "nomove": 6.048,
+    "cheer": 8.148,
+    "notice": 9.946
+   }
+  },
+  {
+   "id": "loophole",
+   "tag": "MONTH 1",
+   "world": [
+    177000000000.0,
+    177600000000.0
+   ],
+   "start": 95.325,
+   "end": 109.713,
+   "lines": [
+    {
+     "text": "The man never actually promised to help anyone. He just said he cared.",
+     "file": "assets/vo/be9f556ed032.wav",
+     "start": 95.325,
+     "end": 99.959,
+     "words": [
+      {
+       "w": "The",
+       "s": 95.345,
+       "e": 95.573
+      },
+      {
+       "w": "man",
+       "s": 95.573,
+       "e": 95.801
+      },
+      {
+       "w": "never",
+       "s": 95.801,
+       "e": 96.275
+      },
+      {
+       "w": "actually",
+       "s": 96.275,
+       "e": 96.855
+      },
+      {
+       "w": "promised",
+       "s": 96.855,
+       "e": 97.295
+      },
+      {
+       "w": "to",
+       "s": 97.295,
+       "e": 97.46
+      },
+      {
+       "w": "help",
+       "s": 97.46,
+       "e": 97.68
+      },
+      {
+       "w": "anyone.",
+       "s": 97.68,
+       "e": 98.285
+      },
+      {
+       "w": "He",
+       "s": 98.605,
+       "e": 98.812
+      },
+      {
+       "w": "just",
+       "s": 98.812,
+       "e": 99.019
+      },
+      {
+       "w": "said",
+       "s": 99.019,
+       "e": 99.34
+      },
+      {
+       "w": "he",
+       "s": 99.34,
+       "e": 99.433
+      },
+      {
+       "w": "cared.",
+       "s": 99.433,
+       "e": 99.885
+      }
+     ],
+     "caps": [
+      {
+       "start": 95.345,
+       "end": 96.275,
+       "text": "THE MAN NEVER"
+      },
+      {
+       "start": 96.275,
+       "end": 97.295,
+       "text": "ACTUALLY PROMISED"
+      },
+      {
+       "start": 97.295,
+       "end": 98.605,
+       "text": "TO HELP ANYONE."
+      },
+      {
+       "start": 98.605,
+       "end": 99.34,
+       "text": "HE JUST SAID"
+      },
+      {
+       "start": 99.34,
+       "end": 99.885,
+       "text": "HE CARED."
+      }
+     ]
+    },
+    {
+     "text": "The counter only detects statements someone knows are false.",
+     "file": "assets/vo/7e4b1d7440cb.wav",
+     "start": 100.959,
+     "end": 104.609,
+     "words": [
+      {
+       "w": "The",
+       "s": 100.989,
+       "e": 101.245
+      },
+      {
+       "w": "counter",
+       "s": 101.245,
+       "e": 101.574
+      },
+      {
+       "w": "only",
+       "s": 101.574,
+       "e": 102.164
+      },
+      {
+       "w": "detects",
+       "s": 102.164,
+       "e": 102.499
+      },
+      {
+       "w": "statements",
+       "s": 102.499,
+       "e": 103.22
+      },
+      {
+       "w": "someone",
+       "s": 103.22,
+       "e": 103.666
+      },
+      {
+       "w": "knows",
+       "s": 103.666,
+       "e": 104.009
+      },
+      {
+       "w": "are",
+       "s": 104.009,
+       "e": 104.178
+      },
+      {
+       "w": "false.",
+       "s": 104.178,
+       "e": 104.549
+      }
+     ],
+     "caps": [
+      {
+       "start": 100.989,
+       "end": 102.164,
+       "text": "THE COUNTER ONLY"
+      },
+      {
+       "start": 102.164,
+       "end": 103.22,
+       "text": "DETECTS STATEMENTS"
+      },
+      {
+       "start": 103.22,
+       "end": 104.178,
+       "text": "SOMEONE KNOWS ARE"
+      },
+      {
+       "start": 104.178,
+       "end": 104.549,
+       "text": "FALSE."
+      }
+     ]
+    },
+    {
+     "text": "It can't detect what they choose not to say.",
+     "file": "assets/vo/5987d979414b.wav",
+     "start": 105.409,
+     "end": 108.114,
+     "words": [
+      {
+       "w": "It",
+       "s": 105.429,
+       "e": 105.599
+      },
+      {
+       "w": "can't",
+       "s": 105.599,
+       "e": 105.994
+      },
+      {
+       "w": "detect",
+       "s": 105.994,
+       "e": 106.299
+      },
+      {
+       "w": "what",
+       "s": 106.299,
+       "e": 106.749
+      },
+      {
+       "w": "they",
+       "s": 106.749,
+       "e": 106.864
+      },
+      {
+       "w": "choose",
+       "s": 106.864,
+       "e": 107.169
+      },
+      {
+       "w": "not",
+       "s": 107.169,
+       "e": 107.439
+      },
+      {
+       "w": "to",
+       "s": 107.439,
+       "e": 107.686
+      },
+      {
+       "w": "say.",
+       "s": 107.686,
+       "e": 108.059
+      }
+     ],
+     "caps": [
+      {
+       "start": 105.429,
+       "end": 106.299,
+       "text": "IT CAN'T DETECT"
+      },
+      {
+       "start": 106.299,
+       "end": 107.169,
+       "text": "WHAT THEY CHOOSE"
+      },
+      {
+       "start": 107.169,
+       "end": 108.059,
+       "text": "NOT TO SAY."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "cared": 4.108,
+    "split": 5.434,
+    "doc": 9.884
+   }
+  },
+  {
+   "id": "month3",
+   "tag": "MONTH 3",
+   "world": [
+    239000000000,
+    241000000000
+   ],
+   "start": 109.713,
+   "end": 124.951,
+   "lines": [
+    {
+     "text": "Soon, people become experts at telling half the truth.",
+     "file": "assets/vo/57acac894571.wav",
+     "start": 109.713,
+     "end": 113.063,
+     "words": [
+      {
+       "w": "Soon,",
+       "s": 109.743,
+       "e": 110.303
+      },
+      {
+       "w": "people",
+       "s": 110.343,
+       "e": 110.798
+      },
+      {
+       "w": "become",
+       "s": 110.798,
+       "e": 111.183
+      },
+      {
+       "w": "experts",
+       "s": 111.183,
+       "e": 111.573
+      },
+      {
+       "w": "at",
+       "s": 111.573,
+       "e": 111.748
+      },
+      {
+       "w": "telling",
+       "s": 111.748,
+       "e": 112.117
+      },
+      {
+       "w": "half",
+       "s": 112.117,
+       "e": 112.393
+      },
+      {
+       "w": "the",
+       "s": 112.393,
+       "e": 112.573
+      },
+      {
+       "w": "truth.",
+       "s": 112.573,
+       "e": 112.883
+      }
+     ],
+     "caps": [
+      {
+       "start": 109.743,
+       "end": 110.343,
+       "text": "SOON"
+      },
+      {
+       "start": 110.343,
+       "end": 111.573,
+       "text": "PEOPLE BECOME EXPERTS"
+      },
+      {
+       "start": 111.573,
+       "end": 112.393,
+       "text": "AT TELLING HALF"
+      },
+      {
+       "start": 112.393,
+       "end": 112.883,
+       "text": "THE TRUTH."
+      }
+     ]
+    },
+    {
+     "text": "Companies hide behind careful wording.",
+     "file": "assets/vo/e6940bc33900.wav",
+     "start": 113.563,
+     "end": 116.043,
+     "words": [
+      {
+       "w": "Companies",
+       "s": 113.633,
+       "e": 114.203
+      },
+      {
+       "w": "hide",
+       "s": 114.203,
+       "e": 114.573
+      },
+      {
+       "w": "behind",
+       "s": 114.573,
+       "e": 114.874
+      },
+      {
+       "w": "careful",
+       "s": 114.874,
+       "e": 115.464
+      },
+      {
+       "w": "wording.",
+       "s": 115.464,
+       "e": 115.983
+      }
+     ],
+     "caps": [
+      {
+       "start": 113.633,
+       "end": 114.573,
+       "text": "COMPANIES HIDE"
+      },
+      {
+       "start": 114.573,
+       "end": 115.464,
+       "text": "BEHIND CAREFUL"
+      },
+      {
+       "start": 115.464,
+       "end": 115.983,
+       "text": "WORDING."
+      }
+     ]
+    },
+    {
+     "text": "Friends avoid difficult questions.",
+     "file": "assets/vo/0eeae5f8104f.wav",
+     "start": 116.543,
+     "end": 118.69,
+     "words": [
+      {
+       "w": "Friends",
+       "s": 116.603,
+       "e": 116.875
+      },
+      {
+       "w": "avoid",
+       "s": 116.875,
+       "e": 117.448
+      },
+      {
+       "w": "difficult",
+       "s": 117.448,
+       "e": 118.027
+      },
+      {
+       "w": "questions.",
+       "s": 118.027,
+       "e": 118.623
+      }
+     ],
+     "caps": [
+      {
+       "start": 116.603,
+       "end": 118.027,
+       "text": "FRIENDS AVOID DIFFICULT"
+      },
+      {
+       "start": 118.027,
+       "end": 118.623,
+       "text": "QUESTIONS."
+      }
+     ]
+    },
+    {
+     "text": "Everyone is technically honest... but nobody knows who to trust.",
+     "file": "assets/vo/437d62fcd949.wav",
+     "start": 119.49,
+     "end": 123.451,
+     "words": [
+      {
+       "w": "Everyone",
+       "s": 119.54,
+       "e": 120.048
+      },
+      {
+       "w": "is",
+       "s": 120.048,
+       "e": 120.295
+      },
+      {
+       "w": "technically",
+       "s": 120.295,
+       "e": 120.825
+      },
+      {
+       "w": "honest...",
+       "s": 120.825,
+       "e": 121.36
+      },
+      {
+       "w": "but",
+       "s": 121.69,
+       "e": 121.903
+      },
+      {
+       "w": "nobody",
+       "s": 121.903,
+       "e": 122.433
+      },
+      {
+       "w": "knows",
+       "s": 122.433,
+       "e": 122.625
+      },
+      {
+       "w": "who",
+       "s": 122.625,
+       "e": 122.85
+      },
+      {
+       "w": "to",
+       "s": 122.85,
+       "e": 123.15
+      },
+      {
+       "w": "trust.",
+       "s": 123.15,
+       "e": 123.38
+      }
+     ],
+     "caps": [
+      {
+       "start": 119.54,
+       "end": 120.825,
+       "text": "EVERYONE IS TECHNICALLY"
+      },
+      {
+       "start": 120.825,
+       "end": 121.69,
+       "text": "HONEST..."
+      },
+      {
+       "start": 121.69,
+       "end": 122.625,
+       "text": "BUT NOBODY KNOWS"
+      },
+      {
+       "start": 122.625,
+       "end": 123.38,
+       "text": "WHO TO TRUST."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "ad": 3.55,
+    "friends": 6.53,
+    "alex": 9.577
+   }
+  },
+  {
+   "id": "baker",
+   "tag": "MONTH 3",
+   "world": [
+    241200000000.0,
+    241600000000.0
+   ],
+   "start": 124.951,
+   "end": 138.327,
+   "lines": [
+    {
+     "text": "Then Alex meets an elderly baker whose counter says forty-seven.",
+     "file": "assets/vo/5a9cb9339854.wav",
+     "start": 124.951,
+     "end": 129.11,
+     "words": [
+      {
+       "w": "Then",
+       "s": 124.981,
+       "e": 125.231
+      },
+      {
+       "w": "Alex",
+       "s": 125.231,
+       "e": 125.641
+      },
+      {
+       "w": "meets",
+       "s": 125.641,
+       "e": 125.846
+      },
+      {
+       "w": "an",
+       "s": 125.846,
+       "e": 126.061
+      },
+      {
+       "w": "elderly",
+       "s": 126.061,
+       "e": 126.821
+      },
+      {
+       "w": "baker",
+       "s": 126.821,
+       "e": 127.156
+      },
+      {
+       "w": "whose",
+       "s": 127.156,
+       "e": 127.456
+      },
+      {
+       "w": "counter",
+       "s": 127.456,
+       "e": 127.898
+      },
+      {
+       "w": "says",
+       "s": 127.898,
+       "e": 128.186
+      },
+      {
+       "w": "forty-seven.",
+       "s": 128.186,
+       "e": 129.061
+      }
+     ],
+     "caps": [
+      {
+       "start": 124.981,
+       "end": 125.846,
+       "text": "THEN ALEX MEETS"
+      },
+      {
+       "start": 125.846,
+       "end": 127.156,
+       "text": "AN ELDERLY BAKER"
+      },
+      {
+       "start": 127.156,
+       "end": 128.186,
+       "text": "WHOSE COUNTER SAYS"
+      },
+      {
+       "start": 128.186,
+       "end": 129.061,
+       "text": "47."
+      }
+     ]
+    },
+    {
+     "text": "People avoid her shop.",
+     "file": "assets/vo/a54657add8ec.wav",
+     "start": 129.61,
+     "end": 131.11,
+     "words": [
+      {
+       "w": "People",
+       "s": 129.67,
+       "e": 130.07
+      },
+      {
+       "w": "avoid",
+       "s": 130.07,
+       "e": 130.469
+      },
+      {
+       "w": "her",
+       "s": 130.469,
+       "e": 130.699
+      },
+      {
+       "w": "shop.",
+       "s": 130.699,
+       "e": 131.03
+      }
+     ],
+     "caps": [
+      {
+       "start": 129.67,
+       "end": 130.699,
+       "text": "PEOPLE AVOID HER"
+      },
+      {
+       "start": 130.699,
+       "end": 131.03,
+       "text": "SHOP."
+      }
+     ]
+    },
+    {
+     "text": "He almost does too... until he sees her give a free birthday cake to a little girl.",
+     "file": "assets/vo/bea4d7690cd2.wav",
+     "start": 132.01,
+     "end": 136.927,
+     "words": [
+      {
+       "w": "He",
+       "s": 132.04,
+       "e": 132.227
+      },
+      {
+       "w": "almost",
+       "s": 132.227,
+       "e": 132.553
+      },
+      {
+       "w": "does",
+       "s": 132.553,
+       "e": 132.695
+      },
+      {
+       "w": "too...",
+       "s": 132.695,
+       "e": 133.01
+      },
+      {
+       "w": "until",
+       "s": 133.06,
+       "e": 133.505
+      },
+      {
+       "w": "he",
+       "s": 133.505,
+       "e": 133.79
+      },
+      {
+       "w": "sees",
+       "s": 133.79,
+       "e": 133.97
+      },
+      {
+       "w": "her",
+       "s": 133.97,
+       "e": 134.213
+      },
+      {
+       "w": "give",
+       "s": 134.213,
+       "e": 134.55
+      },
+      {
+       "w": "a",
+       "s": 134.55,
+       "e": 134.685
+      },
+      {
+       "w": "free",
+       "s": 134.685,
+       "e": 134.975
+      },
+      {
+       "w": "birthday",
+       "s": 134.975,
+       "e": 135.285
+      },
+      {
+       "w": "cake",
+       "s": 135.285,
+       "e": 135.525
+      },
+      {
+       "w": "to",
+       "s": 135.525,
+       "e": 135.745
+      },
+      {
+       "w": "a",
+       "s": 135.745,
+       "e": 136.085
+      },
+      {
+       "w": "little",
+       "s": 136.085,
+       "e": 136.495
+      },
+      {
+       "w": "girl.",
+       "s": 136.495,
+       "e": 136.87
+      }
+     ],
+     "caps": [
+      {
+       "start": 132.04,
+       "end": 133.06,
+       "text": "HE ALMOST DOES TOO..."
+      },
+      {
+       "start": 133.06,
+       "end": 133.97,
+       "text": "UNTIL HE SEES"
+      },
+      {
+       "start": 133.97,
+       "end": 134.685,
+       "text": "HER GIVE A"
+      },
+      {
+       "start": 134.685,
+       "end": 135.525,
+       "text": "FREE BIRTHDAY CAKE"
+      },
+      {
+       "start": 135.525,
+       "end": 136.87,
+       "text": "TO A LITTLE GIRL."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "c47": 3.235,
+    "avoid": 4.459,
+    "almost": 7.059,
+    "cake": 10.024
+   }
+  },
+  {
+   "id": "twist",
+   "tag": "MONTH 3",
+   "world": [
+    241600000000.0,
+    241800000000.0
+   ],
+   "start": 138.327,
+   "end": 152.347,
+   "lines": [
+    {
+     "text": "The girl asks if her mother paid for it.",
+     "file": "assets/vo/db5ce4da8450.wav",
+     "start": 138.327,
+     "end": 140.591,
+     "words": [
+      {
+       "w": "The",
+       "s": 138.357,
+       "e": 138.569
+      },
+      {
+       "w": "girl",
+       "s": 138.569,
+       "e": 138.747
+      },
+      {
+       "w": "asks",
+       "s": 138.747,
+       "e": 139.102
+      },
+      {
+       "w": "if",
+       "s": 139.102,
+       "e": 139.197
+      },
+      {
+       "w": "her",
+       "s": 139.197,
+       "e": 139.317
+      },
+      {
+       "w": "mother",
+       "s": 139.317,
+       "e": 139.722
+      },
+      {
+       "w": "paid",
+       "s": 139.722,
+       "e": 140.022
+      },
+      {
+       "w": "for",
+       "s": 140.022,
+       "e": 140.211
+      },
+      {
+       "w": "it.",
+       "s": 140.211,
+       "e": 140.517
+      }
+     ],
+     "caps": [
+      {
+       "start": 138.357,
+       "end": 139.102,
+       "text": "THE GIRL ASKS"
+      },
+      {
+       "start": 139.102,
+       "end": 139.722,
+       "text": "IF HER MOTHER"
+      },
+      {
+       "start": 139.722,
+       "end": 140.517,
+       "text": "PAID FOR IT."
+      }
+     ]
+    },
+    {
+     "text": "The baker gently says yes, even though she didn't.",
+     "file": "assets/vo/21a635742aa1.wav",
+     "start": 141.091,
+     "end": 144.133,
+     "words": [
+      {
+       "w": "The",
+       "s": 141.121,
+       "e": 141.261
+      },
+      {
+       "w": "baker",
+       "s": 141.261,
+       "e": 141.721
+      },
+      {
+       "w": "gently",
+       "s": 141.721,
+       "e": 142.208
+      },
+      {
+       "w": "says",
+       "s": 142.208,
+       "e": 142.361
+      },
+      {
+       "w": "yes,",
+       "s": 142.361,
+       "e": 142.801
+      },
+      {
+       "w": "even",
+       "s": 142.971,
+       "e": 143.334
+      },
+      {
+       "w": "though",
+       "s": 143.334,
+       "e": 143.556
+      },
+      {
+       "w": "she",
+       "s": 143.556,
+       "e": 143.671
+      },
+      {
+       "w": "didn't.",
+       "s": 143.671,
+       "e": 144.051
+      }
+     ],
+     "caps": [
+      {
+       "start": 141.121,
+       "end": 142.208,
+       "text": "THE BAKER GENTLY"
+      },
+      {
+       "start": 142.208,
+       "end": 142.971,
+       "text": "SAYS YES"
+      },
+      {
+       "start": 142.971,
+       "end": 143.671,
+       "text": "EVEN THOUGH SHE"
+      },
+      {
+       "start": 143.671,
+       "end": 144.051,
+       "text": "DIDN'T."
+      }
+     ]
+    },
+    {
+     "text": "The number changes to forty-eight.",
+     "file": "assets/vo/f263676ed1ff.wav",
+     "start": 145.133,
+     "end": 147.26,
+     "words": [
+      {
+       "w": "The",
+       "s": 145.163,
+       "e": 145.426
+      },
+      {
+       "w": "number",
+       "s": 145.426,
+       "e": 145.885
+      },
+      {
+       "w": "changes",
+       "s": 145.885,
+       "e": 146.338
+      },
+      {
+       "w": "to",
+       "s": 146.338,
+       "e": 146.607
+      },
+      {
+       "w": "forty-eight.",
+       "s": 146.607,
+       "e": 147.183
+      }
+     ],
+     "caps": [
+      {
+       "start": 145.163,
+       "end": 146.338,
+       "text": "THE NUMBER CHANGES"
+      },
+      {
+       "start": 146.338,
+       "end": 147.183,
+       "text": "TO 48."
+      }
+     ]
+    },
+    {
+     "text": "The girl's face lights up.",
+     "file": "assets/vo/ab767fe4e325.wav",
+     "start": 148.56,
+     "end": 150.147,
+     "words": [
+      {
+       "w": "The",
+       "s": 148.59,
+       "e": 148.864
+      },
+      {
+       "w": "girl's",
+       "s": 148.864,
+       "e": 149.075
+      },
+      {
+       "w": "face",
+       "s": 149.075,
+       "e": 149.34
+      },
+      {
+       "w": "lights",
+       "s": 149.34,
+       "e": 149.66
+      },
+      {
+       "w": "up.",
+       "s": 149.66,
+       "e": 150.08
+      }
+     ],
+     "caps": [
+      {
+       "start": 148.59,
+       "end": 149.34,
+       "text": "THE GIRL'S FACE"
+      },
+      {
+       "start": 149.34,
+       "end": 150.08,
+       "text": "LIGHTS UP."
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "ask": 0.0,
+    "yes": 4.034,
+    "d48": 8.28,
+    "light": 10.233
+   }
+  },
+  {
+   "id": "ending",
+   "tag": "MONTH 3",
+   "world": [
+    241800000000.0,
+    241900000000.0
+   ],
+   "start": 152.347,
+   "end": 170.428,
+   "lines": [
+    {
+     "text": "And Alex finally understands.",
+     "file": "assets/vo/41b597afefcf.wav",
+     "start": 152.347,
+     "end": 154.359,
+     "words": [
+      {
+       "w": "And",
+       "s": 152.367,
+       "e": 152.602
+      },
+      {
+       "w": "Alex",
+       "s": 152.602,
+       "e": 152.927
+      },
+      {
+       "w": "finally",
+       "s": 152.927,
+       "e": 153.597
+      },
+      {
+       "w": "understands.",
+       "s": 153.597,
+       "e": 154.287
+      }
+     ],
+     "caps": [
+      {
+       "start": 152.367,
+       "end": 153.597,
+       "text": "AND ALEX FINALLY"
+      },
+      {
+       "start": 153.597,
+       "end": 154.287,
+       "text": "UNDERSTANDS."
+      }
+     ]
+    },
+    {
+     "text": "A number can tell you whether someone lied. It can't tell you why.",
+     "file": "assets/vo/f707d4a6545f.wav",
+     "start": 154.859,
+     "end": 158.643,
+     "words": [
+      {
+       "w": "A",
+       "s": 154.899,
+       "e": 155.135
+      },
+      {
+       "w": "number",
+       "s": 155.135,
+       "e": 155.564
+      },
+      {
+       "w": "can",
+       "s": 155.564,
+       "e": 155.783
+      },
+      {
+       "w": "tell",
+       "s": 155.783,
+       "e": 156.019
+      },
+      {
+       "w": "you",
+       "s": 156.019,
+       "e": 156.255
+      },
+      {
+       "w": "whether",
+       "s": 156.255,
+       "e": 156.667
+      },
+      {
+       "w": "someone",
+       "s": 156.667,
+       "e": 156.994
+      },
+      {
+       "w": "lied.",
+       "s": 156.994,
+       "e": 157.419
+      },
+      {
+       "w": "It",
+       "s": 157.489,
+       "e": 157.714
+      },
+      {
+       "w": "can't",
+       "s": 157.714,
+       "e": 157.819
+      },
+      {
+       "w": "tell",
+       "s": 157.819,
+       "e": 158.09
+      },
+      {
+       "w": "you",
+       "s": 158.09,
+       "e": 158.29
+      },
+      {
+       "w": "why.",
+       "s": 158.29,
+       "e": 158.579
+      }
+     ],
+     "caps": [
+      {
+       "start": 154.899,
+       "end": 155.783,
+       "text": "A NUMBER CAN"
+      },
+      {
+       "start": 155.783,
+       "end": 156.667,
+       "text": "TELL YOU WHETHER"
+      },
+      {
+       "start": 156.667,
+       "end": 157.489,
+       "text": "SOMEONE LIED."
+      },
+      {
+       "start": 157.489,
+       "end": 158.09,
+       "text": "IT CAN'T TELL"
+      },
+      {
+       "start": 158.09,
+       "end": 158.579,
+       "text": "YOU WHY."
+      }
+     ]
+    },
+    {
+     "text": "So here's the real question.",
+     "file": "assets/vo/839bb9710fbe.wav",
+     "start": 159.643,
+     "end": 161.443,
+     "words": [
+      {
+       "w": "So",
+       "s": 159.683,
+       "e": 159.973
+      },
+      {
+       "w": "here's",
+       "s": 159.973,
+       "e": 160.258
+      },
+      {
+       "w": "the",
+       "s": 160.258,
+       "e": 160.708
+      },
+      {
+       "w": "real",
+       "s": 160.708,
+       "e": 160.84
+      },
+      {
+       "w": "question.",
+       "s": 160.84,
+       "e": 161.373
+      }
+     ],
+     "caps": [
+      {
+       "start": 159.683,
+       "end": 160.708,
+       "text": "SO HERE'S THE"
+      },
+      {
+       "start": 160.708,
+       "end": 161.373,
+       "text": "REAL QUESTION."
+      }
+     ]
+    },
+    {
+     "text": "Would you trust the person with zero lies... or the one with forty-eight?",
+     "file": "assets/vo/3f1b59085c8d.wav",
+     "start": 162.543,
+     "end": 166.828,
+     "words": [
+      {
+       "w": "Would",
+       "s": 162.573,
+       "e": 162.908
+      },
+      {
+       "w": "you",
+       "s": 162.908,
+       "e": 163.178
+      },
+      {
+       "w": "trust",
+       "s": 163.178,
+       "e": 163.288
+      },
+      {
+       "w": "the",
+       "s": 163.288,
+       "e": 163.556
+      },
+      {
+       "w": "person",
+       "s": 163.556,
+       "e": 163.898
+      },
+      {
+       "w": "with",
+       "s": 163.898,
+       "e": 164.23
+      },
+      {
+       "w": "zero",
+       "s": 164.23,
+       "e": 164.658
+      },
+      {
+       "w": "lies...",
+       "s": 164.658,
+       "e": 165.013
+      },
+      {
+       "w": "or",
+       "s": 165.293,
+       "e": 165.529
+      },
+      {
+       "w": "the",
+       "s": 165.529,
+       "e": 165.765
+      },
+      {
+       "w": "one",
+       "s": 165.765,
+       "e": 166.033
+      },
+      {
+       "w": "with",
+       "s": 166.033,
+       "e": 166.237
+      },
+      {
+       "w": "forty-eight?",
+       "s": 166.237,
+       "e": 166.753
+      }
+     ],
+     "caps": [
+      {
+       "start": 162.573,
+       "end": 163.288,
+       "text": "WOULD YOU TRUST"
+      },
+      {
+       "start": 163.288,
+       "end": 164.23,
+       "text": "THE PERSON WITH"
+      },
+      {
+       "start": 164.23,
+       "end": 165.293,
+       "text": "ZERO LIES..."
+      },
+      {
+       "start": 165.293,
+       "end": 166.033,
+       "text": "OR THE ONE"
+      },
+      {
+       "start": 166.033,
+       "end": 166.753,
+       "text": "WITH 48?"
+      }
+     ]
+    }
+   ],
+   "ev": {
+    "split": 2.112,
+    "question": 10.196,
+    "zero": 11.883,
+    "f48": 13.89,
+    "final": 14.731
+   }
+  }
+ ]
+}
