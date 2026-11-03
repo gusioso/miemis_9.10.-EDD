@@ -63,6 +63,8 @@ export const P: React.FC<StickProps & { steps?: [number, number][]; c0?: number;
 };
 
 export const ALEX = { outfit: "hoodie", color: "#2f6fe0", hair: "quiff", shoes: "#fbfbf8" } as const;
+// Mia: bright yellow coat, dark trousers (legs are drawn dark), long dark hair.
+export const MIA = { outfit: "coat", color: "#ffd21f", hair: "long" } as const;
 export const JAKE = { outfit: "hoodie", color: "#3fae6a", hair: "curly", shoes: "#f2c84b" } as const;
 export const MANAGER = { outfit: "tee", color: "#d8433a", hair: "bald", mustache: true } as const;
 export const BAKER = { outfit: "apron", color: "#f08a24", hair: "grayBun", glasses: true } as const;

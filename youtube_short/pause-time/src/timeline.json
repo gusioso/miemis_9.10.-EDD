@@ -1,0 +1,297 @@
+{
+ "fps": 30,
+ "total": 13.0,
+ "durationInFrames": 390,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": null,
+   "start": 0.0,
+   "end": 13.0,
+   "lines": [
+    {
+     "text": "What if you could freeze the entire world for ten seconds every day?",
+     "voice": "n",
+     "file": "assets/vo/894ebaeb7653.wav",
+     "start": 0.75,
+     "end": 4.352,
+     "words": [
+      {
+       "w": "What",
+       "s": 0.78,
+       "e": 1.085
+      },
+      {
+       "w": "if",
+       "s": 1.085,
+       "e": 1.245
+      },
+      {
+       "w": "you",
+       "s": 1.245,
+       "e": 1.47
+      },
+      {
+       "w": "could",
+       "s": 1.47,
+       "e": 1.628
+      },
+      {
+       "w": "freeze",
+       "s": 1.628,
+       "e": 1.78
+      },
+      {
+       "w": "the",
+       "s": 1.78,
+       "e": 2.04
+      },
+      {
+       "w": "entire",
+       "s": 2.04,
+       "e": 2.422
+      },
+      {
+       "w": "world",
+       "s": 2.422,
+       "e": 2.735
+      },
+      {
+       "w": "for",
+       "s": 2.735,
+       "e": 2.905
+      },
+      {
+       "w": "ten",
+       "s": 2.905,
+       "e": 3.005
+      },
+      {
+       "w": "seconds",
+       "s": 3.005,
+       "e": 3.425
+      },
+      {
+       "w": "every",
+       "s": 3.425,
+       "e": 3.954
+      },
+      {
+       "w": "day?",
+       "s": 3.954,
+       "e": 4.26
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.78,
+       "end": 1.47,
+       "voice": "n",
+       "text": "WHAT IF YOU"
+      },
+      {
+       "start": 1.47,
+       "end": 2.04,
+       "voice": "n",
+       "text": "COULD FREEZE THE"
+      },
+      {
+       "start": 2.04,
+       "end": 2.905,
+       "voice": "n",
+       "text": "ENTIRE WORLD FOR"
+      },
+      {
+       "start": 2.905,
+       "end": 4.26,
+       "voice": "n",
+       "text": "10 SECONDS EVERY DAY?"
+      }
+     ]
+    },
+    {
+     "text": "Rain stops falling. Cars stop moving.",
+     "voice": "n",
+     "file": "assets/vo/52dd44d5cedb.wav",
+     "start": 5.252,
+     "end": 7.822,
+     "words": [
+      {
+       "w": "Rain",
+       "s": 5.282,
+       "e": 5.576
+      },
+      {
+       "w": "stops",
+       "s": 5.576,
+       "e": 5.917
+      },
+      {
+       "w": "falling.",
+       "s": 5.917,
+       "e": 6.512
+      },
+      {
+       "w": "Cars",
+       "s": 6.602,
+       "e": 6.879
+      },
+      {
+       "w": "stop",
+       "s": 6.879,
+       "e": 7.247
+      },
+      {
+       "w": "moving.",
+       "s": 7.247,
+       "e": 7.762
+      }
+     ],
+     "caps": [
+      {
+       "start": 5.282,
+       "end": 6.602,
+       "voice": "n",
+       "text": "RAIN STOPS FALLING."
+      },
+      {
+       "start": 6.602,
+       "end": 7.762,
+       "voice": "n",
+       "text": "CARS STOP MOVING."
+      }
+     ]
+    },
+    {
+     "text": "And you're the only one who can move...",
+     "voice": "n",
+     "file": "assets/vo/d0b9af18437a.wav",
+     "start": 8.672,
+     "end": 10.866,
+     "words": [
+      {
+       "w": "And",
+       "s": 8.702,
+       "e": 8.931
+      },
+      {
+       "w": "you're",
+       "s": 8.931,
+       "e": 9.159
+      },
+      {
+       "w": "the",
+       "s": 9.159,
+       "e": 9.282
+      },
+      {
+       "w": "only",
+       "s": 9.282,
+       "e": 9.786
+      },
+      {
+       "w": "one",
+       "s": 9.786,
+       "e": 9.952
+      },
+      {
+       "w": "who",
+       "s": 9.952,
+       "e": 10.243
+      },
+      {
+       "w": "can",
+       "s": 10.243,
+       "e": 10.472
+      },
+      {
+       "w": "move...",
+       "s": 10.472,
+       "e": 10.802
+      }
+     ],
+     "caps": [
+      {
+       "start": 8.702,
+       "end": 9.282,
+       "voice": "n",
+       "text": "AND YOU'RE THE"
+      },
+      {
+       "start": 9.282,
+       "end": 10.243,
+       "voice": "n",
+       "text": "ONLY ONE WHO"
+      },
+      {
+       "start": 10.243,
+       "end": 10.802,
+       "voice": "n",
+       "text": "CAN MOVE..."
+      }
+     ]
+    },
+    {
+     "text": "or so you think.",
+     "voice": "n",
+     "file": "assets/vo/0a6518c48528.wav",
+     "start": 11.466,
+     "end": 12.891,
+     "words": [
+      {
+       "w": "or",
+       "s": 11.486,
+       "e": 11.787
+      },
+      {
+       "w": "so",
+       "s": 11.787,
+       "e": 12.089
+      },
+      {
+       "w": "you",
+       "s": 12.089,
+       "e": 12.276
+      },
+      {
+       "w": "think.",
+       "s": 12.276,
+       "e": 12.826
+      }
+     ],
+     "caps": [
+      {
+       "start": 11.486,
+       "end": 12.276,
+       "voice": "n",
+       "text": "OR SO YOU"
+      },
+      {
+       "start": 12.276,
+       "end": 12.826,
+       "voice": "n",
+       "text": "THINK."
+      }
+     ]
+    }
+   ],
+   "pauses": [
+    {
+     "start": 1.78,
+     "end": 11.78,
+     "owner": "alex"
+    }
+   ],
+   "ev": {
+    "freeze": 1.78,
+    "resume": 11.78,
+    "rain": 5.282,
+    "cars": 6.602,
+    "alex": 7.772,
+    "only": 9.282,
+    "touch": 10.472,
+    "think": 11.466
+   }
+  }
+ ]
+}

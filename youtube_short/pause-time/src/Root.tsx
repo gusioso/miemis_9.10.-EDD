@@ -1,16 +1,13 @@
-import { Composition, Still } from "remotion";
-import { Cover, Thumb } from "./Thumb";
-import { MillionaireShort } from "./Video";
+import { Composition } from "remotion";
+import { PauseShort } from "./Video";
 import timeline from "./timeline.json";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-    <Still id="Thumb" component={Thumb} width={1280} height={720} />
-    <Still id="Cover" component={Cover} width={1080} height={1920} />
     <Composition
-      id="MillionaireShort"
-      component={MillionaireShort}
+      id="PauseShort"
+      component={PauseShort}
       durationInFrames={timeline.durationInFrames}
       fps={30}
       width={1080}

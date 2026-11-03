@@ -4,6 +4,7 @@ import { loadFont } from "@remotion/fonts";
 import { AbsoluteFill, Easing, Img, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import timeline from "./timeline.json";
 import { SCENES } from "./scenes";
+import type { Pause } from "./freeze";
 import { H, W } from "./kit";
 
 const FONT = "Inter";
@@ -12,13 +13,14 @@ for (const [file, weight] of [["Inter-SemiBold.otf", "600"], ["Inter-ExtraBold.o
   loadFont({ family: FONT, url: staticFile(`fonts/${file}`), weight });
 }
 
-export const TITLE = "What If Everyone Became a Millionaire?";
+export const TITLE = "What If You Could Pause Time?";
 const PANEL_Y = 560;
 const PW = 1080;
 const PH = 620;
 const LEAD = 0.35; // crossfade between scenes
 
 type TLScene = (typeof timeline.scenes)[number];
+const allPauses: Pause[] = timeline.scenes.flatMap((s) => s.pauses as Pause[]);
 
 const ScenePanel: React.FC<{ sc: TLScene; first: boolean }> = ({ sc, first }) => {
   const frame = useCurrentFrame();
@@ -32,8 +34,9 @@ const ScenePanel: React.FC<{ sc: TLScene; first: boolean }> = ({ sc, first }) =>
     ev: sc.ev as unknown as Record<string, number>,
     L: sc.lines.map((l) => l.start - sc.start),
     Le: sc.lines.map((l) => l.end - sc.start),
+    pauses: (sc.pauses as Pause[]).map((p) => ({ ...p, start: p.start - sc.start, end: p.end - sc.start })),
   };
-  const op = first ? interpolate(frame / fps, [0, 0.25], [0, 1], { extrapolateRight: "clamp" }) : interpolate(raw, [-lead, 0], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.quad) });
+  const op = first ? 1 : interpolate(raw, [-lead, 0], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.quad) });
   return (
     <AbsoluteFill style={{ opacity: op }}>
       <svg width={PW} height={PH} viewBox={`0 0 ${W} ${H}`}>
@@ -56,55 +59,73 @@ const ScenePanel: React.FC<{ sc: TLScene; first: boolean }> = ({ sc, first }) =>
   );
 };
 
-const Tag: React.FC<{ text: string; right?: boolean; color?: string }> = ({ text, right, color = "#0a0a0a" }) => (
+const Tag: React.FC<{ text: string; right?: boolean; color?: string; bg?: string }> = ({ text, right, color = "#0a0a0a", bg = "rgba(255,255,255,0.94)" }) => (
   <div style={{
-    position: "absolute", top: 18, [right ? "right" : "left"]: 22, background: "rgba(255,255,255,0.94)", borderRadius: 14,
+    position: "absolute", top: 18, [right ? "right" : "left"]: 22, background: bg, borderRadius: 14,
     padding: "5px 16px", fontFamily: `${FONT}, ${EMOJI}`, fontWeight: 900, fontSize: 28, color, fontVariantNumeric: "tabular-nums",
     boxShadow: "0 3px 8px rgba(0,0,0,0.25)",
   }}>{text}</div>
 );
 
-const money = (n: number) => "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-const abs = (id: string, name: string) => {
-  const sc = timeline.scenes.find((s) => s.id === id)!;
-  return sc.start + (sc.ev as unknown as Record<string, number>)[name];
-};
-// Alex's balance over the whole video: [time, value, ease seconds]
-const BAL: [number, number, number][] = [
-  [abs("notify", "clock"), 83.47, 0],
-  [abs("notify", "million") + 0.15, 1000083.47, 1.2],
-  [abs("spend", "buy") + 0.2, 950083.47, 0.7],
-  [abs("prices", "alex") + 0.4, 949212.65, 1.0],
-  [abs("bakery", "explain"), 948912.2, 0.8],
-];
-const balanceAt = (t: number) => {
-  if (t < BAL[0][0]) return null;
-  let v = BAL[0][1];
-  for (let i = 1; i < BAL.length; i++) {
-    const [t0, val, d] = BAL[i];
-    if (t >= t0) v = d ? interpolate(t, [t0, t0 + d], [v, val], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : val;
-  }
-  return v;
+const tagOf = (sc: TLScene) => sc.tag as string | null;
+const dayOf = (sc: TLScene) => { const g = tagOf(sc); return g ? g.split("·")[0].trim() : sc.id; };
+
+/** Alex's presses left today: 1, minus his pauses that started earlier in scenes of the same day. */
+const leftAt = (t: number) => {
+  let idx = 0;
+  timeline.scenes.forEach((s, i) => { if (t >= s.start - LEAD * 0.5) idx = i; });
+  const day = dayOf(timeline.scenes[idx]);
+  const used = timeline.scenes.filter((s) => dayOf(s) === day).flatMap((s) => s.pauses as Pause[]).filter((p) => p.owner === "alex" && t >= p.start).length;
+  return { idx, left: Math.max(0, 1 - used) };
 };
 
 const Hud: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  let idx = 0;
-  timeline.scenes.forEach((s, i) => { if (t >= s.start - LEAD * 0.5) idx = i; });
+  const { idx, left } = leftAt(t);
   const sc = timeline.scenes[idx];
-  const lt = t - sc.start;
-  const ev = sc.ev as unknown as Record<string, number>;
-  let tag: string | null = sc.tag;
-  if (sc.id === "notify") tag = lt < ev.clock ? "DAY 1 · 6:59 AM" : "DAY 1 · 7:00 AM";
-  if (sc.id === "morning") tag = lt < ev.news ? "DAY 1 · 7:05 AM" : "DAY 1 · 8:00 AM";
-  const bal = balanceAt(t);
   return (
     <>
-      {tag ? <Tag text={tag} /> : null}
-      {bal !== null ? <Tag right text={`🏦 ALEX ${money(bal)}`} color={bal > 1000 ? "#127a3e" : "#0a0a0a"} /> : null}
+      {tagOf(sc) ? <Tag text={tagOf(sc)!} /> : null}
+      <Tag right text={`⏸ PAUSES LEFT: ${left}`} color={left ? "#d0182e" : "#7b7f8c"} />
     </>
+  );
+};
+
+const OWNER_COL: Record<string, string> = { alex: "#6fd8ff", mia: "#ffd21f", other: "#ffd21f" };
+
+/** Big digital countdown under the story window while time is paused: 00:10 -> 00:00 in real seconds. */
+const Countdown: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  const p = allPauses.find((q) => t >= q.start && t < q.end + 0.8);
+  if (!p) return null;
+  const rem = Math.max(0, Math.ceil(p.end - t - 1e-6));
+  const into = t - p.start;
+  const s = interpolate(into, [0, 0.22], [0.6, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.back(2.4)) });
+  const op = interpolate(t, [p.start, p.start + 0.1, p.end + 0.5, p.end + 0.8], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const tick = (t - p.start) % 1;
+  const bump = 1 + 0.06 * Math.max(0, 1 - tick / 0.18);
+  const col = OWNER_COL[p.owner] ?? "#6fd8ff";
+  const done = t >= p.end;
+  const blink = done && Math.floor((t - p.end) * 8) % 2 === 1;
+  return (
+    <div style={{ position: "absolute", top: PANEL_Y + PH + 40, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: op }}>
+      <div style={{
+        scale: String(s * bump), background: "#0c1222", border: `6px solid ${col}`, borderRadius: 34, padding: "6px 46px 12px",
+        boxShadow: `0 0 34px ${col}88, 0 10px 24px rgba(0,0,0,0.4)`, textAlign: "center",
+      }}>
+        <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 30, letterSpacing: 6, color: col, opacity: 0.9 }}>
+          {done ? "TIME RESUMES" : "⏸ TIME PAUSED"}
+        </div>
+        <div style={{
+          fontFamily: FONT, fontWeight: 900, fontSize: 150, lineHeight: 1, color: blink ? "#0c1222" : "#ffffff", fontVariantNumeric: "tabular-nums",
+          textShadow: `0 0 18px ${col}, 0 0 4px ${col}`, letterSpacing: 4,
+        }}>{`00:${String(rem).padStart(2, "0")}`}</div>
+      </div>
+    </div>
   );
 };
 
@@ -120,7 +141,7 @@ const Captions: React.FC = () => {
           return (
             <div style={{ position: "absolute", left: 0, right: 0, top: PH * 0.79 - 46, display: "flex", justifyContent: "center" }}>
               <div style={{
-                fontFamily: `${FONT}, ${EMOJI}`, fontWeight: 900, fontSize: 68, color: "#fff", scale: String(s), letterSpacing: 1,
+                fontFamily: `${FONT}, ${EMOJI}`, fontWeight: 900, fontSize: 68, color: c.voice === "mia" ? "#ffd21f" : "#fff", scale: String(s), letterSpacing: 1,
                 WebkitTextStroke: "10px #111", paintOrder: "stroke fill", textShadow: "0 6px 10px rgba(0,0,0,0.55)", textAlign: "center",
                 maxWidth: 980, lineHeight: 1.05,
               }}>{c.text}</div>
@@ -142,12 +163,21 @@ const Box: React.FC<{ text: string; size: number; top: number }> = ({ text, size
   </div>
 );
 
-export const MillionaireShort: React.FC = () => {
+const Label: React.FC<{ text: string; top: number }> = ({ text, top }) => (
+  <div style={{ position: "absolute", top, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+    <div style={{
+      background: "#141419", color: "#fff", borderRadius: 999, padding: "8px 26px", fontFamily: FONT, fontWeight: 900, fontSize: 30, letterSpacing: 5,
+      boxShadow: "0 6px 14px rgba(0,0,0,0.3)",
+    }}>{text}</div>
+  </div>
+);
+
+export const PauseShort: React.FC = () => {
   const { fps } = useVideoConfig();
   return (
     <AbsoluteFill style={{ backgroundColor: "#e8cca6" }}>
       <Img src={staticFile("plaid.png")} style={{ position: "absolute", inset: 0, width: 1080, height: 1920 }} />
-      <Box text={TITLE} size={40} top={PANEL_Y - 140} />
+      <Box text={TITLE} size={46} top={PANEL_Y - 150} />
       <div style={{
         position: "absolute", left: 0, top: PANEL_Y, width: PW, height: PH, overflow: "hidden", background: "#000",
         boxShadow: "0 14px 30px rgba(0,0,0,0.35)",
@@ -165,6 +195,8 @@ export const MillionaireShort: React.FC = () => {
         <Hud />
         <Captions />
       </div>
+      <Countdown />
+      <Label text="FULL STORY" top={1560} />
       <Audio src={staticFile("soundtrack.wav")} />
     </AbsoluteFill>
   );
