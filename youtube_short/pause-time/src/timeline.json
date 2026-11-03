@@ -1,7 +1,7 @@
 {
  "fps": 30,
- "total": 45.0,
- "durationInFrames": 1350,
+ "total": 77.0,
+ "durationInFrames": 2310,
  "scenes": [
   {
    "id": "hook",
@@ -861,6 +861,620 @@
     "alex": 9.849,
     "buy": 13.149,
     "queue": 13.93
+   }
+  },
+  {
+   "id": "problem",
+   "tag": "DAY 1 \u00b7 2:00 PM",
+   "right": "bank",
+   "start": 45.0,
+   "end": 61.0,
+   "lines": [
+    {
+     "text": "But there's one tiny problem.",
+     "voice": "n",
+     "file": "assets/vo/32afca46c250.wav",
+     "start": 45.4,
+     "end": 47.5,
+     "words": [
+      {
+       "w": "But",
+       "s": 45.43,
+       "e": 45.61
+      },
+      {
+       "w": "there's",
+       "s": 45.61,
+       "e": 46.149
+      },
+      {
+       "w": "one",
+       "s": 46.149,
+       "e": 46.435
+      },
+      {
+       "w": "tiny",
+       "s": 46.435,
+       "e": 46.815
+      },
+      {
+       "w": "problem.",
+       "s": 46.815,
+       "e": 47.44
+      }
+     ],
+     "caps": [
+      {
+       "start": 45.43,
+       "end": 46.435,
+       "voice": "n",
+       "text": "BUT THERE'S ONE"
+      },
+      {
+       "start": 46.435,
+       "end": 47.44,
+       "voice": "n",
+       "text": "TINY PROBLEM."
+      }
+     ]
+    },
+    {
+     "text": "Everyone wants the same things.",
+     "voice": "n",
+     "file": "assets/vo/d8d85d168f18.wav",
+     "start": 48.35,
+     "end": 50.428,
+     "words": [
+      {
+       "w": "Everyone",
+       "s": 48.38,
+       "e": 49.093
+      },
+      {
+       "w": "wants",
+       "s": 49.093,
+       "e": 49.325
+      },
+      {
+       "w": "the",
+       "s": 49.325,
+       "e": 49.668
+      },
+      {
+       "w": "same",
+       "s": 49.668,
+       "e": 49.955
+      },
+      {
+       "w": "things.",
+       "s": 49.955,
+       "e": 50.37
+      }
+     ],
+     "caps": [
+      {
+       "start": 48.38,
+       "end": 49.325,
+       "voice": "n",
+       "text": "EVERYONE WANTS"
+      },
+      {
+       "start": 49.325,
+       "end": 50.37,
+       "voice": "n",
+       "text": "THE SAME THINGS."
+      }
+     ]
+    },
+    {
+     "text": "The car dealership sells out. Houses disappear from listings.",
+     "voice": "n",
+     "file": "assets/vo/0dcc82905e6f.wav",
+     "start": 51.278,
+     "end": 55.07,
+     "words": [
+      {
+       "w": "The",
+       "s": 51.298,
+       "e": 51.453
+      },
+      {
+       "w": "car",
+       "s": 51.453,
+       "e": 51.737
+      },
+      {
+       "w": "dealership",
+       "s": 51.737,
+       "e": 52.328
+      },
+      {
+       "w": "sells",
+       "s": 52.328,
+       "e": 52.501
+      },
+      {
+       "w": "out.",
+       "s": 52.501,
+       "e": 52.818
+      },
+      {
+       "w": "Houses",
+       "s": 53.218,
+       "e": 53.723
+      },
+      {
+       "w": "disappear",
+       "s": 53.723,
+       "e": 54.243
+      },
+      {
+       "w": "from",
+       "s": 54.243,
+       "e": 54.598
+      },
+      {
+       "w": "listings.",
+       "s": 54.598,
+       "e": 55.018
+      }
+     ],
+     "caps": [
+      {
+       "start": 51.298,
+       "end": 52.328,
+       "voice": "n",
+       "text": "THE CAR DEALERSHIP"
+      },
+      {
+       "start": 52.328,
+       "end": 53.218,
+       "voice": "n",
+       "text": "SELLS OUT."
+      },
+      {
+       "start": 53.218,
+       "end": 54.243,
+       "voice": "n",
+       "text": "HOUSES DISAPPEAR"
+      },
+      {
+       "start": 54.243,
+       "end": 55.018,
+       "voice": "n",
+       "text": "FROM LISTINGS."
+      }
+     ]
+    },
+    {
+     "text": "And suddenly, having a million dollars doesn't guarantee you can actually buy anything.",
+     "voice": "n",
+     "file": "assets/vo/cdf7e3551d2b.wav",
+     "start": 55.92,
+     "end": 60.529,
+     "words": [
+      {
+       "w": "And",
+       "s": 55.94,
+       "e": 56.101
+      },
+      {
+       "w": "suddenly,",
+       "s": 56.101,
+       "e": 56.57
+      },
+      {
+       "w": "having",
+       "s": 56.77,
+       "e": 57.127
+      },
+      {
+       "w": "a",
+       "s": 57.127,
+       "e": 57.332
+      },
+      {
+       "w": "million",
+       "s": 57.332,
+       "e": 57.688
+      },
+      {
+       "w": "dollars",
+       "s": 57.688,
+       "e": 58.045
+      },
+      {
+       "w": "doesn't",
+       "s": 58.045,
+       "e": 58.25
+      },
+      {
+       "w": "guarantee",
+       "s": 58.25,
+       "e": 58.76
+      },
+      {
+       "w": "you",
+       "s": 58.76,
+       "e": 59.055
+      },
+      {
+       "w": "can",
+       "s": 59.055,
+       "e": 59.24
+      },
+      {
+       "w": "actually",
+       "s": 59.24,
+       "e": 59.765
+      },
+      {
+       "w": "buy",
+       "s": 59.765,
+       "e": 59.881
+      },
+      {
+       "w": "anything.",
+       "s": 59.881,
+       "e": 60.48
+      }
+     ],
+     "caps": [
+      {
+       "start": 55.94,
+       "end": 56.77,
+       "voice": "n",
+       "text": "AND SUDDENLY"
+      },
+      {
+       "start": 56.77,
+       "end": 57.688,
+       "voice": "n",
+       "text": "HAVING A MILLION"
+      },
+      {
+       "start": 57.688,
+       "end": 58.25,
+       "voice": "n",
+       "text": "DOLLARS DOESN'T"
+      },
+      {
+       "start": 58.25,
+       "end": 59.24,
+       "voice": "n",
+       "text": "GUARANTEE YOU CAN"
+      },
+      {
+       "start": 59.24,
+       "end": 60.48,
+       "voice": "n",
+       "text": "ACTUALLY BUY ANYTHING."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "customer": 3.15,
+    "sells": 7.328,
+    "phone": 7.968,
+    "houses": 8.723,
+    "alex": 10.67
+   }
+  },
+  {
+   "id": "week1",
+   "tag": "WEEK 1",
+   "right": "bank",
+   "start": 61.0,
+   "end": 77.0,
+   "lines": [
+    {
+     "text": "A week later, things start getting weird.",
+     "voice": "n",
+     "file": "assets/vo/f64622c37040.wav",
+     "start": 61.4,
+     "end": 63.665,
+     "words": [
+      {
+       "w": "A",
+       "s": 61.42,
+       "e": 61.604
+      },
+      {
+       "w": "week",
+       "s": 61.604,
+       "e": 61.73
+      },
+      {
+       "w": "later,",
+       "s": 61.73,
+       "e": 62.19
+      },
+      {
+       "w": "things",
+       "s": 62.28,
+       "e": 62.61
+      },
+      {
+       "w": "start",
+       "s": 62.61,
+       "e": 62.81
+      },
+      {
+       "w": "getting",
+       "s": 62.81,
+       "e": 63.232
+      },
+      {
+       "w": "weird.",
+       "s": 63.232,
+       "e": 63.6
+      }
+     ],
+     "caps": [
+      {
+       "start": 61.42,
+       "end": 62.28,
+       "voice": "n",
+       "text": "A WEEK LATER"
+      },
+      {
+       "start": 62.28,
+       "end": 63.232,
+       "voice": "n",
+       "text": "THINGS START GETTING"
+      },
+      {
+       "start": 63.232,
+       "end": 63.6,
+       "voice": "n",
+       "text": "WEIRD."
+      }
+     ]
+    },
+    {
+     "text": "Supermarkets are packed. Deliveries are delayed. Popular products vanish from shelves.",
+     "voice": "n",
+     "file": "assets/vo/4630ff2ae7b0.wav",
+     "start": 64.515,
+     "end": 69.585,
+     "words": [
+      {
+       "w": "Supermarkets",
+       "s": 64.535,
+       "e": 65.205
+      },
+      {
+       "w": "are",
+       "s": 65.205,
+       "e": 65.43
+      },
+      {
+       "w": "packed.",
+       "s": 65.43,
+       "e": 65.815
+      },
+      {
+       "w": "Deliveries",
+       "s": 66.055,
+       "e": 66.653
+      },
+      {
+       "w": "are",
+       "s": 66.653,
+       "e": 66.839
+      },
+      {
+       "w": "delayed.",
+       "s": 66.839,
+       "e": 67.245
+      },
+      {
+       "w": "Popular",
+       "s": 67.525,
+       "e": 67.97
+      },
+      {
+       "w": "products",
+       "s": 67.97,
+       "e": 68.38
+      },
+      {
+       "w": "vanish",
+       "s": 68.38,
+       "e": 68.795
+      },
+      {
+       "w": "from",
+       "s": 68.795,
+       "e": 69.055
+      },
+      {
+       "w": "shelves.",
+       "s": 69.055,
+       "e": 69.535
+      }
+     ],
+     "caps": [
+      {
+       "start": 64.535,
+       "end": 65.43,
+       "voice": "n",
+       "text": "SUPERMARKETS ARE"
+      },
+      {
+       "start": 65.43,
+       "end": 66.055,
+       "voice": "n",
+       "text": "PACKED."
+      },
+      {
+       "start": 66.055,
+       "end": 66.839,
+       "voice": "n",
+       "text": "DELIVERIES ARE"
+      },
+      {
+       "start": 66.839,
+       "end": 67.525,
+       "voice": "n",
+       "text": "DELAYED."
+      },
+      {
+       "start": 67.525,
+       "end": 68.38,
+       "voice": "n",
+       "text": "POPULAR PRODUCTS"
+      },
+      {
+       "start": 68.38,
+       "end": 69.535,
+       "voice": "n",
+       "text": "VANISH FROM SHELVES."
+      }
+     ]
+    },
+    {
+     "text": "Not because the world has run out of money, but because it can't produce everything fast enough.",
+     "voice": "n",
+     "file": "assets/vo/de7a93be4d84.wav",
+     "start": 70.335,
+     "end": 75.534,
+     "words": [
+      {
+       "w": "Not",
+       "s": 70.355,
+       "e": 70.554
+      },
+      {
+       "w": "because",
+       "s": 70.554,
+       "e": 70.835
+      },
+      {
+       "w": "the",
+       "s": 70.835,
+       "e": 71.075
+      },
+      {
+       "w": "world",
+       "s": 71.075,
+       "e": 71.297
+      },
+      {
+       "w": "has",
+       "s": 71.297,
+       "e": 71.495
+      },
+      {
+       "w": "run",
+       "s": 71.495,
+       "e": 71.694
+      },
+      {
+       "w": "out",
+       "s": 71.694,
+       "e": 71.892
+      },
+      {
+       "w": "of",
+       "s": 71.892,
+       "e": 72.16
+      },
+      {
+       "w": "money,",
+       "s": 72.16,
+       "e": 72.525
+      },
+      {
+       "w": "but",
+       "s": 72.895,
+       "e": 72.985
+      },
+      {
+       "w": "because",
+       "s": 72.985,
+       "e": 73.4
+      },
+      {
+       "w": "it",
+       "s": 73.4,
+       "e": 73.675
+      },
+      {
+       "w": "can't",
+       "s": 73.675,
+       "e": 73.833
+      },
+      {
+       "w": "produce",
+       "s": 73.833,
+       "e": 74.155
+      },
+      {
+       "w": "everything",
+       "s": 74.155,
+       "e": 74.755
+      },
+      {
+       "w": "fast",
+       "s": 74.755,
+       "e": 75.05
+      },
+      {
+       "w": "enough.",
+       "s": 75.05,
+       "e": 75.445
+      }
+     ],
+     "caps": [
+      {
+       "start": 70.355,
+       "end": 71.075,
+       "voice": "n",
+       "text": "NOT BECAUSE THE"
+      },
+      {
+       "start": 71.075,
+       "end": 71.694,
+       "voice": "n",
+       "text": "WORLD HAS RUN"
+      },
+      {
+       "start": 71.694,
+       "end": 72.895,
+       "voice": "n",
+       "text": "OUT OF MONEY"
+      },
+      {
+       "start": 72.895,
+       "end": 73.675,
+       "voice": "n",
+       "text": "BUT BECAUSE IT"
+      },
+      {
+       "start": 73.675,
+       "end": 74.755,
+       "voice": "n",
+       "text": "CAN'T PRODUCE EVERYTHING"
+      },
+      {
+       "start": 74.755,
+       "end": 75.445,
+       "voice": "n",
+       "text": "FAST ENOUGH."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "store": 3.265,
+    "delayed": 4.805,
+    "vanish": 6.325,
+    "graph": 9.085,
+    "fast": 13.755
    }
   }
  ]
