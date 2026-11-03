@@ -79,6 +79,18 @@ const leftAt = (t: number) => {
   return { idx, left: Math.max(0, 1 - used) };
 };
 
+const money = (n: number) => "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const evAbs = (id: string, name: string) => {
+  const sc = timeline.scenes.find((s) => s.id === id);
+  const v = sc ? (sc.ev as unknown as Record<string, number>)[name] : undefined;
+  return sc && v !== undefined ? sc.start + v : 1e9;
+};
+/** Alex's balance: $1,000,083.47 after the overnight deposit, minus the $50,000 car deposit. */
+const balanceAt = (t: number) => {
+  const buy = evAbs("spend", "buy") + 0.2;
+  return t < buy ? 1000083.47 : interpolate(t, [buy, buy + 0.7], [1000083.47, 950083.47], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+};
+
 const Hud: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -88,7 +100,9 @@ const Hud: React.FC = () => {
   return (
     <>
       {tagOf(sc) ? <Tag text={tagOf(sc)!} /> : null}
-      <Tag right text={`⏸ PAUSES LEFT: ${left}`} color={left ? "#d0182e" : "#7b7f8c"} />
+      {(sc.right as string) === "bank"
+        ? <Tag right text={`🏦 ALEX ${money(balanceAt(t))}`} color="#127a3e" />
+        : <Tag right text={`⏸ PAUSES LEFT: ${left}`} color={left ? "#d0182e" : "#7b7f8c"} />}
     </>
   );
 };

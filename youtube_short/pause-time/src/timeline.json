@@ -1,11 +1,12 @@
 {
  "fps": 30,
- "total": 13.0,
- "durationInFrames": 390,
+ "total": 45.0,
+ "durationInFrames": 1350,
  "scenes": [
   {
    "id": "hook",
    "tag": null,
+   "right": "pauses",
    "start": 0.0,
    "end": 13.0,
    "lines": [
@@ -291,6 +292,575 @@
     "only": 9.282,
     "touch": 10.472,
     "think": 11.466
+   }
+  },
+  {
+   "id": "morning",
+   "tag": "DAY 1 \u00b7 8:00 AM",
+   "right": "bank",
+   "start": 13.0,
+   "end": 29.0,
+   "lines": [
+    {
+     "text": "At first, nobody believes it.",
+     "voice": "n",
+     "file": "assets/vo/50b6d5dfce38.wav",
+     "start": 13.4,
+     "end": 15.389,
+     "words": [
+      {
+       "w": "At",
+       "s": 13.43,
+       "e": 13.64
+      },
+      {
+       "w": "first,",
+       "s": 13.64,
+       "e": 13.98
+      },
+      {
+       "w": "nobody",
+       "s": 14.06,
+       "e": 14.548
+      },
+      {
+       "w": "believes",
+       "s": 14.548,
+       "e": 15.036
+      },
+      {
+       "w": "it.",
+       "s": 15.036,
+       "e": 15.32
+      }
+     ],
+     "caps": [
+      {
+       "start": 13.43,
+       "end": 14.06,
+       "voice": "n",
+       "text": "AT FIRST"
+      },
+      {
+       "start": 14.06,
+       "end": 15.32,
+       "voice": "n",
+       "text": "NOBODY BELIEVES IT."
+      }
+     ]
+    },
+    {
+     "text": "Alex refreshes his banking app five times. The money is still there.",
+     "voice": "n",
+     "file": "assets/vo/9d33d74bef3c.wav",
+     "start": 16.139,
+     "end": 20.331,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 16.179,
+       "e": 16.589
+      },
+      {
+       "w": "refreshes",
+       "s": 16.589,
+       "e": 17.152
+      },
+      {
+       "w": "his",
+       "s": 17.152,
+       "e": 17.304
+      },
+      {
+       "w": "banking",
+       "s": 17.304,
+       "e": 17.864
+      },
+      {
+       "w": "app",
+       "s": 17.864,
+       "e": 18.015
+      },
+      {
+       "w": "five",
+       "s": 18.015,
+       "e": 18.269
+      },
+      {
+       "w": "times.",
+       "s": 18.269,
+       "e": 18.749
+      },
+      {
+       "w": "The",
+       "s": 19.079,
+       "e": 19.273
+      },
+      {
+       "w": "money",
+       "s": 19.273,
+       "e": 19.679
+      },
+      {
+       "w": "is",
+       "s": 19.679,
+       "e": 19.805
+      },
+      {
+       "w": "still",
+       "s": 19.805,
+       "e": 19.999
+      },
+      {
+       "w": "there.",
+       "s": 19.999,
+       "e": 20.279
+      }
+     ],
+     "caps": [
+      {
+       "start": 16.179,
+       "end": 17.152,
+       "voice": "n",
+       "text": "ALEX REFRESHES"
+      },
+      {
+       "start": 17.152,
+       "end": 18.015,
+       "voice": "n",
+       "text": "HIS BANKING APP"
+      },
+      {
+       "start": 18.015,
+       "end": 19.079,
+       "voice": "n",
+       "text": "5 TIMES."
+      },
+      {
+       "start": 19.079,
+       "end": 19.805,
+       "voice": "n",
+       "text": "THE MONEY IS"
+      },
+      {
+       "start": 19.805,
+       "end": 20.279,
+       "voice": "n",
+       "text": "STILL THERE."
+      }
+     ]
+    },
+    {
+     "text": "Then the news confirms it.",
+     "voice": "n",
+     "file": "assets/vo/b72703dfaa7e.wav",
+     "start": 22.081,
+     "end": 23.923,
+     "words": [
+      {
+       "w": "Then",
+       "s": 22.111,
+       "e": 22.394
+      },
+      {
+       "w": "the",
+       "s": 22.394,
+       "e": 22.677
+      },
+      {
+       "w": "news",
+       "s": 22.677,
+       "e": 22.941
+      },
+      {
+       "w": "confirms",
+       "s": 22.941,
+       "e": 23.452
+      },
+      {
+       "w": "it.",
+       "s": 23.452,
+       "e": 23.861
+      }
+     ],
+     "caps": [
+      {
+       "start": 22.111,
+       "end": 22.941,
+       "voice": "n",
+       "text": "THEN THE NEWS"
+      },
+      {
+       "start": 22.941,
+       "end": 23.861,
+       "voice": "n",
+       "text": "CONFIRMS IT."
+      }
+     ]
+    },
+    {
+     "text": "Overnight, billions of people have become millionaires.",
+     "voice": "n",
+     "file": "assets/vo/bb98f16bfa11.wav",
+     "start": 24.673,
+     "end": 27.703,
+     "words": [
+      {
+       "w": "Overnight,",
+       "s": 24.703,
+       "e": 25.183
+      },
+      {
+       "w": "billions",
+       "s": 25.243,
+       "e": 25.627
+      },
+      {
+       "w": "of",
+       "s": 25.627,
+       "e": 25.908
+      },
+      {
+       "w": "people",
+       "s": 25.908,
+       "e": 26.231
+      },
+      {
+       "w": "have",
+       "s": 26.231,
+       "e": 26.463
+      },
+      {
+       "w": "become",
+       "s": 26.463,
+       "e": 26.835
+      },
+      {
+       "w": "millionaires.",
+       "s": 26.835,
+       "e": 27.643
+      }
+     ],
+     "caps": [
+      {
+       "start": 24.703,
+       "end": 25.243,
+       "voice": "n",
+       "text": "OVERNIGHT"
+      },
+      {
+       "start": 25.243,
+       "end": 26.231,
+       "voice": "n",
+       "text": "BILLIONS OF PEOPLE"
+      },
+      {
+       "start": 26.231,
+       "end": 27.643,
+       "voice": "n",
+       "text": "HAVE BECOME MILLIONAIRES."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "refresh": 3.589,
+    "still": 6.805,
+    "news": 8.481,
+    "tvon": 9.677,
+    "confirm": 9.941,
+    "party": 11.423,
+    "calls": 13.635
+   }
+  },
+  {
+   "id": "spend",
+   "tag": "DAY 1 \u00b7 9:00 AM",
+   "right": "bank",
+   "start": 29.0,
+   "end": 45.0,
+   "lines": [
+    {
+     "text": "By nine o'clock, everybody has the same idea.",
+     "voice": "n",
+     "file": "assets/vo/9055de88584c.wav",
+     "start": 29.4,
+     "end": 32.461,
+     "words": [
+      {
+       "w": "By",
+       "s": 29.43,
+       "e": 29.652
+      },
+      {
+       "w": "nine",
+       "s": 29.652,
+       "e": 29.874
+      },
+      {
+       "w": "o'clock,",
+       "s": 29.874,
+       "e": 30.36
+      },
+      {
+       "w": "everybody",
+       "s": 30.59,
+       "e": 31.395
+      },
+      {
+       "w": "has",
+       "s": 31.395,
+       "e": 31.567
+      },
+      {
+       "w": "the",
+       "s": 31.567,
+       "e": 31.763
+      },
+      {
+       "w": "same",
+       "s": 31.763,
+       "e": 32.04
+      },
+      {
+       "w": "idea.",
+       "s": 32.04,
+       "e": 32.39
+      }
+     ],
+     "caps": [
+      {
+       "start": 29.43,
+       "end": 30.59,
+       "voice": "n",
+       "text": "BY 9 O'CLOCK"
+      },
+      {
+       "start": 30.59,
+       "end": 31.763,
+       "voice": "n",
+       "text": "EVERYBODY HAS THE"
+      },
+      {
+       "start": 31.763,
+       "end": 32.39,
+       "voice": "n",
+       "text": "SAME IDEA."
+      }
+     ]
+    },
+    {
+     "text": "Buy the things they could never afford. New cars, expensive clothes, dream houses.",
+     "voice": "n",
+     "file": "assets/vo/d9dbd074c26c.wav",
+     "start": 33.211,
+     "end": 38.249,
+     "words": [
+      {
+       "w": "Buy",
+       "s": 33.241,
+       "e": 33.432
+      },
+      {
+       "w": "the",
+       "s": 33.432,
+       "e": 33.591
+      },
+      {
+       "w": "things",
+       "s": 33.591,
+       "e": 33.906
+      },
+      {
+       "w": "they",
+       "s": 33.906,
+       "e": 34.061
+      },
+      {
+       "w": "could",
+       "s": 34.061,
+       "e": 34.193
+      },
+      {
+       "w": "never",
+       "s": 34.193,
+       "e": 34.626
+      },
+      {
+       "w": "afford.",
+       "s": 34.626,
+       "e": 34.941
+      },
+      {
+       "w": "New",
+       "s": 35.431,
+       "e": 35.606
+      },
+      {
+       "w": "cars,",
+       "s": 35.606,
+       "e": 36.091
+      },
+      {
+       "w": "expensive",
+       "s": 36.131,
+       "e": 36.696
+      },
+      {
+       "w": "clothes,",
+       "s": 36.696,
+       "e": 37.211
+      },
+      {
+       "w": "dream",
+       "s": 37.281,
+       "e": 37.567
+      },
+      {
+       "w": "houses.",
+       "s": 37.567,
+       "e": 38.191
+      }
+     ],
+     "caps": [
+      {
+       "start": 33.241,
+       "end": 33.906,
+       "voice": "n",
+       "text": "BUY THE THINGS"
+      },
+      {
+       "start": 33.906,
+       "end": 34.626,
+       "voice": "n",
+       "text": "THEY COULD NEVER"
+      },
+      {
+       "start": 34.626,
+       "end": 34.941,
+       "voice": "n",
+       "text": "AFFORD."
+      },
+      {
+       "start": 35.431,
+       "end": 36.131,
+       "voice": "n",
+       "text": "NEW CARS"
+      },
+      {
+       "start": 36.131,
+       "end": 37.281,
+       "voice": "n",
+       "text": "EXPENSIVE CLOTHES"
+      },
+      {
+       "start": 37.281,
+       "end": 38.191,
+       "voice": "n",
+       "text": "DREAM HOUSES."
+      }
+     ]
+    },
+    {
+     "text": "Alex immediately opens a website to buy his first sports car.",
+     "voice": "n",
+     "file": "assets/vo/a17895a8dee2.wav",
+     "start": 39.099,
+     "end": 42.68,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 39.139,
+       "e": 39.503
+      },
+      {
+       "w": "immediately",
+       "s": 39.503,
+       "e": 40.344
+      },
+      {
+       "w": "opens",
+       "s": 40.344,
+       "e": 40.697
+      },
+      {
+       "w": "a",
+       "s": 40.697,
+       "e": 40.906
+      },
+      {
+       "w": "website",
+       "s": 40.906,
+       "e": 41.27
+      },
+      {
+       "w": "to",
+       "s": 41.27,
+       "e": 41.589
+      },
+      {
+       "w": "buy",
+       "s": 41.589,
+       "e": 41.689
+      },
+      {
+       "w": "his",
+       "s": 41.689,
+       "e": 41.934
+      },
+      {
+       "w": "first",
+       "s": 41.934,
+       "e": 42.149
+      },
+      {
+       "w": "sports",
+       "s": 42.149,
+       "e": 42.304
+      },
+      {
+       "w": "car.",
+       "s": 42.304,
+       "e": 42.619
+      }
+     ],
+     "caps": [
+      {
+       "start": 39.139,
+       "end": 40.344,
+       "voice": "n",
+       "text": "ALEX IMMEDIATELY"
+      },
+      {
+       "start": 40.344,
+       "end": 41.27,
+       "voice": "n",
+       "text": "OPENS A WEBSITE"
+      },
+      {
+       "start": 41.27,
+       "end": 41.934,
+       "voice": "n",
+       "text": "TO BUY HIS"
+      },
+      {
+       "start": 41.934,
+       "end": 42.619,
+       "voice": "n",
+       "text": "FIRST SPORTS CAR."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "cars": 6.606,
+    "clothes": 7.696,
+    "houses": 8.567,
+    "alex": 9.849,
+    "buy": 13.149,
+    "queue": 13.93
    }
   }
  ]

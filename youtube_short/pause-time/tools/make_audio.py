@@ -47,9 +47,19 @@ SCENES = [
         N("Rain stops falling. Cars stop moving.", hold=0.4),
         N("And you're the only one who can move...", hold=0.15),
         N("or so you think.")]),
+    # Scenes 2 and 3 as the user sent them (same story beats as the Millionaire Short), timed to 16 s each.
+    dict(id="morning", tag="DAY 1 · 8:00 AM", right="bank", lead=0.4, dur=16.0, lines=[
+        N("At first, nobody believes it.", hold=0.3),
+        N("Alex refreshes his banking app five times. The money is still there.", hold=1.3),
+        N("Then the news confirms it.", hold=0.3),
+        N("Overnight, billions of people have become millionaires.")]),
+    dict(id="spend", tag="DAY 1 · 9:00 AM", right="bank", lead=0.4, dur=16.0, lines=[
+        N("By nine o'clock, everybody has the same idea.", hold=0.3),
+        N("Buy the things they could never afford. New cars, expensive clothes, dream houses.", hold=0.4),
+        N("Alex immediately opens a website to buy his first sports car.")]),
 ]
 # Caption words differ from spoken words where digits read better. "~x" merges into the previous caption word.
-CAP_SWAP = {("hook", 0): {"ten": "10"}}
+CAP_SWAP = {("hook", 0): {"ten": "10"}, ("morning", 1): {"five": "5"}, ("spend", 0): {"nine": "9"}}
 
 # --------------------------------------------------------------------------------------
 def trim(sig, thr=0.012):
@@ -241,7 +251,7 @@ def build():
             t = max(t, start + sc["dur"])
         for p in pauses:
             p["end"] = p["start"] + PAUSE
-        scenes.append(dict(id=sc["id"], tag=sc["tag"], start=round(start, 3), end=round(t, 3), lines=lines,
+        scenes.append(dict(id=sc["id"], tag=sc["tag"], right=sc.get("right", "pauses"), start=round(start, 3), end=round(t, 3), lines=lines,
                            pauses=[dict(start=round(p["start"], 3), end=round(p["end"], 3), owner=p["owner"]) for p in pauses]))
     return scenes, voices, t
 
@@ -274,6 +284,21 @@ def events(scenes):
     put("hook", "only", word_time(s, 2, r"^only"))
     put("hook", "touch", word_time(s, 2, r"^move"))
     put("hook", "think", L("hook", 3))
+    s = S["morning"]
+    put("morning", "refresh", word_time(s, 1, r"^refreshes"))
+    put("morning", "still", word_time(s, 1, r"^still"))
+    put("morning", "news", L("morning", 2) - 0.6)
+    put("morning", "tvon", word_time(s, 2, r"^news"))
+    put("morning", "confirm", word_time(s, 2, r"^confirms"))
+    put("morning", "party", L("morning", 3) - 0.25)
+    put("morning", "calls", word_time(s, 3, r"^millionaires") - 0.2)
+    s = S["spend"]
+    put("spend", "cars", word_time(s, 1, r"^cars"))
+    put("spend", "clothes", word_time(s, 1, r"^clothes"))
+    put("spend", "houses", word_time(s, 1, r"^houses"))
+    put("spend", "alex", L("spend", 2) - 0.25)
+    put("spend", "buy", word_time(s, 2, r"^sports"))
+    put("spend", "queue", L("spend", 2, True) + 0.25)
     return ev
 
 
@@ -339,7 +364,7 @@ def soundtrack(scenes, voices, total, ev):
 
     # ---------------- music: mood per section
     A, C, D, E_, F, G, B_ = 220.0, 261.63, 293.66, 329.63, 349.23, 392.0, 246.94
-    marks = [(0, "tense")]
+    marks = [(0, "tense"), (S["morning"]["start"] - 0.1, "curious"), (E("morning", "confirm"), "happy")]
 
     def mood(tp):
         m = marks[0][1]
@@ -352,6 +377,7 @@ def soundtrack(scenes, voices, total, ev):
     beat = 60 / 92
     b, tp = 0, 0.0
     minor_prog = [[A, C, E_], [F, A, C], [D, F, A], [E_, G, B_]]
+    happy_prog = [[C, E_, G], [G, B_, D * 2], [A, C * 2, E_ * 2], [F, A, C * 2]]
     while tp < total:
         bar = (b // 4) % 4
         m = mood(tp)
@@ -362,6 +388,20 @@ def soundtrack(scenes, voices, total, ev):
             add(music, tone(A / 4 if bar % 2 == 0 else F / 4, 0.4, (1, 0.5), 7), tp, 0.2)
             add(music, noise(0.02, 5000, 10000) * np.exp(-tt(0.02) * 150), tp + beat / 2, 0.025)
             add(music, piano([E_, A, C * 2, B_][b % 4] * 2, 1.0, 3.5), tp + beat / 2, 0.05)
+        elif m == "curious":
+            if b % 4 == 0:
+                add(music, pad([A / 2, C, E_], beat * 4 + 1.2, 0.2), tp, 0.09)
+            add(music, piano([E_ * 2, C * 2, A, B_][b % 4], 1.4, 3.0), tp, 0.05)
+        elif m == "happy":
+            ch = happy_prog[bar]
+            add(music, kick(), tp, 0.22)
+            if b % 2:
+                add(music, noise(0.1, 1500, 7000) * np.exp(-tt(0.1) * 32), tp, 0.05)
+            add(music, noise(0.03, 6000, 10000) * np.exp(-tt(0.03) * 90), tp + beat / 2, 0.03)
+            for e in range(2):
+                add(music, piano(ch[(b * 2 + e) % 3] * 2, 0.9, 4.0), tp + e * beat / 2, 0.07)
+            if b % 4 == 0:
+                add(music, tone(ch[0] / 2, beat * 4, (1, 0.4, 0.2), 0.8), tp, 0.16)
         b += 1
         tp += beat
     music *= gate
@@ -392,7 +432,15 @@ def soundtrack(scenes, voices, total, ev):
             tp_ += rng.uniform(0.02, 0.09)
         return d
 
-    rain(0, S["hook"]["end"], 0.075)
+    rain(0, S["hook"]["end"] + 0.3, 0.075)
+
+    def murmur(t0, t1, g):
+        m = noise(t1 - t0, 250, 1400)
+        x = tt(t1 - t0)
+        add(amb, m * (0.6 + 0.4 * np.sin(2 * np.pi * 3.1 * x) * np.sin(2 * np.pi * 0.7 * x)) * env_ad(t1 - t0, 0.4, 0.4), t0, g)
+
+    murmur(E("morning", "party"), S["morning"]["end"], 0.05)
+    murmur(S["spend"]["start"], S["spend"]["end"], 0.025)
     add(amb, noise(1.6, 300, 2500) * np.sin(np.pi * tt(1.6) / 1.6) ** 2, 0.1, 0.05)      # car swish
     for j in range(3):                                   # bird before the freeze
         x = tt(0.09)
@@ -448,6 +496,35 @@ def soundtrack(scenes, voices, total, ev):
     add(sfx, tone(3951, 0.5, (1,), 8), E("hook", "touch") + 0.2, 0.03)
     x = tt(1.2)
     add(sfx, (np.sin(2 * np.pi * 466 * x) + np.sin(2 * np.pi * 494 * x)) * np.exp(-x * 2.5) * np.minimum(1, x / 0.03), E("hook", "think"), 0.035)
+
+    def ping(at, g=0.16):
+        add(sfx, tone(1568, 0.25, (1, 0.3), 14), at, g)
+        add(sfx, tone(2093, 0.22, (1, 0.3), 16), at + 0.1, g * 0.8)
+
+    def click(at, g=0.12):
+        add(sfx, tone(2400, 0.05, (1, 0.3), 70), at, g)
+
+    def kaching(at, g=0.3):
+        add(sfx, noise(0.08, 3000, 9000) * np.exp(-tt(0.08) * 50), at, g)
+        add(sfx, tone(2637, 0.6, (1, 0.5, 0.2), 5) + tone(3520, 0.6, (1, 0.3), 6), at + 0.06, g * 0.6)
+
+    # morning: refresh x5, TV click + news sting, cheers, phone notifications
+    for j in range(5):
+        click(E("morning", "refresh") + j * 0.34, 0.14)
+    click(E("morning", "tvon"), 0.2)
+    add(sfx, tone(880, 0.5, (1, 0.5), 5), E("morning", "tvon") + 0.3, 0.1)
+    add(sfx, tone(1320, 0.5, (1, 0.5), 5), E("morning", "tvon") + 0.45, 0.08)
+    d = S["morning"]["end"] - E("morning", "party")
+    add(sfx, noise(d, 300, 3500) * env_ad(d, 0.5, 1.0), E("morning", "party"), 0.1)
+    for j in range(7):
+        ping(E("morning", "party") + 0.4 + j * 0.55 + (j % 2) * 0.17, 0.07)
+    # spend: carts and clicks, purchase ka-ching, dealership queue footsteps
+    for nm in ("cars", "clothes", "houses"):
+        ping(E("spend", nm), 0.1)
+    click(E("spend", "buy"), 0.2)
+    kaching(E("spend", "buy") + 0.15, 0.3)
+    for j in range(10):
+        add(sfx, noise(0.05, 400, 2500) * np.exp(-tt(0.05) * 60), E("spend", "queue") + 0.3 + j * 0.22, 0.05)
 
     mix = vo + music * 0.85 + amb + sfx
     mix = mix[:int(total * SR)]
