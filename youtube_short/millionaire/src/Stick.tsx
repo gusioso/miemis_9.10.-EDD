@@ -17,7 +17,7 @@ export type Arm =
   | "down" | "phone" | "phoneUp" | "point" | "wave" | "chest" | "hips" | "chin" | "cheer" | "hold"
   | "give" | "shrug" | "talk" | "water" | "stop" | "film" | "mic" | "thumb" | "cross";
 export type Outfit = "hoodie" | "suit" | "apron" | "dress" | "coat" | "cardigan" | "tee" | "shopApron";
-export type Hair = "wolf" | "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
+export type Hair = "middle" | "wolf" | "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
 
 // [elbow, hand] offsets from the shoulder for the arm on the +x side (mirrored for the other arm).
 const POSES: Record<Arm, [[number, number], [number, number]]> = {
@@ -104,6 +104,43 @@ export const WolfHair: React.FC<{ x: number; y: number; u?: number; layer: "back
           <line key={i} x1={x + a * u} y1={y + b * u} x2={x + c * u} y2={y + d * u} stroke="#6e4630" strokeWidth={5 * u} strokeLinecap="round" />
         ))
         : null}
+    </g>
+  );
+};
+
+// Middle part ("curtain" hair): hair split down the centre, two curtains sweeping out over the temples to ear level.
+// Unit coordinates are for a head of radius 80 centred at (0, 0); the group is scaled by u.
+export const MID_COL = "#3b2417";
+const MID_LIGHT = "#6e4630";
+const MID_HI = "#9a6a48";
+export const MiddlePart: React.FC<{ x: number; y: number; u?: number; layer: "back" | "front" }> = ({ x, y, u = 1, layer }) => {
+  const sw = 4;
+  if (layer === "back") {
+    // volume behind the head: rounded crown and side lengths down past the ears
+    return (
+      <g transform={`translate(${x} ${y}) scale(${u})`}>
+        <path d="M -92 40 C -110 -10 -104 -74 -58 -98 C -24 -114 24 -114 58 -98 C 104 -74 110 -10 92 40 C 88 52 78 52 74 40 L -74 40 C -78 52 -88 52 -92 40 Z"
+          fill={MID_COL} stroke={INK} strokeWidth={sw} strokeLinejoin="round" />
+      </g>
+    );
+  }
+  const half = (s: 1 | -1) => (
+    <g transform={`scale(${s} 1)`}>
+      <path d="M 3 -100 C 34 -104 70 -90 86 -58 C 96 -36 96 -6 88 20 C 82 4 76 -14 66 -26 C 52 -42 30 -50 14 -66 C 8 -74 4 -86 3 -100 Z"
+        fill={MID_COL} stroke={INK} strokeWidth={sw} strokeLinejoin="round" />
+      <path d="M 14 -66 C 26 -56 44 -50 58 -38" fill="none" stroke={INK} strokeWidth={3} strokeLinecap="round" />
+      <path d="M 10 -92 C 34 -90 58 -76 72 -50" fill="none" stroke={MID_LIGHT} strokeWidth={4} strokeLinecap="round" />
+      <path d="M 20 -80 C 44 -74 66 -58 78 -28" fill="none" stroke={MID_LIGHT} strokeWidth={4} strokeLinecap="round" />
+      <path d="M 40 -92 C 64 -84 82 -62 86 -30" fill="none" stroke={MID_LIGHT} strokeWidth={3} strokeLinecap="round" />
+      <path d="M 16 -96 C 30 -98 44 -94 54 -88" fill="none" stroke={MID_HI} strokeWidth={5} strokeLinecap="round" />
+      <path d="M 80 -10 C 86 0 88 10 86 18" fill="none" stroke={MID_LIGHT} strokeWidth={3} strokeLinecap="round" />
+    </g>
+  );
+  return (
+    <g transform={`translate(${x} ${y}) scale(${u})`}>
+      {half(1)}
+      {half(-1)}
+      <path d="M 0 -103 L 0 -84" stroke="#5a3a2a" strokeWidth={3} strokeLinecap="round" />
     </g>
   );
 };
@@ -242,6 +279,7 @@ export const Stick: React.FC<StickProps> = ({
   const hc = hair === "grayBun" ? "#d8d8dc" : hair === "long" ? "#3d2a20" : "#141419";
   if (hair === "long") parts.push(<rect key={k()} x={hx - U(92)} y={hy - U(84)} width={U(184)} height={U(210)} rx={U(84)} fill={hc} stroke={INK} strokeWidth={U(4)} />);
   if (hair === "wolf") parts.push(<WolfHair key={k()} x={hx} y={hy} u={u} layer="back" />);
+  if (hair === "middle") parts.push(<MiddlePart key={k()} x={hx} y={hy} u={u} layer="back" />);
   if (hair === "pigtails") {
     for (const s of [-1, 1]) {
       parts.push(<circle key={k()} cx={hx + s * U(92)} cy={hy - U(28)} r={U(30)} fill={INK} />);
@@ -250,7 +288,9 @@ export const Stick: React.FC<StickProps> = ({
   }
   parts.push(<circle key={k()} cx={hx} cy={hy} r={hr} fill={INK} />);
   parts.push(<path key={k()} d={`M ${hx - hr * 0.62} ${hy - hr * 0.55} A ${hr * 0.85} ${hr * 0.85} 0 0 1 ${hx + hr * 0.1} ${hy - hr * 0.86}`} fill="none" stroke="#3a3a46" strokeWidth={U(7)} strokeLinecap="round" />);
-  if (hair === "wolf") {
+  if (hair === "middle") {
+    parts.push(<MiddlePart key={k()} x={hx} y={hy} u={u} layer="front" />);
+  } else if (hair === "wolf") {
     parts.push(<WolfHair key={k()} x={hx} y={hy} u={u} layer="front" />);
   } else if (hair === "alex") {
     const tufts = [[-50, -58], [-18, -76], [16, -78], [48, -62]];
