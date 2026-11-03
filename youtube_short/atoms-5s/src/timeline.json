@@ -1,0 +1,1827 @@
+{
+ "fps": 24,
+ "total": 109.506,
+ "durationInFrames": 2629,
+ "shots": [
+  {
+   "id": "street",
+   "start": 0.0,
+   "end": 10.66
+  },
+  {
+   "id": "vanish",
+   "start": 10.66,
+   "end": 14.747
+  },
+  {
+   "id": "void",
+   "start": 14.747,
+   "end": 19.129
+  },
+  {
+   "id": "light",
+   "start": 19.129,
+   "end": 26.406
+  },
+  {
+   "id": "back",
+   "start": 26.406,
+   "end": 40.19
+  },
+  {
+   "id": "space",
+   "start": 40.19,
+   "end": 48.549
+  },
+  {
+   "id": "dark",
+   "start": 48.549,
+   "end": 63.069
+  },
+  {
+   "id": "phones",
+   "start": 63.069,
+   "end": 66.994
+  },
+  {
+   "id": "lab",
+   "start": 66.994,
+   "end": 76.99
+  },
+  {
+   "id": "dome",
+   "start": 76.99,
+   "end": 89.303
+  },
+  {
+   "id": "roof",
+   "start": 89.303,
+   "end": 97.014
+  },
+  {
+   "id": "sky",
+   "start": 97.014,
+   "end": 109.506
+  }
+ ],
+ "ev": {
+  "nora": 5.634,
+  "instant": 11.705,
+  "gone": 13.212,
+  "v_street": 15.237,
+  "v_air": 15.786,
+  "v_nora": 16.133,
+  "v_earth": 16.946,
+  "v_sun": 17.338,
+  "v_star": 17.776,
+  "light": 20.929,
+  "keeps": 24.69,
+  "back": 28.471,
+  "sip": 34.525,
+  "normal": 36.474,
+  "hole": 45.013,
+  "arrives": 50.911,
+  "dark": 53.735,
+  "relight": 59.88,
+  "half": 63.319,
+  "astro": 68.254,
+  "clock": 72.951,
+  "behind": 74.681,
+  "realize": 77.24,
+  "each": 82.573,
+  "closest": 85.728,
+  "year4": 89.553,
+  "blink": 95.006,
+  "million": 97.264,
+  "somewhere": 103.105,
+  "end": 106.506,
+  "darkEnd": 58.735
+ },
+ "lines": [
+  {
+   "shot": "street",
+   "text": "What if every atom in the universe disappeared... for five seconds?",
+   "start": 0.6,
+   "end": 4.484,
+   "words": [
+    {
+     "w": "What",
+     "s": 0.63,
+     "e": 0.935
+    },
+    {
+     "w": "if",
+     "s": 0.935,
+     "e": 1.039
+    },
+    {
+     "w": "every",
+     "s": 1.039,
+     "e": 1.547
+    },
+    {
+     "w": "atom",
+     "s": 1.547,
+     "e": 1.903
+    },
+    {
+     "w": "in",
+     "s": 1.903,
+     "e": 2.108
+    },
+    {
+     "w": "the",
+     "s": 2.108,
+     "e": 2.395
+    },
+    {
+     "w": "universe",
+     "s": 2.395,
+     "e": 2.705
+    },
+    {
+     "w": "disappeared...",
+     "s": 2.705,
+     "e": 3.57
+    },
+    {
+     "w": "for",
+     "s": 3.62,
+     "e": 3.814
+    },
+    {
+     "w": "five",
+     "s": 3.814,
+     "e": 4.085
+    },
+    {
+     "w": "seconds?",
+     "s": 4.085,
+     "e": 4.43
+    }
+   ],
+   "caps": [
+    {
+     "start": 0.63,
+     "end": 2.705,
+     "text": "What if every atom in the universe"
+    },
+    {
+     "start": 2.705,
+     "end": 3.62,
+     "text": "disappeared..."
+    },
+    {
+     "start": 3.62,
+     "end": 5.084,
+     "text": "for five seconds?"
+    }
+   ]
+  },
+  {
+   "shot": "street",
+   "text": "Tuesday. 9:41 in the morning. Nora is running late for work.",
+   "start": 5.634,
+   "end": 9.86,
+   "words": [
+    {
+     "w": "Tuesday.",
+     "s": 5.654,
+     "e": 6.534
+    },
+    {
+     "w": "9:41",
+     "s": 6.614,
+     "e": 6.807
+    },
+    {
+     "w": "in",
+     "s": 6.807,
+     "e": 7.0
+    },
+    {
+     "w": "the",
+     "s": 7.0,
+     "e": 7.114
+    },
+    {
+     "w": "morning.",
+     "s": 7.114,
+     "e": 7.614
+    },
+    {
+     "w": "Nora",
+     "s": 7.654,
+     "e": 8.124
+    },
+    {
+     "w": "is",
+     "s": 8.124,
+     "e": 8.504
+    },
+    {
+     "w": "running",
+     "s": 8.504,
+     "e": 8.864
+    },
+    {
+     "w": "late",
+     "s": 8.864,
+     "e": 9.239
+    },
+    {
+     "w": "for",
+     "s": 9.239,
+     "e": 9.404
+    },
+    {
+     "w": "work.",
+     "s": 9.404,
+     "e": 9.794
+    }
+   ],
+   "caps": [
+    {
+     "start": 5.654,
+     "end": 6.614,
+     "text": "Tuesday."
+    },
+    {
+     "start": 6.614,
+     "end": 7.654,
+     "text": "9:41 in the morning."
+    },
+    {
+     "start": 7.654,
+     "end": 10.46,
+     "text": "Nora is running late for work."
+    }
+   ]
+  },
+  {
+   "shot": "vanish",
+   "text": "Then, in one instant... everything is gone.",
+   "start": 10.91,
+   "end": 13.547,
+   "words": [
+    {
+     "w": "Then,",
+     "s": 10.94,
+     "e": 11.26
+    },
+    {
+     "w": "in",
+     "s": 11.26,
+     "e": 11.482
+    },
+    {
+     "w": "one",
+     "s": 11.482,
+     "e": 11.705
+    },
+    {
+     "w": "instant...",
+     "s": 11.705,
+     "e": 12.19
+    },
+    {
+     "w": "everything",
+     "s": 12.4,
+     "e": 13.03
+    },
+    {
+     "w": "is",
+     "s": 13.03,
+     "e": 13.212
+    },
+    {
+     "w": "gone.",
+     "s": 13.212,
+     "e": 13.49
+    }
+   ],
+   "caps": [
+    {
+     "start": 10.94,
+     "end": 11.26,
+     "text": "Then,"
+    },
+    {
+     "start": 11.26,
+     "end": 12.4,
+     "text": "in one instant..."
+    },
+    {
+     "start": 12.4,
+     "end": 14.147,
+     "text": "everything is gone."
+    }
+   ]
+  },
+  {
+   "shot": "void",
+   "text": "The street. The air. Nora. The Earth. The Sun. Every star.",
+   "start": 14.997,
+   "end": 18.029,
+   "words": [
+    {
+     "w": "The",
+     "s": 15.027,
+     "e": 15.237
+    },
+    {
+     "w": "street.",
+     "s": 15.237,
+     "e": 15.457
+    },
+    {
+     "w": "The",
+     "s": 15.547,
+     "e": 15.786
+    },
+    {
+     "w": "air.",
+     "s": 15.786,
+     "e": 16.133
+    },
+    {
+     "w": "Nora.",
+     "s": 16.133,
+     "e": 16.657
+    },
+    {
+     "w": "The",
+     "s": 16.787,
+     "e": 16.946
+    },
+    {
+     "w": "Earth.",
+     "s": 16.946,
+     "e": 17.177
+    },
+    {
+     "w": "The",
+     "s": 17.227,
+     "e": 17.338
+    },
+    {
+     "w": "Sun.",
+     "s": 17.338,
+     "e": 17.587
+    },
+    {
+     "w": "Every",
+     "s": 17.587,
+     "e": 17.776
+    },
+    {
+     "w": "star.",
+     "s": 17.776,
+     "e": 17.937
+    }
+   ],
+   "caps": [
+    {
+     "start": 15.027,
+     "end": 15.547,
+     "text": "The street."
+    },
+    {
+     "start": 15.547,
+     "end": 16.133,
+     "text": "The air."
+    },
+    {
+     "start": 16.133,
+     "end": 16.787,
+     "text": "Nora."
+    },
+    {
+     "start": 16.787,
+     "end": 17.227,
+     "text": "The Earth."
+    },
+    {
+     "start": 17.227,
+     "end": 17.587,
+     "text": "The Sun."
+    },
+    {
+     "start": 17.587,
+     "end": 18.629,
+     "text": "Every star."
+    }
+   ]
+  },
+  {
+   "shot": "light",
+   "text": "Only one thing is left. Light.",
+   "start": 19.379,
+   "end": 21.49,
+   "words": [
+    {
+     "w": "Only",
+     "s": 19.419,
+     "e": 19.802
+    },
+    {
+     "w": "one",
+     "s": 19.802,
+     "e": 20.034
+    },
+    {
+     "w": "thing",
+     "s": 20.034,
+     "e": 20.241
+    },
+    {
+     "w": "is",
+     "s": 20.241,
+     "e": 20.461
+    },
+    {
+     "w": "left.",
+     "s": 20.461,
+     "e": 20.779
+    },
+    {
+     "w": "Light.",
+     "s": 20.929,
+     "e": 21.429
+    }
+   ],
+   "caps": [
+    {
+     "start": 19.419,
+     "end": 20.929,
+     "text": "Only one thing is left."
+    },
+    {
+     "start": 20.929,
+     "end": 22.09,
+     "text": "Light."
+    }
+   ]
+  },
+  {
+   "shot": "light",
+   "text": "Light isn't made of atoms. So it just keeps going.",
+   "start": 22.54,
+   "end": 25.306,
+   "words": [
+    {
+     "w": "Light",
+     "s": 22.56,
+     "e": 22.88
+    },
+    {
+     "w": "isn't",
+     "s": 22.88,
+     "e": 23.019
+    },
+    {
+     "w": "made",
+     "s": 23.019,
+     "e": 23.249
+    },
+    {
+     "w": "of",
+     "s": 23.249,
+     "e": 23.48
+    },
+    {
+     "w": "atoms.",
+     "s": 23.48,
+     "e": 23.98
+    },
+    {
+     "w": "So",
+     "s": 24.06,
+     "e": 24.3
+    },
+    {
+     "w": "it",
+     "s": 24.3,
+     "e": 24.505
+    },
+    {
+     "w": "just",
+     "s": 24.505,
+     "e": 24.69
+    },
+    {
+     "w": "keeps",
+     "s": 24.69,
+     "e": 24.934
+    },
+    {
+     "w": "going.",
+     "s": 24.934,
+     "e": 25.25
+    }
+   ],
+   "caps": [
+    {
+     "start": 22.56,
+     "end": 24.06,
+     "text": "Light isn't made of atoms."
+    },
+    {
+     "start": 24.06,
+     "end": 25.906,
+     "text": "So it just keeps going."
+    }
+   ]
+  },
+  {
+   "shot": "back",
+   "text": "Five seconds later, every atom comes back. Exactly where it was.",
+   "start": 26.656,
+   "end": 30.834,
+   "words": [
+    {
+     "w": "Five",
+     "s": 26.696,
+     "e": 26.912
+    },
+    {
+     "w": "seconds",
+     "s": 26.912,
+     "e": 27.236
+    },
+    {
+     "w": "later,",
+     "s": 27.236,
+     "e": 27.756
+    },
+    {
+     "w": "every",
+     "s": 27.816,
+     "e": 28.106
+    },
+    {
+     "w": "atom",
+     "s": 28.106,
+     "e": 28.471
+    },
+    {
+     "w": "comes",
+     "s": 28.471,
+     "e": 28.756
+    },
+    {
+     "w": "back.",
+     "s": 28.756,
+     "e": 28.996
+    },
+    {
+     "w": "Exactly",
+     "s": 29.446,
+     "e": 30.007
+    },
+    {
+     "w": "where",
+     "s": 30.007,
+     "e": 30.301
+    },
+    {
+     "w": "it",
+     "s": 30.301,
+     "e": 30.46
+    },
+    {
+     "w": "was.",
+     "s": 30.46,
+     "e": 30.786
+    }
+   ],
+   "caps": [
+    {
+     "start": 26.696,
+     "end": 27.816,
+     "text": "Five seconds later,"
+    },
+    {
+     "start": 27.816,
+     "end": 29.446,
+     "text": "every atom comes back."
+    },
+    {
+     "start": 29.446,
+     "end": 31.434,
+     "text": "Exactly where it was."
+    }
+   ]
+  },
+  {
+   "shot": "back",
+   "text": "Nobody felt a thing. Nora takes another sip of her coffee.",
+   "start": 31.884,
+   "end": 35.524,
+   "words": [
+    {
+     "w": "Nobody",
+     "s": 31.904,
+     "e": 32.494
+    },
+    {
+     "w": "felt",
+     "s": 32.494,
+     "e": 32.694
+    },
+    {
+     "w": "a",
+     "s": 32.694,
+     "e": 32.859
+    },
+    {
+     "w": "thing.",
+     "s": 32.859,
+     "e": 33.194
+    },
+    {
+     "w": "Nora",
+     "s": 33.434,
+     "e": 33.779
+    },
+    {
+     "w": "takes",
+     "s": 33.779,
+     "e": 34.004
+    },
+    {
+     "w": "another",
+     "s": 34.004,
+     "e": 34.525
+    },
+    {
+     "w": "sip",
+     "s": 34.525,
+     "e": 34.684
+    },
+    {
+     "w": "of",
+     "s": 34.684,
+     "e": 34.924
+    },
+    {
+     "w": "her",
+     "s": 34.924,
+     "e": 35.074
+    },
+    {
+     "w": "coffee.",
+     "s": 35.074,
+     "e": 35.474
+    }
+   ],
+   "caps": [
+    {
+     "start": 31.904,
+     "end": 33.434,
+     "text": "Nobody felt a thing."
+    },
+    {
+     "start": 33.434,
+     "end": 36.124,
+     "text": "Nora takes another sip of her coffee."
+    }
+   ]
+  },
+  {
+   "shot": "back",
+   "text": "For eight minutes, the world is perfectly normal.",
+   "start": 36.474,
+   "end": 38.99,
+   "words": [
+    {
+     "w": "For",
+     "s": 36.514,
+     "e": 36.704
+    },
+    {
+     "w": "eight",
+     "s": 36.704,
+     "e": 36.894
+    },
+    {
+     "w": "minutes,",
+     "s": 36.894,
+     "e": 37.274
+    },
+    {
+     "w": "the",
+     "s": 37.314,
+     "e": 37.523
+    },
+    {
+     "w": "world",
+     "s": 37.523,
+     "e": 37.732
+    },
+    {
+     "w": "is",
+     "s": 37.732,
+     "e": 37.924
+    },
+    {
+     "w": "perfectly",
+     "s": 37.924,
+     "e": 38.458
+    },
+    {
+     "w": "normal.",
+     "s": 38.458,
+     "e": 38.914
+    }
+   ],
+   "caps": [
+    {
+     "start": 36.514,
+     "end": 37.314,
+     "text": "For eight minutes,"
+    },
+    {
+     "start": 37.314,
+     "end": 39.59,
+     "text": "the world is perfectly normal."
+    }
+   ]
+  },
+  {
+   "shot": "space",
+   "text": "But while the Sun was gone, it made no light.",
+   "start": 40.44,
+   "end": 42.982,
+   "words": [
+    {
+     "w": "But",
+     "s": 40.47,
+     "e": 40.65
+    },
+    {
+     "w": "while",
+     "s": 40.65,
+     "e": 40.962
+    },
+    {
+     "w": "the",
+     "s": 40.962,
+     "e": 41.142
+    },
+    {
+     "w": "Sun",
+     "s": 41.142,
+     "e": 41.335
+    },
+    {
+     "w": "was",
+     "s": 41.335,
+     "e": 41.501
+    },
+    {
+     "w": "gone,",
+     "s": 41.501,
+     "e": 41.76
+    },
+    {
+     "w": "it",
+     "s": 41.85,
+     "e": 42.091
+    },
+    {
+     "w": "made",
+     "s": 42.091,
+     "e": 42.332
+    },
+    {
+     "w": "no",
+     "s": 42.332,
+     "e": 42.572
+    },
+    {
+     "w": "light.",
+     "s": 42.572,
+     "e": 42.92
+    }
+   ],
+   "caps": [
+    {
+     "start": 40.47,
+     "end": 41.85,
+     "text": "But while the Sun was gone,"
+    },
+    {
+     "start": 41.85,
+     "end": 43.582,
+     "text": "it made no light."
+    }
+   ]
+  },
+  {
+   "shot": "space",
+   "text": "So a five-second hole in the sunlight is racing toward Earth.",
+   "start": 43.932,
+   "end": 47.449,
+   "words": [
+    {
+     "w": "So",
+     "s": 43.952,
+     "e": 44.257
+    },
+    {
+     "w": "a",
+     "s": 44.257,
+     "e": 44.358
+    },
+    {
+     "w": "five-second",
+     "s": 44.358,
+     "e": 45.013
+    },
+    {
+     "w": "hole",
+     "s": 45.013,
+     "e": 45.367
+    },
+    {
+     "w": "in",
+     "s": 45.367,
+     "e": 45.57
+    },
+    {
+     "w": "the",
+     "s": 45.57,
+     "e": 45.773
+    },
+    {
+     "w": "sunlight",
+     "s": 45.773,
+     "e": 46.127
+    },
+    {
+     "w": "is",
+     "s": 46.127,
+     "e": 46.33
+    },
+    {
+     "w": "racing",
+     "s": 46.33,
+     "e": 46.722
+    },
+    {
+     "w": "toward",
+     "s": 46.722,
+     "e": 47.042
+    },
+    {
+     "w": "Earth.",
+     "s": 47.042,
+     "e": 47.332
+    }
+   ],
+   "caps": [
+    {
+     "start": 43.952,
+     "end": 46.127,
+     "text": "So a five-second hole in the sunlight"
+    },
+    {
+     "start": 46.127,
+     "end": 48.049,
+     "text": "is racing toward Earth."
+    }
+   ]
+  },
+  {
+   "shot": "dark",
+   "text": "At 9:49 and twenty seconds, it arrives.",
+   "start": 48.799,
+   "end": 51.645,
+   "words": [
+    {
+     "w": "At",
+     "s": 48.819,
+     "e": 49.08
+    },
+    {
+     "w": "9:49",
+     "s": 49.08,
+     "e": 49.369
+    },
+    {
+     "w": "and",
+     "s": 49.369,
+     "e": 49.603
+    },
+    {
+     "w": "twenty",
+     "s": 49.603,
+     "e": 49.999
+    },
+    {
+     "w": "seconds,",
+     "s": 49.999,
+     "e": 50.629
+    },
+    {
+     "w": "it",
+     "s": 50.679,
+     "e": 50.911
+    },
+    {
+     "w": "arrives.",
+     "s": 50.911,
+     "e": 51.589
+    }
+   ],
+   "caps": [
+    {
+     "start": 48.819,
+     "end": 50.679,
+     "text": "At 9:49 and 20 seconds,"
+    },
+    {
+     "start": 50.679,
+     "end": 52.245,
+     "text": "it arrives."
+    }
+   ]
+  },
+  {
+   "shot": "dark",
+   "text": "The Sun goes dark.",
+   "start": 52.695,
+   "end": 54.289,
+   "words": [
+    {
+     "w": "The",
+     "s": 52.715,
+     "e": 53.055
+    },
+    {
+     "w": "Sun",
+     "s": 53.055,
+     "e": 53.395
+    },
+    {
+     "w": "goes",
+     "s": 53.395,
+     "e": 53.735
+    },
+    {
+     "w": "dark.",
+     "s": 53.735,
+     "e": 54.225
+    }
+   ],
+   "caps": [
+    {
+     "start": 52.715,
+     "end": 54.889,
+     "text": "The Sun goes dark."
+    }
+   ]
+  },
+  {
+   "shot": "dark",
+   "text": "Five seconds of night, in the middle of the morning.",
+   "start": 55.839,
+   "end": 58.53,
+   "words": [
+    {
+     "w": "Five",
+     "s": 55.879,
+     "e": 56.133
+    },
+    {
+     "w": "seconds",
+     "s": 56.133,
+     "e": 56.514
+    },
+    {
+     "w": "of",
+     "s": 56.514,
+     "e": 56.831
+    },
+    {
+     "w": "night,",
+     "s": 56.831,
+     "e": 57.199
+    },
+    {
+     "w": "in",
+     "s": 57.329,
+     "e": 57.474
+    },
+    {
+     "w": "the",
+     "s": 57.474,
+     "e": 57.619
+    },
+    {
+     "w": "middle",
+     "s": 57.619,
+     "e": 57.872
+    },
+    {
+     "w": "of",
+     "s": 57.872,
+     "e": 58.017
+    },
+    {
+     "w": "the",
+     "s": 58.017,
+     "e": 58.162
+    },
+    {
+     "w": "morning.",
+     "s": 58.162,
+     "e": 58.479
+    }
+   ],
+   "caps": [
+    {
+     "start": 55.879,
+     "end": 57.329,
+     "text": "Five seconds of night,"
+    },
+    {
+     "start": 57.329,
+     "end": 59.13,
+     "text": "in the middle of the morning."
+    }
+   ]
+  },
+  {
+   "shot": "dark",
+   "text": "Then it's back. As if nothing happened.",
+   "start": 59.68,
+   "end": 61.969,
+   "words": [
+    {
+     "w": "Then",
+     "s": 59.7,
+     "e": 59.923
+    },
+    {
+     "w": "it's",
+     "s": 59.923,
+     "e": 60.2
+    },
+    {
+     "w": "back.",
+     "s": 60.2,
+     "e": 60.47
+    },
+    {
+     "w": "As",
+     "s": 60.62,
+     "e": 60.812
+    },
+    {
+     "w": "if",
+     "s": 60.812,
+     "e": 60.925
+    },
+    {
+     "w": "nothing",
+     "s": 60.925,
+     "e": 61.338
+    },
+    {
+     "w": "happened.",
+     "s": 61.338,
+     "e": 61.9
+    }
+   ],
+   "caps": [
+    {
+     "start": 59.7,
+     "end": 60.62,
+     "text": "Then it's back."
+    },
+    {
+     "start": 60.62,
+     "end": 62.569,
+     "text": "As if nothing happened."
+    }
+   ]
+  },
+  {
+   "shot": "phones",
+   "text": "Half the planet saw it. Nobody can explain it.",
+   "start": 63.319,
+   "end": 66.094,
+   "words": [
+    {
+     "w": "Half",
+     "s": 63.349,
+     "e": 63.629
+    },
+    {
+     "w": "the",
+     "s": 63.629,
+     "e": 63.779
+    },
+    {
+     "w": "planet",
+     "s": 63.779,
+     "e": 64.084
+    },
+    {
+     "w": "saw",
+     "s": 64.084,
+     "e": 64.253
+    },
+    {
+     "w": "it.",
+     "s": 64.253,
+     "e": 64.529
+    },
+    {
+     "w": "Nobody",
+     "s": 64.659,
+     "e": 65.184
+    },
+    {
+     "w": "can",
+     "s": 65.184,
+     "e": 65.374
+    },
+    {
+     "w": "explain",
+     "s": 65.374,
+     "e": 65.732
+    },
+    {
+     "w": "it.",
+     "s": 65.732,
+     "e": 66.029
+    }
+   ],
+   "caps": [
+    {
+     "start": 63.349,
+     "end": 64.659,
+     "text": "Half the planet saw it."
+    },
+    {
+     "start": 64.659,
+     "end": 66.694,
+     "text": "Nobody can explain it."
+    }
+   ]
+  },
+  {
+   "shot": "lab",
+   "text": "Except Nora. She's an astronomer.",
+   "start": 67.244,
+   "end": 69.426,
+   "words": [
+    {
+     "w": "Except",
+     "s": 67.264,
+     "e": 67.428
+    },
+    {
+     "w": "Nora.",
+     "s": 67.428,
+     "e": 67.634
+    },
+    {
+     "w": "She's",
+     "s": 67.714,
+     "e": 68.007
+    },
+    {
+     "w": "an",
+     "s": 68.007,
+     "e": 68.254
+    },
+    {
+     "w": "astronomer.",
+     "s": 68.254,
+     "e": 69.374
+    }
+   ],
+   "caps": [
+    {
+     "start": 67.264,
+     "end": 67.714,
+     "text": "Except Nora."
+    },
+    {
+     "start": 67.714,
+     "end": 70.026,
+     "text": "She's an astronomer."
+    }
+   ]
+  },
+  {
+   "shot": "lab",
+   "text": "And she finds something else. Every clock on Earth is now five seconds behind the stars.",
+   "start": 70.476,
+   "end": 75.79,
+   "words": [
+    {
+     "w": "And",
+     "s": 70.496,
+     "e": 70.706
+    },
+    {
+     "w": "she",
+     "s": 70.706,
+     "e": 70.881
+    },
+    {
+     "w": "finds",
+     "s": 70.881,
+     "e": 71.128
+    },
+    {
+     "w": "something",
+     "s": 71.128,
+     "e": 71.651
+    },
+    {
+     "w": "else.",
+     "s": 71.651,
+     "e": 71.956
+    },
+    {
+     "w": "Every",
+     "s": 72.386,
+     "e": 72.951
+    },
+    {
+     "w": "clock",
+     "s": 72.951,
+     "e": 73.161
+    },
+    {
+     "w": "on",
+     "s": 73.161,
+     "e": 73.461
+    },
+    {
+     "w": "Earth",
+     "s": 73.461,
+     "e": 73.656
+    },
+    {
+     "w": "is",
+     "s": 73.656,
+     "e": 73.936
+    },
+    {
+     "w": "now",
+     "s": 73.936,
+     "e": 74.12
+    },
+    {
+     "w": "five",
+     "s": 74.12,
+     "e": 74.352
+    },
+    {
+     "w": "seconds",
+     "s": 74.352,
+     "e": 74.681
+    },
+    {
+     "w": "behind",
+     "s": 74.681,
+     "e": 75.216
+    },
+    {
+     "w": "the",
+     "s": 75.216,
+     "e": 75.391
+    },
+    {
+     "w": "stars.",
+     "s": 75.391,
+     "e": 75.726
+    }
+   ],
+   "caps": [
+    {
+     "start": 70.496,
+     "end": 72.386,
+     "text": "And she finds something else."
+    },
+    {
+     "start": 72.386,
+     "end": 74.352,
+     "text": "Every clock on Earth is now five"
+    },
+    {
+     "start": 74.352,
+     "end": 76.39,
+     "text": "seconds behind the stars."
+    }
+   ]
+  },
+  {
+   "shot": "dome",
+   "text": "Then she realizes what's still coming.",
+   "start": 77.24,
+   "end": 79.53,
+   "words": [
+    {
+     "w": "Then",
+     "s": 77.27,
+     "e": 77.524
+    },
+    {
+     "w": "she",
+     "s": 77.524,
+     "e": 77.777
+    },
+    {
+     "w": "realizes",
+     "s": 77.777,
+     "e": 78.407
+    },
+    {
+     "w": "what's",
+     "s": 78.407,
+     "e": 78.605
+    },
+    {
+     "w": "still",
+     "s": 78.605,
+     "e": 78.99
+    },
+    {
+     "w": "coming.",
+     "s": 78.99,
+     "e": 79.47
+    }
+   ],
+   "caps": [
+    {
+     "start": 77.27,
+     "end": 80.13,
+     "text": "Then she realizes what's still coming."
+    }
+   ]
+  },
+  {
+   "shot": "dome",
+   "text": "Every star vanished too. And each one sent out its own hole in the light.",
+   "start": 80.58,
+   "end": 84.678,
+   "words": [
+    {
+     "w": "Every",
+     "s": 80.6,
+     "e": 80.985
+    },
+    {
+     "w": "star",
+     "s": 80.985,
+     "e": 81.291
+    },
+    {
+     "w": "vanished",
+     "s": 81.291,
+     "e": 81.78
+    },
+    {
+     "w": "too.",
+     "s": 81.78,
+     "e": 82.07
+    },
+    {
+     "w": "And",
+     "s": 82.39,
+     "e": 82.573
+    },
+    {
+     "w": "each",
+     "s": 82.573,
+     "e": 82.725
+    },
+    {
+     "w": "one",
+     "s": 82.725,
+     "e": 82.939
+    },
+    {
+     "w": "sent",
+     "s": 82.939,
+     "e": 83.12
+    },
+    {
+     "w": "out",
+     "s": 83.12,
+     "e": 83.305
+    },
+    {
+     "w": "its",
+     "s": 83.305,
+     "e": 83.43
+    },
+    {
+     "w": "own",
+     "s": 83.43,
+     "e": 83.671
+    },
+    {
+     "w": "hole",
+     "s": 83.671,
+     "e": 83.97
+    },
+    {
+     "w": "in",
+     "s": 83.97,
+     "e": 84.173
+    },
+    {
+     "w": "the",
+     "s": 84.173,
+     "e": 84.356
+    },
+    {
+     "w": "light.",
+     "s": 84.356,
+     "e": 84.62
+    }
+   ],
+   "caps": [
+    {
+     "start": 80.6,
+     "end": 82.39,
+     "text": "Every star vanished too."
+    },
+    {
+     "start": 82.39,
+     "end": 83.671,
+     "text": "And each one sent out its own"
+    },
+    {
+     "start": 83.671,
+     "end": 85.278,
+     "text": "hole in the light."
+    }
+   ]
+  },
+  {
+   "shot": "dome",
+   "text": "The closest one is four years away.",
+   "start": 85.728,
+   "end": 88.003,
+   "words": [
+    {
+     "w": "The",
+     "s": 85.758,
+     "e": 85.908
+    },
+    {
+     "w": "closest",
+     "s": 85.908,
+     "e": 86.398
+    },
+    {
+     "w": "one",
+     "s": 86.398,
+     "e": 86.676
+    },
+    {
+     "w": "is",
+     "s": 86.676,
+     "e": 86.921
+    },
+    {
+     "w": "four",
+     "s": 86.921,
+     "e": 87.166
+    },
+    {
+     "w": "years",
+     "s": 87.166,
+     "e": 87.412
+    },
+    {
+     "w": "away.",
+     "s": 87.412,
+     "e": 87.948
+    }
+   ],
+   "caps": [
+    {
+     "start": 85.758,
+     "end": 88.603,
+     "text": "The closest one is four years away."
+    }
+   ]
+  },
+  {
+   "shot": "roof",
+   "text": "Four years later, thousands of people look up.",
+   "start": 89.553,
+   "end": 92.226,
+   "words": [
+    {
+     "w": "Four",
+     "s": 89.593,
+     "e": 89.835
+    },
+    {
+     "w": "years",
+     "s": 89.835,
+     "e": 90.076
+    },
+    {
+     "w": "later,",
+     "s": 90.076,
+     "e": 90.603
+    },
+    {
+     "w": "thousands",
+     "s": 90.713,
+     "e": 91.073
+    },
+    {
+     "w": "of",
+     "s": 91.073,
+     "e": 91.318
+    },
+    {
+     "w": "people",
+     "s": 91.318,
+     "e": 91.639
+    },
+    {
+     "w": "look",
+     "s": 91.639,
+     "e": 91.803
+    },
+    {
+     "w": "up.",
+     "s": 91.803,
+     "e": 92.143
+    }
+   ],
+   "caps": [
+    {
+     "start": 89.593,
+     "end": 90.713,
+     "text": "Four years later,"
+    },
+    {
+     "start": 90.713,
+     "end": 92.826,
+     "text": "thousands of people look up."
+    }
+   ]
+  },
+  {
+   "shot": "roof",
+   "text": "And right on time... a star blinks.",
+   "start": 93.276,
+   "end": 95.514,
+   "words": [
+    {
+     "w": "And",
+     "s": 93.306,
+     "e": 93.562
+    },
+    {
+     "w": "right",
+     "s": 93.562,
+     "e": 93.819
+    },
+    {
+     "w": "on",
+     "s": 93.819,
+     "e": 94.011
+    },
+    {
+     "w": "time...",
+     "s": 94.011,
+     "e": 94.446
+    },
+    {
+     "w": "a",
+     "s": 94.516,
+     "e": 94.686
+    },
+    {
+     "w": "star",
+     "s": 94.686,
+     "e": 95.006
+    },
+    {
+     "w": "blinks.",
+     "s": 95.006,
+     "e": 95.456
+    }
+   ],
+   "caps": [
+    {
+     "start": 93.306,
+     "end": 94.516,
+     "text": "And right on time..."
+    },
+    {
+     "start": 94.516,
+     "end": 96.114,
+     "text": "a star blinks."
+    }
+   ]
+  },
+  {
+   "shot": "sky",
+   "text": "For the next million years, the night sky will keep blinking. One star at a time.",
+   "start": 97.264,
+   "end": 101.855,
+   "words": [
+    {
+     "w": "For",
+     "s": 97.304,
+     "e": 97.5
+    },
+    {
+     "w": "the",
+     "s": 97.5,
+     "e": 97.669
+    },
+    {
+     "w": "next",
+     "s": 97.669,
+     "e": 97.774
+    },
+    {
+     "w": "million",
+     "s": 97.774,
+     "e": 98.231
+    },
+    {
+     "w": "years,",
+     "s": 98.231,
+     "e": 98.514
+    },
+    {
+     "w": "the",
+     "s": 98.564,
+     "e": 98.874
+    },
+    {
+     "w": "night",
+     "s": 98.874,
+     "e": 99.019
+    },
+    {
+     "w": "sky",
+     "s": 99.019,
+     "e": 99.211
+    },
+    {
+     "w": "will",
+     "s": 99.211,
+     "e": 99.414
+    },
+    {
+     "w": "keep",
+     "s": 99.414,
+     "e": 99.614
+    },
+    {
+     "w": "blinking.",
+     "s": 99.614,
+     "e": 100.114
+    },
+    {
+     "w": "One",
+     "s": 100.534,
+     "e": 100.844
+    },
+    {
+     "w": "star",
+     "s": 100.844,
+     "e": 100.997
+    },
+    {
+     "w": "at",
+     "s": 100.997,
+     "e": 101.329
+    },
+    {
+     "w": "a",
+     "s": 101.329,
+     "e": 101.46
+    },
+    {
+     "w": "time.",
+     "s": 101.46,
+     "e": 101.794
+    }
+   ],
+   "caps": [
+    {
+     "start": 97.304,
+     "end": 98.564,
+     "text": "For the next million years,"
+    },
+    {
+     "start": 98.564,
+     "end": 100.534,
+     "text": "the night sky will keep blinking."
+    },
+    {
+     "start": 100.534,
+     "end": 102.455,
+     "text": "One star at a time."
+    }
+   ]
+  },
+  {
+   "shot": "sky",
+   "text": "And somewhere out there, someone might be watching our Sun blink too.",
+   "start": 103.105,
+   "end": 106.506,
+   "words": [
+    {
+     "w": "And",
+     "s": 103.125,
+     "e": 103.316
+    },
+    {
+     "w": "somewhere",
+     "s": 103.316,
+     "e": 103.789
+    },
+    {
+     "w": "out",
+     "s": 103.789,
+     "e": 103.93
+    },
+    {
+     "w": "there,",
+     "s": 103.93,
+     "e": 104.255
+    },
+    {
+     "w": "someone",
+     "s": 104.315,
+     "e": 104.683
+    },
+    {
+     "w": "might",
+     "s": 104.683,
+     "e": 104.875
+    },
+    {
+     "w": "be",
+     "s": 104.875,
+     "e": 105.22
+    },
+    {
+     "w": "watching",
+     "s": 105.22,
+     "e": 105.475
+    },
+    {
+     "w": "our",
+     "s": 105.475,
+     "e": 105.686
+    },
+    {
+     "w": "Sun",
+     "s": 105.686,
+     "e": 105.898
+    },
+    {
+     "w": "blink",
+     "s": 105.898,
+     "e": 106.06
+    },
+    {
+     "w": "too.",
+     "s": 106.06,
+     "e": 106.415
+    }
+   ],
+   "caps": [
+    {
+     "start": 103.125,
+     "end": 104.315,
+     "text": "And somewhere out there,"
+    },
+    {
+     "start": 104.315,
+     "end": 106.06,
+     "text": "someone might be watching our Sun blink"
+    },
+    {
+     "start": 106.06,
+     "end": 106.806,
+     "text": "too."
+    }
+   ]
+  }
+ ]
+}

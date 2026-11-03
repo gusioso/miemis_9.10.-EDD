@@ -3,8 +3,9 @@ import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { Easing, interpolate } from "remotion";
 import timeline from "./timeline.json";
+import { Leo, type LeoFace } from "./Leo";
 
-// Real 3D (three.js) style test: a sunny kitchen, Maya, her cat and breakfast. Gravity switches off at "switched".
+// Real 3D (three.js) style test: a sunny kitchen, Leo, his cat and breakfast. Gravity switches off at "switched".
 const E = timeline.ev;
 const cl = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ip = (t: number, a: number, b: number, f = 0, to = 1, ease = Easing.inOut(Easing.cubic)) => interpolate(t, [a, b], [f, to], { ...cl, easing: ease });
@@ -40,148 +41,6 @@ const Limb: React.FC<{ p: V3; rot: V3; r: number; len: number; c: string; end?: 
   </group>
 );
 
-// ------------------------------------------------------------------ Maya
-type Face = "sleepy" | "smile" | "surprised" | "laugh";
-const Maya: React.FC<{ t: number; face: Face; armsUp: number; legsK: number; look: number }> = ({ t, face, armsUp, legsK, look }) => {
-  const blink = (t + 0.4) % 3.1 < 0.12;
-  const eyeSY = blink ? 0.12 : face === "sleepy" ? 0.45 : face === "laugh" ? 0.6 : face === "surprised" ? 1.15 : 1;
-  const brow = face === "surprised" ? 0.05 : face === "sleepy" ? -0.01 : 0.02;
-  // curls on the hair cap (fixed pseudo-random layout on the upper back of the head)
-  const curls: V3[] = [];
-  for (let i = 0; i < 34; i++) {
-    const a = (i * 2.399) % (Math.PI * 2);
-    const el = 0.25 + ((i * 0.618) % 1) * 1.05;
-    const r = 0.37;
-    const z = Math.cos(a) * Math.sin(el) * r;
-    if (z > 0.2 && el > 0.85) continue; // keep the face clear
-    curls.push([Math.sin(a) * Math.sin(el) * r, Math.cos(el) * r, z]);
-  }
-  const armRot = (s: number): V3 => [0, 0, s * (0.18 + armsUp * 2.2) + Math.sin(t * 3 + s) * 0.05 * armsUp];
-  return (
-    <group>
-      {/* legs */}
-      {[-1, 1].map((s) => (
-        <Limb key={s} p={[s * 0.1, 0.42, 0]} rot={[legsK * (s > 0 ? 0.5 : -0.3), 0, s * legsK * 0.35]} r={0.085} len={0.24} c="#3b3f6b"
-          end={<Ball p={[0, -0.01, 0.06]} r={0.1} s={[1, 0.6, 1.5]} c="#fbfbfb" />} />
-      ))}
-      {/* hoodie body */}
-      <mesh position={[0, 0.66, 0]} castShadow>
-        <capsuleGeometry args={[0.23, 0.26, 10, 28]} />
-        <Mat c={HOODIE} r={0.75} />
-      </mesh>
-      <mesh position={[0, 0.5, 0.13]} rotation={[0.25, 0, 0]} castShadow>
-        <boxGeometry args={[0.28, 0.12, 0.08]} />
-        <Mat c="#169a90" r={0.8} />
-      </mesh>
-      <mesh position={[0, 0.9, -0.02]} rotation={[Math.PI / 2 - 0.25, 0, 0]} castShadow>
-        <torusGeometry args={[0.17, 0.06, 14, 30]} />
-        <Mat c="#18a497" r={0.8} />
-      </mesh>
-      {[-0.05, 0.05].map((x) => (
-        <mesh key={x} position={[x, 0.78, 0.225]} castShadow>
-          <cylinderGeometry args={[0.009, 0.009, 0.16, 8]} />
-          <Mat c="#fff4e6" />
-        </mesh>
-      ))}
-      {/* arms */}
-      {[-1, 1].map((s) => (
-        <Limb key={s} p={[s * 0.25, 0.84, 0]} rot={armRot(s)} r={0.065} len={0.26} c={HOODIE} end={<Ball p={[0, 0, 0]} r={0.07} c={SKIN} />} />
-      ))}
-      {/* head */}
-      <group position={[0, 1.18, 0]} rotation={[0, look * 0.35, Math.sin(t * 1.3) * 0.04]}>
-        <Ball p={[0, 0, 0]} r={0.36} c={SKIN} s={[1, 0.96, 0.95]} rough={0.5} />
-        {[-1, 1].map((s) => <Ball key={s} p={[s * 0.35, -0.02, 0]} r={0.07} c={SKIN} s={[0.6, 1, 1]} />)}
-        {/* hair cap + curls + two puffs */}
-        <mesh position={[0, 0.03, -0.02]} rotation={[-0.35, 0, 0]} castShadow>
-          <sphereGeometry args={[0.38, 40, 28, 0, Math.PI * 2, 0, Math.PI * 0.52]} />
-          <Mat c={HAIR} r={0.85} />
-        </mesh>
-        {curls.map((p, i) => <Ball key={i} p={[p[0], p[1] + 0.02, p[2] - 0.03]} r={0.075 + (i % 3) * 0.012} c={i % 4 ? HAIR : "#3d271d"} rough={0.9} />)}
-        {[-1, 1].map((s) => (
-          <group key={s} position={[s * 0.3, 0.3, -0.05]}>
-            <Ball p={[0, 0, 0]} r={0.17} c={HAIR} rough={0.9} />
-            {Array.from({ length: 9 }).map((_, i) => (
-              <Ball key={i} p={[Math.cos(i * 0.7) * 0.14, Math.sin(i * 1.3) * 0.13, Math.sin(i * 0.7) * 0.12]} r={0.07} c={i % 3 ? HAIR : "#3d271d"} rough={0.9} />
-            ))}
-            <mesh position={[-s * 0.1, -0.1, 0]} rotation={[0, 0, s * 0.8]}>
-              <torusGeometry args={[0.08, 0.025, 10, 20]} />
-              <Mat c="#ffcc33" r={0.4} />
-            </mesh>
-          </group>
-        ))}
-        {/* eyes: glossy whites, big brown irises, two highlights each */}
-        {[-1, 1].map((s) => (
-          <group key={s} position={[s * 0.13, 0.0, 0.3]} scale={[1, eyeSY, 1]}>
-            <mesh scale={[1, 1.15, 0.55]}>
-              <sphereGeometry args={[0.085, 32, 24]} />
-              <meshPhysicalMaterial color="#ffffff" roughness={0.15} clearcoat={1} />
-            </mesh>
-            <mesh position={[look * 0.015, -0.005, 0.042]} scale={[1, 1.12, 0.4]}>
-              <sphereGeometry args={[0.06, 32, 24]} />
-              <meshPhysicalMaterial color="#5a2e16" roughness={0.2} clearcoat={1} />
-            </mesh>
-            <mesh position={[look * 0.015, -0.005, 0.062]} scale={[1, 1.1, 0.3]}>
-              <sphereGeometry args={[0.032, 24, 16]} />
-              <meshBasicMaterial color="#140a08" />
-            </mesh>
-            <mesh position={[look * 0.015 - 0.02, 0.025, 0.072]}>
-              <sphereGeometry args={[0.014, 16, 12]} />
-              <meshBasicMaterial color="#ffffff" />
-            </mesh>
-            <mesh position={[look * 0.015 + 0.018, -0.025, 0.07]}>
-              <sphereGeometry args={[0.007, 12, 8]} />
-              <meshBasicMaterial color="#ffffff" />
-            </mesh>
-            {/* lashes */}
-            <mesh position={[0, 0.03, 0.03]} rotation={[0, 0, 0]}>
-              <torusGeometry args={[0.085, 0.012, 8, 24, Math.PI]} />
-              <Mat c="#140a08" />
-            </mesh>
-          </group>
-        ))}
-        {/* brows */}
-        {[-1, 1].map((s) => (
-          <mesh key={s} position={[s * 0.13, 0.15 + brow, 0.31]} rotation={[0, 0, Math.PI / 2 + s * (face === "surprised" ? -0.15 : 0.12)]}>
-            <capsuleGeometry args={[0.014, 0.07, 4, 8]} />
-            <Mat c={HAIR} />
-          </mesh>
-        ))}
-        {/* cheeks + nose */}
-        {[-1, 1].map((s) => (
-          <mesh key={s} position={[s * 0.22, -0.1, 0.27]} scale={[1, 0.6, 0.3]}>
-            <sphereGeometry args={[0.05, 20, 14]} />
-            <meshStandardMaterial color="#ff7f8f" transparent opacity={0.45} roughness={0.8} />
-          </mesh>
-        ))}
-        <Ball p={[0, -0.06, 0.345]} r={0.025} c="#a86e4c" />
-        {/* mouth */}
-        {face === "surprised" ? (
-          <mesh position={[0, -0.16, 0.32]} scale={[1, 1.3, 0.4]}>
-            <sphereGeometry args={[0.035, 20, 14]} />
-            <meshStandardMaterial color="#5c1a24" roughness={0.6} />
-          </mesh>
-        ) : face === "laugh" ? (
-          <group position={[0, -0.15, 0.32]}>
-            <mesh scale={[1.3, 0.8, 0.4]}>
-              <sphereGeometry args={[0.055, 24, 16, 0, Math.PI * 2, Math.PI / 2, Math.PI / 2]} />
-              <meshStandardMaterial color="#5c1a24" roughness={0.6} side={THREE.DoubleSide} />
-            </mesh>
-            <mesh position={[0, -0.025, 0.01]} scale={[1, 0.5, 0.4]}>
-              <sphereGeometry args={[0.03, 16, 12]} />
-              <meshStandardMaterial color="#ff6b80" />
-            </mesh>
-          </group>
-        ) : (
-          <mesh position={[0, -0.13, 0.32]} rotation={[0, 0, Math.PI]}>
-            <torusGeometry args={[0.055, 0.011, 8, 24, Math.PI]} />
-            <Mat c="#5c1a24" />
-          </mesh>
-        )}
-      </group>
-    </group>
-  );
-};
-
 // ------------------------------------------------------------------ the cat
 const Cat: React.FC<{ t: number; float: number }> = ({ t, float }) => (
   <group>
@@ -215,14 +74,15 @@ const Cam: React.FC<{ t: number }> = ({ t }) => {
   const { camera } = useThree();
   useLayoutEffect(() => {
     const keys: [number, V3, V3][] = [
-      [0, [0.2, 1.35, 4.4], [0.2, 0.9, 0]],
-      [E.off, [-0.6, 1.4, 3.7], [0.3, 0.95, 0]],
+      [0, [0.22, 1.76, 1.15], [-0.05, 1.68, 0.35]],
+      [1.7, [0.35, 1.72, 1.6], [-0.05, 1.58, 0.35]],
+      [E.off, [-0.6, 1.75, 4.6], [0.3, 1.2, 0]],
       [E.cereal - 0.3, [2.3, 1.45, 1.5], [1.1, 1.1, -0.55]],
       [E.cat - 0.4, [2.1, 1.6, 1.8], [1.0, 1.25, -0.5]],
       [E.cat + 0.1, [-1.8, 1.0, 2.6], [-1.2, 1.0, -0.2]],
       [E.you0, [-1.6, 1.1, 2.9], [-1.0, 1.3, 0]],
-      [E.you0 + 0.3, [0.4, 0.55, 3.6], [0.1, 1.5, 0]],
-      [10, [0.0, 0.5, 4.6], [0.1, 1.7, 0]],
+      [E.you0 + 0.3, [0.5, 0.7, 4.6], [0.1, 1.9, 0]],
+      [10, [0.0, 0.6, 5.6], [0.1, 2.1, 0]],
     ];
     let i = 0;
     while (i < keys.length - 2 && t >= keys[i + 1][0]) i++;
@@ -246,7 +106,7 @@ export const Scene3D: React.FC<{ t: number }> = ({ t }) => {
   const spin = (ph: number, k = off) => k * (t - E.off) * (0.4 + (ph % 1) * 0.6);
   const catK = ip(t, E.cat - 0.2, E.cat + 1.0, 0, 1, Easing.out(Easing.quad));
   const mayaK = ip(t, E.you0, E.you0 + 1.4, 0, 1, Easing.out(Easing.quad));
-  const face: Face = t < 1.6 ? "sleepy" : t < E.off + 0.2 ? "smile" : t < E.you + 0.1 ? "surprised" : "laugh";
+  const face: LeoFace = t < E.off + 0.2 ? "smirk" : t < E.you + 0.1 ? "surprised" : "laugh";
   const cereal = Array.from({ length: 22 }).map((_, i) => {
     const a = i * 2.4;
     const r = 0.04 + (i % 5) * 0.012;
@@ -347,10 +207,10 @@ export const Scene3D: React.FC<{ t: number }> = ({ t }) => {
       <group position={[-1.2, fl(0.9, 2, catK), 0.1]} rotation={[0, 0.6, catK * (t - E.cat) * 0.5]}>
         <Cat t={t} float={catK} />
       </group>
-      {/* Maya */}
-      <group position={[-0.05, mayaK * (0.75 + Math.sin(t * 1.8) * 0.05), 0.35]} rotation={[mayaK * 0.15, -0.15 + mayaK * Math.sin(t * 0.9) * 0.3, mayaK * -0.12]}>
-        <Maya t={t} face={face} armsUp={Math.max(t > 0.8 && t < 1.9 ? Math.sin(ip(t, 0.8, 1.9, 0, Math.PI, Easing.linear)) * 0.8 : 0, mayaK)} legsK={mayaK}
-          look={t < E.off ? 0.5 : t < E.cat ? 0.8 : t < E.you0 ? -0.8 : 0} />
+      {/* Leo */}
+      <group position={[-0.05, mayaK * (0.7 + Math.sin(t * 1.8) * 0.05), 0.35]} rotation={[mayaK * 0.12, -0.12 + mayaK * Math.sin(t * 0.9) * 0.3, mayaK * -0.1]}>
+        <Leo t={t} face={face} armsUp={Math.max(t > 1.9 && t < 2.9 ? Math.sin(ip(t, 1.9, 2.9, 0, Math.PI, Easing.linear)) * 0.55 : 0, mayaK)} legsK={mayaK}
+          look={t < 1.6 ? 0.25 : t < E.off ? 0.5 : t < E.cat ? 0.8 : t < E.you0 ? -0.8 : 0} />
       </group>
       {/* floating dust motes in the sunlight */}
       {Array.from({ length: 30 }).map((_, i) => (
