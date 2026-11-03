@@ -17,7 +17,7 @@ export type Arm =
   | "down" | "phone" | "phoneUp" | "point" | "wave" | "chest" | "hips" | "chin" | "cheer" | "hold"
   | "give" | "shrug" | "talk" | "water" | "stop" | "film" | "mic" | "thumb" | "cross";
 export type Outfit = "hoodie" | "suit" | "apron" | "dress" | "coat" | "cardigan" | "tee" | "shopApron";
-export type Hair = "middle" | "wolf" | "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
+export type Hair = "quiff" | "middle" | "wolf" | "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
 
 // [elbow, hand] offsets from the shoulder for the arm on the +x side (mirrored for the other arm).
 const POSES: Record<Arm, [[number, number], [number, number]]> = {
@@ -141,6 +141,21 @@ export const MiddlePart: React.FC<{ x: number; y: number; u?: number; layer: "ba
       {half(1)}
       {half(-1)}
       <path d="M 0 -103 L 0 -84" stroke="#5a3a2a" strokeWidth={3} strokeLinecap="round" />
+    </g>
+  );
+};
+
+// Quiff, same shape and colours as the hero in the "What If Hypergamy Didn't Exist?" Short (hypergamy/src/Person.tsx),
+// rescaled from that head (radius 88) to this one (radius 80). Only a front layer: it sits on top of the head.
+const QUIFF_PTS: [number, number][] = [[-74, -46], [-66, -92], [-14, -132], [58, -134], [98, -96], [86, -48], [36, -80], [-18, -70]];
+export const QuiffHair: React.FC<{ x: number; y: number; u?: number; layer: "back" | "front" }> = ({ x, y, u = 1, layer }) => {
+  if (layer === "back") return null;
+  const k = (80 / 88) * u;
+  return (
+    <g>
+      <polygon points={QUIFF_PTS.map(([a, b]) => `${x + a * k},${y + b * k}`).join(" ")} fill="#603e26" />
+      <polyline points={`${x - 20 * k},${y - 112 * k} ${x + 50 * k},${y - 120 * k} ${x + 80 * k},${y - 96 * k}`} fill="none" stroke="#966842"
+        strokeWidth={7 * k} strokeLinecap="round" />
     </g>
   );
 };
@@ -288,7 +303,9 @@ export const Stick: React.FC<StickProps> = ({
   }
   parts.push(<circle key={k()} cx={hx} cy={hy} r={hr} fill={INK} />);
   parts.push(<path key={k()} d={`M ${hx - hr * 0.62} ${hy - hr * 0.55} A ${hr * 0.85} ${hr * 0.85} 0 0 1 ${hx + hr * 0.1} ${hy - hr * 0.86}`} fill="none" stroke="#3a3a46" strokeWidth={U(7)} strokeLinecap="round" />);
-  if (hair === "middle") {
+  if (hair === "quiff") {
+    parts.push(<QuiffHair key={k()} x={hx} y={hy} u={u} layer="front" />);
+  } else if (hair === "middle") {
     parts.push(<MiddlePart key={k()} x={hx} y={hy} u={u} layer="front" />);
   } else if (hair === "wolf") {
     parts.push(<WolfHair key={k()} x={hx} y={hy} u={u} layer="front" />);

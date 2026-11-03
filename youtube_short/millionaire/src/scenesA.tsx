@@ -3,7 +3,7 @@ import { Easing } from "remotion";
 import { BigPhone, Bed, Calendar, Frame, LyingHead, Panel, Plant, Room, Sofa, Street, TVSet, Window } from "./env";
 import { Apartments, Car, Cart, Dealership, Graph, NewsDesk, Supermarket, Truck, Warehouse, grow } from "./env2";
 import { ALEX, Bubble, Chip, H, JAKE, MANAGER, P, Ring, Sparkles, View, W, cam, ip, pop, shot, tf } from "./kit";
-import { INK, MiddlePart, Stick } from "./Stick";
+import { INK, QuiffHair, Stick } from "./Stick";
 
 export type SceneData = { id: string; dur: number; ev: Record<string, number>; L: number[]; Le: number[] };
 export type SceneFn = (p: { S: SceneData; t: number }) => React.ReactNode;
@@ -93,9 +93,8 @@ export const notify: SceneFn = ({ S, t }) => {
         <BigPhone x={1080} y={600} w={620} h={1080}>
           <BankScreen t={t} t0={E.million} from={83.47} to={1000083.47} banner={E.million - 0.2} />
         </BigPhone>
-        <MiddlePart x={330} y={1080} u={230 / 80} layer="back" />
         <circle cx={330} cy={1080} r={230} fill={INK} />
-        <MiddlePart x={330} y={1080} u={230 / 80} layer="front" />
+        <QuiffHair x={330} y={1080} u={230 / 80} layer="front" />
         {[-1, 1].map((s) => (
           <g key={s}>
             <ellipse cx={330 + s * 80} cy={1010} rx={56} ry={66} fill="#fff" />
