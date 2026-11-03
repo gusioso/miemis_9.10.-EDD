@@ -1,7 +1,7 @@
 {
  "fps": 30,
- "total": 144.0,
- "durationInFrames": 4320,
+ "total": 176.397,
+ "durationInFrames": 5292,
  "scenes": [
   {
    "id": "hook",
@@ -2744,6 +2744,590 @@
     "empty": 8.15,
     "explain": 9.542,
     "flour": 10.757
+   }
+  },
+  {
+   "id": "discover",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 144.0,
+   "end": 160.0,
+   "lines": [
+    {
+     "text": "Alex realizes something important.",
+     "voice": "n",
+     "file": "assets/vo/44cf7fd1bf40.wav",
+     "start": 144.4,
+     "end": 146.813,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 144.42,
+       "e": 144.855
+      },
+      {
+       "w": "realizes",
+       "s": 144.855,
+       "e": 145.433
+      },
+      {
+       "w": "something",
+       "s": 145.433,
+       "e": 146.028
+      },
+      {
+       "w": "important.",
+       "s": 146.028,
+       "e": 146.73
+      }
+     ],
+     "caps": [
+      {
+       "start": 144.42,
+       "end": 146.028,
+       "voice": "n",
+       "text": "ALEX REALIZES SOMETHING"
+      },
+      {
+       "start": 146.028,
+       "end": 146.73,
+       "voice": "n",
+       "text": "IMPORTANT."
+      }
+     ]
+    },
+    {
+     "text": "Everyone received more money, but nobody received more food, houses, or time.",
+     "voice": "n",
+     "file": "assets/vo/0a7e88b6bdec.wav",
+     "start": 147.663,
+     "end": 152.251,
+     "words": [
+      {
+       "w": "Everyone",
+       "s": 147.683,
+       "e": 148.112
+      },
+      {
+       "w": "received",
+       "s": 148.112,
+       "e": 148.503
+      },
+      {
+       "w": "more",
+       "s": 148.503,
+       "e": 148.715
+      },
+      {
+       "w": "money,",
+       "s": 148.715,
+       "e": 149.093
+      },
+      {
+       "w": "but",
+       "s": 149.413,
+       "e": 149.562
+      },
+      {
+       "w": "nobody",
+       "s": 149.562,
+       "e": 149.93
+      },
+      {
+       "w": "received",
+       "s": 149.93,
+       "e": 150.299
+      },
+      {
+       "w": "more",
+       "s": 150.299,
+       "e": 150.448
+      },
+      {
+       "w": "food,",
+       "s": 150.448,
+       "e": 150.663
+      },
+      {
+       "w": "houses,",
+       "s": 150.783,
+       "e": 151.439
+      },
+      {
+       "w": "or",
+       "s": 151.439,
+       "e": 151.783
+      },
+      {
+       "w": "time.",
+       "s": 151.783,
+       "e": 152.173
+      }
+     ],
+     "caps": [
+      {
+       "start": 147.683,
+       "end": 148.503,
+       "voice": "n",
+       "text": "EVERYONE RECEIVED"
+      },
+      {
+       "start": 148.503,
+       "end": 149.413,
+       "voice": "n",
+       "text": "MORE MONEY"
+      },
+      {
+       "start": 149.413,
+       "end": 150.299,
+       "voice": "n",
+       "text": "BUT NOBODY RECEIVED"
+      },
+      {
+       "start": 150.299,
+       "end": 150.783,
+       "voice": "n",
+       "text": "MORE FOOD"
+      },
+      {
+       "start": 150.783,
+       "end": 151.439,
+       "voice": "n",
+       "text": "HOUSES"
+      },
+      {
+       "start": 151.439,
+       "end": 152.173,
+       "voice": "n",
+       "text": "OR TIME."
+      }
+     ]
+    },
+    {
+     "text": "So he starts helping at the bakery.",
+     "voice": "n",
+     "file": "assets/vo/a2777ac44779.wav",
+     "start": 153.201,
+     "end": 155.252,
+     "words": [
+      {
+       "w": "So",
+       "s": 153.241,
+       "e": 153.442
+      },
+      {
+       "w": "he",
+       "s": 153.442,
+       "e": 153.616
+      },
+      {
+       "w": "starts",
+       "s": 153.616,
+       "e": 153.831
+      },
+      {
+       "w": "helping",
+       "s": 153.831,
+       "e": 154.141
+      },
+      {
+       "w": "at",
+       "s": 154.141,
+       "e": 154.426
+      },
+      {
+       "w": "the",
+       "s": 154.426,
+       "e": 154.601
+      },
+      {
+       "w": "bakery.",
+       "s": 154.601,
+       "e": 155.191
+      }
+     ],
+     "caps": [
+      {
+       "start": 153.241,
+       "end": 153.831,
+       "voice": "n",
+       "text": "SO HE STARTS"
+      },
+      {
+       "start": 153.831,
+       "end": 154.601,
+       "voice": "n",
+       "text": "HELPING AT THE"
+      },
+      {
+       "start": 154.601,
+       "end": 155.191,
+       "voice": "n",
+       "text": "BAKERY."
+      }
+     ]
+    },
+    {
+     "text": "And for the first time in weeks, something actually improves.",
+     "voice": "n",
+     "file": "assets/vo/c1d21096d8e3.wav",
+     "start": 156.102,
+     "end": 159.513,
+     "words": [
+      {
+       "w": "And",
+       "s": 156.122,
+       "e": 156.307
+      },
+      {
+       "w": "for",
+       "s": 156.307,
+       "e": 156.547
+      },
+      {
+       "w": "the",
+       "s": 156.547,
+       "e": 156.822
+      },
+      {
+       "w": "first",
+       "s": 156.822,
+       "e": 156.928
+      },
+      {
+       "w": "time",
+       "s": 156.928,
+       "e": 157.129
+      },
+      {
+       "w": "in",
+       "s": 157.129,
+       "e": 157.331
+      },
+      {
+       "w": "weeks,",
+       "s": 157.331,
+       "e": 157.622
+      },
+      {
+       "w": "something",
+       "s": 157.772,
+       "e": 158.237
+      },
+      {
+       "w": "actually",
+       "s": 158.237,
+       "e": 158.902
+      },
+      {
+       "w": "improves.",
+       "s": 158.902,
+       "e": 159.462
+      }
+     ],
+     "caps": [
+      {
+       "start": 156.122,
+       "end": 156.822,
+       "voice": "n",
+       "text": "AND FOR THE"
+      },
+      {
+       "start": 156.822,
+       "end": 157.772,
+       "voice": "n",
+       "text": "FIRST TIME IN WEEKS"
+      },
+      {
+       "start": 157.772,
+       "end": 158.902,
+       "voice": "n",
+       "text": "SOMETHING ACTUALLY"
+      },
+      {
+       "start": 158.902,
+       "end": 159.462,
+       "voice": "n",
+       "text": "IMPROVES."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "compare": 3.413,
+    "help": 8.951,
+    "improves": 11.852
+   }
+  },
+  {
+   "id": "final",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 160.0,
+   "end": 176.397,
+   "lines": [
+    {
+     "text": "Alex finally understands.",
+     "voice": "n",
+     "file": "assets/vo/dbad88a9795a.wav",
+     "start": 160.4,
+     "end": 162.391,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 160.43,
+       "e": 160.915
+      },
+      {
+       "w": "finally",
+       "s": 160.915,
+       "e": 161.445
+      },
+      {
+       "w": "understands.",
+       "s": 161.445,
+       "e": 162.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 160.43,
+       "end": 162.33,
+       "voice": "n",
+       "text": "ALEX FINALLY UNDERSTANDS."
+      }
+     ]
+    },
+    {
+     "text": "Money can help you buy what exists. It can't magically create what everyone needs.",
+     "voice": "n",
+     "file": "assets/vo/802555fcee17.wav",
+     "start": 163.191,
+     "end": 168.148,
+     "words": [
+      {
+       "w": "Money",
+       "s": 163.221,
+       "e": 163.601
+      },
+      {
+       "w": "can",
+       "s": 163.601,
+       "e": 163.844
+      },
+      {
+       "w": "help",
+       "s": 163.844,
+       "e": 163.986
+      },
+      {
+       "w": "you",
+       "s": 163.986,
+       "e": 164.211
+      },
+      {
+       "w": "buy",
+       "s": 164.211,
+       "e": 164.526
+      },
+      {
+       "w": "what",
+       "s": 164.526,
+       "e": 164.754
+      },
+      {
+       "w": "exists.",
+       "s": 164.754,
+       "e": 165.251
+      },
+      {
+       "w": "It",
+       "s": 165.611,
+       "e": 165.731
+      },
+      {
+       "w": "can't",
+       "s": 165.731,
+       "e": 165.971
+      },
+      {
+       "w": "magically",
+       "s": 165.971,
+       "e": 166.772
+      },
+      {
+       "w": "create",
+       "s": 166.772,
+       "e": 166.976
+      },
+      {
+       "w": "what",
+       "s": 166.976,
+       "e": 167.151
+      },
+      {
+       "w": "everyone",
+       "s": 167.151,
+       "e": 167.886
+      },
+      {
+       "w": "needs.",
+       "s": 167.886,
+       "e": 168.091
+      }
+     ],
+     "caps": [
+      {
+       "start": 163.221,
+       "end": 163.986,
+       "voice": "n",
+       "text": "MONEY CAN HELP"
+      },
+      {
+       "start": 163.986,
+       "end": 164.754,
+       "voice": "n",
+       "text": "YOU BUY WHAT"
+      },
+      {
+       "start": 164.754,
+       "end": 165.611,
+       "voice": "n",
+       "text": "EXISTS."
+      },
+      {
+       "start": 165.611,
+       "end": 166.772,
+       "voice": "n",
+       "text": "IT CAN'T MAGICALLY"
+      },
+      {
+       "start": 166.772,
+       "end": 167.886,
+       "voice": "n",
+       "text": "CREATE WHAT EVERYONE"
+      },
+      {
+       "start": 167.886,
+       "end": 168.091,
+       "voice": "n",
+       "text": "NEEDS."
+      }
+     ]
+    },
+    {
+     "text": "So if you became a millionaire tomorrow, would you still go to work?",
+     "voice": "n",
+     "file": "assets/vo/8af0fb4cb923.wav",
+     "start": 169.098,
+     "end": 172.647,
+     "words": [
+      {
+       "w": "So",
+       "s": 169.118,
+       "e": 169.309
+      },
+      {
+       "w": "if",
+       "s": 169.309,
+       "e": 169.493
+      },
+      {
+       "w": "you",
+       "s": 169.493,
+       "e": 169.803
+      },
+      {
+       "w": "became",
+       "s": 169.803,
+       "e": 170.024
+      },
+      {
+       "w": "a",
+       "s": 170.024,
+       "e": 170.215
+      },
+      {
+       "w": "millionaire",
+       "s": 170.215,
+       "e": 170.693
+      },
+      {
+       "w": "tomorrow,",
+       "s": 170.693,
+       "e": 171.248
+      },
+      {
+       "w": "would",
+       "s": 171.348,
+       "e": 171.537
+      },
+      {
+       "w": "you",
+       "s": 171.537,
+       "e": 171.658
+      },
+      {
+       "w": "still",
+       "s": 171.658,
+       "e": 171.916
+      },
+      {
+       "w": "go",
+       "s": 171.916,
+       "e": 172.138
+      },
+      {
+       "w": "to",
+       "s": 172.138,
+       "e": 172.295
+      },
+      {
+       "w": "work?",
+       "s": 172.295,
+       "e": 172.568
+      }
+     ],
+     "caps": [
+      {
+       "start": 169.118,
+       "end": 169.803,
+       "voice": "n",
+       "text": "SO IF YOU"
+      },
+      {
+       "start": 169.803,
+       "end": 170.693,
+       "voice": "n",
+       "text": "BECAME A MILLIONAIRE"
+      },
+      {
+       "start": 170.693,
+       "end": 171.348,
+       "voice": "n",
+       "text": "TOMORROW"
+      },
+      {
+       "start": 171.348,
+       "end": 171.916,
+       "voice": "n",
+       "text": "WOULD YOU STILL"
+      },
+      {
+       "start": 171.916,
+       "end": 172.568,
+       "voice": "n",
+       "text": "GO TO WORK?"
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "split": 2.891,
+    "question": 9.098,
+    "final": 12.897
    }
   }
  ]

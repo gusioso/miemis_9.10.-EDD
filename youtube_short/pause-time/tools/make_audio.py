@@ -84,6 +84,15 @@ SCENES = [
         N("One afternoon, Alex passes a bakery where he used to buy breakfast.", hold=0.3),
         N("The owner is still working. But the shelves are almost empty.", hold=0.3),
         N("She explains that her ingredients are expensive and deliveries have become unreliable.")]),
+    dict(id="discover", tag="MONTH 1", right="bank", lead=0.4, dur=16.0, lines=[
+        N("Alex realizes something important.", hold=0.4),
+        N("Everyone received more money, but nobody received more food, houses, or time.", hold=0.5),
+        N("So he starts helping at the bakery.", hold=0.4),
+        N("And for the first time in weeks, something actually improves.")]),
+    dict(id="final", tag="MONTH 1", right="bank", lead=0.4, extra=3.75, lines=[
+        N("Alex finally understands.", hold=0.35),
+        N("Money can help you buy what exists. It can't magically create what everyone needs.", hold=0.5),
+        N("So if you became a millionaire tomorrow, would you still go to work?")]),
 ]
 # Caption words differ from spoken words where digits read better. "~x" merges into the previous caption word.
 CAP_SWAP = {("hook", 0): {"ten": "10"}, ("morning", 1): {"five": "5"}, ("spend", 0): {"nine": "9"}}
@@ -362,6 +371,14 @@ def events(scenes):
     put("bakery", "empty", word_time(s, 1, r"^empty"))
     put("bakery", "explain", L("bakery", 2))
     put("bakery", "flour", word_time(s, 2, r"^ingredients"))
+    s = S["discover"]
+    put("discover", "compare", L("discover", 1) - 0.25)
+    put("discover", "help", L("discover", 2) - 0.25)
+    put("discover", "improves", L("discover", 3) - 0.25)
+    s = S["final"]
+    put("final", "split", L("final", 1) - 0.3)
+    put("final", "question", L("final", 2))
+    put("final", "final", L("final", 2, True) + 0.25)
     return ev
 
 
@@ -429,7 +446,8 @@ def soundtrack(scenes, voices, total, ev):
     A, C, D, E_, F, G, B_ = 220.0, 261.63, 293.66, 329.63, 349.23, 392.0, 246.94
     marks = [(0, "tense"), (S["morning"]["start"] - 0.1, "curious"), (E("morning", "confirm"), "happy"),
              (S["problem"]["start"], "mystery"), (S["week1"]["start"], "tense"), (S["prices"]["start"], "serious"),
-             (S["month1"]["start"], "tense"), (S["bakery"]["start"], "warm")]
+             (S["month1"]["start"], "tense"), (S["bakery"]["start"], "warm"),
+             (E("discover", "help"), "hopeful"), (S["final"]["start"], "calm")]
 
     def mood(tp):
         m = marks[0][1]
@@ -464,6 +482,8 @@ def soundtrack(scenes, voices, total, ev):
                 add(music, tone(ch[0] / 4, beat * 4, (1, 0.3), 0.6), tp, 0.14 * k_)
             for e, f in enumerate(ch if b % 2 == 0 else ch[::-1]):
                 add(music, piano(f * 2, 2.0, 2.0), tp + e * beat / 3, 0.045 * k_)
+            if m == "hopeful" and b % 2 == 0:
+                add(music, kick(), tp, 0.12)
         elif m == "mystery":
             if b % 4 == 0:
                 add(music, pad([A / 2, C, E_, F], beat * 4 + 1.2, 0.15), tp, 0.10)
@@ -485,6 +505,11 @@ def soundtrack(scenes, voices, total, ev):
                 add(music, tone(ch[0] / 2, beat * 4, (1, 0.4, 0.2), 0.8), tp, 0.16)
         b += 1
         tp += beat
+    # final question: everything fades into one soft held chord (the cinematic note)
+    fq = E("final", "final")
+    j0 = int((fq - 0.3) * SR)
+    music[j0:] *= np.linspace(1, 0.25, n - j0)
+    add(music, pad([F / 2, A / 2, C, E_], total - fq + 0.5, 0.2), fq - 0.2, 0.13)
     music *= gate
 
     # ---------------- voice + ducking
@@ -528,6 +553,8 @@ def soundtrack(scenes, voices, total, ev):
     murmur(S["prices"]["start"], S["prices"]["end"], 0.025)
     bed(S["month1"]["start"], S["month1"]["end"], 80, 900, 0.03)
     bed(S["bakery"]["start"], S["bakery"]["end"], 80, 900, 0.02)
+    murmur(S["discover"]["start"], S["discover"]["end"], 0.02)
+    bed(S["final"]["start"], S["final"]["end"], 60, 400, 0.015)
     add(amb, noise(1.6, 300, 2500) * np.sin(np.pi * tt(1.6) / 1.6) ** 2, 0.1, 0.05)      # car swish
     for j in range(3):                                   # bird before the freeze
         x = tt(0.09)
@@ -649,10 +676,20 @@ def soundtrack(scenes, voices, total, ev):
     add(sfx, tone(1318.5, 0.6, (1, 0.3), 5), E("bakery", "inside") + 0.3, 0.06)
     add(sfx, tone(1760, 0.6, (1, 0.3), 5), E("bakery", "inside") + 0.42, 0.05)
 
+    # discover: flour thuds, register for the first customers
+    for j in range(3):
+        stamp(E("discover", "help") + 0.6 + j * 0.6, 0.08)
+    kaching(E("discover", "improves") + 1.2, 0.15)
+    # final: low cinematic boom under the question
+    x = tt(2.4)
+    add(sfx, np.sin(2 * np.pi * np.cumsum(55 + 25 * np.exp(-x * 3)) / SR) * np.exp(-x * 1.6), E("final", "final"), 0.2)
+
     mix = vo + music * 0.85 + amb + sfx
     mix = mix[:int(total * SR)]
     mix = np.tanh(mix * 1.05)
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.9
+    f = int(1.2 * SR)
+    mix[-f:] *= np.linspace(1, 0, f)
     return mix
 
 

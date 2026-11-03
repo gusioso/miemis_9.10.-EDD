@@ -7,6 +7,7 @@ import { work } from "./s6_work";
 import { prices } from "./s7_prices";
 import { month1 } from "./s8_month1";
 import { bakery } from "./s9_bakery";
+import { discover, final } from "./s10_end";
 import type { SceneFn } from "./types";
 
-export const SCENES: Record<string, SceneFn> = { hook, morning, spend, problem, week1, work, prices, month1, bakery };
+export const SCENES: Record<string, SceneFn> = { hook, morning, spend, problem, week1, work, prices, month1, bakery, discover, final };
