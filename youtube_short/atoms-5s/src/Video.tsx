@@ -45,7 +45,10 @@ const Caption: React.FC<{ t: number }> = ({ t }) => {
   for (const l of timeline.lines) {
     for (const c of l.caps) {
       if (t >= c.start - 0.05 && t < c.end) {
-        const op = interpolate(t, [c.start - 0.05, c.start + 0.2, c.end - 0.15, c.end], [0, 1, 1, 0], clamp);
+        const d = Math.max(0.12, c.end - c.start + 0.05);
+        const fi = Math.min(0.25, d / 3);
+        const fo = Math.min(0.15, d / 3);
+        const op = interpolate(t, [c.start - 0.05, c.start - 0.05 + fi, c.start - 0.05 + d - fo, c.start - 0.05 + d], [0, 1, 1, 0], clamp);
         const y = interpolate(t, [c.start - 0.05, c.start + 0.3], [10, 0], { ...clamp, easing: Easing.out(Easing.cubic) });
         return (
           <div style={{ position: "absolute", left: 90, right: 90, top: 1180, display: "flex", justifyContent: "center", opacity: op, transform: `translateY(${y}px)` }}>
@@ -98,7 +101,7 @@ export const AtomsShort: React.FC = () => {
         <div style={{ fontFamily: "Inter", fontWeight: 600, fontSize: 21, letterSpacing: 2.5, opacity: 0.85 }}>{c.sub}</div>
       </div>
       {LABELS.filter((l) => l.text && t >= l.t0 && t < l.t1).map((l, i) => (
-        <div key={i} style={{ position: "absolute", left: 0, right: 0, top: l.top, display: "flex", justifyContent: "center", opacity: interpolate(t, [l.t0, l.t0 + 0.4, l.t1 - 0.3, l.t1], [0, 1, 1, 0], clamp) }}>
+        <div key={i} style={{ position: "absolute", left: 0, right: 0, top: l.top, display: "flex", justifyContent: "center", opacity: interpolate(t, [l.t0, l.t0 + Math.min(0.4, (l.t1 - l.t0) / 3), l.t1 - Math.min(0.3, (l.t1 - l.t0) / 3), l.t1], [0, 1, 1, 0], clamp) }}>
           <div style={{ fontFamily: "Inter", fontWeight: 800, fontSize: 26, letterSpacing: 3, color: "#fff", background: "rgba(10,12,20,0.55)", padding: "10px 22px", borderRadius: 10 }}>{l.text}</div>
         </div>
       ))}
