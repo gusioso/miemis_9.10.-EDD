@@ -85,10 +85,13 @@ const evAbs = (id: string, name: string) => {
   const v = sc ? (sc.ev as unknown as Record<string, number>)[name] : undefined;
   return sc && v !== undefined ? sc.start + v : 1e9;
 };
-/** Alex's balance: $1,000,083.47 after the overnight deposit, minus the $50,000 car deposit. */
+/** Alex's balance: $1,000,083.47 after the overnight deposit, minus the $50,000 car deposit, minus three weeks of pricier shopping. */
 const balanceAt = (t: number) => {
   const buy = evAbs("spend", "buy") + 0.2;
-  return t < buy ? 1000083.47 : interpolate(t, [buy, buy + 0.7], [1000083.47, 950083.47], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const shop = evAbs("prices", "alex") + 0.4;
+  if (t < buy) return 1000083.47;
+  if (t < shop) return interpolate(t, [buy, buy + 0.7], [1000083.47, 950083.47], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  return interpolate(t, [shop, shop + 1.0], [950083.47, 949212.65], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
 };
 
 const Hud: React.FC = () => {

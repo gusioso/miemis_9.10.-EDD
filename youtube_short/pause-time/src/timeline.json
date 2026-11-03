@@ -1,7 +1,7 @@
 {
  "fps": 30,
- "total": 77.0,
- "durationInFrames": 2310,
+ "total": 111.0,
+ "durationInFrames": 3330,
  "scenes": [
   {
    "id": "hook",
@@ -1475,6 +1475,669 @@
     "vanish": 6.325,
     "graph": 9.085,
     "fast": 13.755
+   }
+  },
+  {
+   "id": "work",
+   "tag": "WEEK 2",
+   "right": "bank",
+   "start": 77.0,
+   "end": 93.0,
+   "lines": [
+    {
+     "text": "And there's another problem. Some people decide they don't need their jobs anymore.",
+     "voice": "n",
+     "file": "assets/vo/266b2e339395.wav",
+     "start": 77.3,
+     "end": 81.74,
+     "words": [
+      {
+       "w": "And",
+       "s": 77.32,
+       "e": 77.497
+      },
+      {
+       "w": "there's",
+       "s": 77.497,
+       "e": 77.805
+      },
+      {
+       "w": "another",
+       "s": 77.805,
+       "e": 78.125
+      },
+      {
+       "w": "problem.",
+       "s": 78.125,
+       "e": 78.63
+      },
+      {
+       "w": "Some",
+       "s": 78.95,
+       "e": 79.275
+      },
+      {
+       "w": "people",
+       "s": 79.275,
+       "e": 79.455
+      },
+      {
+       "w": "decide",
+       "s": 79.455,
+       "e": 79.936
+      },
+      {
+       "w": "they",
+       "s": 79.936,
+       "e": 80.156
+      },
+      {
+       "w": "don't",
+       "s": 80.156,
+       "e": 80.33
+      },
+      {
+       "w": "need",
+       "s": 80.33,
+       "e": 80.596
+      },
+      {
+       "w": "their",
+       "s": 80.596,
+       "e": 80.816
+      },
+      {
+       "w": "jobs",
+       "s": 80.816,
+       "e": 81.036
+      },
+      {
+       "w": "anymore.",
+       "s": 81.036,
+       "e": 81.68
+      }
+     ],
+     "caps": [
+      {
+       "start": 77.32,
+       "end": 78.125,
+       "voice": "n",
+       "text": "AND THERE'S ANOTHER"
+      },
+      {
+       "start": 78.125,
+       "end": 78.95,
+       "voice": "n",
+       "text": "PROBLEM."
+      },
+      {
+       "start": 78.95,
+       "end": 79.936,
+       "voice": "n",
+       "text": "SOME PEOPLE DECIDE"
+      },
+      {
+       "start": 79.936,
+       "end": 80.596,
+       "voice": "n",
+       "text": "THEY DON'T NEED"
+      },
+      {
+       "start": 80.596,
+       "end": 81.68,
+       "voice": "n",
+       "text": "THEIR JOBS ANYMORE."
+      }
+     ]
+    },
+    {
+     "text": "Alex quits the grocery store.",
+     "voice": "n",
+     "file": "assets/vo/60189d033601.wav",
+     "start": 82.24,
+     "end": 84.269,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 82.27,
+       "e": 82.75
+      },
+      {
+       "w": "quits",
+       "s": 82.75,
+       "e": 82.92
+      },
+      {
+       "w": "the",
+       "s": 82.92,
+       "e": 83.217
+      },
+      {
+       "w": "grocery",
+       "s": 83.217,
+       "e": 83.785
+      },
+      {
+       "w": "store.",
+       "s": 83.785,
+       "e": 84.21
+      }
+     ],
+     "caps": [
+      {
+       "start": 82.27,
+       "end": 83.217,
+       "voice": "n",
+       "text": "ALEX QUITS THE"
+      },
+      {
+       "start": 83.217,
+       "end": 84.21,
+       "voice": "n",
+       "text": "GROCERY STORE."
+      }
+     ]
+    },
+    {
+     "text": "But so do several delivery drivers, warehouse workers, and store employees.",
+     "voice": "n",
+     "file": "assets/vo/c97ae736d080.wav",
+     "start": 84.869,
+     "end": 89.241,
+     "words": [
+      {
+       "w": "But",
+       "s": 84.889,
+       "e": 85.13
+      },
+      {
+       "w": "so",
+       "s": 85.13,
+       "e": 85.371
+      },
+      {
+       "w": "do",
+       "s": 85.371,
+       "e": 85.569
+      },
+      {
+       "w": "several",
+       "s": 85.569,
+       "e": 86.208
+      },
+      {
+       "w": "delivery",
+       "s": 86.208,
+       "e": 86.969
+      },
+      {
+       "w": "drivers,",
+       "s": 86.969,
+       "e": 87.509
+      },
+      {
+       "w": "warehouse",
+       "s": 87.559,
+       "e": 88.014
+      },
+      {
+       "w": "workers,",
+       "s": 88.014,
+       "e": 88.229
+      },
+      {
+       "w": "and",
+       "s": 88.269,
+       "e": 88.604
+      },
+      {
+       "w": "store",
+       "s": 88.604,
+       "e": 88.709
+      },
+      {
+       "w": "employees.",
+       "s": 88.709,
+       "e": 89.189
+      }
+     ],
+     "caps": [
+      {
+       "start": 84.889,
+       "end": 85.569,
+       "voice": "n",
+       "text": "BUT SO DO"
+      },
+      {
+       "start": 85.569,
+       "end": 86.969,
+       "voice": "n",
+       "text": "SEVERAL DELIVERY"
+      },
+      {
+       "start": 86.969,
+       "end": 87.559,
+       "voice": "n",
+       "text": "DRIVERS"
+      },
+      {
+       "start": 87.559,
+       "end": 88.269,
+       "voice": "n",
+       "text": "WAREHOUSE WORKERS"
+      },
+      {
+       "start": 88.269,
+       "end": 89.189,
+       "voice": "n",
+       "text": "AND STORE EMPLOYEES."
+      }
+     ]
+    },
+    {
+     "text": "Suddenly, getting basic supplies becomes much harder.",
+     "voice": "n",
+     "file": "assets/vo/b7bb551fb320.wav",
+     "start": 89.691,
+     "end": 92.887,
+     "words": [
+      {
+       "w": "Suddenly,",
+       "s": 89.721,
+       "e": 90.361
+      },
+      {
+       "w": "getting",
+       "s": 90.361,
+       "e": 90.771
+      },
+      {
+       "w": "basic",
+       "s": 90.771,
+       "e": 91.051
+      },
+      {
+       "w": "supplies",
+       "s": 91.051,
+       "e": 91.555
+      },
+      {
+       "w": "becomes",
+       "s": 91.555,
+       "e": 92.114
+      },
+      {
+       "w": "much",
+       "s": 92.114,
+       "e": 92.371
+      },
+      {
+       "w": "harder.",
+       "s": 92.371,
+       "e": 92.831
+      }
+     ],
+     "caps": [
+      {
+       "start": 89.721,
+       "end": 90.361,
+       "voice": "n",
+       "text": "SUDDENLY"
+      },
+      {
+       "start": 90.361,
+       "end": 91.555,
+       "voice": "n",
+       "text": "GETTING BASIC SUPPLIES"
+      },
+      {
+       "start": 91.555,
+       "end": 92.831,
+       "voice": "n",
+       "text": "BECOMES MUCH HARDER."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "bank": 2.455,
+    "quits": 5.75,
+    "drivers": 7.619,
+    "trucks": 10.359,
+    "manager": 12.441
+   }
+  },
+  {
+   "id": "prices",
+   "tag": "WEEK 3",
+   "right": "bank",
+   "start": 93.0,
+   "end": 111.0,
+   "lines": [
+    {
+     "text": "Then prices begin climbing.",
+     "voice": "n",
+     "file": "assets/vo/2821a4c58615.wav",
+     "start": 93.4,
+     "end": 95.448,
+     "words": [
+      {
+       "w": "Then",
+       "s": 93.44,
+       "e": 93.785
+      },
+      {
+       "w": "prices",
+       "s": 93.785,
+       "e": 94.217
+      },
+      {
+       "w": "begin",
+       "s": 94.217,
+       "e": 94.715
+      },
+      {
+       "w": "climbing.",
+       "s": 94.715,
+       "e": 95.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 93.44,
+       "end": 94.715,
+       "voice": "n",
+       "text": "THEN PRICES BEGIN"
+      },
+      {
+       "start": 94.715,
+       "end": 95.33,
+       "voice": "n",
+       "text": "CLIMBING."
+      }
+     ]
+    },
+    {
+     "text": "Businesses have more customers than products, and many struggle to hire workers.",
+     "voice": "n",
+     "file": "assets/vo/4ceb7807e41f.wav",
+     "start": 96.198,
+     "end": 100.834,
+     "words": [
+      {
+       "w": "Businesses",
+       "s": 96.228,
+       "e": 96.868
+      },
+      {
+       "w": "have",
+       "s": 96.868,
+       "e": 97.178
+      },
+      {
+       "w": "more",
+       "s": 97.178,
+       "e": 97.373
+      },
+      {
+       "w": "customers",
+       "s": 97.373,
+       "e": 97.913
+      },
+      {
+       "w": "than",
+       "s": 97.913,
+       "e": 98.128
+      },
+      {
+       "w": "products,",
+       "s": 98.128,
+       "e": 98.678
+      },
+      {
+       "w": "and",
+       "s": 99.018,
+       "e": 99.221
+      },
+      {
+       "w": "many",
+       "s": 99.221,
+       "e": 99.575
+      },
+      {
+       "w": "struggle",
+       "s": 99.575,
+       "e": 99.943
+      },
+      {
+       "w": "to",
+       "s": 99.943,
+       "e": 100.131
+      },
+      {
+       "w": "hire",
+       "s": 100.131,
+       "e": 100.423
+      },
+      {
+       "w": "workers.",
+       "s": 100.423,
+       "e": 100.778
+      }
+     ],
+     "caps": [
+      {
+       "start": 96.228,
+       "end": 97.178,
+       "voice": "n",
+       "text": "BUSINESSES HAVE"
+      },
+      {
+       "start": 97.178,
+       "end": 97.913,
+       "voice": "n",
+       "text": "MORE CUSTOMERS"
+      },
+      {
+       "start": 97.913,
+       "end": 99.018,
+       "voice": "n",
+       "text": "THAN PRODUCTS"
+      },
+      {
+       "start": 99.018,
+       "end": 99.943,
+       "voice": "n",
+       "text": "AND MANY STRUGGLE"
+      },
+      {
+       "start": 99.943,
+       "end": 100.778,
+       "voice": "n",
+       "text": "TO HIRE WORKERS."
+      }
+     ]
+    },
+    {
+     "text": "Some raise prices. Others simply close.",
+     "voice": "n",
+     "file": "assets/vo/87a05c3510ea.wav",
+     "start": 101.284,
+     "end": 103.744,
+     "words": [
+      {
+       "w": "Some",
+       "s": 101.314,
+       "e": 101.596
+      },
+      {
+       "w": "raise",
+       "s": 101.596,
+       "e": 101.954
+      },
+      {
+       "w": "prices.",
+       "s": 101.954,
+       "e": 102.494
+      },
+      {
+       "w": "Others",
+       "s": 102.594,
+       "e": 102.924
+      },
+      {
+       "w": "simply",
+       "s": 102.924,
+       "e": 103.289
+      },
+      {
+       "w": "close.",
+       "s": 103.289,
+       "e": 103.684
+      }
+     ],
+     "caps": [
+      {
+       "start": 101.314,
+       "end": 102.594,
+       "voice": "n",
+       "text": "SOME RAISE PRICES."
+      },
+      {
+       "start": 102.594,
+       "end": 103.684,
+       "voice": "n",
+       "text": "OTHERS SIMPLY CLOSE."
+      }
+     ]
+    },
+    {
+     "text": "Alex still has almost a million dollars. But each week, that money buys less.",
+     "voice": "n",
+     "file": "assets/vo/a2d478f89fea.wav",
+     "start": 104.594,
+     "end": 109.305,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 104.634,
+       "e": 104.929
+      },
+      {
+       "w": "still",
+       "s": 104.929,
+       "e": 105.232
+      },
+      {
+       "w": "has",
+       "s": 105.232,
+       "e": 105.509
+      },
+      {
+       "w": "almost",
+       "s": 105.509,
+       "e": 105.884
+      },
+      {
+       "w": "a",
+       "s": 105.884,
+       "e": 106.048
+      },
+      {
+       "w": "million",
+       "s": 106.048,
+       "e": 106.428
+      },
+      {
+       "w": "dollars.",
+       "s": 106.428,
+       "e": 106.904
+      },
+      {
+       "w": "But",
+       "s": 107.294,
+       "e": 107.399
+      },
+      {
+       "w": "each",
+       "s": 107.399,
+       "e": 107.664
+      },
+      {
+       "w": "week,",
+       "s": 107.664,
+       "e": 107.864
+      },
+      {
+       "w": "that",
+       "s": 108.004,
+       "e": 108.134
+      },
+      {
+       "w": "money",
+       "s": 108.134,
+       "e": 108.66
+      },
+      {
+       "w": "buys",
+       "s": 108.66,
+       "e": 108.809
+      },
+      {
+       "w": "less.",
+       "s": 108.809,
+       "e": 109.244
+      }
+     ],
+     "caps": [
+      {
+       "start": 104.634,
+       "end": 105.509,
+       "voice": "n",
+       "text": "ALEX STILL HAS"
+      },
+      {
+       "start": 105.509,
+       "end": 106.428,
+       "voice": "n",
+       "text": "ALMOST A MILLION"
+      },
+      {
+       "start": 106.428,
+       "end": 107.294,
+       "voice": "n",
+       "text": "DOLLARS."
+      },
+      {
+       "start": 107.294,
+       "end": 108.004,
+       "voice": "n",
+       "text": "BUT EACH WEEK"
+      },
+      {
+       "start": 108.004,
+       "end": 108.809,
+       "voice": "n",
+       "text": "THAT MONEY BUYS"
+      },
+      {
+       "start": 108.809,
+       "end": 109.244,
+       "voice": "n",
+       "text": "LESS."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "climb": 1.715,
+    "cafe": 2.948,
+    "raise": 8.596,
+    "close": 10.289,
+    "alex": 11.344,
+    "less": 15.809
    }
   }
  ]

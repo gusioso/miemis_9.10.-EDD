@@ -66,6 +66,16 @@ SCENES = [
         N("A week later, things start getting weird.", hold=0.4),
         N("Supermarkets are packed. Deliveries are delayed. Popular products vanish from shelves.", hold=0.3),
         N("Not because the world has run out of money, but because it can't produce everything fast enough.")]),
+    dict(id="work", tag="WEEK 2", right="bank", lead=0.3, dur=16.0, lines=[
+        N("And there's another problem. Some people decide they don't need their jobs anymore.", hold=0.05),
+        N("Alex quits the grocery store.", hold=0.15),
+        N("But so do several delivery drivers, warehouse workers, and store employees."),
+        N("Suddenly, getting basic supplies becomes much harder.")]),
+    dict(id="prices", tag="WEEK 3", right="bank", lead=0.4, dur=18.0, lines=[
+        N("Then prices begin climbing.", hold=0.3),
+        N("Businesses have more customers than products, and many struggle to hire workers."),
+        N("Some raise prices. Others simply close.", hold=0.4),
+        N("Alex still has almost a million dollars. But each week, that money buys less.")]),
 ]
 # Caption words differ from spoken words where digits read better. "~x" merges into the previous caption word.
 CAP_SWAP = {("hook", 0): {"ten": "10"}, ("morning", 1): {"five": "5"}, ("spend", 0): {"nine": "9"}}
@@ -320,6 +330,19 @@ def events(scenes):
     put("week1", "vanish", word_time(s, 1, r"^Popular") - 0.2)
     put("week1", "graph", L("week1", 2) - 0.25)
     put("week1", "fast", word_time(s, 2, r"^fast"))
+    s = S["work"]
+    put("work", "bank", word_time(s, 0, r"^decide"))
+    put("work", "quits", word_time(s, 1, r"^quits"))
+    put("work", "drivers", L("work", 2) - 0.25)
+    put("work", "trucks", word_time(s, 2, r"^warehouse") - 0.2)
+    put("work", "manager", L("work", 3) - 0.25)
+    s = S["prices"]
+    put("prices", "climb", word_time(s, 0, r"^climbing"))
+    put("prices", "cafe", L("prices", 1) - 0.25)
+    put("prices", "raise", word_time(s, 2, r"^raise"))
+    put("prices", "close", word_time(s, 2, r"^close"))
+    put("prices", "alex", L("prices", 3) - 0.25)
+    put("prices", "less", word_time(s, 3, r"^less"))
     return ev
 
 
@@ -386,7 +409,7 @@ def soundtrack(scenes, voices, total, ev):
     # ---------------- music: mood per section
     A, C, D, E_, F, G, B_ = 220.0, 261.63, 293.66, 329.63, 349.23, 392.0, 246.94
     marks = [(0, "tense"), (S["morning"]["start"] - 0.1, "curious"), (E("morning", "confirm"), "happy"),
-             (S["problem"]["start"], "mystery"), (S["week1"]["start"], "tense")]
+             (S["problem"]["start"], "mystery"), (S["week1"]["start"], "tense"), (S["prices"]["start"], "serious")]
 
     def mood(tp):
         m = marks[0][1]
@@ -403,13 +426,16 @@ def soundtrack(scenes, voices, total, ev):
     while tp < total:
         bar = (b // 4) % 4
         m = mood(tp)
-        if m == "tense":
+        if m in ("tense", "serious"):
+            g = 0.6 if m == "serious" else 1.0
             ch = minor_prog[bar]
             if b % 4 == 0:
-                add(music, pad([ch[0] / 2, ch[1] / 2, ch[2] / 2], beat * 4 + 1.2, 0.12), tp, 0.12)
-            add(music, tone(A / 4 if bar % 2 == 0 else F / 4, 0.4, (1, 0.5), 7), tp, 0.2)
-            add(music, noise(0.02, 5000, 10000) * np.exp(-tt(0.02) * 150), tp + beat / 2, 0.025)
-            add(music, piano([E_, A, C * 2, B_][b % 4] * 2, 1.0, 3.5), tp + beat / 2, 0.05)
+                add(music, pad([ch[0] / 2, ch[1] / 2, ch[2] / 2], beat * 4 + 1.2, 0.12), tp, 0.12 * g)
+            if m == "tense" or b % 2 == 0:
+                add(music, tone(A / 4 if bar % 2 == 0 else F / 4, 0.4, (1, 0.5), 7), tp, 0.2 * g)
+            if m == "tense":
+                add(music, noise(0.02, 5000, 10000) * np.exp(-tt(0.02) * 150), tp + beat / 2, 0.025)
+            add(music, piano([E_, A, C * 2, B_][b % 4] * 2, 1.0, 3.5), tp + beat / 2, 0.05 * g)
         elif m == "mystery":
             if b % 4 == 0:
                 add(music, pad([A / 2, C, E_, F], beat * 4 + 1.2, 0.15), tp, 0.10)
@@ -470,6 +496,8 @@ def soundtrack(scenes, voices, total, ev):
     murmur(S["spend"]["start"], S["spend"]["end"], 0.025)
     murmur(S["problem"]["start"], S["problem"]["end"], 0.03)
     murmur(S["week1"]["start"], S["week1"]["end"], 0.05)
+    bed(S["work"]["start"], S["work"]["end"], 60, 600, 0.03)
+    murmur(S["prices"]["start"], S["prices"]["end"], 0.025)
     add(amb, noise(1.6, 300, 2500) * np.sin(np.pi * tt(1.6) / 1.6) ** 2, 0.1, 0.05)      # car swish
     for j in range(3):                                   # bird before the freeze
         x = tt(0.09)
@@ -570,6 +598,17 @@ def soundtrack(scenes, voices, total, ev):
         add(sfx, tone(2800, 0.08, (1,), 40), E("week1", "store") + 0.5 + j * 0.45, 0.06)
     for f in (370, 466):
         add(sfx, tone(f, 0.5, (1, 0.6, 0.4), 1.5), E("week1", "delayed") + 0.5, 0.06)
+
+    # work: badge down x2, truck idle, papers piling
+    add(sfx, noise(0.05, 800, 4000) * np.exp(-tt(0.05) * 60), E("work", "quits") + 0.5, 0.25)
+    add(sfx, noise(0.05, 800, 4000) * np.exp(-tt(0.05) * 60), E("work", "quits") + 1.3, 0.2)
+    for j in range(6):
+        add(sfx, noise(0.12, 1500, 7000) * np.exp(-tt(0.12) * 25), E("work", "manager") + 0.3 + j * 0.35, 0.05)
+    # prices: tag flips + register, closed sign knock
+    for j in range(5):
+        click(E("prices", "climb") + j * 0.4, 0.12)
+    kaching(E("prices", "raise"), 0.18)
+    stamp(E("prices", "close") + 0.2, 0.15)
 
     mix = vo + music * 0.85 + amb + sfx
     mix = mix[:int(total * SR)]
