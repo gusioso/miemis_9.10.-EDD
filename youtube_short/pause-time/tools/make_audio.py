@@ -76,6 +76,14 @@ SCENES = [
         N("Businesses have more customers than products, and many struggle to hire workers."),
         N("Some raise prices. Others simply close.", hold=0.4),
         N("Alex still has almost a million dollars. But each week, that money buys less.")]),
+    dict(id="month1", tag="MONTH 1", right="bank", lead=0.4, dur=17.0, lines=[
+        N("One month later, the world looks completely different.", hold=0.4),
+        N("Some businesses offer huge wages to attract workers. Others can't afford to stay open.", hold=0.4),
+        N("New factories and delivery services are needed, but building them takes time.")]),
+    dict(id="bakery", tag="MONTH 1", right="bank", lead=0.4, dur=16.0, lines=[
+        N("One afternoon, Alex passes a bakery where he used to buy breakfast.", hold=0.3),
+        N("The owner is still working. But the shelves are almost empty.", hold=0.3),
+        N("She explains that her ingredients are expensive and deliveries have become unreliable.")]),
 ]
 # Caption words differ from spoken words where digits read better. "~x" merges into the previous caption word.
 CAP_SWAP = {("hook", 0): {"ten": "10"}, ("morning", 1): {"five": "5"}, ("spend", 0): {"nine": "9"}}
@@ -343,6 +351,17 @@ def events(scenes):
     put("prices", "close", word_time(s, 2, r"^close"))
     put("prices", "alex", L("prices", 3) - 0.25)
     put("prices", "less", word_time(s, 3, r"^less"))
+    s = S["month1"]
+    put("month1", "hiring", L("month1", 1) - 0.25)
+    put("month1", "closed", word_time(s, 1, r"^Others"))
+    put("month1", "factory", L("month1", 2) - 0.25)
+    put("month1", "trucks", word_time(s, 2, r"^building"))
+    s = S["bakery"]
+    put("bakery", "memory", word_time(s, 0, r"^used"))
+    put("bakery", "inside", L("bakery", 1) - 0.25)
+    put("bakery", "empty", word_time(s, 1, r"^empty"))
+    put("bakery", "explain", L("bakery", 2))
+    put("bakery", "flour", word_time(s, 2, r"^ingredients"))
     return ev
 
 
@@ -409,7 +428,8 @@ def soundtrack(scenes, voices, total, ev):
     # ---------------- music: mood per section
     A, C, D, E_, F, G, B_ = 220.0, 261.63, 293.66, 329.63, 349.23, 392.0, 246.94
     marks = [(0, "tense"), (S["morning"]["start"] - 0.1, "curious"), (E("morning", "confirm"), "happy"),
-             (S["problem"]["start"], "mystery"), (S["week1"]["start"], "tense"), (S["prices"]["start"], "serious")]
+             (S["problem"]["start"], "mystery"), (S["week1"]["start"], "tense"), (S["prices"]["start"], "serious"),
+             (S["month1"]["start"], "tense"), (S["bakery"]["start"], "warm")]
 
     def mood(tp):
         m = marks[0][1]
@@ -436,6 +456,14 @@ def soundtrack(scenes, voices, total, ev):
             if m == "tense":
                 add(music, noise(0.02, 5000, 10000) * np.exp(-tt(0.02) * 150), tp + beat / 2, 0.025)
             add(music, piano([E_, A, C * 2, B_][b % 4] * 2, 1.0, 3.5), tp + beat / 2, 0.05 * g)
+        elif m in ("warm", "hopeful", "calm"):
+            ch = [[F, A, C * 2], [C, E_, G], [A, C * 2, E_ * 2], [G, B_, D * 2]][bar]
+            k_ = {"warm": 0.85, "hopeful": 1.15, "calm": 0.8}[m]
+            if b % 4 == 0:
+                add(music, pad([c / 2 for c in ch], beat * 4 + 1.2, 0.3), tp, 0.11 * k_)
+                add(music, tone(ch[0] / 4, beat * 4, (1, 0.3), 0.6), tp, 0.14 * k_)
+            for e, f in enumerate(ch if b % 2 == 0 else ch[::-1]):
+                add(music, piano(f * 2, 2.0, 2.0), tp + e * beat / 3, 0.045 * k_)
         elif m == "mystery":
             if b % 4 == 0:
                 add(music, pad([A / 2, C, E_, F], beat * 4 + 1.2, 0.15), tp, 0.10)
@@ -498,6 +526,8 @@ def soundtrack(scenes, voices, total, ev):
     murmur(S["week1"]["start"], S["week1"]["end"], 0.05)
     bed(S["work"]["start"], S["work"]["end"], 60, 600, 0.03)
     murmur(S["prices"]["start"], S["prices"]["end"], 0.025)
+    bed(S["month1"]["start"], S["month1"]["end"], 80, 900, 0.03)
+    bed(S["bakery"]["start"], S["bakery"]["end"], 80, 900, 0.02)
     add(amb, noise(1.6, 300, 2500) * np.sin(np.pi * tt(1.6) / 1.6) ** 2, 0.1, 0.05)      # car swish
     for j in range(3):                                   # bird before the freeze
         x = tt(0.09)
@@ -609,6 +639,15 @@ def soundtrack(scenes, voices, total, ev):
         click(E("prices", "climb") + j * 0.4, 0.12)
     kaching(E("prices", "raise"), 0.18)
     stamp(E("prices", "close") + 0.2, 0.15)
+
+    # month 1: construction time-lapse, truck horn
+    for j in range(14):
+        add(sfx, noise(0.04, 800, 5000) * np.exp(-tt(0.04) * 90), E("month1", "factory") + 0.3 + j * 0.28, 0.08)
+    for f in (370, 466):
+        add(sfx, tone(f, 0.4, (1, 0.6, 0.4), 2), E("month1", "trucks") + 0.6, 0.05)
+    # bakery: door bell
+    add(sfx, tone(1318.5, 0.6, (1, 0.3), 5), E("bakery", "inside") + 0.3, 0.06)
+    add(sfx, tone(1760, 0.6, (1, 0.3), 5), E("bakery", "inside") + 0.42, 0.05)
 
     mix = vo + music * 0.85 + amb + sfx
     mix = mix[:int(total * SR)]

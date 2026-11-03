@@ -1,7 +1,7 @@
 {
  "fps": 30,
- "total": 111.0,
- "durationInFrames": 3330,
+ "total": 144.0,
+ "durationInFrames": 4320,
  "scenes": [
   {
    "id": "hook",
@@ -2138,6 +2138,612 @@
     "close": 10.289,
     "alex": 11.344,
     "less": 15.809
+   }
+  },
+  {
+   "id": "month1",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 111.0,
+   "end": 128.0,
+   "lines": [
+    {
+     "text": "One month later, the world looks completely different.",
+     "voice": "n",
+     "file": "assets/vo/7488d383fd87.wav",
+     "start": 111.4,
+     "end": 114.307,
+     "words": [
+      {
+       "w": "One",
+       "s": 111.43,
+       "e": 111.538
+      },
+      {
+       "w": "month",
+       "s": 111.538,
+       "e": 111.645
+      },
+      {
+       "w": "later,",
+       "s": 111.645,
+       "e": 111.88
+      },
+      {
+       "w": "the",
+       "s": 111.93,
+       "e": 112.184
+      },
+      {
+       "w": "world",
+       "s": 112.184,
+       "e": 112.36
+      },
+      {
+       "w": "looks",
+       "s": 112.36,
+       "e": 112.691
+      },
+      {
+       "w": "completely",
+       "s": 112.691,
+       "e": 113.505
+      },
+      {
+       "w": "different.",
+       "s": 113.505,
+       "e": 114.25
+      }
+     ],
+     "caps": [
+      {
+       "start": 111.43,
+       "end": 111.93,
+       "voice": "n",
+       "text": "ONE MONTH LATER"
+      },
+      {
+       "start": 111.93,
+       "end": 112.691,
+       "voice": "n",
+       "text": "THE WORLD LOOKS"
+      },
+      {
+       "start": 112.691,
+       "end": 114.25,
+       "voice": "n",
+       "text": "COMPLETELY DIFFERENT."
+      }
+     ]
+    },
+    {
+     "text": "Some businesses offer huge wages to attract workers. Others can't afford to stay open.",
+     "voice": "n",
+     "file": "assets/vo/bbc2ab7cdb70.wav",
+     "start": 115.157,
+     "end": 120.757,
+     "words": [
+      {
+       "w": "Some",
+       "s": 115.177,
+       "e": 115.419
+      },
+      {
+       "w": "businesses",
+       "s": 115.419,
+       "e": 116.252
+      },
+      {
+       "w": "offer",
+       "s": 116.252,
+       "e": 116.617
+      },
+      {
+       "w": "huge",
+       "s": 116.617,
+       "e": 116.858
+      },
+      {
+       "w": "wages",
+       "s": 116.858,
+       "e": 117.302
+      },
+      {
+       "w": "to",
+       "s": 117.302,
+       "e": 117.537
+      },
+      {
+       "w": "attract",
+       "s": 117.537,
+       "e": 117.852
+      },
+      {
+       "w": "workers.",
+       "s": 117.852,
+       "e": 118.467
+      },
+      {
+       "w": "Others",
+       "s": 118.947,
+       "e": 119.302
+      },
+      {
+       "w": "can't",
+       "s": 119.302,
+       "e": 119.504
+      },
+      {
+       "w": "afford",
+       "s": 119.504,
+       "e": 119.877
+      },
+      {
+       "w": "to",
+       "s": 119.877,
+       "e": 120.042
+      },
+      {
+       "w": "stay",
+       "s": 120.042,
+       "e": 120.257
+      },
+      {
+       "w": "open.",
+       "s": 120.257,
+       "e": 120.707
+      }
+     ],
+     "caps": [
+      {
+       "start": 115.177,
+       "end": 116.252,
+       "voice": "n",
+       "text": "SOME BUSINESSES"
+      },
+      {
+       "start": 116.252,
+       "end": 117.302,
+       "voice": "n",
+       "text": "OFFER HUGE WAGES"
+      },
+      {
+       "start": 117.302,
+       "end": 118.467,
+       "voice": "n",
+       "text": "TO ATTRACT WORKERS."
+      },
+      {
+       "start": 118.947,
+       "end": 119.877,
+       "voice": "n",
+       "text": "OTHERS CAN'T AFFORD"
+      },
+      {
+       "start": 119.877,
+       "end": 120.707,
+       "voice": "n",
+       "text": "TO STAY OPEN."
+      }
+     ]
+    },
+    {
+     "text": "New factories and delivery services are needed, but building them takes time.",
+     "voice": "n",
+     "file": "assets/vo/402b3593ccec.wav",
+     "start": 121.607,
+     "end": 126.252,
+     "words": [
+      {
+       "w": "New",
+       "s": 121.637,
+       "e": 121.827
+      },
+      {
+       "w": "factories",
+       "s": 121.827,
+       "e": 122.207
+      },
+      {
+       "w": "and",
+       "s": 122.207,
+       "e": 122.488
+      },
+      {
+       "w": "delivery",
+       "s": 122.488,
+       "e": 123.1
+      },
+      {
+       "w": "services",
+       "s": 123.1,
+       "e": 123.572
+      },
+      {
+       "w": "are",
+       "s": 123.572,
+       "e": 123.762
+      },
+      {
+       "w": "needed,",
+       "s": 123.762,
+       "e": 124.177
+      },
+      {
+       "w": "but",
+       "s": 124.617,
+       "e": 124.777
+      },
+      {
+       "w": "building",
+       "s": 124.777,
+       "e": 125.246
+      },
+      {
+       "w": "them",
+       "s": 125.246,
+       "e": 125.437
+      },
+      {
+       "w": "takes",
+       "s": 125.437,
+       "e": 125.787
+      },
+      {
+       "w": "time.",
+       "s": 125.787,
+       "e": 126.207
+      }
+     ],
+     "caps": [
+      {
+       "start": 121.637,
+       "end": 122.488,
+       "voice": "n",
+       "text": "NEW FACTORIES AND"
+      },
+      {
+       "start": 122.488,
+       "end": 123.572,
+       "voice": "n",
+       "text": "DELIVERY SERVICES"
+      },
+      {
+       "start": 123.572,
+       "end": 124.617,
+       "voice": "n",
+       "text": "ARE NEEDED"
+      },
+      {
+       "start": 124.617,
+       "end": 125.437,
+       "voice": "n",
+       "text": "BUT BUILDING THEM"
+      },
+      {
+       "start": 125.437,
+       "end": 126.207,
+       "voice": "n",
+       "text": "TAKES TIME."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "hiring": 3.907,
+    "closed": 7.947,
+    "factory": 10.357,
+    "trucks": 13.777
+   }
+  },
+  {
+   "id": "bakery",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 128.0,
+   "end": 144.0,
+   "lines": [
+    {
+     "text": "One afternoon, Alex passes a bakery where he used to buy breakfast.",
+     "voice": "n",
+     "file": "assets/vo/40438eb317c1.wav",
+     "start": 128.4,
+     "end": 132.38,
+     "words": [
+      {
+       "w": "One",
+       "s": 128.42,
+       "e": 128.665
+      },
+      {
+       "w": "afternoon,",
+       "s": 128.665,
+       "e": 129.38
+      },
+      {
+       "w": "Alex",
+       "s": 129.5,
+       "e": 129.885
+      },
+      {
+       "w": "passes",
+       "s": 129.885,
+       "e": 130.162
+      },
+      {
+       "w": "a",
+       "s": 130.162,
+       "e": 130.415
+      },
+      {
+       "w": "bakery",
+       "s": 130.415,
+       "e": 130.91
+      },
+      {
+       "w": "where",
+       "s": 130.91,
+       "e": 131.014
+      },
+      {
+       "w": "he",
+       "s": 131.014,
+       "e": 131.204
+      },
+      {
+       "w": "used",
+       "s": 131.204,
+       "e": 131.535
+      },
+      {
+       "w": "to",
+       "s": 131.535,
+       "e": 131.76
+      },
+      {
+       "w": "buy",
+       "s": 131.76,
+       "e": 131.975
+      },
+      {
+       "w": "breakfast.",
+       "s": 131.975,
+       "e": 132.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 128.42,
+       "end": 129.5,
+       "voice": "n",
+       "text": "ONE AFTERNOON"
+      },
+      {
+       "start": 129.5,
+       "end": 130.415,
+       "voice": "n",
+       "text": "ALEX PASSES A"
+      },
+      {
+       "start": 130.415,
+       "end": 131.204,
+       "voice": "n",
+       "text": "BAKERY WHERE HE"
+      },
+      {
+       "start": 131.204,
+       "end": 131.975,
+       "voice": "n",
+       "text": "USED TO BUY"
+      },
+      {
+       "start": 131.975,
+       "end": 132.33,
+       "voice": "n",
+       "text": "BREAKFAST."
+      }
+     ]
+    },
+    {
+     "text": "The owner is still working. But the shelves are almost empty.",
+     "voice": "n",
+     "file": "assets/vo/ad738d7ea7d3.wav",
+     "start": 133.13,
+     "end": 136.792,
+     "words": [
+      {
+       "w": "The",
+       "s": 133.16,
+       "e": 133.335
+      },
+      {
+       "w": "owner",
+       "s": 133.335,
+       "e": 133.722
+      },
+      {
+       "w": "is",
+       "s": 133.722,
+       "e": 133.9
+      },
+      {
+       "w": "still",
+       "s": 133.9,
+       "e": 134.132
+      },
+      {
+       "w": "working.",
+       "s": 134.132,
+       "e": 134.58
+      },
+      {
+       "w": "But",
+       "s": 134.89,
+       "e": 134.985
+      },
+      {
+       "w": "the",
+       "s": 134.985,
+       "e": 135.315
+      },
+      {
+       "w": "shelves",
+       "s": 135.315,
+       "e": 135.72
+      },
+      {
+       "w": "are",
+       "s": 135.72,
+       "e": 135.897
+      },
+      {
+       "w": "almost",
+       "s": 135.897,
+       "e": 136.15
+      },
+      {
+       "w": "empty.",
+       "s": 136.15,
+       "e": 136.73
+      }
+     ],
+     "caps": [
+      {
+       "start": 133.16,
+       "end": 133.9,
+       "voice": "n",
+       "text": "THE OWNER IS"
+      },
+      {
+       "start": 133.9,
+       "end": 134.89,
+       "voice": "n",
+       "text": "STILL WORKING."
+      },
+      {
+       "start": 134.89,
+       "end": 135.72,
+       "voice": "n",
+       "text": "BUT THE SHELVES"
+      },
+      {
+       "start": 135.72,
+       "end": 136.73,
+       "voice": "n",
+       "text": "ARE ALMOST EMPTY."
+      }
+     ]
+    },
+    {
+     "text": "She explains that her ingredients are expensive and deliveries have become unreliable.",
+     "voice": "n",
+     "file": "assets/vo/a5fe65208f4a.wav",
+     "start": 137.542,
+     "end": 142.487,
+     "words": [
+      {
+       "w": "She",
+       "s": 137.572,
+       "e": 137.799
+      },
+      {
+       "w": "explains",
+       "s": 137.799,
+       "e": 138.195
+      },
+      {
+       "w": "that",
+       "s": 138.195,
+       "e": 138.317
+      },
+      {
+       "w": "her",
+       "s": 138.317,
+       "e": 138.757
+      },
+      {
+       "w": "ingredients",
+       "s": 138.757,
+       "e": 139.214
+      },
+      {
+       "w": "are",
+       "s": 139.214,
+       "e": 139.487
+      },
+      {
+       "w": "expensive",
+       "s": 139.487,
+       "e": 140.005
+      },
+      {
+       "w": "and",
+       "s": 140.005,
+       "e": 140.152
+      },
+      {
+       "w": "deliveries",
+       "s": 140.152,
+       "e": 141.072
+      },
+      {
+       "w": "have",
+       "s": 141.072,
+       "e": 141.287
+      },
+      {
+       "w": "become",
+       "s": 141.287,
+       "e": 141.647
+      },
+      {
+       "w": "unreliable.",
+       "s": 141.647,
+       "e": 142.422
+      }
+     ],
+     "caps": [
+      {
+       "start": 137.572,
+       "end": 138.317,
+       "voice": "n",
+       "text": "SHE EXPLAINS THAT"
+      },
+      {
+       "start": 138.317,
+       "end": 139.214,
+       "voice": "n",
+       "text": "HER INGREDIENTS"
+      },
+      {
+       "start": 139.214,
+       "end": 140.152,
+       "voice": "n",
+       "text": "ARE EXPENSIVE AND"
+      },
+      {
+       "start": 140.152,
+       "end": 141.287,
+       "voice": "n",
+       "text": "DELIVERIES HAVE"
+      },
+      {
+       "start": 141.287,
+       "end": 142.422,
+       "voice": "n",
+       "text": "BECOME UNRELIABLE."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "memory": 3.204,
+    "inside": 4.88,
+    "empty": 8.15,
+    "explain": 9.542,
+    "flour": 10.757
    }
   }
  ]
