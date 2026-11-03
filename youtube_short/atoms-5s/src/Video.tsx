@@ -1,9 +1,13 @@
 import { Audio } from "@remotion/media";
 import { loadFont } from "@remotion/fonts";
-import { AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { ThreeCanvas } from "@remotion/three";
+import * as THREE from "three";
+import { AbsoluteFill, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { StreetScene } from "./three/street";
+import { DomeScene, LabScene, LightScene, RoofScene, SkyScene, SpaceScene, VoidScene } from "./three/other";
 import timeline from "./timeline.json";
 
-// Final assembly: the Blender frames (720x1280, scaled to 1080x1920), the narration captions in a calm serif italic,
+// The whole video: the three.js scenes (src/three), the narration captions in a calm serif italic,
 // and a small counter at the top left, in the spirit of the reference video (no copied branding).
 loadFont({ family: "Garamond", url: staticFile("fonts/EBGaramond-Italic.ttf"), style: "italic", weight: "400 800" });
 loadFont({ family: "Inter", url: staticFile("fonts/Inter-SemiBold.otf"), weight: "600" });
@@ -26,7 +30,7 @@ const counter = (t: number) => {
   else if (sh === "dome") sub = "TUESDAY · 11:58 PM";
   else if (sh === "roof") sub = "YEAR 4";
   else if (sh === "sky") sub = t < E.somewhere ? "THE NEXT 1,000,000 YEARS" : "YEAR 40 · 40 LIGHT-YEARS AWAY";
-  return { value: zero ? "0" : "10⁸⁰", sub, flash: Math.max(0, 1 - Math.abs(t - E.gone) / 0.4, 1 - Math.abs(t - E.back) / 0.4) };
+  return { value: zero ? "0" : "10", sup: zero ? "" : "80", sub, flash: Math.max(0, 1 - Math.abs(t - E.gone) / 0.4, 1 - Math.abs(t - E.back) / 0.4) };
 };
 
 // small info labels for the science beats
@@ -57,6 +61,18 @@ const Caption: React.FC<{ t: number }> = ({ t }) => {
   return null;
 };
 
+const Shot: React.FC<{ t: number }> = ({ t }) => {
+  const id = shotAt(t);
+  if (id === "street" || id === "vanish" || id === "back" || id === "dark" || id === "phones") return <StreetScene t={t} which={id} />;
+  if (id === "void") return <VoidScene t={t} />;
+  if (id === "light") return <LightScene t={t} />;
+  if (id === "space") return <SpaceScene t={t} />;
+  if (id === "lab") return <LabScene t={t} />;
+  if (id === "dome") return <DomeScene t={t} />;
+  if (id === "roof") return <RoofScene t={t} />;
+  return <SkyScene t={t} />;
+};
+
 export const AtomsShort: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -66,13 +82,19 @@ export const AtomsShort: React.FC = () => {
   const fadeOut = interpolate(t, [timeline.total - 1.5, timeline.total], [1, 0], clamp);
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <Img src={staticFile(`frames/f_${String(Math.min(frame, timeline.durationInFrames - 1)).padStart(5, "0")}.jpg`)}
-        style={{ position: "absolute", inset: 0, width: 1080, height: 1920, opacity: fadeIn * fadeOut }} />
+      <div style={{ position: "absolute", inset: 0, opacity: fadeIn * fadeOut }}>
+        <ThreeCanvas width={1080} height={1920} shadows camera={{ fov: 50, near: 0.05, far: 3000, position: [0, 2, 10] }}
+          gl={{ toneMapping: THREE.ACESFilmicToneMapping, outputColorSpace: THREE.SRGBColorSpace, antialias: true }}>
+          <Shot t={t} />
+        </ThreeCanvas>
+      </div>
       <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(0,0,0,0.22) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.25) 100%)" }} />
       {/* counter, top left */}
       <div style={{ position: "absolute", left: 64, top: 190, color: "#fff", textShadow: "0 1px 8px rgba(0,0,0,0.5)", opacity: fadeOut }}>
         <div style={{ fontFamily: "Inter", fontWeight: 600, fontSize: 24, letterSpacing: 3 }}>ATOMS IN THE UNIVERSE</div>
-        <div style={{ fontFamily: "Garamond", fontStyle: "italic", fontWeight: 600, fontSize: 92, lineHeight: 1.05, color: c.flash > 0 ? `rgba(255,${Math.round(255 - 60 * c.flash)},${Math.round(255 - 160 * c.flash)},1)` : "#fff" }}>{c.value}</div>
+        <div style={{ fontFamily: "Garamond", fontStyle: "italic", fontWeight: 600, fontSize: 92, lineHeight: 1.05, color: c.flash > 0 ? `rgba(255,${Math.round(255 - 60 * c.flash)},${Math.round(255 - 160 * c.flash)},1)` : "#fff" }}>
+          {c.value}{c.sup ? <span style={{ fontSize: 48, verticalAlign: "super", marginLeft: 4 }}>{c.sup}</span> : null}
+        </div>
         <div style={{ fontFamily: "Inter", fontWeight: 600, fontSize: 21, letterSpacing: 2.5, opacity: 0.85 }}>{c.sub}</div>
       </div>
       {LABELS.filter((l) => l.text && t >= l.t0 && t < l.t1).map((l, i) => (

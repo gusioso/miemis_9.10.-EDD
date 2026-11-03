@@ -9,3 +9,4 @@ Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
 // Use the pre-installed headless Chromium (no download needed in the cloud container).
 Config.setBrowserExecutable("/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell");
+Config.setChromiumOpenGlRenderer("swangle");
