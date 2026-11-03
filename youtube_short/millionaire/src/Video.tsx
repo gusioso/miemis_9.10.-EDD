@@ -136,7 +136,7 @@ const Captions: React.FC = () => {
 const Box: React.FC<{ text: string; size: number; top: number }> = ({ text, size, top }) => (
   <div style={{ position: "absolute", top, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
     <div style={{
-      background: "#fff", borderRadius: 999, padding: `${size * 0.42}px 44px`, maxWidth: 960, textAlign: "center",
+      background: "#fff", borderRadius: 999, padding: `${size * 0.42}px 40px`, maxWidth: 1040, whiteSpace: "nowrap", textAlign: "center",
       fontFamily: FONT, fontWeight: 800, fontSize: size, lineHeight: 1.2, color: "#0a0a0a", boxShadow: "0 8px 22px rgba(0,0,0,0.32)",
     }}>{text}</div>
   </div>
@@ -147,7 +147,7 @@ export const MillionaireShort: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#e8cca6" }}>
       <Img src={staticFile("plaid.png")} style={{ position: "absolute", inset: 0, width: 1080, height: 1920 }} />
-      <Box text={TITLE} size={46} top={PANEL_Y - 150} />
+      <Box text={TITLE} size={40} top={PANEL_Y - 140} />
       <div style={{
         position: "absolute", left: 0, top: PANEL_Y, width: PW, height: PH, overflow: "hidden", background: "#000",
         boxShadow: "0 14px 30px rgba(0,0,0,0.35)",
