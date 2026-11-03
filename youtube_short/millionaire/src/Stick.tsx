@@ -17,7 +17,7 @@ export type Arm =
   | "down" | "phone" | "phoneUp" | "point" | "wave" | "chest" | "hips" | "chin" | "cheer" | "hold"
   | "give" | "shrug" | "talk" | "water" | "stop" | "film" | "mic" | "thumb" | "cross";
 export type Outfit = "hoodie" | "suit" | "apron" | "dress" | "coat" | "cardigan" | "tee" | "shopApron";
-export type Hair = "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
+export type Hair = "wolf" | "alex" | "slick" | "grayBun" | "bun" | "pigtails" | "long" | "cap" | "bald" | "short" | "curly";
 
 // [elbow, hand] offsets from the shoulder for the arm on the +x side (mirrored for the other arm).
 const POSES: Record<Arm, [[number, number], [number, number]]> = {
@@ -78,6 +78,34 @@ export type StickProps = {
   shadow?: boolean;
   bob?: number;
   blush?: number;
+};
+
+
+// Wolf cut: shaggy layered crown, choppy bangs, longer flicked-out pieces at the sides and nape.
+// Coordinates are for a head of radius 80 centred at (0, 0); `layer` = "back" (behind the head) or "front" (over it).
+const WOLF_BACK: [number, number][] = [
+  [-70, 52], [-98, 96], [-92, 58], [-114, 50], [-100, 18], [-114, -12], [-98, -34], [-106, -62], [-82, -78], [-76, -100],
+  [-46, -100], [-26, -112], [0, -104], [26, -112], [50, -102], [76, -100], [84, -78], [106, -62], [98, -34], [114, -12],
+  [100, 18], [114, 50], [92, 58], [98, 96], [70, 52],
+];
+const WOLF_FRONT: [number, number][] = [
+  [-80, -22], [-76, -60], [-48, -84], [0, -94], [46, -86], [74, -62], [80, -22], [64, -42], [54, -30], [40, -52], [24, -36],
+  [8, -56], [-8, -38], [-24, -58], [-40, -40], [-54, -56], [-66, -36],
+];
+const WOLF_STRANDS: [number, number, number, number][] = [[-46, -76, -34, -50], [-12, -86, -6, -54], [20, -84, 22, -50], [50, -72, 40, -48]];
+export const WOLF_COL = "#3d2518";
+export const WolfHair: React.FC<{ x: number; y: number; u?: number; layer: "back" | "front" }> = ({ x, y, u = 1, layer }) => {
+  const pts = (layer === "back" ? WOLF_BACK : WOLF_FRONT).map(([a, b]) => `${x + a * u},${y + b * u}`).join(" ");
+  return (
+    <g>
+      <polygon points={pts} fill={WOLF_COL} stroke={INK} strokeWidth={4 * u} strokeLinejoin="round" />
+      {layer === "front"
+        ? WOLF_STRANDS.map(([a, b, c, d], i) => (
+          <line key={i} x1={x + a * u} y1={y + b * u} x2={x + c * u} y2={y + d * u} stroke="#6e4630" strokeWidth={5 * u} strokeLinecap="round" />
+        ))
+        : null}
+    </g>
+  );
 };
 
 export const headOf = (x: number, yf: number, u = 1, sit = false) => ({ hx: x, hy: yf - (sit ? 470 : 530) * u, hr: 80 * u });
@@ -213,6 +241,7 @@ export const Stick: React.FC<StickProps> = ({
   // ---- head
   const hc = hair === "grayBun" ? "#d8d8dc" : hair === "long" ? "#3d2a20" : "#141419";
   if (hair === "long") parts.push(<rect key={k()} x={hx - U(92)} y={hy - U(84)} width={U(184)} height={U(210)} rx={U(84)} fill={hc} stroke={INK} strokeWidth={U(4)} />);
+  if (hair === "wolf") parts.push(<WolfHair key={k()} x={hx} y={hy} u={u} layer="back" />);
   if (hair === "pigtails") {
     for (const s of [-1, 1]) {
       parts.push(<circle key={k()} cx={hx + s * U(92)} cy={hy - U(28)} r={U(30)} fill={INK} />);
@@ -221,7 +250,9 @@ export const Stick: React.FC<StickProps> = ({
   }
   parts.push(<circle key={k()} cx={hx} cy={hy} r={hr} fill={INK} />);
   parts.push(<path key={k()} d={`M ${hx - hr * 0.62} ${hy - hr * 0.55} A ${hr * 0.85} ${hr * 0.85} 0 0 1 ${hx + hr * 0.1} ${hy - hr * 0.86}`} fill="none" stroke="#3a3a46" strokeWidth={U(7)} strokeLinecap="round" />);
-  if (hair === "alex") {
+  if (hair === "wolf") {
+    parts.push(<WolfHair key={k()} x={hx} y={hy} u={u} layer="front" />);
+  } else if (hair === "alex") {
     const tufts = [[-50, -58], [-18, -76], [16, -78], [48, -62]];
     for (const [ox, oy] of tufts) {
       parts.push(<polygon key={k()} points={`${hx + U(ox - 22)},${hy + U(oy + 28)} ${hx + U(ox + 6)},${hy + U(oy - 22)} ${hx + U(ox + 24)},${hy + U(oy + 24)}`} fill={INK} />);

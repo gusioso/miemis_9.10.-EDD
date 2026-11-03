@@ -1,5 +1,5 @@
 import React from "react";
-import { INK, shade } from "./Stick";
+import { INK, WolfHair, shade } from "./Stick";
 
 // Reusable flat-vector environments (world coords 2160 x 1240, floor at FLOOR).
 export const FLOOR = 1040;
@@ -239,10 +239,9 @@ export const LyingHead: React.FC<{ x: number; y: number; t: number; expr: "sleep
         : <ellipse cx={x} cy={y + 44} rx={9} ry={6} fill="#f3f3f3" />;
   return (
     <g>
+      <WolfHair x={x} y={y} u={r / 80} layer="back" />
       <circle cx={x} cy={y} r={r} fill={INK} />
-      {[[-50, -58], [-18, -76], [16, -78], [48, -62]].map(([ox, oy], i) => (
-        <polygon key={i} points={`${x + ox - 22},${y + oy + 28} ${x + ox + 6},${y + oy - 22} ${x + ox + 24},${y + oy + 24}`} fill={INK} />
-      ))}
+      <WolfHair x={x} y={y} u={r / 80} layer="front" />
       {eyes}
       {brows}
       {mouth}

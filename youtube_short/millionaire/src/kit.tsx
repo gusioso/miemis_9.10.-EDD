@@ -53,7 +53,7 @@ export const P: React.FC<StickProps & { steps?: [number, number][]; c0?: number;
 }) => {
   const { hx, hy, hr } = headOf(p.x, p.yf, p.u ?? 1, p.sit);
   const u = p.u ?? 1;
-  const extra = p.hair === "grayBun" || p.hair === "bun" ? 50 : p.hair === "alex" ? 26 : 10;
+  const extra = p.hair === "grayBun" || p.hair === "bun" ? 50 : p.hair === "alex" ? 26 : p.hair === "wolf" ? 50 : 10;
   return (
     <g>
       <Stick {...p} />
@@ -62,7 +62,7 @@ export const P: React.FC<StickProps & { steps?: [number, number][]; c0?: number;
   );
 };
 
-export const ALEX = { outfit: "hoodie", color: "#2f6fe0", hair: "alex", shoes: "#fbfbf8" } as const;
+export const ALEX = { outfit: "hoodie", color: "#2f6fe0", hair: "wolf", shoes: "#fbfbf8" } as const;
 export const JAKE = { outfit: "hoodie", color: "#3fae6a", hair: "curly", shoes: "#f2c84b" } as const;
 export const MANAGER = { outfit: "tee", color: "#d8433a", hair: "bald", mustache: true } as const;
 export const BAKER = { outfit: "apron", color: "#f08a24", hair: "grayBun", glasses: true } as const;
