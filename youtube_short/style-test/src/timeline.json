@@ -1,0 +1,222 @@
+{
+ "fps": 30,
+ "total": 10.0,
+ "durationInFrames": 300,
+ "ev": {
+  "follow": 2.4,
+  "stop": 5.15,
+  "stops": 5.725,
+  "leave0": 6.944,
+  "leave": 8.863,
+  "end": 9.281
+ },
+ "lines": [
+  {
+   "text": "What if one night... the moon decided to follow you home?",
+   "start": 0.35,
+   "end": 3.48,
+   "words": [
+    {
+     "w": "What",
+     "s": 0.38,
+     "e": 0.573
+    },
+    {
+     "w": "if",
+     "s": 0.573,
+     "e": 0.705
+    },
+    {
+     "w": "one",
+     "s": 0.705,
+     "e": 0.961
+    },
+    {
+     "w": "night...",
+     "s": 0.961,
+     "e": 1.24
+    },
+    {
+     "w": "the",
+     "s": 1.29,
+     "e": 1.435
+    },
+    {
+     "w": "moon",
+     "s": 1.435,
+     "e": 1.724
+    },
+    {
+     "w": "decided",
+     "s": 1.724,
+     "e": 2.264
+    },
+    {
+     "w": "to",
+     "s": 2.264,
+     "e": 2.4
+    },
+    {
+     "w": "follow",
+     "s": 2.4,
+     "e": 2.859
+    },
+    {
+     "w": "you",
+     "s": 2.859,
+     "e": 3.076
+    },
+    {
+     "w": "home?",
+     "s": 3.076,
+     "e": 3.39
+    }
+   ],
+   "caps": [
+    {
+     "start": 0.38,
+     "end": 0.961,
+     "text": "WHAT IF ONE"
+    },
+    {
+     "start": 0.961,
+     "end": 1.29,
+     "text": "NIGHT..."
+    },
+    {
+     "start": 1.29,
+     "end": 2.264,
+     "text": "THE MOON DECIDED"
+    },
+    {
+     "start": 2.264,
+     "end": 3.076,
+     "text": "TO FOLLOW YOU"
+    },
+    {
+     "start": 3.076,
+     "end": 3.39,
+     "text": "HOME?"
+    }
+   ]
+  },
+  {
+   "text": "Every time you stop... it stops too.",
+   "start": 4.23,
+   "end": 6.544,
+   "words": [
+    {
+     "w": "Every",
+     "s": 4.25,
+     "e": 4.748
+    },
+    {
+     "w": "time",
+     "s": 4.748,
+     "e": 5.045
+    },
+    {
+     "w": "you",
+     "s": 5.045,
+     "e": 5.15
+    },
+    {
+     "w": "stop...",
+     "s": 5.15,
+     "e": 5.44
+    },
+    {
+     "w": "it",
+     "s": 5.51,
+     "e": 5.725
+    },
+    {
+     "w": "stops",
+     "s": 5.725,
+     "e": 6.04
+    },
+    {
+     "w": "too.",
+     "s": 6.04,
+     "e": 6.49
+    }
+   ],
+   "caps": [
+    {
+     "start": 4.25,
+     "end": 5.15,
+     "text": "EVERY TIME YOU"
+    },
+    {
+     "start": 5.15,
+     "end": 5.51,
+     "text": "STOP..."
+    },
+    {
+     "start": 5.51,
+     "end": 6.49,
+     "text": "IT STOPS TOO."
+    }
+   ]
+  },
+  {
+   "text": "And it really doesn't want to leave.",
+   "start": 7.244,
+   "end": 9.281,
+   "words": [
+    {
+     "w": "And",
+     "s": 7.274,
+     "e": 7.559
+    },
+    {
+     "w": "it",
+     "s": 7.559,
+     "e": 7.746
+    },
+    {
+     "w": "really",
+     "s": 7.746,
+     "e": 8.156
+    },
+    {
+     "w": "doesn't",
+     "s": 8.156,
+     "e": 8.392
+    },
+    {
+     "w": "want",
+     "s": 8.392,
+     "e": 8.574
+    },
+    {
+     "w": "to",
+     "s": 8.574,
+     "e": 8.863
+    },
+    {
+     "w": "leave.",
+     "s": 8.863,
+     "e": 9.204
+    }
+   ],
+   "caps": [
+    {
+     "start": 7.274,
+     "end": 8.156,
+     "text": "AND IT REALLY"
+    },
+    {
+     "start": 8.156,
+     "end": 8.863,
+     "text": "DOESN'T WANT TO"
+    },
+    {
+     "start": 8.863,
+     "end": 9.204,
+     "text": "LEAVE."
+    }
+   ]
+  }
+ ]
+}
