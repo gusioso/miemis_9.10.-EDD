@@ -213,6 +213,12 @@ def main():
     add(sfx, noise(d, 2000, 9000) * np.linspace(0, 1, int(d * SR)) ** 2, ev["instant"], 0.05)
     x = tt(0.6)
     add(sfx, np.sin(2 * np.pi * np.cumsum(220 + 1800 * x) / SR) * np.exp(-x * 4), ev["gone"] - 0.1, 0.05)
+    # the slow five-second timer: one soft, deep tick per (slowed) second while the atoms are gone
+    slow = (ev["back"] - ev["gone"]) / 5
+    for j in range(6):
+        x = tt(1.2)
+        add(sfx, np.sin(2 * np.pi * np.cumsum(70 + 50 * np.exp(-x * 25)) / SR) * np.exp(-x * 5), ev["gone"] + j * slow, 0.12)
+        add(sfx, np.sin(2 * np.pi * 1320 * x) * np.exp(-x * 30), ev["gone"] + j * slow, 0.02)
     # return: reverse swoosh + everything snaps back
     d = 0.8
     add(sfx, noise(d, 300, 6000) * (tt(d) / d) ** 3, ev["back"] - d + 0.05, 0.08)

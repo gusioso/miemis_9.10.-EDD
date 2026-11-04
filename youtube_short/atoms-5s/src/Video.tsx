@@ -41,6 +41,38 @@ const LABELS: { t0: number; t1: number; text: string; top: number }[] = [
   { t0: E.closest + 0.3, t1: timeline.shots.find((s) => s.id === "dome")!.end - 0.1, text: "ALPHA CENTAURI  ·  4.4 LIGHT-YEARS", top: 760 },
 ];
 
+/** The five seconds without atoms, shown slowed down: 0.0 -> 5.0 s across the whole void section (gone -> back). */
+const SlowTimer: React.FC<{ t: number }> = ({ t }) => {
+  const a = E.gone;
+  const b = E.back;
+  if (t < a - 0.2 || t > b + 1.4) return null;
+  const k = Math.max(0, Math.min(1, (t - a) / (b - a)));
+  const secs = 5 * k;
+  const slow = (b - a) / 5;
+  const op = interpolate(t, [a - 0.2, a + 0.3, b + 0.8, b + 1.4], [0, 1, 1, 0], clamp);
+  const tick = (t - a) / slow;
+  const bump = t < b ? 1 + 0.05 * Math.max(0, 1 - (tick - Math.floor(tick)) / 0.15) : 1;
+  const done = t >= b;
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, top: 410, display: "flex", justifyContent: "center", opacity: op }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", color: "#fff", padding: "22px 48px 20px", borderRadius: 36,
+      background: `rgba(6,8,16,${done ? 0.45 : 0.25})`, backdropFilter: "blur(2px)" }}>
+      <div style={{ fontFamily: "Inter", fontWeight: 600, fontSize: 24, letterSpacing: 5, opacity: 0.85 }}>TIME WITHOUT ATOMS</div>
+      <div style={{ fontFamily: "Garamond", fontStyle: "italic", fontWeight: 500, fontSize: 190, lineHeight: 1.0, scale: String(bump), fontVariantNumeric: "tabular-nums",
+        color: done ? "#ffe9b0" : "#ffffff", textShadow: "0 0 30px rgba(170,210,255,0.45)" }}>
+        {secs.toFixed(1)}<span style={{ fontSize: 80, marginLeft: 10 }}>s</span>
+      </div>
+      <div style={{ width: 420, height: 6, borderRadius: 3, background: "rgba(255,255,255,0.18)", marginTop: 8, overflow: "hidden" }}>
+        <div style={{ width: `${k * 100}%`, height: "100%", background: "linear-gradient(90deg, #9fd8ff, #ffffff)" }} />
+      </div>
+      <div style={{ fontFamily: "Inter", fontWeight: 600, fontSize: 20, letterSpacing: 4, opacity: 0.6, marginTop: 14 }}>
+        {done ? "EVERYTHING IS BACK" : `SLOWED DOWN ×${slow.toFixed(0)}`}
+      </div>
+    </div>
+    </div>
+  );
+};
+
 const Caption: React.FC<{ t: number }> = ({ t }) => {
   for (const l of timeline.lines) {
     for (const c of l.caps) {
@@ -105,6 +137,7 @@ export const AtomsShort: React.FC = () => {
           <div style={{ fontFamily: "Inter", fontWeight: 800, fontSize: 26, letterSpacing: 3, color: "#fff", background: "rgba(10,12,20,0.55)", padding: "10px 22px", borderRadius: 10 }}>{l.text}</div>
         </div>
       ))}
+      <SlowTimer t={t} />
       <Caption t={t} />
       <Audio src={staticFile("soundtrack.wav")} />
     </AbsoluteFill>
