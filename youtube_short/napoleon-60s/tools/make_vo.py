@@ -4,7 +4,7 @@
   python3 tools/make_vo.py     -> assets/vo/L01..L11.wav (+ assets/vo/plan.json)
   node tools/vo_build.js       -> out/vo.wav, assets/vo/timing.js, out/voice.json
 
-Voice: Kokoro (free, offline) `am_liam`. Creative Claw / ElevenLabs could not be reached in this session, so this is
+Voice: Kokoro (free, offline) `bm_daniel` (British; VOICE=am_liam etc. to switch). Creative Claw / ElevenLabs could not be reached in this session, so this is
 the fallback from CLAUDE.md. `show` is the exact script text shown in the captions; `parts` is what the TTS reads
 (numbers spelled out, pauses between parts).
 """
@@ -16,7 +16,8 @@ from kokoro_onnx import Kokoro
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "vo")
 MODEL = os.environ.get("KOKORO_DIR", "/tmp/claude-0/-home-user-miemis-9-10--EDD/2ee5f724-dc59-5edf-96e1-0e0cbd701394/scratchpad/kokoro")
-VOICE = "am_liam"
+VOICE = os.environ.get("VOICE", "bm_daniel")
+FAC = float(os.environ.get("FAC", "1.07"))  # bm_daniel reads ~7% slower than am_liam: speed everything up to fit the scenes
 SR = 24000
 
 # at = when the line starts (seconds); gaps = silence between parts
@@ -64,7 +65,7 @@ def main():
     for L in LINES:
         chunks, marks, pos = [], [], 0
         for i, (tts, show) in enumerate(L["parts"]):
-            a, sr = k.create(tts, voice=VOICE, speed=L["speed"] * (L.get("slow") or {}).get(i, 1.0), lang="en-us")
+            a, sr = k.create(tts, voice=VOICE, speed=L["speed"] * (1.0 if L["id"] in ("L01", "L08") else FAC) * (L.get("slow") or {}).get(i, 1.0), lang="en-gb" if VOICE.startswith("b") else "en-us")
             assert sr == SR
             seg = trim(np.asarray(a, dtype=np.float32))
             marks.append(dict(t0=round(pos / SR, 3), t1=round((pos + len(seg)) / SR, 3), show=show))
