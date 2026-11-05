@@ -10,6 +10,8 @@ When making or remaking a video, use these tools:
 4. **Abracadabrax YouTube Thumbnail maker** (MCP) makes the thumbnail or cover for each video.
 5. **Creative Claw** (plugin + MCP at `app.creativeclaw.co`) makes the voices. **The user asked for this to be used from now on.** Use `creativeclaw-generate-voiceover` for narration and character lines (an ElevenLabs voice close to Mike for the narrator), and optionally `creativeclaw-generate-sound-effects` / `creativeclaw-generate-music`. Save the returned audio in the project's `public/assets/vo/` and time the captions and animation to it, as before. If its MCP server didn't connect, say so and fall back to ElevenLabs via API key, then to the free Kokoro `am_liam` voice.
 
+**Next video:** apply the style notes in `youtube_short/STYLE_NEXT_VIDEO.md` (from the user's "1000 IQ" reference). Only start it when the user says "make it".
+
 Defaults for the "What If" story Shorts:
 - Keep the same style: plaid frame, white title box, **Part 1** label, black-headed characters in coloured hoodies, word-synced captions, a time-of-day tag and a countdown tag.
 - Shorts are vertical 1080×1920 and under 60 s. Open with a strong hook in the first 2 s, with text on screen from the first frame.
