@@ -18,10 +18,10 @@ export const Thumb: React.FC = () => (
       <Tower x={1560} yb={1060} h={1000} glow={0.6} />
       <Rooftops y={1180} s={1.1} seed={9} col="#eadcbf" />
       <Stamp x={1560} y={560} text="SOLD" t={1} t0={0} size={240} rot={-12} />
-      <Stick {...(LUSTIG as unknown as StickProps)} x={520} yf={1215} u={1.45} t={0.4} facing={1} expr="smug" arms={["down", "hold"]} hold="envelope" />
+      <Stick {...(LUSTIG as unknown as StickProps)} x={480} yf={1215} u={1.2} t={0.4} facing={1} expr="smug" arms={["down", "hold"]} hold="envelope" />
     </svg>
-    <div style={{ position: "absolute", left: 36, top: 34, width: 700, fontFamily: "Inter", fontWeight: 900, fontSize: 92, lineHeight: 0.98, color: "#fff", WebkitTextStroke: "12px #111", paintOrder: "stroke fill" }}>
-      HE SOLD THE <span style={{ color: "#ffd21f" }}>EIFFEL TOWER?!</span>
+    <div style={{ position: "absolute", left: 36, top: 34, width: 760, fontFamily: "Inter", fontWeight: 900, fontSize: 86, lineHeight: 0.98, color: "#fff", WebkitTextStroke: "12px #111", paintOrder: "stroke fill" }}>
+      HE SOLD THE<br /><span style={{ color: "#ffd21f" }}>EIFFEL TOWER?!</span>
     </div>
   </AbsoluteFill>
 );
