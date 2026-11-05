@@ -1,0 +1,2995 @@
+{
+ "fps": 30,
+ "total": 172.3,
+ "durationInFrames": 5170,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": "PARIS \u00b7 1911",
+   "start": 0.0,
+   "end": 16.224,
+   "lines": [
+    {
+     "text": "In nineteen eleven, a man stole the Mona Lisa from the Louvre.",
+     "file": "assets/vo/302127e0b414.wav",
+     "start": 0.5,
+     "end": 4.201,
+     "words": [
+      {
+       "w": "In",
+       "s": 0.52,
+       "e": 0.671
+      },
+      {
+       "w": "1911,",
+       "s": 0.671,
+       "e": 1.047
+      },
+      {
+       "w": "eleven,",
+       "s": 1.047,
+       "e": 1.49
+      },
+      {
+       "w": "a",
+       "s": 1.79,
+       "e": 1.992
+      },
+      {
+       "w": "man",
+       "s": 1.992,
+       "e": 2.195
+      },
+      {
+       "w": "stole",
+       "s": 2.195,
+       "e": 2.547
+      },
+      {
+       "w": "the",
+       "s": 2.547,
+       "e": 2.749
+      },
+      {
+       "w": "Mona",
+       "s": 2.749,
+       "e": 3.101
+      },
+      {
+       "w": "Lisa",
+       "s": 3.101,
+       "e": 3.435
+      },
+      {
+       "w": "from",
+       "s": 3.435,
+       "e": 3.656
+      },
+      {
+       "w": "the",
+       "s": 3.656,
+       "e": 3.945
+      },
+      {
+       "w": "Louvre.",
+       "s": 3.945,
+       "e": 4.15
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.52,
+       "end": 1.79,
+       "text": "IN 1911"
+      },
+      {
+       "start": 1.79,
+       "end": 2.547,
+       "text": "A MAN STOLE"
+      },
+      {
+       "start": 2.547,
+       "end": 3.656,
+       "text": "THE MONA LISA FROM"
+      },
+      {
+       "start": 3.656,
+       "end": 4.15,
+       "text": "THE LOUVRE."
+      }
+     ]
+    },
+    {
+     "text": "The police searched for over two years.",
+     "file": "assets/vo/51f6470166cb.wav",
+     "start": 5.101,
+     "end": 7.274,
+     "words": [
+      {
+       "w": "The",
+       "s": 5.131,
+       "e": 5.231
+      },
+      {
+       "w": "police",
+       "s": 5.231,
+       "e": 5.724
+      },
+      {
+       "w": "searched",
+       "s": 5.724,
+       "e": 6.061
+      },
+      {
+       "w": "for",
+       "s": 6.061,
+       "e": 6.316
+      },
+      {
+       "w": "over",
+       "s": 6.316,
+       "e": 6.693
+      },
+      {
+       "w": "two",
+       "s": 6.693,
+       "e": 6.909
+      },
+      {
+       "w": "years.",
+       "s": 6.909,
+       "e": 7.221
+      }
+     ],
+     "caps": [
+      {
+       "start": 5.131,
+       "end": 6.061,
+       "text": "THE POLICE SEARCHED"
+      },
+      {
+       "start": 6.061,
+       "end": 7.221,
+       "text": "FOR OVER TWO YEARS."
+      }
+     ]
+    },
+    {
+     "text": "But here's the unbelievable part: they actually questioned the thief... while the painting was hidden inside his apartment.",
+     "file": "assets/vo/ac6dd8d175ec.wav",
+     "start": 8.174,
+     "end": 14.624,
+     "words": [
+      {
+       "w": "But",
+       "s": 8.194,
+       "e": 8.386
+      },
+      {
+       "w": "here's",
+       "s": 8.386,
+       "e": 8.769
+      },
+      {
+       "w": "the",
+       "s": 8.769,
+       "e": 8.91
+      },
+      {
+       "w": "unbelievable",
+       "s": 8.91,
+       "e": 9.599
+      },
+      {
+       "w": "part:",
+       "s": 9.599,
+       "e": 9.944
+      },
+      {
+       "w": "they",
+       "s": 10.214,
+       "e": 10.324
+      },
+      {
+       "w": "actually",
+       "s": 10.324,
+       "e": 10.864
+      },
+      {
+       "w": "questioned",
+       "s": 10.864,
+       "e": 11.285
+      },
+      {
+       "w": "the",
+       "s": 11.285,
+       "e": 11.449
+      },
+      {
+       "w": "thief...",
+       "s": 11.449,
+       "e": 11.724
+      },
+      {
+       "w": "while",
+       "s": 12.194,
+       "e": 12.424
+      },
+      {
+       "w": "the",
+       "s": 12.424,
+       "e": 12.7
+      },
+      {
+       "w": "painting",
+       "s": 12.7,
+       "e": 13.094
+      },
+      {
+       "w": "was",
+       "s": 13.094,
+       "e": 13.206
+      },
+      {
+       "w": "hidden",
+       "s": 13.206,
+       "e": 13.528
+      },
+      {
+       "w": "inside",
+       "s": 13.528,
+       "e": 13.849
+      },
+      {
+       "w": "his",
+       "s": 13.849,
+       "e": 14.089
+      },
+      {
+       "w": "apartment.",
+       "s": 14.089,
+       "e": 14.574
+      }
+     ],
+     "caps": [
+      {
+       "start": 8.194,
+       "end": 8.91,
+       "text": "BUT HERE'S THE"
+      },
+      {
+       "start": 8.91,
+       "end": 10.214,
+       "text": "UNBELIEVABLE PART"
+      },
+      {
+       "start": 10.214,
+       "end": 11.285,
+       "text": "THEY ACTUALLY QUESTIONED"
+      },
+      {
+       "start": 11.285,
+       "end": 11.724,
+       "text": "THE THIEF..."
+      },
+      {
+       "start": 12.194,
+       "end": 13.094,
+       "text": "WHILE THE PAINTING"
+      },
+      {
+       "start": 13.094,
+       "end": 13.849,
+       "text": "WAS HIDDEN INSIDE"
+      },
+      {
+       "start": 13.849,
+       "end": 14.574,
+       "text": "HIS APARTMENT."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "paris",
+   "tag": "PARIS \u2014 1911",
+   "start": 16.224,
+   "end": 32.915,
+   "lines": [
+    {
+     "text": "Paris, August nineteen eleven.",
+     "file": "assets/vo/2d736cb0d79b.wav",
+     "start": 16.624,
+     "end": 18.605,
+     "words": [
+      {
+       "w": "Paris,",
+       "s": 16.644,
+       "e": 17.074
+      },
+      {
+       "w": "August",
+       "s": 17.164,
+       "e": 17.524
+      },
+      {
+       "w": "1911.",
+       "s": 17.524,
+       "e": 17.991
+      },
+      {
+       "w": "eleven.",
+       "s": 17.991,
+       "e": 18.564
+      }
+     ],
+     "caps": [
+      {
+       "start": 16.644,
+       "end": 17.164,
+       "text": "PARIS"
+      },
+      {
+       "start": 17.164,
+       "end": 18.564,
+       "text": "AUGUST 1911."
+      }
+     ]
+    },
+    {
+     "text": "The Louvre was one of Europe's great museums.",
+     "file": "assets/vo/c6b5b94a2233.wav",
+     "start": 19.505,
+     "end": 22.135,
+     "words": [
+      {
+       "w": "The",
+       "s": 19.535,
+       "e": 19.774
+      },
+      {
+       "w": "Louvre",
+       "s": 19.774,
+       "e": 20.013
+      },
+      {
+       "w": "was",
+       "s": 20.013,
+       "e": 20.252
+      },
+      {
+       "w": "one",
+       "s": 20.252,
+       "e": 20.491
+      },
+      {
+       "w": "of",
+       "s": 20.491,
+       "e": 20.731
+      },
+      {
+       "w": "Europe's",
+       "s": 20.731,
+       "e": 21.36
+      },
+      {
+       "w": "great",
+       "s": 21.36,
+       "e": 21.563
+      },
+      {
+       "w": "museums.",
+       "s": 21.563,
+       "e": 22.085
+      }
+     ],
+     "caps": [
+      {
+       "start": 19.535,
+       "end": 20.252,
+       "text": "THE LOUVRE WAS"
+      },
+      {
+       "start": 20.252,
+       "end": 21.36,
+       "text": "ONE OF EUROPE'S"
+      },
+      {
+       "start": 21.36,
+       "end": 22.085,
+       "text": "GREAT MUSEUMS."
+      }
+     ]
+    },
+    {
+     "text": "Inside hung Leonardo da Vinci's Mona Lisa.",
+     "file": "assets/vo/4030b0a979ac.wav",
+     "start": 22.935,
+     "end": 26.071,
+     "words": [
+      {
+       "w": "Inside",
+       "s": 22.955,
+       "e": 23.405
+      },
+      {
+       "w": "hung",
+       "s": 23.405,
+       "e": 23.663
+      },
+      {
+       "w": "Leonardo",
+       "s": 23.663,
+       "e": 24.304
+      },
+      {
+       "w": "da",
+       "s": 24.304,
+       "e": 24.562
+      },
+      {
+       "w": "Vinci's",
+       "s": 24.562,
+       "e": 25.095
+      },
+      {
+       "w": "Mona",
+       "s": 25.095,
+       "e": 25.461
+      },
+      {
+       "w": "Lisa.",
+       "s": 25.461,
+       "e": 26.025
+      }
+     ],
+     "caps": [
+      {
+       "start": 22.955,
+       "end": 24.304,
+       "text": "INSIDE HUNG LEONARDO"
+      },
+      {
+       "start": 24.304,
+       "end": 26.025,
+       "text": "DA VINCI'S MONA LISA."
+      }
+     ]
+    },
+    {
+     "text": "It was already admired by art lovers, but almost nobody expected what was about to happen.",
+     "file": "assets/vo/0273f36f2bfa.wav",
+     "start": 26.971,
+     "end": 32.315,
+     "words": [
+      {
+       "w": "It",
+       "s": 26.991,
+       "e": 27.184
+      },
+      {
+       "w": "was",
+       "s": 27.184,
+       "e": 27.377
+      },
+      {
+       "w": "already",
+       "s": 27.377,
+       "e": 27.856
+      },
+      {
+       "w": "admired",
+       "s": 27.856,
+       "e": 28.346
+      },
+      {
+       "w": "by",
+       "s": 28.346,
+       "e": 28.611
+      },
+      {
+       "w": "art",
+       "s": 28.611,
+       "e": 28.72
+      },
+      {
+       "w": "lovers,",
+       "s": 28.72,
+       "e": 29.141
+      },
+      {
+       "w": "but",
+       "s": 29.521,
+       "e": 29.709
+      },
+      {
+       "w": "almost",
+       "s": 29.709,
+       "e": 30.001
+      },
+      {
+       "w": "nobody",
+       "s": 30.001,
+       "e": 30.591
+      },
+      {
+       "w": "expected",
+       "s": 30.591,
+       "e": 30.931
+      },
+      {
+       "w": "what",
+       "s": 30.931,
+       "e": 31.251
+      },
+      {
+       "w": "was",
+       "s": 31.251,
+       "e": 31.345
+      },
+      {
+       "w": "about",
+       "s": 31.345,
+       "e": 31.671
+      },
+      {
+       "w": "to",
+       "s": 31.671,
+       "e": 31.861
+      },
+      {
+       "w": "happen.",
+       "s": 31.861,
+       "e": 32.271
+      }
+     ],
+     "caps": [
+      {
+       "start": 26.991,
+       "end": 27.856,
+       "text": "IT WAS ALREADY"
+      },
+      {
+       "start": 27.856,
+       "end": 28.72,
+       "text": "ADMIRED BY ART"
+      },
+      {
+       "start": 28.72,
+       "end": 29.521,
+       "text": "LOVERS"
+      },
+      {
+       "start": 29.521,
+       "end": 30.591,
+       "text": "BUT ALMOST NOBODY"
+      },
+      {
+       "start": 30.591,
+       "end": 31.345,
+       "text": "EXPECTED WHAT WAS"
+      },
+      {
+       "start": 31.345,
+       "end": 32.271,
+       "text": "ABOUT TO HAPPEN."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "worker",
+   "tag": "PARIS \u2014 1911",
+   "start": 32.915,
+   "end": 47.324,
+   "lines": [
+    {
+     "text": "His name was Vincenzo Peruggia, an Italian worker who had previously worked at the museum.",
+     "file": "assets/vo/c50859eb7604.wav",
+     "start": 33.315,
+     "end": 38.89,
+     "words": [
+      {
+       "w": "His",
+       "s": 33.355,
+       "e": 33.6
+      },
+      {
+       "w": "name",
+       "s": 33.6,
+       "e": 33.845
+      },
+      {
+       "w": "was",
+       "s": 33.845,
+       "e": 34.09
+      },
+      {
+       "w": "Vincenzo",
+       "s": 34.09,
+       "e": 34.698
+      },
+      {
+       "w": "Peruggia,",
+       "s": 34.698,
+       "e": 35.415
+      },
+      {
+       "w": "an",
+       "s": 35.805,
+       "e": 35.975
+      },
+      {
+       "w": "Italian",
+       "s": 35.975,
+       "e": 36.482
+      },
+      {
+       "w": "worker",
+       "s": 36.482,
+       "e": 36.82
+      },
+      {
+       "w": "who",
+       "s": 36.82,
+       "e": 36.96
+      },
+      {
+       "w": "had",
+       "s": 36.96,
+       "e": 37.26
+      },
+      {
+       "w": "previously",
+       "s": 37.26,
+       "e": 37.7
+      },
+      {
+       "w": "worked",
+       "s": 37.7,
+       "e": 38.07
+      },
+      {
+       "w": "at",
+       "s": 38.07,
+       "e": 38.205
+      },
+      {
+       "w": "the",
+       "s": 38.205,
+       "e": 38.42
+      },
+      {
+       "w": "museum.",
+       "s": 38.42,
+       "e": 38.845
+      }
+     ],
+     "caps": [
+      {
+       "start": 33.355,
+       "end": 34.09,
+       "text": "HIS NAME WAS"
+      },
+      {
+       "start": 34.09,
+       "end": 35.805,
+       "text": "VINCENZO PERUGGIA"
+      },
+      {
+       "start": 35.805,
+       "end": 36.82,
+       "text": "AN ITALIAN WORKER"
+      },
+      {
+       "start": 36.82,
+       "end": 37.7,
+       "text": "WHO HAD PREVIOUSLY"
+      },
+      {
+       "start": 37.7,
+       "end": 38.42,
+       "text": "WORKED AT THE"
+      },
+      {
+       "start": 38.42,
+       "end": 38.845,
+       "text": "MUSEUM."
+      }
+     ]
+    },
+    {
+     "text": "He knew its galleries and was familiar with the building.",
+     "file": "assets/vo/3b27114b860a.wav",
+     "start": 39.79,
+     "end": 42.694,
+     "words": [
+      {
+       "w": "He",
+       "s": 39.82,
+       "e": 40.019
+      },
+      {
+       "w": "knew",
+       "s": 40.019,
+       "e": 40.325
+      },
+      {
+       "w": "its",
+       "s": 40.325,
+       "e": 40.418
+      },
+      {
+       "w": "galleries",
+       "s": 40.418,
+       "e": 41.01
+      },
+      {
+       "w": "and",
+       "s": 41.01,
+       "e": 41.112
+      },
+      {
+       "w": "was",
+       "s": 41.112,
+       "e": 41.405
+      },
+      {
+       "w": "familiar",
+       "s": 41.405,
+       "e": 41.806
+      },
+      {
+       "w": "with",
+       "s": 41.806,
+       "e": 42.08
+      },
+      {
+       "w": "the",
+       "s": 42.08,
+       "e": 42.204
+      },
+      {
+       "w": "building.",
+       "s": 42.204,
+       "e": 42.64
+      }
+     ],
+     "caps": [
+      {
+       "start": 39.82,
+       "end": 40.418,
+       "text": "HE KNEW ITS"
+      },
+      {
+       "start": 40.418,
+       "end": 41.405,
+       "text": "GALLERIES AND WAS"
+      },
+      {
+       "start": 41.405,
+       "end": 42.204,
+       "text": "FAMILIAR WITH THE"
+      },
+      {
+       "start": 42.204,
+       "end": 42.64,
+       "text": "BUILDING."
+      }
+     ]
+    },
+    {
+     "text": "And on August twenty-first, the painting vanished.",
+     "file": "assets/vo/df2bb105b73f.wav",
+     "start": 43.694,
+     "end": 46.524,
+     "words": [
+      {
+       "w": "And",
+       "s": 43.714,
+       "e": 44.029
+      },
+      {
+       "w": "on",
+       "s": 44.029,
+       "e": 44.134
+      },
+      {
+       "w": "August",
+       "s": 44.134,
+       "e": 44.414
+      },
+      {
+       "w": "21,",
+       "s": 44.414,
+       "e": 45.114
+      },
+      {
+       "w": "the",
+       "s": 45.404,
+       "e": 45.504
+      },
+      {
+       "w": "painting",
+       "s": 45.504,
+       "e": 45.922
+      },
+      {
+       "w": "vanished.",
+       "s": 45.922,
+       "e": 46.474
+      }
+     ],
+     "caps": [
+      {
+       "start": 43.714,
+       "end": 45.404,
+       "text": "AND ON AUGUST 21"
+      },
+      {
+       "start": 45.404,
+       "end": 46.474,
+       "text": "THE PAINTING VANISHED."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beroud",
+   "tag": "AUGUST 22, 1911",
+   "start": 47.324,
+   "end": 62.687,
+   "lines": [
+    {
+     "text": "The next day, painter Louis B\u00e9roud arrived at the Louvre.",
+     "file": "assets/vo/cee87749c452.wav",
+     "start": 47.724,
+     "end": 50.717,
+     "words": [
+      {
+       "w": "The",
+       "s": 47.754,
+       "e": 47.974
+      },
+      {
+       "w": "next",
+       "s": 47.974,
+       "e": 48.089
+      },
+      {
+       "w": "day,",
+       "s": 48.089,
+       "e": 48.414
+      },
+      {
+       "w": "painter",
+       "s": 48.514,
+       "e": 48.901
+      },
+      {
+       "w": "Louis",
+       "s": 48.901,
+       "e": 49.123
+      },
+      {
+       "w": "B\u00e9roud",
+       "s": 49.123,
+       "e": 49.346
+      },
+      {
+       "w": "arrived",
+       "s": 49.346,
+       "e": 49.898
+      },
+      {
+       "w": "at",
+       "s": 49.898,
+       "e": 50.114
+      },
+      {
+       "w": "the",
+       "s": 50.114,
+       "e": 50.343
+      },
+      {
+       "w": "Louvre.",
+       "s": 50.343,
+       "e": 50.664
+      }
+     ],
+     "caps": [
+      {
+       "start": 47.754,
+       "end": 48.514,
+       "text": "THE NEXT DAY"
+      },
+      {
+       "start": 48.514,
+       "end": 49.346,
+       "text": "PAINTER LOUIS B\u00c9ROUD"
+      },
+      {
+       "start": 49.346,
+       "end": 50.343,
+       "text": "ARRIVED AT THE"
+      },
+      {
+       "start": 50.343,
+       "end": 50.664,
+       "text": "LOUVRE."
+      }
+     ]
+    },
+    {
+     "text": "He expected to see the Mona Lisa hanging in its usual place.",
+     "file": "assets/vo/f82f0805823b.wav",
+     "start": 51.517,
+     "end": 55.213,
+     "words": [
+      {
+       "w": "He",
+       "s": 51.557,
+       "e": 51.867
+      },
+      {
+       "w": "expected",
+       "s": 51.867,
+       "e": 52.3
+      },
+      {
+       "w": "to",
+       "s": 52.3,
+       "e": 52.513
+      },
+      {
+       "w": "see",
+       "s": 52.513,
+       "e": 52.726
+      },
+      {
+       "w": "the",
+       "s": 52.726,
+       "e": 52.939
+      },
+      {
+       "w": "Mona",
+       "s": 52.939,
+       "e": 53.31
+      },
+      {
+       "w": "Lisa",
+       "s": 53.31,
+       "e": 53.681
+      },
+      {
+       "w": "hanging",
+       "s": 53.681,
+       "e": 54.017
+      },
+      {
+       "w": "in",
+       "s": 54.017,
+       "e": 54.342
+      },
+      {
+       "w": "its",
+       "s": 54.342,
+       "e": 54.478
+      },
+      {
+       "w": "usual",
+       "s": 54.478,
+       "e": 54.757
+      },
+      {
+       "w": "place.",
+       "s": 54.757,
+       "e": 55.157
+      }
+     ],
+     "caps": [
+      {
+       "start": 51.557,
+       "end": 52.513,
+       "text": "HE EXPECTED TO"
+      },
+      {
+       "start": 52.513,
+       "end": 53.681,
+       "text": "SEE THE MONA LISA"
+      },
+      {
+       "start": 53.681,
+       "end": 54.478,
+       "text": "HANGING IN ITS"
+      },
+      {
+       "start": 54.478,
+       "end": 55.157,
+       "text": "USUAL PLACE."
+      }
+     ]
+    },
+    {
+     "text": "Instead, he found an empty space.",
+     "file": "assets/vo/8dd2c5c98ddb.wav",
+     "start": 56.213,
+     "end": 58.316,
+     "words": [
+      {
+       "w": "Instead,",
+       "s": 56.233,
+       "e": 56.453
+      },
+      {
+       "w": "he",
+       "s": 56.493,
+       "e": 56.779
+      },
+      {
+       "w": "found",
+       "s": 56.779,
+       "e": 56.963
+      },
+      {
+       "w": "an",
+       "s": 56.963,
+       "e": 57.338
+      },
+      {
+       "w": "empty",
+       "s": 57.338,
+       "e": 57.818
+      },
+      {
+       "w": "space.",
+       "s": 57.818,
+       "e": 58.263
+      }
+     ],
+     "caps": [
+      {
+       "start": 56.233,
+       "end": 56.493,
+       "text": "INSTEAD"
+      },
+      {
+       "start": 56.493,
+       "end": 57.338,
+       "text": "HE FOUND AN"
+      },
+      {
+       "start": 57.338,
+       "end": 58.263,
+       "text": "EMPTY SPACE."
+      }
+     ]
+    },
+    {
+     "text": "At first, people thought it had simply been moved.",
+     "file": "assets/vo/a160f1d857d4.wav",
+     "start": 59.416,
+     "end": 62.087,
+     "words": [
+      {
+       "w": "At",
+       "s": 59.436,
+       "e": 59.616
+      },
+      {
+       "w": "first,",
+       "s": 59.616,
+       "e": 59.966
+      },
+      {
+       "w": "people",
+       "s": 60.156,
+       "e": 60.516
+      },
+      {
+       "w": "thought",
+       "s": 60.516,
+       "e": 60.689
+      },
+      {
+       "w": "it",
+       "s": 60.689,
+       "e": 60.884
+      },
+      {
+       "w": "had",
+       "s": 60.884,
+       "e": 61.186
+      },
+      {
+       "w": "simply",
+       "s": 61.186,
+       "e": 61.417
+      },
+      {
+       "w": "been",
+       "s": 61.417,
+       "e": 61.611
+      },
+      {
+       "w": "moved.",
+       "s": 61.611,
+       "e": 62.036
+      }
+     ],
+     "caps": [
+      {
+       "start": 59.436,
+       "end": 60.156,
+       "text": "AT FIRST"
+      },
+      {
+       "start": 60.156,
+       "end": 60.689,
+       "text": "PEOPLE THOUGHT"
+      },
+      {
+       "start": 60.689,
+       "end": 61.417,
+       "text": "IT HAD SIMPLY"
+      },
+      {
+       "start": 61.417,
+       "end": 62.036,
+       "text": "BEEN MOVED."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shock",
+   "tag": "PARIS \u2014 1911",
+   "start": 62.687,
+   "end": 76.83,
+   "lines": [
+    {
+     "text": "But when museum officials realized it was truly missing, Paris erupted in disbelief.",
+     "file": "assets/vo/dfeebcf5476e.wav",
+     "start": 62.987,
+     "end": 68.063,
+     "words": [
+      {
+       "w": "But",
+       "s": 63.007,
+       "e": 63.203
+      },
+      {
+       "w": "when",
+       "s": 63.203,
+       "e": 63.398
+      },
+      {
+       "w": "museum",
+       "s": 63.398,
+       "e": 63.797
+      },
+      {
+       "w": "officials",
+       "s": 63.797,
+       "e": 64.223
+      },
+      {
+       "w": "realized",
+       "s": 64.223,
+       "e": 64.742
+      },
+      {
+       "w": "it",
+       "s": 64.742,
+       "e": 64.837
+      },
+      {
+       "w": "was",
+       "s": 64.837,
+       "e": 65.012
+      },
+      {
+       "w": "truly",
+       "s": 65.012,
+       "e": 65.44
+      },
+      {
+       "w": "missing,",
+       "s": 65.44,
+       "e": 65.867
+      },
+      {
+       "w": "Paris",
+       "s": 66.237,
+       "e": 66.652
+      },
+      {
+       "w": "erupted",
+       "s": 66.652,
+       "e": 67.149
+      },
+      {
+       "w": "in",
+       "s": 67.149,
+       "e": 67.365
+      },
+      {
+       "w": "disbelief.",
+       "s": 67.365,
+       "e": 67.997
+      }
+     ],
+     "caps": [
+      {
+       "start": 63.007,
+       "end": 63.797,
+       "text": "BUT WHEN MUSEUM"
+      },
+      {
+       "start": 63.797,
+       "end": 64.742,
+       "text": "OFFICIALS REALIZED"
+      },
+      {
+       "start": 64.742,
+       "end": 65.44,
+       "text": "IT WAS TRULY"
+      },
+      {
+       "start": 65.44,
+       "end": 66.237,
+       "text": "MISSING"
+      },
+      {
+       "start": 66.237,
+       "end": 67.365,
+       "text": "PARIS ERUPTED IN"
+      },
+      {
+       "start": 67.365,
+       "end": 67.997,
+       "text": "DISBELIEF."
+      }
+     ]
+    },
+    {
+     "text": "Newspapers spread the story across the world.",
+     "file": "assets/vo/2acad718f7db.wav",
+     "start": 68.963,
+     "end": 71.534,
+     "words": [
+      {
+       "w": "Newspapers",
+       "s": 68.983,
+       "e": 69.468
+      },
+      {
+       "w": "spread",
+       "s": 69.468,
+       "e": 69.823
+      },
+      {
+       "w": "the",
+       "s": 69.823,
+       "e": 70.06
+      },
+      {
+       "w": "story",
+       "s": 70.06,
+       "e": 70.478
+      },
+      {
+       "w": "across",
+       "s": 70.478,
+       "e": 70.953
+      },
+      {
+       "w": "the",
+       "s": 70.953,
+       "e": 71.136
+      },
+      {
+       "w": "world.",
+       "s": 71.136,
+       "e": 71.483
+      }
+     ],
+     "caps": [
+      {
+       "start": 68.983,
+       "end": 69.823,
+       "text": "NEWSPAPERS SPREAD"
+      },
+      {
+       "start": 69.823,
+       "end": 70.953,
+       "text": "THE STORY ACROSS"
+      },
+      {
+       "start": 70.953,
+       "end": 71.483,
+       "text": "THE WORLD."
+      }
+     ]
+    },
+    {
+     "text": "People even visited the Louvre just to stare at the empty wall.",
+     "file": "assets/vo/85966783d13b.wav",
+     "start": 72.434,
+     "end": 76.23,
+     "words": [
+      {
+       "w": "People",
+       "s": 72.454,
+       "e": 72.849
+      },
+      {
+       "w": "even",
+       "s": 72.849,
+       "e": 73.258
+      },
+      {
+       "w": "visited",
+       "s": 73.258,
+       "e": 73.831
+      },
+      {
+       "w": "the",
+       "s": 73.831,
+       "e": 74.062
+      },
+      {
+       "w": "Louvre",
+       "s": 74.062,
+       "e": 74.294
+      },
+      {
+       "w": "just",
+       "s": 74.294,
+       "e": 74.639
+      },
+      {
+       "w": "to",
+       "s": 74.639,
+       "e": 74.755
+      },
+      {
+       "w": "stare",
+       "s": 74.755,
+       "e": 74.904
+      },
+      {
+       "w": "at",
+       "s": 74.904,
+       "e": 75.274
+      },
+      {
+       "w": "the",
+       "s": 75.274,
+       "e": 75.414
+      },
+      {
+       "w": "empty",
+       "s": 75.414,
+       "e": 75.85
+      },
+      {
+       "w": "wall.",
+       "s": 75.85,
+       "e": 76.184
+      }
+     ],
+     "caps": [
+      {
+       "start": 72.454,
+       "end": 73.831,
+       "text": "PEOPLE EVEN VISITED"
+      },
+      {
+       "start": 73.831,
+       "end": 74.639,
+       "text": "THE LOUVRE JUST"
+      },
+      {
+       "start": 74.639,
+       "end": 75.274,
+       "text": "TO STARE AT"
+      },
+      {
+       "start": 75.274,
+       "end": 76.184,
+       "text": "THE EMPTY WALL."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "police",
+   "tag": "PARIS \u2014 1911",
+   "start": 76.83,
+   "end": 92.524,
+   "lines": [
+    {
+     "text": "Investigators followed leads and questioned people connected to the art world.",
+     "file": "assets/vo/544933843e0f.wav",
+     "start": 77.23,
+     "end": 81.854,
+     "words": [
+      {
+       "w": "Investigators",
+       "s": 77.25,
+       "e": 78.205
+      },
+      {
+       "w": "followed",
+       "s": 78.205,
+       "e": 78.747
+      },
+      {
+       "w": "leads",
+       "s": 78.747,
+       "e": 78.979
+      },
+      {
+       "w": "and",
+       "s": 78.979,
+       "e": 79.24
+      },
+      {
+       "w": "questioned",
+       "s": 79.24,
+       "e": 79.725
+      },
+      {
+       "w": "people",
+       "s": 79.725,
+       "e": 80.15
+      },
+      {
+       "w": "connected",
+       "s": 80.15,
+       "e": 80.75
+      },
+      {
+       "w": "to",
+       "s": 80.75,
+       "e": 81.001
+      },
+      {
+       "w": "the",
+       "s": 81.001,
+       "e": 81.15
+      },
+      {
+       "w": "art",
+       "s": 81.15,
+       "e": 81.385
+      },
+      {
+       "w": "world.",
+       "s": 81.385,
+       "e": 81.8
+      }
+     ],
+     "caps": [
+      {
+       "start": 77.25,
+       "end": 78.747,
+       "text": "INVESTIGATORS FOLLOWED"
+      },
+      {
+       "start": 78.747,
+       "end": 79.725,
+       "text": "LEADS AND QUESTIONED"
+      },
+      {
+       "start": 79.725,
+       "end": 80.75,
+       "text": "PEOPLE CONNECTED"
+      },
+      {
+       "start": 80.75,
+       "end": 81.385,
+       "text": "TO THE ART"
+      },
+      {
+       "start": 81.385,
+       "end": 81.8,
+       "text": "WORLD."
+      }
+     ]
+    },
+    {
+     "text": "Even Pablo Picasso was questioned.",
+     "file": "assets/vo/a13807f44094.wav",
+     "start": 82.754,
+     "end": 85.066,
+     "words": [
+      {
+       "w": "Even",
+       "s": 82.774,
+       "e": 83.124
+      },
+      {
+       "w": "Pablo",
+       "s": 83.124,
+       "e": 83.604
+      },
+      {
+       "w": "Picasso",
+       "s": 83.604,
+       "e": 84.125
+      },
+      {
+       "w": "was",
+       "s": 84.125,
+       "e": 84.459
+      },
+      {
+       "w": "questioned.",
+       "s": 84.459,
+       "e": 85.014
+      }
+     ],
+     "caps": [
+      {
+       "start": 82.774,
+       "end": 84.125,
+       "text": "EVEN PABLO PICASSO"
+      },
+      {
+       "start": 84.125,
+       "end": 85.014,
+       "text": "WAS QUESTIONED."
+      }
+     ]
+    },
+    {
+     "text": "Yet the painting remained missing.",
+     "file": "assets/vo/a25a13e93710.wav",
+     "start": 86.066,
+     "end": 88.004,
+     "words": [
+      {
+       "w": "Yet",
+       "s": 86.086,
+       "e": 86.271
+      },
+      {
+       "w": "the",
+       "s": 86.271,
+       "e": 86.411
+      },
+      {
+       "w": "painting",
+       "s": 86.411,
+       "e": 86.918
+      },
+      {
+       "w": "remained",
+       "s": 86.918,
+       "e": 87.47
+      },
+      {
+       "w": "missing.",
+       "s": 87.47,
+       "e": 87.956
+      }
+     ],
+     "caps": [
+      {
+       "start": 86.086,
+       "end": 86.918,
+       "text": "YET THE PAINTING"
+      },
+      {
+       "start": 86.918,
+       "end": 87.956,
+       "text": "REMAINED MISSING."
+      }
+     ]
+    },
+    {
+     "text": "One of the biggest mysteries in art history had begun.",
+     "file": "assets/vo/c90297f28388.wav",
+     "start": 88.904,
+     "end": 91.924,
+     "words": [
+      {
+       "w": "One",
+       "s": 88.924,
+       "e": 89.122
+      },
+      {
+       "w": "of",
+       "s": 89.122,
+       "e": 89.359
+      },
+      {
+       "w": "the",
+       "s": 89.359,
+       "e": 89.52
+      },
+      {
+       "w": "biggest",
+       "s": 89.52,
+       "e": 89.866
+      },
+      {
+       "w": "mysteries",
+       "s": 89.866,
+       "e": 90.389
+      },
+      {
+       "w": "in",
+       "s": 90.389,
+       "e": 90.549
+      },
+      {
+       "w": "art",
+       "s": 90.549,
+       "e": 90.794
+      },
+      {
+       "w": "history",
+       "s": 90.794,
+       "e": 91.25
+      },
+      {
+       "w": "had",
+       "s": 91.25,
+       "e": 91.449
+      },
+      {
+       "w": "begun.",
+       "s": 91.449,
+       "e": 91.884
+      }
+     ],
+     "caps": [
+      {
+       "start": 88.924,
+       "end": 89.52,
+       "text": "ONE OF THE"
+      },
+      {
+       "start": 89.52,
+       "end": 90.389,
+       "text": "BIGGEST MYSTERIES"
+      },
+      {
+       "start": 90.389,
+       "end": 91.25,
+       "text": "IN ART HISTORY"
+      },
+      {
+       "start": 91.25,
+       "end": 91.884,
+       "text": "HAD BEGUN."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "missed",
+   "tag": "PARIS",
+   "start": 92.524,
+   "end": 107.847,
+   "lines": [
+    {
+     "text": "Meanwhile, Peruggia was living in Paris.",
+     "file": "assets/vo/82621a7fc519.wav",
+     "start": 93.024,
+     "end": 95.506,
+     "words": [
+      {
+       "w": "Meanwhile,",
+       "s": 93.044,
+       "e": 93.674
+      },
+      {
+       "w": "Peruggia",
+       "s": 93.764,
+       "e": 94.262
+      },
+      {
+       "w": "was",
+       "s": 94.262,
+       "e": 94.463
+      },
+      {
+       "w": "living",
+       "s": 94.463,
+       "e": 94.813
+      },
+      {
+       "w": "in",
+       "s": 94.813,
+       "e": 94.964
+      },
+      {
+       "w": "Paris.",
+       "s": 94.964,
+       "e": 95.454
+      }
+     ],
+     "caps": [
+      {
+       "start": 93.044,
+       "end": 93.764,
+       "text": "MEANWHILE"
+      },
+      {
+       "start": 93.764,
+       "end": 94.813,
+       "text": "PERUGGIA WAS LIVING"
+      },
+      {
+       "start": 94.813,
+       "end": 95.454,
+       "text": "IN PARIS."
+      }
+     ]
+    },
+    {
+     "text": "Investigators had even interviewed him, but accepted his explanation.",
+     "file": "assets/vo/d24a8bfc67dc.wav",
+     "start": 96.406,
+     "end": 100.734,
+     "words": [
+      {
+       "w": "Investigators",
+       "s": 96.426,
+       "e": 97.196
+      },
+      {
+       "w": "had",
+       "s": 97.196,
+       "e": 97.361
+      },
+      {
+       "w": "even",
+       "s": 97.361,
+       "e": 97.729
+      },
+      {
+       "w": "interviewed",
+       "s": 97.729,
+       "e": 98.355
+      },
+      {
+       "w": "him,",
+       "s": 98.355,
+       "e": 98.636
+      },
+      {
+       "w": "but",
+       "s": 98.986,
+       "e": 99.191
+      },
+      {
+       "w": "accepted",
+       "s": 99.191,
+       "e": 99.717
+      },
+      {
+       "w": "his",
+       "s": 99.717,
+       "e": 99.971
+      },
+      {
+       "w": "explanation.",
+       "s": 99.971,
+       "e": 100.696
+      }
+     ],
+     "caps": [
+      {
+       "start": 96.426,
+       "end": 97.361,
+       "text": "INVESTIGATORS HAD"
+      },
+      {
+       "start": 97.361,
+       "end": 98.986,
+       "text": "EVEN INTERVIEWED HIM"
+      },
+      {
+       "start": 98.986,
+       "end": 99.971,
+       "text": "BUT ACCEPTED HIS"
+      },
+      {
+       "start": 99.971,
+       "end": 100.696,
+       "text": "EXPLANATION."
+      }
+     ]
+    },
+    {
+     "text": "They didn't realize the stolen masterpiece was still hidden inside his apartment.",
+     "file": "assets/vo/27d408bf2446.wav",
+     "start": 101.934,
+     "end": 106.647,
+     "words": [
+      {
+       "w": "They",
+       "s": 101.954,
+       "e": 102.207
+      },
+      {
+       "w": "didn't",
+       "s": 102.207,
+       "e": 102.459
+      },
+      {
+       "w": "realize",
+       "s": 102.459,
+       "e": 102.904
+      },
+      {
+       "w": "the",
+       "s": 102.904,
+       "e": 103.109
+      },
+      {
+       "w": "stolen",
+       "s": 103.109,
+       "e": 103.591
+      },
+      {
+       "w": "masterpiece",
+       "s": 103.591,
+       "e": 104.209
+      },
+      {
+       "w": "was",
+       "s": 104.209,
+       "e": 104.434
+      },
+      {
+       "w": "still",
+       "s": 104.434,
+       "e": 104.723
+      },
+      {
+       "w": "hidden",
+       "s": 104.723,
+       "e": 105.164
+      },
+      {
+       "w": "inside",
+       "s": 105.164,
+       "e": 105.602
+      },
+      {
+       "w": "his",
+       "s": 105.602,
+       "e": 105.855
+      },
+      {
+       "w": "apartment.",
+       "s": 105.855,
+       "e": 106.594
+      }
+     ],
+     "caps": [
+      {
+       "start": 101.954,
+       "end": 102.904,
+       "text": "THEY DIDN'T REALIZE"
+      },
+      {
+       "start": 102.904,
+       "end": 104.209,
+       "text": "THE STOLEN MASTERPIECE"
+      },
+      {
+       "start": 104.209,
+       "end": 105.164,
+       "text": "WAS STILL HIDDEN"
+      },
+      {
+       "start": 105.164,
+       "end": 106.594,
+       "text": "INSIDE HIS APARTMENT."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "years",
+   "tag": "1911 \u2192 1913",
+   "start": 107.847,
+   "end": 123.545,
+   "lines": [
+    {
+     "text": "Months became years.",
+     "file": "assets/vo/9c8d98c3155c.wav",
+     "start": 108.247,
+     "end": 109.771,
+     "words": [
+      {
+       "w": "Months",
+       "s": 108.267,
+       "e": 108.562
+      },
+      {
+       "w": "became",
+       "s": 108.562,
+       "e": 109.21
+      },
+      {
+       "w": "years.",
+       "s": 109.21,
+       "e": 109.707
+      }
+     ],
+     "caps": [
+      {
+       "start": 108.267,
+       "end": 109.707,
+       "text": "MONTHS BECAME YEARS."
+      }
+     ]
+    },
+    {
+     "text": "The Mona Lisa stayed hidden while the mystery grew.",
+     "file": "assets/vo/119194de9d79.wav",
+     "start": 110.771,
+     "end": 113.597,
+     "words": [
+      {
+       "w": "The",
+       "s": 110.791,
+       "e": 110.989
+      },
+      {
+       "w": "Mona",
+       "s": 110.989,
+       "e": 111.334
+      },
+      {
+       "w": "Lisa",
+       "s": 111.334,
+       "e": 111.686
+      },
+      {
+       "w": "stayed",
+       "s": 111.686,
+       "e": 111.981
+      },
+      {
+       "w": "hidden",
+       "s": 111.981,
+       "e": 112.221
+      },
+      {
+       "w": "while",
+       "s": 112.221,
+       "e": 112.566
+      },
+      {
+       "w": "the",
+       "s": 112.566,
+       "e": 112.764
+      },
+      {
+       "w": "mystery",
+       "s": 112.764,
+       "e": 113.211
+      },
+      {
+       "w": "grew.",
+       "s": 113.211,
+       "e": 113.541
+      }
+     ],
+     "caps": [
+      {
+       "start": 110.791,
+       "end": 111.981,
+       "text": "THE MONA LISA STAYED"
+      },
+      {
+       "start": 111.981,
+       "end": 112.764,
+       "text": "HIDDEN WHILE THE"
+      },
+      {
+       "start": 112.764,
+       "end": 113.541,
+       "text": "MYSTERY GREW."
+      }
+     ]
+    },
+    {
+     "text": "Then, in late nineteen thirteen, Peruggia contacted an art dealer in Florence.",
+     "file": "assets/vo/f956be24fdbe.wav",
+     "start": 114.597,
+     "end": 119.378,
+     "words": [
+      {
+       "w": "Then,",
+       "s": 114.627,
+       "e": 114.987
+      },
+      {
+       "w": "in",
+       "s": 115.047,
+       "e": 115.263
+      },
+      {
+       "w": "late",
+       "s": 115.263,
+       "e": 115.402
+      },
+      {
+       "w": "1913,",
+       "s": 115.402,
+       "e": 115.942
+      },
+      {
+       "w": "thirteen,",
+       "s": 115.942,
+       "e": 116.487
+      },
+      {
+       "w": "Peruggia",
+       "s": 116.817,
+       "e": 117.282
+      },
+      {
+       "w": "contacted",
+       "s": 117.282,
+       "e": 117.982
+      },
+      {
+       "w": "an",
+       "s": 117.982,
+       "e": 118.076
+      },
+      {
+       "w": "art",
+       "s": 118.076,
+       "e": 118.227
+      },
+      {
+       "w": "dealer",
+       "s": 118.227,
+       "e": 118.587
+      },
+      {
+       "w": "in",
+       "s": 118.587,
+       "e": 118.792
+      },
+      {
+       "w": "Florence.",
+       "s": 118.792,
+       "e": 119.327
+      }
+     ],
+     "caps": [
+      {
+       "start": 114.627,
+       "end": 115.047,
+       "text": "THEN"
+      },
+      {
+       "start": 115.047,
+       "end": 116.817,
+       "text": "IN LATE 1913"
+      },
+      {
+       "start": 116.817,
+       "end": 117.982,
+       "text": "PERUGGIA CONTACTED"
+      },
+      {
+       "start": 117.982,
+       "end": 118.587,
+       "text": "AN ART DEALER"
+      },
+      {
+       "start": 118.587,
+       "end": 119.327,
+       "text": "IN FLORENCE."
+      }
+     ]
+    },
+    {
+     "text": "He claimed he wanted to return the painting to Italy.",
+     "file": "assets/vo/4ba102d99a9e.wav",
+     "start": 120.178,
+     "end": 122.945,
+     "words": [
+      {
+       "w": "He",
+       "s": 120.218,
+       "e": 120.398
+      },
+      {
+       "w": "claimed",
+       "s": 120.398,
+       "e": 120.743
+      },
+      {
+       "w": "he",
+       "s": 120.743,
+       "e": 120.894
+      },
+      {
+       "w": "wanted",
+       "s": 120.894,
+       "e": 121.208
+      },
+      {
+       "w": "to",
+       "s": 121.208,
+       "e": 121.389
+      },
+      {
+       "w": "return",
+       "s": 121.389,
+       "e": 121.803
+      },
+      {
+       "w": "the",
+       "s": 121.803,
+       "e": 121.884
+      },
+      {
+       "w": "painting",
+       "s": 121.884,
+       "e": 122.198
+      },
+      {
+       "w": "to",
+       "s": 122.198,
+       "e": 122.453
+      },
+      {
+       "w": "Italy.",
+       "s": 122.453,
+       "e": 122.908
+      }
+     ],
+     "caps": [
+      {
+       "start": 120.218,
+       "end": 120.894,
+       "text": "HE CLAIMED HE"
+      },
+      {
+       "start": 120.894,
+       "end": 121.803,
+       "text": "WANTED TO RETURN"
+      },
+      {
+       "start": 121.803,
+       "end": 122.453,
+       "text": "THE PAINTING TO"
+      },
+      {
+       "start": 122.453,
+       "end": 122.908,
+       "text": "ITALY."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meeting",
+   "tag": "FLORENCE \u2014 1913",
+   "start": 123.545,
+   "end": 140.36,
+   "lines": [
+    {
+     "text": "The dealer, Alfredo Geri, contacted the director of the Uffizi Gallery.",
+     "file": "assets/vo/20027113ecea.wav",
+     "start": 123.945,
+     "end": 128.469,
+     "words": [
+      {
+       "w": "The",
+       "s": 123.975,
+       "e": 124.151
+      },
+      {
+       "w": "dealer,",
+       "s": 124.151,
+       "e": 124.535
+      },
+      {
+       "w": "Alfredo",
+       "s": 124.655,
+       "e": 125.171
+      },
+      {
+       "w": "Geri,",
+       "s": 125.171,
+       "e": 125.625
+      },
+      {
+       "w": "contacted",
+       "s": 125.945,
+       "e": 126.375
+      },
+      {
+       "w": "the",
+       "s": 126.375,
+       "e": 126.591
+      },
+      {
+       "w": "director",
+       "s": 126.591,
+       "e": 127.105
+      },
+      {
+       "w": "of",
+       "s": 127.105,
+       "e": 127.237
+      },
+      {
+       "w": "the",
+       "s": 127.237,
+       "e": 127.375
+      },
+      {
+       "w": "Uffizi",
+       "s": 127.375,
+       "e": 127.882
+      },
+      {
+       "w": "Gallery.",
+       "s": 127.882,
+       "e": 128.425
+      }
+     ],
+     "caps": [
+      {
+       "start": 123.975,
+       "end": 124.655,
+       "text": "THE DEALER"
+      },
+      {
+       "start": 124.655,
+       "end": 125.945,
+       "text": "ALFREDO GERI"
+      },
+      {
+       "start": 125.945,
+       "end": 127.105,
+       "text": "CONTACTED THE DIRECTOR"
+      },
+      {
+       "start": 127.105,
+       "end": 127.882,
+       "text": "OF THE UFFIZI"
+      },
+      {
+       "start": 127.882,
+       "end": 128.425,
+       "text": "GALLERY."
+      }
+     ]
+    },
+    {
+     "text": "They examined the painting and recognized it as the missing masterpiece.",
+     "file": "assets/vo/434fe775c979.wav",
+     "start": 129.369,
+     "end": 133.519,
+     "words": [
+      {
+       "w": "They",
+       "s": 129.389,
+       "e": 129.605
+      },
+      {
+       "w": "examined",
+       "s": 129.605,
+       "e": 130.214
+      },
+      {
+       "w": "the",
+       "s": 130.214,
+       "e": 130.519
+      },
+      {
+       "w": "painting",
+       "s": 130.519,
+       "e": 130.839
+      },
+      {
+       "w": "and",
+       "s": 130.839,
+       "e": 131.219
+      },
+      {
+       "w": "recognized",
+       "s": 131.219,
+       "e": 131.704
+      },
+      {
+       "w": "it",
+       "s": 131.704,
+       "e": 131.999
+      },
+      {
+       "w": "as",
+       "s": 131.999,
+       "e": 132.242
+      },
+      {
+       "w": "the",
+       "s": 132.242,
+       "e": 132.459
+      },
+      {
+       "w": "missing",
+       "s": 132.459,
+       "e": 132.836
+      },
+      {
+       "w": "masterpiece.",
+       "s": 132.836,
+       "e": 133.469
+      }
+     ],
+     "caps": [
+      {
+       "start": 129.389,
+       "end": 130.519,
+       "text": "THEY EXAMINED THE"
+      },
+      {
+       "start": 130.519,
+       "end": 131.704,
+       "text": "PAINTING AND RECOGNIZED"
+      },
+      {
+       "start": 131.704,
+       "end": 132.459,
+       "text": "IT AS THE"
+      },
+      {
+       "start": 132.459,
+       "end": 133.469,
+       "text": "MISSING MASTERPIECE."
+      }
+     ]
+    },
+    {
+     "text": "The authorities were alerted.",
+     "file": "assets/vo/c5c0db1d7228.wav",
+     "start": 134.519,
+     "end": 136.255,
+     "words": [
+      {
+       "w": "The",
+       "s": 134.539,
+       "e": 134.809
+      },
+      {
+       "w": "authorities",
+       "s": 134.809,
+       "e": 135.464
+      },
+      {
+       "w": "were",
+       "s": 135.464,
+       "e": 135.603
+      },
+      {
+       "w": "alerted.",
+       "s": 135.603,
+       "e": 136.199
+      }
+     ],
+     "caps": [
+      {
+       "start": 134.539,
+       "end": 135.464,
+       "text": "THE AUTHORITIES"
+      },
+      {
+       "start": 135.464,
+       "end": 136.199,
+       "text": "WERE ALERTED."
+      }
+     ]
+    },
+    {
+     "text": "Peruggia's secret was finally exposed.",
+     "file": "assets/vo/90e58248ea64.wav",
+     "start": 137.155,
+     "end": 139.76,
+     "words": [
+      {
+       "w": "Peruggia's",
+       "s": 137.185,
+       "e": 137.774
+      },
+      {
+       "w": "secret",
+       "s": 137.774,
+       "e": 138.245
+      },
+      {
+       "w": "was",
+       "s": 138.245,
+       "e": 138.515
+      },
+      {
+       "w": "finally",
+       "s": 138.515,
+       "e": 139.095
+      },
+      {
+       "w": "exposed.",
+       "s": 139.095,
+       "e": 139.705
+      }
+     ],
+     "caps": [
+      {
+       "start": 137.185,
+       "end": 138.245,
+       "text": "PERUGGIA'S SECRET"
+      },
+      {
+       "start": 138.245,
+       "end": 139.705,
+       "text": "WAS FINALLY EXPOSED."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "returns",
+   "tag": "1913 \u2192 1914",
+   "start": 140.36,
+   "end": 155.467,
+   "lines": [
+    {
+     "text": "After more than two years, the Mona Lisa was finally recovered.",
+     "file": "assets/vo/6afd07731f0a.wav",
+     "start": 140.76,
+     "end": 144.567,
+     "words": [
+      {
+       "w": "After",
+       "s": 140.78,
+       "e": 141.149
+      },
+      {
+       "w": "more",
+       "s": 141.149,
+       "e": 141.361
+      },
+      {
+       "w": "than",
+       "s": 141.361,
+       "e": 141.56
+      },
+      {
+       "w": "two",
+       "s": 141.56,
+       "e": 141.784
+      },
+      {
+       "w": "years,",
+       "s": 141.784,
+       "e": 142.09
+      },
+      {
+       "w": "the",
+       "s": 142.38,
+       "e": 142.563
+      },
+      {
+       "w": "Mona",
+       "s": 142.563,
+       "e": 142.882
+      },
+      {
+       "w": "Lisa",
+       "s": 142.882,
+       "e": 143.201
+      },
+      {
+       "w": "was",
+       "s": 143.201,
+       "e": 143.46
+      },
+      {
+       "w": "finally",
+       "s": 143.46,
+       "e": 143.839
+      },
+      {
+       "w": "recovered.",
+       "s": 143.839,
+       "e": 144.51
+      }
+     ],
+     "caps": [
+      {
+       "start": 140.78,
+       "end": 141.56,
+       "text": "AFTER MORE THAN"
+      },
+      {
+       "start": 141.56,
+       "end": 142.38,
+       "text": "TWO YEARS"
+      },
+      {
+       "start": 142.38,
+       "end": 143.46,
+       "text": "THE MONA LISA WAS"
+      },
+      {
+       "start": 143.46,
+       "end": 144.51,
+       "text": "FINALLY RECOVERED."
+      }
+     ]
+    },
+    {
+     "text": "In January nineteen fourteen, it returned to the Louvre.",
+     "file": "assets/vo/800c9853cacd.wav",
+     "start": 145.467,
+     "end": 148.974,
+     "words": [
+      {
+       "w": "In",
+       "s": 145.487,
+       "e": 145.707
+      },
+      {
+       "w": "January",
+       "s": 145.707,
+       "e": 146.252
+      },
+      {
+       "w": "1914,",
+       "s": 146.252,
+       "e": 146.707
+      },
+      {
+       "w": "fourteen,",
+       "s": 146.707,
+       "e": 147.277
+      },
+      {
+       "w": "it",
+       "s": 147.567,
+       "e": 147.837
+      },
+      {
+       "w": "returned",
+       "s": 147.837,
+       "e": 148.227
+      },
+      {
+       "w": "to",
+       "s": 148.227,
+       "e": 148.447
+      },
+      {
+       "w": "the",
+       "s": 148.447,
+       "e": 148.644
+      },
+      {
+       "w": "Louvre.",
+       "s": 148.644,
+       "e": 148.927
+      }
+     ],
+     "caps": [
+      {
+       "start": 145.487,
+       "end": 147.567,
+       "text": "IN JANUARY 1914"
+      },
+      {
+       "start": 147.567,
+       "end": 148.447,
+       "text": "IT RETURNED TO"
+      },
+      {
+       "start": 148.447,
+       "end": 148.927,
+       "text": "THE LOUVRE."
+      }
+     ]
+    },
+    {
+     "text": "The theft had transformed an admired Renaissance painting into a worldwide celebrity.",
+     "file": "assets/vo/776eadceaaa2.wav",
+     "start": 149.874,
+     "end": 154.867,
+     "words": [
+      {
+       "w": "The",
+       "s": 149.904,
+       "e": 150.039
+      },
+      {
+       "w": "theft",
+       "s": 150.039,
+       "e": 150.264
+      },
+      {
+       "w": "had",
+       "s": 150.264,
+       "e": 150.595
+      },
+      {
+       "w": "transformed",
+       "s": 150.595,
+       "e": 151.199
+      },
+      {
+       "w": "an",
+       "s": 151.199,
+       "e": 151.398
+      },
+      {
+       "w": "admired",
+       "s": 151.398,
+       "e": 151.971
+      },
+      {
+       "w": "Renaissance",
+       "s": 151.971,
+       "e": 152.439
+      },
+      {
+       "w": "painting",
+       "s": 152.439,
+       "e": 152.944
+      },
+      {
+       "w": "into",
+       "s": 152.944,
+       "e": 153.434
+      },
+      {
+       "w": "a",
+       "s": 153.434,
+       "e": 153.576
+      },
+      {
+       "w": "worldwide",
+       "s": 153.576,
+       "e": 153.978
+      },
+      {
+       "w": "celebrity.",
+       "s": 153.978,
+       "e": 154.824
+      }
+     ],
+     "caps": [
+      {
+       "start": 149.904,
+       "end": 150.595,
+       "text": "THE THEFT HAD"
+      },
+      {
+       "start": 150.595,
+       "end": 151.398,
+       "text": "TRANSFORMED AN"
+      },
+      {
+       "start": 151.398,
+       "end": 152.439,
+       "text": "ADMIRED RENAISSANCE"
+      },
+      {
+       "start": 152.439,
+       "end": 153.576,
+       "text": "PAINTING INTO A"
+      },
+      {
+       "start": 153.576,
+       "end": 154.824,
+       "text": "WORLDWIDE CELEBRITY."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "tag": "PARIS \u00b7 TODAY",
+   "start": 155.467,
+   "end": 172.3,
+   "lines": [
+    {
+     "text": "Today, the Mona Lisa is one of the world's most recognizable paintings.",
+     "file": "assets/vo/f01fd71e24dc.wav",
+     "start": 155.867,
+     "end": 160.354,
+     "words": [
+      {
+       "w": "Today,",
+       "s": 155.887,
+       "e": 156.357
+      },
+      {
+       "w": "the",
+       "s": 156.477,
+       "e": 156.708
+      },
+      {
+       "w": "Mona",
+       "s": 156.708,
+       "e": 157.109
+      },
+      {
+       "w": "Lisa",
+       "s": 157.109,
+       "e": 157.452
+      },
+      {
+       "w": "is",
+       "s": 157.452,
+       "e": 157.74
+      },
+      {
+       "w": "one",
+       "s": 157.74,
+       "e": 157.97
+      },
+      {
+       "w": "of",
+       "s": 157.97,
+       "e": 158.2
+      },
+      {
+       "w": "the",
+       "s": 158.2,
+       "e": 158.452
+      },
+      {
+       "w": "world's",
+       "s": 158.452,
+       "e": 158.697
+      },
+      {
+       "w": "most",
+       "s": 158.697,
+       "e": 158.952
+      },
+      {
+       "w": "recognizable",
+       "s": 158.952,
+       "e": 159.804
+      },
+      {
+       "w": "paintings.",
+       "s": 159.804,
+       "e": 160.307
+      }
+     ],
+     "caps": [
+      {
+       "start": 155.887,
+       "end": 156.477,
+       "text": "TODAY"
+      },
+      {
+       "start": 156.477,
+       "end": 157.74,
+       "text": "THE MONA LISA IS"
+      },
+      {
+       "start": 157.74,
+       "end": 158.452,
+       "text": "ONE OF THE"
+      },
+      {
+       "start": 158.452,
+       "end": 159.804,
+       "text": "WORLD'S MOST RECOGNIZABLE"
+      },
+      {
+       "start": 159.804,
+       "end": 160.307,
+       "text": "PAINTINGS."
+      }
+     ]
+    },
+    {
+     "text": "And its greatest publicity came from the man who stole it.",
+     "file": "assets/vo/308bf92e74a0.wav",
+     "start": 161.254,
+     "end": 164.471,
+     "words": [
+      {
+       "w": "And",
+       "s": 161.274,
+       "e": 161.559
+      },
+      {
+       "w": "its",
+       "s": 161.559,
+       "e": 161.689
+      },
+      {
+       "w": "greatest",
+       "s": 161.689,
+       "e": 162.039
+      },
+      {
+       "w": "publicity",
+       "s": 162.039,
+       "e": 162.769
+      },
+      {
+       "w": "came",
+       "s": 162.769,
+       "e": 162.925
+      },
+      {
+       "w": "from",
+       "s": 162.925,
+       "e": 163.124
+      },
+      {
+       "w": "the",
+       "s": 163.124,
+       "e": 163.339
+      },
+      {
+       "w": "man",
+       "s": 163.339,
+       "e": 163.547
+      },
+      {
+       "w": "who",
+       "s": 163.547,
+       "e": 163.754
+      },
+      {
+       "w": "stole",
+       "s": 163.754,
+       "e": 164.115
+      },
+      {
+       "w": "it.",
+       "s": 164.115,
+       "e": 164.414
+      }
+     ],
+     "caps": [
+      {
+       "start": 161.274,
+       "end": 162.039,
+       "text": "AND ITS GREATEST"
+      },
+      {
+       "start": 162.039,
+       "end": 162.925,
+       "text": "PUBLICITY CAME"
+      },
+      {
+       "start": 162.925,
+       "end": 163.547,
+       "text": "FROM THE MAN"
+      },
+      {
+       "start": 163.547,
+       "end": 164.414,
+       "text": "WHO STOLE IT."
+      }
+     ]
+    },
+    {
+     "text": "So here's the question: did the thief accidentally make it famous?",
+     "file": "assets/vo/d8a4f0cc839e.wav",
+     "start": 165.471,
+     "end": 169.3,
+     "words": [
+      {
+       "w": "So",
+       "s": 165.491,
+       "e": 165.702
+      },
+      {
+       "w": "here's",
+       "s": 165.702,
+       "e": 166.069
+      },
+      {
+       "w": "the",
+       "s": 166.069,
+       "e": 166.191
+      },
+      {
+       "w": "question:",
+       "s": 166.191,
+       "e": 166.741
+      },
+      {
+       "w": "did",
+       "s": 167.061,
+       "e": 167.321
+      },
+      {
+       "w": "the",
+       "s": 167.321,
+       "e": 167.454
+      },
+      {
+       "w": "thief",
+       "s": 167.454,
+       "e": 167.621
+      },
+      {
+       "w": "accidentally",
+       "s": 167.621,
+       "e": 168.541
+      },
+      {
+       "w": "make",
+       "s": 168.541,
+       "e": 168.691
+      },
+      {
+       "w": "it",
+       "s": 168.691,
+       "e": 168.822
+      },
+      {
+       "w": "famous?",
+       "s": 168.822,
+       "e": 169.251
+      }
+     ],
+     "caps": [
+      {
+       "start": 165.491,
+       "end": 166.191,
+       "text": "SO HERE'S THE"
+      },
+      {
+       "start": 166.191,
+       "end": 167.061,
+       "text": "QUESTION"
+      },
+      {
+       "start": 167.061,
+       "end": 167.621,
+       "text": "DID THE THIEF"
+      },
+      {
+       "start": 167.621,
+       "end": 168.691,
+       "text": "ACCIDENTALLY MAKE"
+      },
+      {
+       "start": 168.691,
+       "end": 169.251,
+       "text": "IT FAMOUS?"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
