@@ -9,5 +9,5 @@ const GEO = new Function('globalThis', src + ';return globalThis.GEO')({});
 const names = ['Portugal','Spain','France','Italy','Switzerland','Belgium','Netherlands','Germany','Austria','Poland','Denmark','Czechia','Slovakia','Hungary','Slovenia','Croatia','Bosnia and Herz.','Serbia','Montenegro','Albania','Macedonia','Kosovo','Greece','Bulgaria','Romania','Moldova','Ukraine','Belarus','Lithuania','Latvia','Estonia','Russia','Sweden','Norway','Finland','United Kingdom','Ireland','Iceland','Turkey','Morocco','Algeria','Tunisia','Libya','Cyprus'];
 const g = {}; for (const n of names) if (GEO.world[n]) g[n] = GEO.world[n].map((r) => r.map((v) => +v.toFixed(2)));
 fs.writeFileSync(path.join(out, 'src/geo.json'), JSON.stringify(g));
-fs.copyFileSync(path.join(__dirname, '..', 'out/music.wav'), path.join(out, 'public/soundtrack.wav'));
+require('child_process').execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', path.join(__dirname, '..', 'out/music.wav'), '-c:a', 'libmp3lame', '-b:a', '192k', path.join(out, 'public/soundtrack.mp3')]);
 console.log('exported', Object.keys(g).length, 'countries,', words.length, 'words');

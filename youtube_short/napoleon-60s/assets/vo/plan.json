@@ -2,12 +2,12 @@
  {
   "id": "L01",
   "at": 0.3,
-  "dur": 2.011,
-  "end": 2.311,
+  "dur": 1.916,
+  "end": 2.216,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 2.011,
+    "t1": 1.916,
     "show": "Sixty seconds of history."
    }
   ]
@@ -15,35 +15,35 @@
  {
   "id": "L02",
   "at": 4.3,
-  "dur": 3.974,
-  "end": 8.274,
+  "dur": 4.074,
+  "end": 8.374,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 1.207,
+    "t1": 1.215,
     "show": "Today: Napoleon."
    },
    {
-    "t0": 1.457,
-    "t1": 3.974,
+    "t0": 1.465,
+    "t1": 4.074,
     "show": "The outsider who conquered Europe, and lost it all."
    }
   ]
  },
  {
   "id": "L03",
-  "at": 8.35,
-  "dur": 4.577,
-  "end": 12.927,
+  "at": 8.45,
+  "dur": 4.736,
+  "end": 13.186,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 1.836,
+    "t1": 1.926,
     "show": "Seventeen sixty-nine, Corsica."
    },
    {
-    "t0": 2.036,
-    "t1": 4.577,
+    "t0": 2.126,
+    "t1": 4.736,
     "show": "At military school, the other boys mock his accent."
    }
   ]
@@ -51,17 +51,17 @@
  {
   "id": "L04",
   "at": 13.4,
-  "dur": 4.312,
-  "end": 17.712,
+  "dur": 4.358,
+  "end": 17.758,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 2.77,
+    "t1": 2.867,
     "show": "At twenty-four, his cannons win the Siege of Toulon."
    },
    {
-    "t0": 3.07,
-    "t1": 4.312,
+    "t0": 3.167,
+    "t1": 4.358,
     "show": "He's made a general."
    }
   ]
@@ -69,17 +69,17 @@
  {
   "id": "L05",
   "at": 19.4,
-  "dur": 5.045,
-  "end": 24.445,
+  "dur": 5.261,
+  "end": 24.661,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 2.324,
+    "t1": 2.492,
     "show": "Seventeen ninety-nine: he seizes power."
    },
    {
-    "t0": 2.674,
-    "t1": 5.045,
+    "t0": 2.842,
+    "t1": 5.261,
     "show": "Eighteen-oh-four: he crowns himself emperor."
    }
   ]
@@ -87,17 +87,17 @@
  {
   "id": "L06",
   "at": 25.35,
-  "dur": 5.856,
-  "end": 31.206,
+  "dur": 5.854,
+  "end": 31.204,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 2.641,
+    "t1": 2.596,
     "show": "His legal code still shapes laws around the world."
    },
    {
-    "t0": 2.941,
-    "t1": 5.856,
+    "t0": 2.896,
+    "t1": 5.854,
     "show": "At Austerlitz, he crushes two empires in a single day."
    }
   ]
@@ -105,22 +105,22 @@
  {
   "id": "L07",
   "at": 32.5,
-  "dur": 6.056,
-  "end": 38.556,
+  "dur": 6.14,
+  "end": 38.64,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 1.331,
+    "t1": 1.388,
     "show": "Then, eighteen-twelve."
    },
    {
-    "t0": 1.581,
-    "t1": 3.967,
+    "t0": 1.638,
+    "t1": 4.048,
     "show": "He invades Russia with half a million men."
    },
    {
-    "t0": 4.317,
-    "t1": 6.056,
+    "t0": 4.398,
+    "t1": 6.14,
     "show": "Winter and hunger destroy them."
    }
   ]
@@ -128,12 +128,12 @@
  {
   "id": "L08",
   "at": 39.25,
-  "dur": 1.659,
-  "end": 40.909,
+  "dur": 1.597,
+  "end": 40.847,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 1.659,
+    "t1": 1.597,
     "show": "Exiled to Elba..."
    }
   ]
@@ -141,32 +141,32 @@
  {
   "id": "L09",
   "at": 41.1,
-  "dur": 7.81,
-  "end": 48.91,
+  "dur": 7.563,
+  "end": 48.663,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 0.777,
+    "t1": 0.758,
     "show": "...he escapes."
    },
    {
-    "t0": 0.977,
-    "t1": 2.339,
+    "t0": 0.958,
+    "t1": 2.204,
     "show": "Troops are sent to stop him."
    },
    {
-    "t0": 2.539,
-    "t1": 3.631,
+    "t0": 2.404,
+    "t1": 3.445,
     "show": "He walks up and says:"
    },
    {
-    "t0": 3.981,
-    "t1": 6.264,
+    "t0": 3.795,
+    "t1": 6.085,
     "show": "'If you want to kill your emperor, here I am.'"
    },
    {
-    "t0": 6.564,
-    "t1": 7.81,
+    "t0": 6.385,
+    "t1": 7.563,
     "show": "They join him instead."
    }
   ]
@@ -174,22 +174,22 @@
  {
   "id": "L10",
   "at": 49.05,
-  "dur": 4.921,
-  "end": 53.971,
+  "dur": 4.837,
+  "end": 53.887,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 1.43,
+    "t1": 1.484,
     "show": "Waterloo, eighteen-fifteen."
    },
    {
-    "t0": 1.63,
-    "t1": 2.679,
+    "t0": 1.684,
+    "t1": 2.65,
     "show": "Final defeat."
    },
    {
-    "t0": 2.879,
-    "t1": 4.921,
+    "t0": 2.85,
+    "t1": 4.837,
     "show": "He dies in exile on Saint Helena."
    }
   ]
@@ -197,27 +197,27 @@
  {
   "id": "L11",
   "at": 54.3,
-  "dur": 5.337,
-  "end": 59.637,
+  "dur": 5.159,
+  "end": 59.459,
   "parts": [
    {
     "t0": 0.0,
-    "t1": 0.733,
+    "t1": 0.641,
     "show": "And 'short'?"
    },
    {
-    "t0": 0.853,
-    "t1": 2.274,
+    "t0": 0.761,
+    "t1": 2.157,
     "show": "He was about five-foot-seven."
    },
    {
-    "t0": 2.394,
-    "t1": 3.521,
+    "t0": 2.277,
+    "t1": 3.38,
     "show": "Average for his time."
    },
    {
-    "t0": 3.641,
-    "t1": 5.337,
+    "t0": 3.5,
+    "t1": 5.159,
     "show": "The myth came from British cartoons."
    }
   ]

@@ -16,8 +16,8 @@ from kokoro_onnx import Kokoro
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "vo")
 MODEL = os.environ.get("KOKORO_DIR", "/tmp/claude-0/-home-user-miemis-9-10--EDD/2ee5f724-dc59-5edf-96e1-0e0cbd701394/scratchpad/kokoro")
-VOICE = os.environ.get("VOICE", "bm_daniel")
-FAC = float(os.environ.get("FAC", "1.07"))  # bm_daniel reads ~7% slower than am_liam: speed everything up to fit the scenes
+VOICE = os.environ.get("VOICE", "blend")  # "blend" = half bm_george + half am_liam (smoother than either alone); or any Kokoro voice name
+FAC = float(os.environ.get("FAC", "1.08"))  # bm_daniel reads ~7% slower than am_liam: speed everything up to fit the scenes
 SR = 24000
 
 # at = when the line starts (seconds); gaps = silence between parts
@@ -25,7 +25,7 @@ LINES = [
     dict(id="L01", at=0.30, speed=0.90, parts=[("Sixty seconds of history.", "Sixty seconds of history.")]),
     dict(id="L02", at=4.30, speed=1.08, gaps=[0.25], parts=[("Today: Napoleon.", "Today: Napoleon."),
          ("The outsider who conquered Europe, and lost it all.", "The outsider who conquered Europe, and lost it all.")]),
-    dict(id="L03", at=8.35, speed=1.15, gaps=[0.2], parts=[("Seventeen sixty-nine, Corsica.", "Seventeen sixty-nine, Corsica."),
+    dict(id="L03", at=8.45, speed=1.15, gaps=[0.2], parts=[("Seventeen sixty-nine, Corsica.", "Seventeen sixty-nine, Corsica."),
          ("At military school, the other boys mock his accent.", "At military school, the other boys mock his accent.")]),
     dict(id="L04", at=13.40, speed=1.05, gaps=[0.3], parts=[("At twenty-four, his cannons win the Siege of Toulon.", "At twenty-four, his cannons win the Siege of Toulon."),
          ("He's made a general.", "He's made a general.")]),
@@ -48,6 +48,24 @@ LINES = [
 ]
 
 
+def fade(a, ms=12):
+    n = int(SR * ms / 1000)
+    a = a.copy(); r = np.linspace(0, 1, n, dtype=np.float32)
+    a[:n] *= r; a[-n:] *= r[::-1]
+    return a
+
+
+SMOOTH = ("highpass=f=70,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=3200:t=q:w=1.2:g=-1.5,deesser=i=0.35:f=0.5,"
+          "acompressor=threshold=-20dB:ratio=2.5:attack=8:release=140:makeup=2")
+
+
+def smooth_file(path):
+    import subprocess
+    tmp = path + ".tmp.wav"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-af", SMOOTH, "-ar", "24000", tmp], check=True)
+    os.replace(tmp, path)
+
+
 def trim(a, pad=0.03):
     e = np.abs(a)
     idx = np.where(e > 0.012)[0]
@@ -60,15 +78,17 @@ def trim(a, pad=0.03):
 
 def main():
     k = Kokoro(os.path.join(MODEL, "kokoro-v1.0.onnx"), os.path.join(MODEL, "voices-v1.0.bin"))
+    voice = 0.5 * k.get_voice_style("bm_george") + 0.5 * k.get_voice_style("am_liam") if VOICE == "blend" else VOICE
     os.makedirs(OUT, exist_ok=True)
     plan = []
     for L in LINES:
         chunks, marks, pos = [], [], 0
         for i, (tts, show) in enumerate(L["parts"]):
-            a, sr = k.create(tts, voice=VOICE, speed=L["speed"] * (1.0 if L["id"] in ("L01", "L08") else FAC) * (L.get("slow") or {}).get(i, 1.0), lang="en-gb" if VOICE.startswith("b") else "en-us")
+            a, sr = k.create(tts, voice=voice, speed=L["speed"] * (1.0 if L["id"] in ("L01", "L08") else FAC) * (L.get("slow") or {}).get(i, 1.0), lang="en-gb")
             assert sr == SR
             seg = trim(np.asarray(a, dtype=np.float32))
             marks.append(dict(t0=round(pos / SR, 3), t1=round((pos + len(seg)) / SR, 3), show=show))
+            seg = fade(seg)
             chunks.append(seg)
             pos += len(seg)
             if i < len(L["parts"]) - 1:
@@ -77,6 +97,7 @@ def main():
                 pos += int(gap * SR)
         a = np.concatenate(chunks)
         sf.write(os.path.join(OUT, L["id"] + ".wav"), a, SR)
+        smooth_file(os.path.join(OUT, L["id"] + ".wav"))
         d = len(a) / SR
         plan.append(dict(id=L["id"], at=L["at"], dur=round(d, 3), end=round(L["at"] + d, 3), parts=marks))
         print(f'{L["id"]} {L["at"]:6.2f} -> {L["at"] + d:6.2f}  ({d:4.2f}s)')
