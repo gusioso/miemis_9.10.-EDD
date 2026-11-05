@@ -1,0 +1,2341 @@
+{
+ "fps": 30,
+ "total": 116.769,
+ "durationInFrames": 3504,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": "DAY 1 \u00b7 7:00 AM",
+   "right": "pauses",
+   "start": 0.0,
+   "end": 17.122,
+   "lines": [
+    {
+     "text": "What if tomorrow morning, the entire internet went down... for thirty days?",
+     "voice": "n",
+     "file": "assets/vo/145b156e2c6d.wav",
+     "start": 0.5,
+     "end": 4.891,
+     "words": [
+      {
+       "w": "What",
+       "s": 0.53,
+       "e": 0.85
+      },
+      {
+       "w": "if",
+       "s": 0.85,
+       "e": 1.196
+      },
+      {
+       "w": "tomorrow",
+       "s": 1.196,
+       "e": 2.045
+      },
+      {
+       "w": "morning,",
+       "s": 2.045,
+       "e": 2.75
+      },
+      {
+       "w": "the",
+       "s": 2.81,
+       "e": 3.0
+      },
+      {
+       "w": "entire",
+       "s": 3.0,
+       "e": 3.207
+      },
+      {
+       "w": "internet",
+       "s": 3.207,
+       "e": 3.54
+      },
+      {
+       "w": "went",
+       "s": 3.54,
+       "e": 3.711
+      },
+      {
+       "w": "down...",
+       "s": 3.711,
+       "e": 3.92
+      },
+      {
+       "w": "for",
+       "s": 4.02,
+       "e": 4.216
+      },
+      {
+       "w": "thirty",
+       "s": 4.216,
+       "e": 4.61
+      },
+      {
+       "w": "days?",
+       "s": 4.61,
+       "e": 4.84
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.53,
+       "end": 2.045,
+       "voice": "n",
+       "text": "WHAT IF TOMORROW"
+      },
+      {
+       "start": 2.045,
+       "end": 2.81,
+       "voice": "n",
+       "text": "MORNING"
+      },
+      {
+       "start": 2.81,
+       "end": 3.54,
+       "voice": "n",
+       "text": "THE ENTIRE INTERNET"
+      },
+      {
+       "start": 3.54,
+       "end": 4.02,
+       "voice": "n",
+       "text": "WENT DOWN..."
+      },
+      {
+       "start": 4.02,
+       "end": 4.84,
+       "voice": "n",
+       "text": "FOR 30 DAYS?"
+      }
+     ]
+    },
+    {
+     "text": "Alex wakes up, reaches for his phone, and sees two words.",
+     "voice": "n",
+     "file": "assets/vo/67ee9897b54b.wav",
+     "start": 5.841,
+     "end": 9.181,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 5.871,
+       "e": 6.166
+      },
+      {
+       "w": "wakes",
+       "s": 6.166,
+       "e": 6.451
+      },
+      {
+       "w": "up,",
+       "s": 6.451,
+       "e": 6.701
+      },
+      {
+       "w": "reaches",
+       "s": 6.871,
+       "e": 7.291
+      },
+      {
+       "w": "for",
+       "s": 7.291,
+       "e": 7.586
+      },
+      {
+       "w": "his",
+       "s": 7.586,
+       "e": 7.938
+      },
+      {
+       "w": "phone,",
+       "s": 7.938,
+       "e": 8.351
+      },
+      {
+       "w": "and",
+       "s": 8.411,
+       "e": 8.57
+      },
+      {
+       "w": "sees",
+       "s": 8.57,
+       "e": 8.73
+      },
+      {
+       "w": "two",
+       "s": 8.73,
+       "e": 8.951
+      },
+      {
+       "w": "words.",
+       "s": 8.951,
+       "e": 9.121
+      }
+     ],
+     "caps": [
+      {
+       "start": 5.871,
+       "end": 6.871,
+       "voice": "n",
+       "text": "ALEX WAKES UP"
+      },
+      {
+       "start": 6.871,
+       "end": 7.938,
+       "voice": "n",
+       "text": "REACHES FOR HIS"
+      },
+      {
+       "start": 7.938,
+       "end": 8.411,
+       "voice": "n",
+       "text": "PHONE"
+      },
+      {
+       "start": 8.411,
+       "end": 9.121,
+       "voice": "n",
+       "text": "AND SEES TWO WORDS."
+      }
+     ]
+    },
+    {
+     "text": "No connection.",
+     "voice": "n",
+     "file": "assets/vo/b13d2a57a6c1.wav",
+     "start": 9.831,
+     "end": 11.016,
+     "words": [
+      {
+       "w": "No",
+       "s": 9.861,
+       "e": 10.196
+      },
+      {
+       "w": "connection.",
+       "s": 10.196,
+       "e": 10.961
+      }
+     ],
+     "caps": [
+      {
+       "start": 9.861,
+       "end": 10.961,
+       "voice": "n",
+       "text": "NO CONNECTION."
+      }
+     ]
+    },
+    {
+     "text": "He restarts it twice. Nothing. Then he looks out the window... and it isn't just him.",
+     "voice": "n",
+     "file": "assets/vo/7c93fc375fde.wav",
+     "start": 12.066,
+     "end": 16.522,
+     "words": [
+      {
+       "w": "He",
+       "s": 12.096,
+       "e": 12.32
+      },
+      {
+       "w": "restarts",
+       "s": 12.32,
+       "e": 12.691
+      },
+      {
+       "w": "it",
+       "s": 12.691,
+       "e": 12.876
+      },
+      {
+       "w": "twice.",
+       "s": 12.876,
+       "e": 13.256
+      },
+      {
+       "w": "Nothing.",
+       "s": 13.296,
+       "e": 13.436
+      },
+      {
+       "w": "Then",
+       "s": 13.656,
+       "e": 13.876
+      },
+      {
+       "w": "he",
+       "s": 13.876,
+       "e": 14.181
+      },
+      {
+       "w": "looks",
+       "s": 14.181,
+       "e": 14.395
+      },
+      {
+       "w": "out",
+       "s": 14.395,
+       "e": 14.601
+      },
+      {
+       "w": "the",
+       "s": 14.601,
+       "e": 14.831
+      },
+      {
+       "w": "window...",
+       "s": 14.831,
+       "e": 15.426
+      },
+      {
+       "w": "and",
+       "s": 15.526,
+       "e": 15.697
+      },
+      {
+       "w": "it",
+       "s": 15.697,
+       "e": 15.868
+      },
+      {
+       "w": "isn't",
+       "s": 15.868,
+       "e": 16.039
+      },
+      {
+       "w": "just",
+       "s": 16.039,
+       "e": 16.161
+      },
+      {
+       "w": "him.",
+       "s": 16.161,
+       "e": 16.456
+      }
+     ],
+     "caps": [
+      {
+       "start": 12.096,
+       "end": 12.876,
+       "voice": "n",
+       "text": "HE RESTARTS IT"
+      },
+      {
+       "start": 12.876,
+       "end": 13.656,
+       "voice": "n",
+       "text": "TWICE. NOTHING."
+      },
+      {
+       "start": 13.656,
+       "end": 14.395,
+       "voice": "n",
+       "text": "THEN HE LOOKS"
+      },
+      {
+       "start": 14.395,
+       "end": 15.526,
+       "voice": "n",
+       "text": "OUT THE WINDOW..."
+      },
+      {
+       "start": 15.526,
+       "end": 16.039,
+       "voice": "n",
+       "text": "AND IT ISN'T"
+      },
+      {
+       "start": 16.039,
+       "end": 16.456,
+       "voice": "n",
+       "text": "JUST HIM."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "reach": 6.871,
+    "phone": 8.73,
+    "noconn": 9.831,
+    "restart": 12.32,
+    "window": 14.831,
+    "notjust": 15.868
+   }
+  },
+  {
+   "id": "cafe",
+   "tag": "DAY 1 \u00b7 8:15 AM",
+   "right": "pauses",
+   "start": 17.122,
+   "end": 28.073,
+   "lines": [
+    {
+     "text": "At the coffee shop, the card machine just keeps spinning.",
+     "voice": "n",
+     "file": "assets/vo/e8b41621cc39.wav",
+     "start": 17.522,
+     "end": 20.412,
+     "words": [
+      {
+       "w": "At",
+       "s": 17.542,
+       "e": 17.697
+      },
+      {
+       "w": "the",
+       "s": 17.697,
+       "e": 17.797
+      },
+      {
+       "w": "coffee",
+       "s": 17.797,
+       "e": 18.252
+      },
+      {
+       "w": "shop,",
+       "s": 18.252,
+       "e": 18.482
+      },
+      {
+       "w": "the",
+       "s": 18.562,
+       "e": 18.692
+      },
+      {
+       "w": "card",
+       "s": 18.692,
+       "e": 19.014
+      },
+      {
+       "w": "machine",
+       "s": 19.014,
+       "e": 19.407
+      },
+      {
+       "w": "just",
+       "s": 19.407,
+       "e": 19.572
+      },
+      {
+       "w": "keeps",
+       "s": 19.572,
+       "e": 19.932
+      },
+      {
+       "w": "spinning.",
+       "s": 19.932,
+       "e": 20.352
+      }
+     ],
+     "caps": [
+      {
+       "start": 17.542,
+       "end": 18.562,
+       "voice": "n",
+       "text": "AT THE COFFEE SHOP"
+      },
+      {
+       "start": 18.562,
+       "end": 19.407,
+       "voice": "n",
+       "text": "THE CARD MACHINE"
+      },
+      {
+       "start": 19.407,
+       "end": 20.352,
+       "voice": "n",
+       "text": "JUST KEEPS SPINNING."
+      }
+     ]
+    },
+    {
+     "text": "Sorry. Cash only today.",
+     "voice": "mia",
+     "file": "assets/vo/953782edaba2.wav",
+     "start": 21.162,
+     "end": 22.764,
+     "words": [
+      {
+       "w": "Sorry.",
+       "s": 21.192,
+       "e": 21.642
+      },
+      {
+       "w": "Cash",
+       "s": 21.802,
+       "e": 21.989
+      },
+      {
+       "w": "only",
+       "s": 21.989,
+       "e": 22.277
+      },
+      {
+       "w": "today.",
+       "s": 22.277,
+       "e": 22.722
+      }
+     ],
+     "caps": [
+      {
+       "start": 21.192,
+       "end": 21.802,
+       "voice": "mia",
+       "text": "SORRY."
+      },
+      {
+       "start": 21.802,
+       "end": 22.722,
+       "voice": "mia",
+       "text": "CASH ONLY TODAY."
+      }
+     ]
+    },
+    {
+     "text": "Alex has eleven dollars in his wallet. Most people have nothing.",
+     "voice": "n",
+     "file": "assets/vo/daacea29e9d8.wav",
+     "start": 23.614,
+     "end": 27.473,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 23.654,
+       "e": 23.949
+      },
+      {
+       "w": "has",
+       "s": 23.949,
+       "e": 24.079
+      },
+      {
+       "w": "eleven",
+       "s": 24.079,
+       "e": 24.68
+      },
+      {
+       "w": "dollars",
+       "s": 24.68,
+       "e": 25.022
+      },
+      {
+       "w": "in",
+       "s": 25.022,
+       "e": 25.218
+      },
+      {
+       "w": "his",
+       "s": 25.218,
+       "e": 25.415
+      },
+      {
+       "w": "wallet.",
+       "s": 25.415,
+       "e": 25.844
+      },
+      {
+       "w": "Most",
+       "s": 26.164,
+       "e": 26.454
+      },
+      {
+       "w": "people",
+       "s": 26.454,
+       "e": 26.659
+      },
+      {
+       "w": "have",
+       "s": 26.659,
+       "e": 26.959
+      },
+      {
+       "w": "nothing.",
+       "s": 26.959,
+       "e": 27.424
+      }
+     ],
+     "caps": [
+      {
+       "start": 23.654,
+       "end": 25.022,
+       "voice": "n",
+       "text": "ALEX HAS $11"
+      },
+      {
+       "start": 25.022,
+       "end": 26.164,
+       "voice": "n",
+       "text": "IN HIS WALLET."
+      },
+      {
+       "start": 26.164,
+       "end": 26.959,
+       "voice": "n",
+       "text": "MOST PEOPLE HAVE"
+      },
+      {
+       "start": 26.959,
+       "end": 27.424,
+       "voice": "n",
+       "text": "NOTHING."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "spin": 2.81,
+    "cash": 4.04,
+    "wallet": 6.957,
+    "nothing": 9.837
+   }
+  },
+  {
+   "id": "bank",
+   "tag": "DAY 1 \u00b7 12:00 PM",
+   "right": "pauses",
+   "start": 28.073,
+   "end": 39.435,
+   "lines": [
+    {
+     "text": "Because most money isn't paper. It's numbers on a computer somewhere.",
+     "voice": "n",
+     "file": "assets/vo/20f4d6d9485a.wav",
+     "start": 28.473,
+     "end": 32.533,
+     "words": [
+      {
+       "w": "Because",
+       "s": 28.493,
+       "e": 28.845
+      },
+      {
+       "w": "most",
+       "s": 28.845,
+       "e": 29.113
+      },
+      {
+       "w": "money",
+       "s": 29.113,
+       "e": 29.498
+      },
+      {
+       "w": "isn't",
+       "s": 29.498,
+       "e": 29.601
+      },
+      {
+       "w": "paper.",
+       "s": 29.601,
+       "e": 30.043
+      },
+      {
+       "w": "It's",
+       "s": 30.093,
+       "e": 30.233
+      },
+      {
+       "w": "numbers",
+       "s": 30.233,
+       "e": 30.736
+      },
+      {
+       "w": "on",
+       "s": 30.736,
+       "e": 30.971
+      },
+      {
+       "w": "a",
+       "s": 30.971,
+       "e": 31.205
+      },
+      {
+       "w": "computer",
+       "s": 31.205,
+       "e": 31.787
+      },
+      {
+       "w": "somewhere.",
+       "s": 31.787,
+       "e": 32.473
+      }
+     ],
+     "caps": [
+      {
+       "start": 28.493,
+       "end": 29.498,
+       "voice": "n",
+       "text": "BECAUSE MOST MONEY"
+      },
+      {
+       "start": 29.498,
+       "end": 30.093,
+       "voice": "n",
+       "text": "ISN'T PAPER."
+      },
+      {
+       "start": 30.093,
+       "end": 30.971,
+       "voice": "n",
+       "text": "IT'S NUMBERS ON"
+      },
+      {
+       "start": 30.971,
+       "end": 32.473,
+       "voice": "n",
+       "text": "A COMPUTER SOMEWHERE."
+      }
+     ]
+    },
+    {
+     "text": "The ATMs stop working, and by noon, the lines at every bank stretch around the block.",
+     "voice": "n",
+     "file": "assets/vo/81e41c078e24.wav",
+     "start": 33.383,
+     "end": 38.735,
+     "words": [
+      {
+       "w": "The",
+       "s": 33.403,
+       "e": 33.753
+      },
+      {
+       "w": "ATMs",
+       "s": 33.753,
+       "e": 33.912
+      },
+      {
+       "w": "stop",
+       "s": 33.912,
+       "e": 34.167
+      },
+      {
+       "w": "working,",
+       "s": 34.167,
+       "e": 34.723
+      },
+      {
+       "w": "and",
+       "s": 34.793,
+       "e": 34.819
+      },
+      {
+       "w": "by",
+       "s": 34.819,
+       "e": 34.845
+      },
+      {
+       "w": "noon,",
+       "s": 34.845,
+       "e": 34.883
+      },
+      {
+       "w": "the",
+       "s": 35.323,
+       "e": 35.592
+      },
+      {
+       "w": "lines",
+       "s": 35.592,
+       "e": 36.098
+      },
+      {
+       "w": "at",
+       "s": 36.098,
+       "e": 36.33
+      },
+      {
+       "w": "every",
+       "s": 36.33,
+       "e": 37.013
+      },
+      {
+       "w": "bank",
+       "s": 37.013,
+       "e": 37.193
+      },
+      {
+       "w": "stretch",
+       "s": 37.193,
+       "e": 37.553
+      },
+      {
+       "w": "around",
+       "s": 37.553,
+       "e": 38.005
+      },
+      {
+       "w": "the",
+       "s": 38.005,
+       "e": 38.233
+      },
+      {
+       "w": "block.",
+       "s": 38.233,
+       "e": 38.663
+      }
+     ],
+     "caps": [
+      {
+       "start": 33.403,
+       "end": 34.167,
+       "voice": "n",
+       "text": "THE ATMS STOP"
+      },
+      {
+       "start": 34.167,
+       "end": 35.323,
+       "voice": "n",
+       "text": "WORKING AND BY NOON"
+      },
+      {
+       "start": 35.323,
+       "end": 36.33,
+       "voice": "n",
+       "text": "THE LINES AT"
+      },
+      {
+       "start": 36.33,
+       "end": 37.553,
+       "voice": "n",
+       "text": "EVERY BANK STRETCH"
+      },
+      {
+       "start": 37.553,
+       "end": 38.663,
+       "voice": "n",
+       "text": "AROUND THE BLOCK."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "numbers": 2.16,
+    "atm": 5.31,
+    "lines": 7.519
+   }
+  },
+  {
+   "id": "store",
+   "tag": "DAY 3",
+   "right": "pauses",
+   "start": 39.435,
+   "end": 52.756,
+   "lines": [
+    {
+     "text": "By day three, supermarkets have a new problem.",
+     "voice": "n",
+     "file": "assets/vo/1f2382e7f63c.wav",
+     "start": 39.835,
+     "end": 42.562,
+     "words": [
+      {
+       "w": "By",
+       "s": 39.865,
+       "e": 39.996
+      },
+      {
+       "w": "day",
+       "s": 39.996,
+       "e": 40.126
+      },
+      {
+       "w": "three,",
+       "s": 40.126,
+       "e": 40.315
+      },
+      {
+       "w": "supermarkets",
+       "s": 40.415,
+       "e": 41.212
+      },
+      {
+       "w": "have",
+       "s": 41.212,
+       "e": 41.485
+      },
+      {
+       "w": "a",
+       "s": 41.485,
+       "e": 41.707
+      },
+      {
+       "w": "new",
+       "s": 41.707,
+       "e": 41.99
+      },
+      {
+       "w": "problem.",
+       "s": 41.99,
+       "e": 42.495
+      }
+     ],
+     "caps": [
+      {
+       "start": 39.865,
+       "end": 40.415,
+       "voice": "n",
+       "text": "BY DAY 3"
+      },
+      {
+       "start": 40.415,
+       "end": 41.485,
+       "voice": "n",
+       "text": "SUPERMARKETS HAVE"
+      },
+      {
+       "start": 41.485,
+       "end": 42.495,
+       "voice": "n",
+       "text": "A NEW PROBLEM."
+      }
+     ]
+    },
+    {
+     "text": "Their orders, their trucks, their stock... all of it ran on the internet.",
+     "voice": "n",
+     "file": "assets/vo/102bbfe24037.wav",
+     "start": 43.312,
+     "end": 47.078,
+     "words": [
+      {
+       "w": "Their",
+       "s": 43.332,
+       "e": 43.687
+      },
+      {
+       "w": "orders,",
+       "s": 43.687,
+       "e": 44.462
+      },
+      {
+       "w": "their",
+       "s": 44.502,
+       "e": 44.531
+      },
+      {
+       "w": "trucks,",
+       "s": 44.531,
+       "e": 44.572
+      },
+      {
+       "w": "their",
+       "s": 44.612,
+       "e": 44.877
+      },
+      {
+       "w": "stock...",
+       "s": 44.877,
+       "e": 45.152
+      },
+      {
+       "w": "all",
+       "s": 45.592,
+       "e": 45.753
+      },
+      {
+       "w": "of",
+       "s": 45.753,
+       "e": 45.907
+      },
+      {
+       "w": "it",
+       "s": 45.907,
+       "e": 46.073
+      },
+      {
+       "w": "ran",
+       "s": 46.073,
+       "e": 46.233
+      },
+      {
+       "w": "on",
+       "s": 46.233,
+       "e": 46.393
+      },
+      {
+       "w": "the",
+       "s": 46.393,
+       "e": 46.497
+      },
+      {
+       "w": "internet.",
+       "s": 46.497,
+       "e": 47.022
+      }
+     ],
+     "caps": [
+      {
+       "start": 43.332,
+       "end": 44.502,
+       "voice": "n",
+       "text": "THEIR ORDERS"
+      },
+      {
+       "start": 44.502,
+       "end": 44.612,
+       "voice": "n",
+       "text": "THEIR TRUCKS"
+      },
+      {
+       "start": 44.612,
+       "end": 45.592,
+       "voice": "n",
+       "text": "THEIR STOCK..."
+      },
+      {
+       "start": 45.592,
+       "end": 46.073,
+       "voice": "n",
+       "text": "ALL OF IT"
+      },
+      {
+       "start": 46.073,
+       "end": 46.497,
+       "voice": "n",
+       "text": "RAN ON THE"
+      },
+      {
+       "start": 46.497,
+       "end": 47.022,
+       "voice": "n",
+       "text": "INTERNET."
+      }
+     ]
+    },
+    {
+     "text": "Managers start writing everything on paper. And the shelves get thinner.",
+     "voice": "n",
+     "file": "assets/vo/1c0fbf855e74.wav",
+     "start": 47.828,
+     "end": 52.056,
+     "words": [
+      {
+       "w": "Managers",
+       "s": 47.848,
+       "e": 48.385
+      },
+      {
+       "w": "start",
+       "s": 48.385,
+       "e": 48.518
+      },
+      {
+       "w": "writing",
+       "s": 48.518,
+       "e": 48.979
+      },
+      {
+       "w": "everything",
+       "s": 48.979,
+       "e": 49.698
+      },
+      {
+       "w": "on",
+       "s": 49.698,
+       "e": 49.928
+      },
+      {
+       "w": "paper.",
+       "s": 49.928,
+       "e": 50.368
+      },
+      {
+       "w": "And",
+       "s": 50.728,
+       "e": 50.911
+      },
+      {
+       "w": "the",
+       "s": 50.911,
+       "e": 51.094
+      },
+      {
+       "w": "shelves",
+       "s": 51.094,
+       "e": 51.398
+      },
+      {
+       "w": "get",
+       "s": 51.398,
+       "e": 51.588
+      },
+      {
+       "w": "thinner.",
+       "s": 51.588,
+       "e": 51.998
+      }
+     ],
+     "caps": [
+      {
+       "start": 47.848,
+       "end": 48.518,
+       "voice": "n",
+       "text": "MANAGERS START"
+      },
+      {
+       "start": 48.518,
+       "end": 49.698,
+       "voice": "n",
+       "text": "WRITING EVERYTHING"
+      },
+      {
+       "start": 49.698,
+       "end": 50.728,
+       "voice": "n",
+       "text": "ON PAPER."
+      },
+      {
+       "start": 50.728,
+       "end": 51.398,
+       "voice": "n",
+       "text": "AND THE SHELVES"
+      },
+      {
+       "start": 51.398,
+       "end": 51.998,
+       "voice": "n",
+       "text": "GET THINNER."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "trucks": 5.096,
+    "paper": 8.393,
+    "thinner": 12.153
+   }
+  },
+  {
+   "id": "street",
+   "tag": "DAY 5",
+   "right": "pauses",
+   "start": 52.756,
+   "end": 65.321,
+   "lines": [
+    {
+     "text": "Then something strange happens. With no screens, people go outside.",
+     "voice": "n",
+     "file": "assets/vo/6b76febe167c.wav",
+     "start": 53.156,
+     "end": 57.348,
+     "words": [
+      {
+       "w": "Then",
+       "s": 53.176,
+       "e": 53.422
+      },
+      {
+       "w": "something",
+       "s": 53.422,
+       "e": 53.926
+      },
+      {
+       "w": "strange",
+       "s": 53.926,
+       "e": 54.278
+      },
+      {
+       "w": "happens.",
+       "s": 54.278,
+       "e": 54.816
+      },
+      {
+       "w": "With",
+       "s": 55.136,
+       "e": 55.389
+      },
+      {
+       "w": "no",
+       "s": 55.389,
+       "e": 55.631
+      },
+      {
+       "w": "screens,",
+       "s": 55.631,
+       "e": 56.006
+      },
+      {
+       "w": "people",
+       "s": 56.096,
+       "e": 56.516
+      },
+      {
+       "w": "go",
+       "s": 56.516,
+       "e": 56.736
+      },
+      {
+       "w": "outside.",
+       "s": 56.736,
+       "e": 57.286
+      }
+     ],
+     "caps": [
+      {
+       "start": 53.176,
+       "end": 53.926,
+       "voice": "n",
+       "text": "THEN SOMETHING"
+      },
+      {
+       "start": 53.926,
+       "end": 55.136,
+       "voice": "n",
+       "text": "STRANGE HAPPENS."
+      },
+      {
+       "start": 55.136,
+       "end": 56.096,
+       "voice": "n",
+       "text": "WITH NO SCREENS"
+      },
+      {
+       "start": 56.096,
+       "end": 57.286,
+       "voice": "n",
+       "text": "PEOPLE GO OUTSIDE."
+      }
+     ]
+    },
+    {
+     "text": "Neighbors who never said hello start sharing news... from the one thing that still works.",
+     "voice": "n",
+     "file": "assets/vo/ab358e3e3381.wav",
+     "start": 58.098,
+     "end": 62.851,
+     "words": [
+      {
+       "w": "Neighbors",
+       "s": 58.118,
+       "e": 58.428
+      },
+      {
+       "w": "who",
+       "s": 58.428,
+       "e": 58.668
+      },
+      {
+       "w": "never",
+       "s": 58.668,
+       "e": 59.179
+      },
+      {
+       "w": "said",
+       "s": 59.179,
+       "e": 59.415
+      },
+      {
+       "w": "hello",
+       "s": 59.415,
+       "e": 59.763
+      },
+      {
+       "w": "start",
+       "s": 59.763,
+       "e": 60.064
+      },
+      {
+       "w": "sharing",
+       "s": 60.064,
+       "e": 60.476
+      },
+      {
+       "w": "news...",
+       "s": 60.476,
+       "e": 60.818
+      },
+      {
+       "w": "from",
+       "s": 61.218,
+       "e": 61.43
+      },
+      {
+       "w": "the",
+       "s": 61.43,
+       "e": 61.728
+      },
+      {
+       "w": "one",
+       "s": 61.728,
+       "e": 61.855
+      },
+      {
+       "w": "thing",
+       "s": 61.855,
+       "e": 62.063
+      },
+      {
+       "w": "that",
+       "s": 62.063,
+       "e": 62.188
+      },
+      {
+       "w": "still",
+       "s": 62.188,
+       "e": 62.598
+      },
+      {
+       "w": "works.",
+       "s": 62.598,
+       "e": 62.798
+      }
+     ],
+     "caps": [
+      {
+       "start": 58.118,
+       "end": 59.179,
+       "voice": "n",
+       "text": "NEIGHBORS WHO NEVER"
+      },
+      {
+       "start": 59.179,
+       "end": 60.064,
+       "voice": "n",
+       "text": "SAID HELLO START"
+      },
+      {
+       "start": 60.064,
+       "end": 61.218,
+       "voice": "n",
+       "text": "SHARING NEWS..."
+      },
+      {
+       "start": 61.218,
+       "end": 61.855,
+       "voice": "n",
+       "text": "FROM THE ONE"
+      },
+      {
+       "start": 61.855,
+       "end": 62.598,
+       "voice": "n",
+       "text": "THING THAT STILL"
+      },
+      {
+       "start": 62.598,
+       "end": 62.798,
+       "voice": "n",
+       "text": "WORKS."
+      }
+     ]
+    },
+    {
+     "text": "The radio.",
+     "voice": "n",
+     "file": "assets/vo/388a47c687a8.wav",
+     "start": 63.501,
+     "end": 64.521,
+     "words": [
+      {
+       "w": "The",
+       "s": 63.531,
+       "e": 63.823
+      },
+      {
+       "w": "radio.",
+       "s": 63.823,
+       "e": 64.461
+      }
+     ],
+     "caps": [
+      {
+       "start": 63.531,
+       "end": 64.461,
+       "voice": "n",
+       "text": "THE RADIO."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "outside": 3.98,
+    "share": 7.308,
+    "radio": 10.745
+   }
+  },
+  {
+   "id": "board",
+   "tag": "DAY 12",
+   "right": "pauses",
+   "start": 65.321,
+   "end": 77.206,
+   "lines": [
+    {
+     "text": "By day twelve, the town has rebuilt the internet... out of paper.",
+     "voice": "n",
+     "file": "assets/vo/05358867904c.wav",
+     "start": 65.721,
+     "end": 69.603,
+     "words": [
+      {
+       "w": "By",
+       "s": 65.751,
+       "e": 65.972
+      },
+      {
+       "w": "day",
+       "s": 65.972,
+       "e": 66.276
+      },
+      {
+       "w": "twelve,",
+       "s": 66.276,
+       "e": 66.513
+      },
+      {
+       "w": "the",
+       "s": 66.513,
+       "e": 66.776
+      },
+      {
+       "w": "town",
+       "s": 66.776,
+       "e": 66.955
+      },
+      {
+       "w": "has",
+       "s": 66.955,
+       "e": 67.177
+      },
+      {
+       "w": "rebuilt",
+       "s": 67.177,
+       "e": 67.551
+      },
+      {
+       "w": "the",
+       "s": 67.551,
+       "e": 67.751
+      },
+      {
+       "w": "internet...",
+       "s": 67.751,
+       "e": 68.431
+      },
+      {
+       "w": "out",
+       "s": 68.751,
+       "e": 69.031
+      },
+      {
+       "w": "of",
+       "s": 69.031,
+       "e": 69.133
+      },
+      {
+       "w": "paper.",
+       "s": 69.133,
+       "e": 69.551
+      }
+     ],
+     "caps": [
+      {
+       "start": 65.751,
+       "end": 66.513,
+       "voice": "n",
+       "text": "BY DAY 12"
+      },
+      {
+       "start": 66.513,
+       "end": 67.177,
+       "voice": "n",
+       "text": "THE TOWN HAS"
+      },
+      {
+       "start": 67.177,
+       "end": 68.751,
+       "voice": "n",
+       "text": "REBUILT THE INTERNET..."
+      },
+      {
+       "start": 68.751,
+       "end": 69.551,
+       "voice": "n",
+       "text": "OUT OF PAPER."
+      }
+     ]
+    },
+    {
+     "text": "A notice board for jobs, lost pets and messages. Paper maps. A queue outside the library.",
+     "voice": "n",
+     "file": "assets/vo/3b7ccbc5564f.wav",
+     "start": 70.453,
+     "end": 76.406,
+     "words": [
+      {
+       "w": "A",
+       "s": 70.483,
+       "e": 70.75
+      },
+      {
+       "w": "notice",
+       "s": 70.75,
+       "e": 71.288
+      },
+      {
+       "w": "board",
+       "s": 71.288,
+       "e": 71.481
+      },
+      {
+       "w": "for",
+       "s": 71.481,
+       "e": 71.748
+      },
+      {
+       "w": "jobs,",
+       "s": 71.748,
+       "e": 72.133
+      },
+      {
+       "w": "lost",
+       "s": 72.273,
+       "e": 72.463
+      },
+      {
+       "w": "pets",
+       "s": 72.463,
+       "e": 72.621
+      },
+      {
+       "w": "and",
+       "s": 72.621,
+       "e": 72.795
+      },
+      {
+       "w": "messages.",
+       "s": 72.795,
+       "e": 73.303
+      },
+      {
+       "w": "Paper",
+       "s": 73.783,
+       "e": 74.106
+      },
+      {
+       "w": "maps.",
+       "s": 74.106,
+       "e": 74.373
+      },
+      {
+       "w": "A",
+       "s": 74.433,
+       "e": 74.718
+      },
+      {
+       "w": "queue",
+       "s": 74.718,
+       "e": 75.003
+      },
+      {
+       "w": "outside",
+       "s": 75.003,
+       "e": 75.343
+      },
+      {
+       "w": "the",
+       "s": 75.343,
+       "e": 75.627
+      },
+      {
+       "w": "library.",
+       "s": 75.627,
+       "e": 76.363
+      }
+     ],
+     "caps": [
+      {
+       "start": 70.483,
+       "end": 71.481,
+       "voice": "n",
+       "text": "A NOTICE BOARD"
+      },
+      {
+       "start": 71.481,
+       "end": 72.273,
+       "voice": "n",
+       "text": "FOR JOBS"
+      },
+      {
+       "start": 72.273,
+       "end": 72.795,
+       "voice": "n",
+       "text": "LOST PETS AND"
+      },
+      {
+       "start": 72.795,
+       "end": 73.303,
+       "voice": "n",
+       "text": "MESSAGES."
+      },
+      {
+       "start": 73.783,
+       "end": 74.433,
+       "voice": "n",
+       "text": "PAPER MAPS."
+      },
+      {
+       "start": 74.433,
+       "end": 75.343,
+       "voice": "n",
+       "text": "A QUEUE OUTSIDE"
+      },
+      {
+       "start": 75.343,
+       "end": 76.363,
+       "voice": "n",
+       "text": "THE LIBRARY."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "rebuilt": 1.856,
+    "notice": 5.429,
+    "maps": 8.785,
+    "library": 10.306
+   }
+  },
+  {
+   "id": "hard",
+   "tag": "DAY 20",
+   "right": "pauses",
+   "start": 77.206,
+   "end": 90.644,
+   "lines": [
+    {
+     "text": "But it isn't all cozy.",
+     "voice": "n",
+     "file": "assets/vo/794e73de4fa0.wav",
+     "start": 77.606,
+     "end": 79.322,
+     "words": [
+      {
+       "w": "But",
+       "s": 77.636,
+       "e": 77.956
+      },
+      {
+       "w": "it",
+       "s": 77.956,
+       "e": 78.236
+      },
+      {
+       "w": "isn't",
+       "s": 78.236,
+       "e": 78.481
+      },
+      {
+       "w": "all",
+       "s": 78.481,
+       "e": 78.581
+      },
+      {
+       "w": "cozy.",
+       "s": 78.581,
+       "e": 79.266
+      }
+     ],
+     "caps": [
+      {
+       "start": 77.636,
+       "end": 78.481,
+       "voice": "n",
+       "text": "BUT IT ISN'T"
+      },
+      {
+       "start": 78.481,
+       "end": 79.266,
+       "voice": "n",
+       "text": "ALL COZY."
+      }
+     ]
+    },
+    {
+     "text": "Hospitals go back to paper charts. Flights are grounded. Some companies can't pay their workers.",
+     "voice": "n",
+     "file": "assets/vo/132a20c40519.wav",
+     "start": 80.172,
+     "end": 86.13,
+     "words": [
+      {
+       "w": "Hospitals",
+       "s": 80.192,
+       "e": 80.897
+      },
+      {
+       "w": "go",
+       "s": 80.897,
+       "e": 81.048
+      },
+      {
+       "w": "back",
+       "s": 81.048,
+       "e": 81.327
+      },
+      {
+       "w": "to",
+       "s": 81.327,
+       "e": 81.487
+      },
+      {
+       "w": "paper",
+       "s": 81.487,
+       "e": 81.917
+      },
+      {
+       "w": "charts.",
+       "s": 81.917,
+       "e": 82.322
+      },
+      {
+       "w": "Flights",
+       "s": 82.732,
+       "e": 82.952
+      },
+      {
+       "w": "are",
+       "s": 82.952,
+       "e": 83.195
+      },
+      {
+       "w": "grounded.",
+       "s": 83.195,
+       "e": 83.702
+      },
+      {
+       "w": "Some",
+       "s": 83.962,
+       "e": 84.242
+      },
+      {
+       "w": "companies",
+       "s": 84.242,
+       "e": 84.777
+      },
+      {
+       "w": "can't",
+       "s": 84.777,
+       "e": 85.042
+      },
+      {
+       "w": "pay",
+       "s": 85.042,
+       "e": 85.303
+      },
+      {
+       "w": "their",
+       "s": 85.303,
+       "e": 85.547
+      },
+      {
+       "w": "workers.",
+       "s": 85.547,
+       "e": 86.082
+      }
+     ],
+     "caps": [
+      {
+       "start": 80.192,
+       "end": 81.327,
+       "voice": "n",
+       "text": "HOSPITALS GO BACK"
+      },
+      {
+       "start": 81.327,
+       "end": 82.732,
+       "voice": "n",
+       "text": "TO PAPER CHARTS."
+      },
+      {
+       "start": 82.732,
+       "end": 83.962,
+       "voice": "n",
+       "text": "FLIGHTS ARE GROUNDED."
+      },
+      {
+       "start": 83.962,
+       "end": 84.777,
+       "voice": "n",
+       "text": "SOME COMPANIES"
+      },
+      {
+       "start": 84.777,
+       "end": 85.547,
+       "voice": "n",
+       "text": "CAN'T PAY THEIR"
+      },
+      {
+       "start": 85.547,
+       "end": 86.082,
+       "voice": "n",
+       "text": "WORKERS."
+      }
+     ]
+    },
+    {
+     "text": "Every single day offline costs the world billions.",
+     "voice": "n",
+     "file": "assets/vo/11f486b0db0d.wav",
+     "start": 86.88,
+     "end": 89.844,
+     "words": [
+      {
+       "w": "Every",
+       "s": 86.91,
+       "e": 87.499
+      },
+      {
+       "w": "single",
+       "s": 87.499,
+       "e": 87.85
+      },
+      {
+       "w": "day",
+       "s": 87.85,
+       "e": 88.08
+      },
+      {
+       "w": "offline",
+       "s": 88.08,
+       "e": 88.455
+      },
+      {
+       "w": "costs",
+       "s": 88.455,
+       "e": 88.78
+      },
+      {
+       "w": "the",
+       "s": 88.78,
+       "e": 89.035
+      },
+      {
+       "w": "world",
+       "s": 89.035,
+       "e": 89.225
+      },
+      {
+       "w": "billions.",
+       "s": 89.225,
+       "e": 89.79
+      }
+     ],
+     "caps": [
+      {
+       "start": 86.91,
+       "end": 88.08,
+       "voice": "n",
+       "text": "EVERY SINGLE DAY"
+      },
+      {
+       "start": 88.08,
+       "end": 89.035,
+       "voice": "n",
+       "text": "OFFLINE COSTS THE"
+      },
+      {
+       "start": 89.035,
+       "end": 89.79,
+       "voice": "n",
+       "text": "WORLD BILLIONS."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "hospital": 2.966,
+    "flights": 5.526,
+    "pay": 6.756,
+    "graph": 9.674
+   }
+  },
+  {
+   "id": "online",
+   "tag": "DAY 30 \u00b7 11:59 PM",
+   "right": "pauses",
+   "start": 90.644,
+   "end": 103.414,
+   "lines": [
+    {
+     "text": "Then, on day thirty, at midnight... it comes back.",
+     "voice": "n",
+     "file": "assets/vo/fbdc0285bff5.wav",
+     "start": 91.044,
+     "end": 94.106,
+     "words": [
+      {
+       "w": "Then,",
+       "s": 91.074,
+       "e": 91.814
+      },
+      {
+       "w": "on",
+       "s": 91.894,
+       "e": 92.053
+      },
+      {
+       "w": "day",
+       "s": 92.053,
+       "e": 92.264
+      },
+      {
+       "w": "thirty,",
+       "s": 92.264,
+       "e": 92.558
+      },
+      {
+       "w": "at",
+       "s": 92.558,
+       "e": 92.717
+      },
+      {
+       "w": "midnight...",
+       "s": 92.717,
+       "e": 93.064
+      },
+      {
+       "w": "it",
+       "s": 93.264,
+       "e": 93.359
+      },
+      {
+       "w": "comes",
+       "s": 93.359,
+       "e": 93.664
+      },
+      {
+       "w": "back.",
+       "s": 93.664,
+       "e": 94.034
+      }
+     ],
+     "caps": [
+      {
+       "start": 91.074,
+       "end": 91.894,
+       "voice": "n",
+       "text": "THEN"
+      },
+      {
+       "start": 91.894,
+       "end": 92.558,
+       "voice": "n",
+       "text": "ON DAY 30"
+      },
+      {
+       "start": 92.558,
+       "end": 93.264,
+       "voice": "n",
+       "text": "AT MIDNIGHT..."
+      },
+      {
+       "start": 93.264,
+       "end": 94.034,
+       "voice": "n",
+       "text": "IT COMES BACK."
+      }
+     ]
+    },
+    {
+     "text": "Alex's phone explodes. Four thousand notifications.",
+     "voice": "n",
+     "file": "assets/vo/afd7daab4e41.wav",
+     "start": 95.056,
+     "end": 98.437,
+     "words": [
+      {
+       "w": "Alex's",
+       "s": 95.076,
+       "e": 95.656
+      },
+      {
+       "w": "phone",
+       "s": 95.656,
+       "e": 95.816
+      },
+      {
+       "w": "explodes.",
+       "s": 95.816,
+       "e": 96.606
+      },
+      {
+       "w": "Four",
+       "s": 96.876,
+       "e": 97.111
+      },
+      {
+       "w": "thousand",
+       "s": 97.111,
+       "e": 97.451
+      },
+      {
+       "w": "notifications.",
+       "s": 97.451,
+       "e": 98.376
+      }
+     ],
+     "caps": [
+      {
+       "start": 95.076,
+       "end": 96.876,
+       "voice": "n",
+       "text": "ALEX'S PHONE EXPLODES."
+      },
+      {
+       "start": 96.876,
+       "end": 98.376,
+       "voice": "n",
+       "text": "4,000 NOTIFICATIONS."
+      }
+     ]
+    },
+    {
+     "text": "Within an hour, almost everyone is staring at a screen again.",
+     "voice": "n",
+     "file": "assets/vo/72472481ce4f.wav",
+     "start": 99.287,
+     "end": 102.614,
+     "words": [
+      {
+       "w": "Within",
+       "s": 99.317,
+       "e": 99.637
+      },
+      {
+       "w": "an",
+       "s": 99.637,
+       "e": 99.821
+      },
+      {
+       "w": "hour,",
+       "s": 99.821,
+       "e": 100.087
+      },
+      {
+       "w": "almost",
+       "s": 100.237,
+       "e": 100.647
+      },
+      {
+       "w": "everyone",
+       "s": 100.647,
+       "e": 101.043
+      },
+      {
+       "w": "is",
+       "s": 101.043,
+       "e": 101.352
+      },
+      {
+       "w": "staring",
+       "s": 101.352,
+       "e": 101.567
+      },
+      {
+       "w": "at",
+       "s": 101.567,
+       "e": 101.758
+      },
+      {
+       "w": "a",
+       "s": 101.758,
+       "e": 101.962
+      },
+      {
+       "w": "screen",
+       "s": 101.962,
+       "e": 102.252
+      },
+      {
+       "w": "again.",
+       "s": 102.252,
+       "e": 102.557
+      }
+     ],
+     "caps": [
+      {
+       "start": 99.317,
+       "end": 100.237,
+       "voice": "n",
+       "text": "WITHIN AN HOUR"
+      },
+      {
+       "start": 100.237,
+       "end": 101.043,
+       "voice": "n",
+       "text": "ALMOST EVERYONE"
+      },
+      {
+       "start": 101.043,
+       "end": 101.758,
+       "voice": "n",
+       "text": "IS STARING AT"
+      },
+      {
+       "start": 101.758,
+       "end": 102.557,
+       "voice": "n",
+       "text": "A SCREEN AGAIN."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "midnight": 2.073,
+    "back": 3.02,
+    "explode": 5.172,
+    "hour": 8.643
+   }
+  },
+  {
+   "id": "final",
+   "tag": "DAY 31 \u00b7 8:00 AM",
+   "right": "pauses",
+   "start": 103.414,
+   "end": 116.769,
+   "lines": [
+    {
+     "text": "But the next morning, Alex leaves his phone at home... and knocks on his neighbor's door.",
+     "voice": "n",
+     "file": "assets/vo/d672695bffe2.wav",
+     "start": 103.814,
+     "end": 108.276,
+     "words": [
+      {
+       "w": "But",
+       "s": 103.844,
+       "e": 104.004
+      },
+      {
+       "w": "the",
+       "s": 104.004,
+       "e": 104.249
+      },
+      {
+       "w": "next",
+       "s": 104.249,
+       "e": 104.349
+      },
+      {
+       "w": "morning,",
+       "s": 104.349,
+       "e": 104.754
+      },
+      {
+       "w": "Alex",
+       "s": 104.834,
+       "e": 105.179
+      },
+      {
+       "w": "leaves",
+       "s": 105.179,
+       "e": 105.464
+      },
+      {
+       "w": "his",
+       "s": 105.464,
+       "e": 105.629
+      },
+      {
+       "w": "phone",
+       "s": 105.629,
+       "e": 105.914
+      },
+      {
+       "w": "at",
+       "s": 105.914,
+       "e": 106.02
+      },
+      {
+       "w": "home...",
+       "s": 106.02,
+       "e": 106.284
+      },
+      {
+       "w": "and",
+       "s": 106.694,
+       "e": 106.907
+      },
+      {
+       "w": "knocks",
+       "s": 106.907,
+       "e": 107.074
+      },
+      {
+       "w": "on",
+       "s": 107.074,
+       "e": 107.333
+      },
+      {
+       "w": "his",
+       "s": 107.333,
+       "e": 107.546
+      },
+      {
+       "w": "neighbor's",
+       "s": 107.546,
+       "e": 107.849
+      },
+      {
+       "w": "door.",
+       "s": 107.849,
+       "e": 108.224
+      }
+     ],
+     "caps": [
+      {
+       "start": 103.844,
+       "end": 104.349,
+       "voice": "n",
+       "text": "BUT THE NEXT"
+      },
+      {
+       "start": 104.349,
+       "end": 104.834,
+       "voice": "n",
+       "text": "MORNING"
+      },
+      {
+       "start": 104.834,
+       "end": 105.629,
+       "voice": "n",
+       "text": "ALEX LEAVES HIS"
+      },
+      {
+       "start": 105.629,
+       "end": 106.694,
+       "voice": "n",
+       "text": "PHONE AT HOME..."
+      },
+      {
+       "start": 106.694,
+       "end": 107.333,
+       "voice": "n",
+       "text": "AND KNOCKS ON"
+      },
+      {
+       "start": 107.333,
+       "end": 108.224,
+       "voice": "n",
+       "text": "HIS NEIGHBOR'S DOOR."
+      }
+     ]
+    },
+    {
+     "text": "So if the internet disappeared for a month... would you survive it?",
+     "voice": "n",
+     "file": "assets/vo/ef8ea4e2cfec.wav",
+     "start": 109.426,
+     "end": 113.169,
+     "words": [
+      {
+       "w": "So",
+       "s": 109.446,
+       "e": 109.626
+      },
+      {
+       "w": "if",
+       "s": 109.626,
+       "e": 109.801
+      },
+      {
+       "w": "the",
+       "s": 109.801,
+       "e": 109.966
+      },
+      {
+       "w": "internet",
+       "s": 109.966,
+       "e": 110.421
+      },
+      {
+       "w": "disappeared",
+       "s": 110.421,
+       "e": 111.008
+      },
+      {
+       "w": "for",
+       "s": 111.008,
+       "e": 111.151
+      },
+      {
+       "w": "a",
+       "s": 111.151,
+       "e": 111.367
+      },
+      {
+       "w": "month...",
+       "s": 111.367,
+       "e": 111.626
+      },
+      {
+       "w": "would",
+       "s": 112.106,
+       "e": 112.297
+      },
+      {
+       "w": "you",
+       "s": 112.297,
+       "e": 112.488
+      },
+      {
+       "w": "survive",
+       "s": 112.488,
+       "e": 112.876
+      },
+      {
+       "w": "it?",
+       "s": 112.876,
+       "e": 113.096
+      }
+     ],
+     "caps": [
+      {
+       "start": 109.446,
+       "end": 109.966,
+       "voice": "n",
+       "text": "SO IF THE"
+      },
+      {
+       "start": 109.966,
+       "end": 111.008,
+       "voice": "n",
+       "text": "INTERNET DISAPPEARED"
+      },
+      {
+       "start": 111.008,
+       "end": 111.626,
+       "voice": "n",
+       "text": "FOR A MONTH..."
+      },
+      {
+       "start": 112.106,
+       "end": 113.096,
+       "voice": "n",
+       "text": "WOULD YOU SURVIVE IT?"
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "leaves": 1.765,
+    "knock": 3.493,
+    "q": 6.012,
+    "final": 10.005
+   }
+  }
+ ]
+}

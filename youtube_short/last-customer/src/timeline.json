@@ -1,0 +1,3506 @@
+{
+ "fps": 30,
+ "total": 178.72,
+ "durationInFrames": 5362,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": "11:59 PM",
+   "right": "pauses",
+   "start": 0.0,
+   "end": 15.052,
+   "lines": [
+    {
+     "text": "At exactly eleven fifty-nine PM, a stranger walked into a gas station, and asked one question.",
+     "voice": "n",
+     "file": "assets/vo/a3b07fda9f1c.wav",
+     "start": 1.2,
+     "end": 7.039,
+     "words": [
+      {
+       "w": "At",
+       "s": 1.23,
+       "e": 1.445
+      },
+      {
+       "w": "exactly",
+       "s": 1.445,
+       "e": 1.98
+      },
+      {
+       "w": "eleven",
+       "s": 1.98,
+       "e": 2.49
+      },
+      {
+       "w": "fifty-nine",
+       "s": 2.49,
+       "e": 2.955
+      },
+      {
+       "w": "PM,",
+       "s": 2.955,
+       "e": 3.36
+      },
+      {
+       "w": "a",
+       "s": 3.61,
+       "e": 3.775
+      },
+      {
+       "w": "stranger",
+       "s": 3.775,
+       "e": 4.147
+      },
+      {
+       "w": "walked",
+       "s": 4.147,
+       "e": 4.485
+      },
+      {
+       "w": "into",
+       "s": 4.485,
+       "e": 4.89
+      },
+      {
+       "w": "a",
+       "s": 4.89,
+       "e": 5.026
+      },
+      {
+       "w": "gas",
+       "s": 5.026,
+       "e": 5.225
+      },
+      {
+       "w": "station,",
+       "s": 5.225,
+       "e": 5.65
+      },
+      {
+       "w": "and",
+       "s": 5.78,
+       "e": 5.9
+      },
+      {
+       "w": "asked",
+       "s": 5.9,
+       "e": 6.335
+      },
+      {
+       "w": "one",
+       "s": 6.335,
+       "e": 6.555
+      },
+      {
+       "w": "question.",
+       "s": 6.555,
+       "e": 6.98
+      }
+     ],
+     "caps": [
+      {
+       "start": 1.23,
+       "end": 3.61,
+       "voice": "n",
+       "text": "AT EXACTLY 11:59 PM"
+      },
+      {
+       "start": 3.61,
+       "end": 4.485,
+       "voice": "n",
+       "text": "A STRANGER WALKED"
+      },
+      {
+       "start": 4.485,
+       "end": 5.225,
+       "voice": "n",
+       "text": "INTO A GAS"
+      },
+      {
+       "start": 5.225,
+       "end": 5.78,
+       "voice": "n",
+       "text": "STATION"
+      },
+      {
+       "start": 5.78,
+       "end": 6.555,
+       "voice": "n",
+       "text": "AND ASKED ONE"
+      },
+      {
+       "start": 6.555,
+       "end": 6.98,
+       "voice": "n",
+       "text": "QUESTION."
+      }
+     ]
+    },
+    {
+     "text": "What time is it?",
+     "voice": "x",
+     "file": "assets/vo/4144e113e294.wav",
+     "start": 7.989,
+     "end": 9.593,
+     "words": [
+      {
+       "w": "What",
+       "s": 8.009,
+       "e": 8.329
+      },
+      {
+       "w": "time",
+       "s": 8.329,
+       "e": 8.679
+      },
+      {
+       "w": "is",
+       "s": 8.679,
+       "e": 8.914
+      },
+      {
+       "w": "it?",
+       "s": 8.914,
+       "e": 9.499
+      }
+     ],
+     "caps": [
+      {
+       "start": 8.009,
+       "end": 9.499,
+       "voice": "x",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    },
+    {
+     "text": "The cashier answered. One second later, the entire night started over.",
+     "voice": "n",
+     "file": "assets/vo/584b47b80cb2.wav",
+     "start": 10.943,
+     "end": 15.052,
+     "words": [
+      {
+       "w": "The",
+       "s": 10.963,
+       "e": 11.103
+      },
+      {
+       "w": "cashier",
+       "s": 11.103,
+       "e": 11.608
+      },
+      {
+       "w": "answered.",
+       "s": 11.608,
+       "e": 12.073
+      },
+      {
+       "w": "One",
+       "s": 12.433,
+       "e": 12.516
+      },
+      {
+       "w": "second",
+       "s": 12.516,
+       "e": 12.661
+      },
+      {
+       "w": "later,",
+       "s": 12.661,
+       "e": 12.843
+      },
+      {
+       "w": "the",
+       "s": 12.883,
+       "e": 13.159
+      },
+      {
+       "w": "entire",
+       "s": 13.159,
+       "e": 13.613
+      },
+      {
+       "w": "night",
+       "s": 13.613,
+       "e": 13.917
+      },
+      {
+       "w": "started",
+       "s": 13.917,
+       "e": 14.328
+      },
+      {
+       "w": "over.",
+       "s": 14.328,
+       "e": 15.003
+      }
+     ],
+     "caps": [
+      {
+       "start": 10.963,
+       "end": 12.433,
+       "voice": "n",
+       "text": "THE CASHIER ANSWERED."
+      },
+      {
+       "start": 12.433,
+       "end": 12.883,
+       "voice": "n",
+       "text": "ONE SECOND LATER"
+      },
+      {
+       "start": 12.883,
+       "end": 13.917,
+       "voice": "n",
+       "text": "THE ENTIRE NIGHT"
+      },
+      {
+       "start": 13.917,
+       "end": 15.003,
+       "voice": "n",
+       "text": "STARTED OVER."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "walked": 4.147,
+    "asked": 5.9,
+    "q": 7.989,
+    "answered": 11.608,
+    "flicker": 12.661,
+    "black": 15.153
+   }
+  },
+  {
+   "id": "shift",
+   "tag": "11:57 PM",
+   "right": "pauses",
+   "start": 15.052,
+   "end": 28.166,
+   "lines": [
+    {
+     "text": "Kai had been working alone for six hours.",
+     "voice": "n",
+     "file": "assets/vo/a3af7737097a.wav",
+     "start": 16.052,
+     "end": 18.479,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 16.072,
+       "e": 16.309
+      },
+      {
+       "w": "had",
+       "s": 16.309,
+       "e": 16.546
+      },
+      {
+       "w": "been",
+       "s": 16.546,
+       "e": 16.783
+      },
+      {
+       "w": "working",
+       "s": 16.783,
+       "e": 17.195
+      },
+      {
+       "w": "alone",
+       "s": 17.195,
+       "e": 17.607
+      },
+      {
+       "w": "for",
+       "s": 17.607,
+       "e": 17.787
+      },
+      {
+       "w": "six",
+       "s": 17.787,
+       "e": 18.08
+      },
+      {
+       "w": "hours.",
+       "s": 18.08,
+       "e": 18.422
+      }
+     ],
+     "caps": [
+      {
+       "start": 16.072,
+       "end": 16.783,
+       "voice": "n",
+       "text": "KAI HAD BEEN"
+      },
+      {
+       "start": 16.783,
+       "end": 17.787,
+       "voice": "n",
+       "text": "WORKING ALONE FOR"
+      },
+      {
+       "start": 17.787,
+       "end": 18.422,
+       "voice": "n",
+       "text": "SIX HOURS."
+      }
+     ]
+    },
+    {
+     "text": "The gas station was almost empty, and the nearest town was twenty miles away.",
+     "voice": "n",
+     "file": "assets/vo/90c4385f4ab9.wav",
+     "start": 19.329,
+     "end": 23.809,
+     "words": [
+      {
+       "w": "The",
+       "s": 19.349,
+       "e": 19.545
+      },
+      {
+       "w": "gas",
+       "s": 19.545,
+       "e": 19.824
+      },
+      {
+       "w": "station",
+       "s": 19.824,
+       "e": 20.083
+      },
+      {
+       "w": "was",
+       "s": 20.083,
+       "e": 20.279
+      },
+      {
+       "w": "almost",
+       "s": 20.279,
+       "e": 20.62
+      },
+      {
+       "w": "empty,",
+       "s": 20.62,
+       "e": 21.049
+      },
+      {
+       "w": "and",
+       "s": 21.109,
+       "e": 21.424
+      },
+      {
+       "w": "the",
+       "s": 21.424,
+       "e": 21.572
+      },
+      {
+       "w": "nearest",
+       "s": 21.572,
+       "e": 21.975
+      },
+      {
+       "w": "town",
+       "s": 21.975,
+       "e": 22.214
+      },
+      {
+       "w": "was",
+       "s": 22.214,
+       "e": 22.437
+      },
+      {
+       "w": "twenty",
+       "s": 22.437,
+       "e": 22.779
+      },
+      {
+       "w": "miles",
+       "s": 22.779,
+       "e": 23.243
+      },
+      {
+       "w": "away.",
+       "s": 23.243,
+       "e": 23.749
+      }
+     ],
+     "caps": [
+      {
+       "start": 19.349,
+       "end": 20.083,
+       "voice": "n",
+       "text": "THE GAS STATION"
+      },
+      {
+       "start": 20.083,
+       "end": 21.109,
+       "voice": "n",
+       "text": "WAS ALMOST EMPTY"
+      },
+      {
+       "start": 21.109,
+       "end": 21.975,
+       "voice": "n",
+       "text": "AND THE NEAREST"
+      },
+      {
+       "start": 21.975,
+       "end": 22.779,
+       "voice": "n",
+       "text": "TOWN WAS 20"
+      },
+      {
+       "start": 22.779,
+       "end": 23.749,
+       "voice": "n",
+       "text": "MILES AWAY."
+      }
+     ]
+    },
+    {
+     "text": "All he wanted was to finish his shift, and go home.",
+     "voice": "n",
+     "file": "assets/vo/d84643c7e766.wav",
+     "start": 24.659,
+     "end": 27.366,
+     "words": [
+      {
+       "w": "All",
+       "s": 24.689,
+       "e": 24.862
+      },
+      {
+       "w": "he",
+       "s": 24.862,
+       "e": 25.035
+      },
+      {
+       "w": "wanted",
+       "s": 25.035,
+       "e": 25.337
+      },
+      {
+       "w": "was",
+       "s": 25.337,
+       "e": 25.579
+      },
+      {
+       "w": "to",
+       "s": 25.579,
+       "e": 25.729
+      },
+      {
+       "w": "finish",
+       "s": 25.729,
+       "e": 25.984
+      },
+      {
+       "w": "his",
+       "s": 25.984,
+       "e": 26.158
+      },
+      {
+       "w": "shift,",
+       "s": 26.158,
+       "e": 26.409
+      },
+      {
+       "w": "and",
+       "s": 26.589,
+       "e": 26.798
+      },
+      {
+       "w": "go",
+       "s": 26.798,
+       "e": 27.007
+      },
+      {
+       "w": "home.",
+       "s": 27.007,
+       "e": 27.309
+      }
+     ],
+     "caps": [
+      {
+       "start": 24.689,
+       "end": 25.337,
+       "voice": "n",
+       "text": "ALL HE WANTED"
+      },
+      {
+       "start": 25.337,
+       "end": 25.984,
+       "voice": "n",
+       "text": "WAS TO FINISH"
+      },
+      {
+       "start": 25.984,
+       "end": 26.589,
+       "voice": "n",
+       "text": "HIS SHIFT"
+      },
+      {
+       "start": 26.589,
+       "end": 27.309,
+       "voice": "n",
+       "text": "AND GO HOME."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "road": 6.52,
+    "clock": 9.607,
+    "radio": 11.955,
+    "bell": 12.664
+   }
+  },
+  {
+   "id": "stranger",
+   "tag": "11:59 PM",
+   "right": "pauses",
+   "start": 28.166,
+   "end": 44.37,
+   "lines": [
+    {
+     "text": "A man in a dark raincoat stepped inside. He didn't look at the shelves. He didn't buy anything.",
+     "voice": "n",
+     "file": "assets/vo/bfc1ffa95997.wav",
+     "start": 28.666,
+     "end": 33.758,
+     "words": [
+      {
+       "w": "A",
+       "s": 28.686,
+       "e": 28.908
+      },
+      {
+       "w": "man",
+       "s": 28.908,
+       "e": 29.129
+      },
+      {
+       "w": "in",
+       "s": 29.129,
+       "e": 29.336
+      },
+      {
+       "w": "a",
+       "s": 29.336,
+       "e": 29.596
+      },
+      {
+       "w": "dark",
+       "s": 29.596,
+       "e": 29.793
+      },
+      {
+       "w": "raincoat",
+       "s": 29.793,
+       "e": 30.131
+      },
+      {
+       "w": "stepped",
+       "s": 30.131,
+       "e": 30.563
+      },
+      {
+       "w": "inside.",
+       "s": 30.563,
+       "e": 31.046
+      },
+      {
+       "w": "He",
+       "s": 31.526,
+       "e": 31.674
+      },
+      {
+       "w": "didn't",
+       "s": 31.674,
+       "e": 31.821
+      },
+      {
+       "w": "look",
+       "s": 31.821,
+       "e": 32.016
+      },
+      {
+       "w": "at",
+       "s": 32.016,
+       "e": 32.116
+      },
+      {
+       "w": "the",
+       "s": 32.116,
+       "e": 32.264
+      },
+      {
+       "w": "shelves.",
+       "s": 32.264,
+       "e": 32.586
+      },
+      {
+       "w": "He",
+       "s": 32.696,
+       "e": 32.868
+      },
+      {
+       "w": "didn't",
+       "s": 32.868,
+       "e": 33.026
+      },
+      {
+       "w": "buy",
+       "s": 33.026,
+       "e": 33.266
+      },
+      {
+       "w": "anything.",
+       "s": 33.266,
+       "e": 33.716
+      }
+     ],
+     "caps": [
+      {
+       "start": 28.686,
+       "end": 29.336,
+       "voice": "n",
+       "text": "A MAN IN"
+      },
+      {
+       "start": 29.336,
+       "end": 30.131,
+       "voice": "n",
+       "text": "A DARK RAINCOAT"
+      },
+      {
+       "start": 30.131,
+       "end": 31.046,
+       "voice": "n",
+       "text": "STEPPED INSIDE."
+      },
+      {
+       "start": 31.526,
+       "end": 32.016,
+       "voice": "n",
+       "text": "HE DIDN'T LOOK"
+      },
+      {
+       "start": 32.016,
+       "end": 32.696,
+       "voice": "n",
+       "text": "AT THE SHELVES."
+      },
+      {
+       "start": 32.696,
+       "end": 33.266,
+       "voice": "n",
+       "text": "HE DIDN'T BUY"
+      },
+      {
+       "start": 33.266,
+       "end": 33.716,
+       "voice": "n",
+       "text": "ANYTHING."
+      }
+     ]
+    },
+    {
+     "text": "He just stood near the door, completely motionless, before asking Kai for the time.",
+     "voice": "n",
+     "file": "assets/vo/3b5edc9dcbb0.wav",
+     "start": 34.508,
+     "end": 38.957,
+     "words": [
+      {
+       "w": "He",
+       "s": 34.548,
+       "e": 34.764
+      },
+      {
+       "w": "just",
+       "s": 34.764,
+       "e": 34.888
+      },
+      {
+       "w": "stood",
+       "s": 34.888,
+       "e": 35.195
+      },
+      {
+       "w": "near",
+       "s": 35.195,
+       "e": 35.411
+      },
+      {
+       "w": "the",
+       "s": 35.411,
+       "e": 35.627
+      },
+      {
+       "w": "door,",
+       "s": 35.627,
+       "e": 35.938
+      },
+      {
+       "w": "completely",
+       "s": 35.978,
+       "e": 36.492
+      },
+      {
+       "w": "motionless,",
+       "s": 36.492,
+       "e": 36.958
+      },
+      {
+       "w": "before",
+       "s": 37.258,
+       "e": 37.618
+      },
+      {
+       "w": "asking",
+       "s": 37.618,
+       "e": 37.938
+      },
+      {
+       "w": "Kai",
+       "s": 37.938,
+       "e": 38.258
+      },
+      {
+       "w": "for",
+       "s": 38.258,
+       "e": 38.473
+      },
+      {
+       "w": "the",
+       "s": 38.473,
+       "e": 38.599
+      },
+      {
+       "w": "time.",
+       "s": 38.599,
+       "e": 38.898
+      }
+     ],
+     "caps": [
+      {
+       "start": 34.548,
+       "end": 35.195,
+       "voice": "n",
+       "text": "HE JUST STOOD"
+      },
+      {
+       "start": 35.195,
+       "end": 35.978,
+       "voice": "n",
+       "text": "NEAR THE DOOR"
+      },
+      {
+       "start": 35.978,
+       "end": 37.258,
+       "voice": "n",
+       "text": "COMPLETELY MOTIONLESS"
+      },
+      {
+       "start": 37.258,
+       "end": 38.258,
+       "voice": "n",
+       "text": "BEFORE ASKING KAI"
+      },
+      {
+       "start": 38.258,
+       "end": 38.898,
+       "voice": "n",
+       "text": "FOR THE TIME."
+      }
+     ]
+    },
+    {
+     "text": "What time is it?",
+     "voice": "x",
+     "file": "assets/vo/4144e113e294.wav",
+     "start": 40.107,
+     "end": 41.711,
+     "words": [
+      {
+       "w": "What",
+       "s": 40.127,
+       "e": 40.447
+      },
+      {
+       "w": "time",
+       "s": 40.447,
+       "e": 40.798
+      },
+      {
+       "w": "is",
+       "s": 40.798,
+       "e": 41.032
+      },
+      {
+       "w": "it?",
+       "s": 41.032,
+       "e": 41.617
+      }
+     ],
+     "caps": [
+      {
+       "start": 40.127,
+       "end": 41.617,
+       "voice": "x",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    },
+    {
+     "text": "Eleven fifty-nine.",
+     "voice": "kai",
+     "file": "assets/vo/a1f1c1dac6b2.wav",
+     "start": 42.961,
+     "end": 44.37,
+     "words": [
+      {
+       "w": "Eleven",
+       "s": 42.981,
+       "e": 43.466
+      },
+      {
+       "w": "fifty-nine.",
+       "s": 43.466,
+       "e": 44.221
+      }
+     ],
+     "caps": [
+      {
+       "start": 42.981,
+       "end": 44.221,
+       "voice": "kai",
+       "text": "11:59."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "shelves": 4.098,
+    "stood": 6.722,
+    "turn": 9.452,
+    "q": 11.941,
+    "glance": 13.545,
+    "answer": 14.795
+   }
+  },
+  {
+   "id": "wrong",
+   "tag": "11:57 PM",
+   "right": "pauses",
+   "start": 44.37,
+   "end": 56.863,
+   "lines": [
+    {
+     "text": "The lights blinked. The radio crackled.",
+     "voice": "n",
+     "file": "assets/vo/28ad486d2cb2.wav",
+     "start": 44.87,
+     "end": 47.129,
+     "words": [
+      {
+       "w": "The",
+       "s": 44.9,
+       "e": 45.119
+      },
+      {
+       "w": "lights",
+       "s": 45.119,
+       "e": 45.32
+      },
+      {
+       "w": "blinked.",
+       "s": 45.32,
+       "e": 45.82
+      },
+      {
+       "w": "The",
+       "s": 45.89,
+       "e": 46.129
+      },
+      {
+       "w": "radio",
+       "s": 46.129,
+       "e": 46.495
+      },
+      {
+       "w": "crackled.",
+       "s": 46.495,
+       "e": 47.07
+      }
+     ],
+     "caps": [
+      {
+       "start": 44.9,
+       "end": 45.89,
+       "voice": "n",
+       "text": "THE LIGHTS BLINKED."
+      },
+      {
+       "start": 45.89,
+       "end": 47.07,
+       "voice": "n",
+       "text": "THE RADIO CRACKLED."
+      }
+     ]
+    },
+    {
+     "text": "And suddenly, Kai was cleaning the counter again. The clock read eleven fifty-seven.",
+     "voice": "n",
+     "file": "assets/vo/45154f3e20d4.wav",
+     "start": 47.879,
+     "end": 52.613,
+     "words": [
+      {
+       "w": "And",
+       "s": 47.899,
+       "e": 48.062
+      },
+      {
+       "w": "suddenly,",
+       "s": 48.062,
+       "e": 48.539
+      },
+      {
+       "w": "Kai",
+       "s": 48.599,
+       "e": 48.791
+      },
+      {
+       "w": "was",
+       "s": 48.791,
+       "e": 49.079
+      },
+      {
+       "w": "cleaning",
+       "s": 49.079,
+       "e": 49.32
+      },
+      {
+       "w": "the",
+       "s": 49.32,
+       "e": 49.549
+      },
+      {
+       "w": "counter",
+       "s": 49.549,
+       "e": 49.848
+      },
+      {
+       "w": "again.",
+       "s": 49.848,
+       "e": 50.269
+      },
+      {
+       "w": "The",
+       "s": 50.679,
+       "e": 50.883
+      },
+      {
+       "w": "clock",
+       "s": 50.883,
+       "e": 51.069
+      },
+      {
+       "w": "read",
+       "s": 51.069,
+       "e": 51.292
+      },
+      {
+       "w": "eleven",
+       "s": 51.292,
+       "e": 51.854
+      },
+      {
+       "w": "fifty-seven.",
+       "s": 51.854,
+       "e": 52.549
+      }
+     ],
+     "caps": [
+      {
+       "start": 47.899,
+       "end": 48.599,
+       "voice": "n",
+       "text": "AND SUDDENLY"
+      },
+      {
+       "start": 48.599,
+       "end": 49.32,
+       "voice": "n",
+       "text": "KAI WAS CLEANING"
+      },
+      {
+       "start": 49.32,
+       "end": 50.679,
+       "voice": "n",
+       "text": "THE COUNTER AGAIN."
+      },
+      {
+       "start": 50.679,
+       "end": 51.292,
+       "voice": "n",
+       "text": "THE CLOCK READ"
+      },
+      {
+       "start": 51.292,
+       "end": 52.549,
+       "voice": "n",
+       "text": "11:57."
+      }
+     ]
+    },
+    {
+     "text": "At first, he thought he'd imagined it. Until the doorbell rang.",
+     "voice": "n",
+     "file": "assets/vo/b66ff3e6638b.wav",
+     "start": 53.463,
+     "end": 56.863,
+     "words": [
+      {
+       "w": "At",
+       "s": 53.483,
+       "e": 53.648
+      },
+      {
+       "w": "first,",
+       "s": 53.648,
+       "e": 54.093
+      },
+      {
+       "w": "he",
+       "s": 54.143,
+       "e": 54.303
+      },
+      {
+       "w": "thought",
+       "s": 54.303,
+       "e": 54.409
+      },
+      {
+       "w": "he'd",
+       "s": 54.409,
+       "e": 54.542
+      },
+      {
+       "w": "imagined",
+       "s": 54.542,
+       "e": 54.97
+      },
+      {
+       "w": "it.",
+       "s": 54.97,
+       "e": 55.163
+      },
+      {
+       "w": "Until",
+       "s": 55.483,
+       "e": 55.943
+      },
+      {
+       "w": "the",
+       "s": 55.943,
+       "e": 56.098
+      },
+      {
+       "w": "doorbell",
+       "s": 56.098,
+       "e": 56.488
+      },
+      {
+       "w": "rang.",
+       "s": 56.488,
+       "e": 56.813
+      }
+     ],
+     "caps": [
+      {
+       "start": 53.483,
+       "end": 54.143,
+       "voice": "n",
+       "text": "AT FIRST"
+      },
+      {
+       "start": 54.143,
+       "end": 54.542,
+       "voice": "n",
+       "text": "HE THOUGHT HE'D"
+      },
+      {
+       "start": 54.542,
+       "end": 55.483,
+       "voice": "n",
+       "text": "IMAGINED IT."
+      },
+      {
+       "start": 55.483,
+       "end": 56.488,
+       "voice": "n",
+       "text": "UNTIL THE DOORBELL"
+      },
+      {
+       "start": 56.488,
+       "end": 56.813,
+       "voice": "n",
+       "text": "RANG."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "blink": 0.95,
+    "crackle": 2.125,
+    "reset": 3.692,
+    "clock": 6.922,
+    "imagined": 10.172,
+    "bell": 11.728
+   }
+  },
+  {
+   "id": "second",
+   "tag": "11:59 PM",
+   "right": "pauses",
+   "start": 56.863,
+   "end": 75.619,
+   "lines": [
+    {
+     "text": "The stranger stopped in exactly the same spot. His clothes were just as wet. His voice sounded identical.",
+     "voice": "n",
+     "file": "assets/vo/0b0dc0a3e782.wav",
+     "start": 57.463,
+     "end": 63.865,
+     "words": [
+      {
+       "w": "The",
+       "s": 57.493,
+       "e": 57.713
+      },
+      {
+       "w": "stranger",
+       "s": 57.713,
+       "e": 58.108
+      },
+      {
+       "w": "stopped",
+       "s": 58.108,
+       "e": 58.518
+      },
+      {
+       "w": "in",
+       "s": 58.518,
+       "e": 58.723
+      },
+      {
+       "w": "exactly",
+       "s": 58.723,
+       "e": 59.28
+      },
+      {
+       "w": "the",
+       "s": 59.28,
+       "e": 59.463
+      },
+      {
+       "w": "same",
+       "s": 59.463,
+       "e": 59.793
+      },
+      {
+       "w": "spot.",
+       "s": 59.793,
+       "e": 60.053
+      },
+      {
+       "w": "His",
+       "s": 60.533,
+       "e": 60.683
+      },
+      {
+       "w": "clothes",
+       "s": 60.683,
+       "e": 61.113
+      },
+      {
+       "w": "were",
+       "s": 61.113,
+       "e": 61.22
+      },
+      {
+       "w": "just",
+       "s": 61.22,
+       "e": 61.438
+      },
+      {
+       "w": "as",
+       "s": 61.438,
+       "e": 61.588
+      },
+      {
+       "w": "wet.",
+       "s": 61.588,
+       "e": 61.853
+      },
+      {
+       "w": "His",
+       "s": 62.303,
+       "e": 62.508
+      },
+      {
+       "w": "voice",
+       "s": 62.508,
+       "e": 62.714
+      },
+      {
+       "w": "sounded",
+       "s": 62.714,
+       "e": 63.071
+      },
+      {
+       "w": "identical.",
+       "s": 63.071,
+       "e": 63.823
+      }
+     ],
+     "caps": [
+      {
+       "start": 57.493,
+       "end": 58.518,
+       "voice": "n",
+       "text": "THE STRANGER STOPPED"
+      },
+      {
+       "start": 58.518,
+       "end": 59.463,
+       "voice": "n",
+       "text": "IN EXACTLY THE"
+      },
+      {
+       "start": 59.463,
+       "end": 60.053,
+       "voice": "n",
+       "text": "SAME SPOT."
+      },
+      {
+       "start": 60.533,
+       "end": 61.22,
+       "voice": "n",
+       "text": "HIS CLOTHES WERE"
+      },
+      {
+       "start": 61.22,
+       "end": 62.303,
+       "voice": "n",
+       "text": "JUST AS WET."
+      },
+      {
+       "start": 62.303,
+       "end": 63.071,
+       "voice": "n",
+       "text": "HIS VOICE SOUNDED"
+      },
+      {
+       "start": 63.071,
+       "end": 63.823,
+       "voice": "n",
+       "text": "IDENTICAL."
+      }
+     ]
+    },
+    {
+     "text": "What time is it?",
+     "voice": "x",
+     "file": "assets/vo/4144e113e294.wav",
+     "start": 64.915,
+     "end": 66.519,
+     "words": [
+      {
+       "w": "What",
+       "s": 64.935,
+       "e": 65.255
+      },
+      {
+       "w": "time",
+       "s": 65.255,
+       "e": 65.605
+      },
+      {
+       "w": "is",
+       "s": 65.605,
+       "e": 65.84
+      },
+      {
+       "w": "it?",
+       "s": 65.84,
+       "e": 66.425
+      }
+     ],
+     "caps": [
+      {
+       "start": 64.935,
+       "end": 66.425,
+       "voice": "x",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    },
+    {
+     "text": "Kai hesitated, then answered again.",
+     "voice": "n",
+     "file": "assets/vo/13d2b517f35a.wav",
+     "start": 67.569,
+     "end": 69.754,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 67.589,
+       "e": 67.859
+      },
+      {
+       "w": "hesitated,",
+       "s": 67.859,
+       "e": 68.849
+      },
+      {
+       "w": "then",
+       "s": 68.899,
+       "e": 69.04
+      },
+      {
+       "w": "answered",
+       "s": 69.04,
+       "e": 69.379
+      },
+      {
+       "w": "again.",
+       "s": 69.379,
+       "e": 69.699
+      }
+     ],
+     "caps": [
+      {
+       "start": 67.589,
+       "end": 68.899,
+       "voice": "n",
+       "text": "KAI HESITATED"
+      },
+      {
+       "start": 68.899,
+       "end": 69.699,
+       "voice": "n",
+       "text": "THEN ANSWERED AGAIN."
+      }
+     ]
+    },
+    {
+     "text": "Eleven fifty-nine.",
+     "voice": "kai",
+     "file": "assets/vo/a1f1c1dac6b2.wav",
+     "start": 70.504,
+     "end": 71.912,
+     "words": [
+      {
+       "w": "Eleven",
+       "s": 70.523,
+       "e": 71.008
+      },
+      {
+       "w": "fifty-nine.",
+       "s": 71.008,
+       "e": 71.764
+      }
+     ],
+     "caps": [
+      {
+       "start": 70.523,
+       "end": 71.764,
+       "voice": "kai",
+       "text": "11:59."
+      }
+     ]
+    },
+    {
+     "text": "And the clock jumped backward.",
+     "voice": "n",
+     "file": "assets/vo/4fe90b95df23.wav",
+     "start": 72.762,
+     "end": 74.519,
+     "words": [
+      {
+       "w": "And",
+       "s": 72.792,
+       "e": 73.022
+      },
+      {
+       "w": "the",
+       "s": 73.022,
+       "e": 73.337
+      },
+      {
+       "w": "clock",
+       "s": 73.337,
+       "e": 73.519
+      },
+      {
+       "w": "jumped",
+       "s": 73.519,
+       "e": 73.942
+      },
+      {
+       "w": "backward.",
+       "s": 73.942,
+       "e": 74.472
+      }
+     ],
+     "caps": [
+      {
+       "start": 72.792,
+       "end": 73.519,
+       "voice": "n",
+       "text": "AND THE CLOCK"
+      },
+      {
+       "start": 73.519,
+       "end": 74.472,
+       "voice": "n",
+       "text": "JUMPED BACKWARD."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "wet": 4.725,
+    "q": 8.052,
+    "hes": 10.706,
+    "answer": 13.641,
+    "jump": 16.656,
+    "drop": 18.056
+   }
+  },
+  {
+   "id": "testing",
+   "tag": "11:57 PM",
+   "right": "pauses",
+   "start": 75.619,
+   "end": 90.065,
+   "lines": [
+    {
+     "text": "Kai tried everything. He unplugged the radio. He moved a display stand. He even locked the front door.",
+     "voice": "n",
+     "file": "assets/vo/f70cf5f28978.wav",
+     "start": 76.019,
+     "end": 81.489,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 76.039,
+       "e": 76.314
+      },
+      {
+       "w": "tried",
+       "s": 76.314,
+       "e": 76.399
+      },
+      {
+       "w": "everything.",
+       "s": 76.399,
+       "e": 77.199
+      },
+      {
+       "w": "He",
+       "s": 77.339,
+       "e": 77.501
+      },
+      {
+       "w": "unplugged",
+       "s": 77.501,
+       "e": 77.903
+      },
+      {
+       "w": "the",
+       "s": 77.903,
+       "e": 78.065
+      },
+      {
+       "w": "radio.",
+       "s": 78.065,
+       "e": 78.419
+      },
+      {
+       "w": "He",
+       "s": 78.819,
+       "e": 79.003
+      },
+      {
+       "w": "moved",
+       "s": 79.003,
+       "e": 79.322
+      },
+      {
+       "w": "a",
+       "s": 79.322,
+       "e": 79.449
+      },
+      {
+       "w": "display",
+       "s": 79.449,
+       "e": 79.774
+      },
+      {
+       "w": "stand.",
+       "s": 79.774,
+       "e": 80.089
+      },
+      {
+       "w": "He",
+       "s": 80.139,
+       "e": 80.298
+      },
+      {
+       "w": "even",
+       "s": 80.298,
+       "e": 80.575
+      },
+      {
+       "w": "locked",
+       "s": 80.575,
+       "e": 80.924
+      },
+      {
+       "w": "the",
+       "s": 80.924,
+       "e": 81.011
+      },
+      {
+       "w": "front",
+       "s": 81.011,
+       "e": 81.119
+      },
+      {
+       "w": "door.",
+       "s": 81.119,
+       "e": 81.399
+      }
+     ],
+     "caps": [
+      {
+       "start": 76.039,
+       "end": 77.339,
+       "voice": "n",
+       "text": "KAI TRIED EVERYTHING."
+      },
+      {
+       "start": 77.339,
+       "end": 78.065,
+       "voice": "n",
+       "text": "HE UNPLUGGED THE"
+      },
+      {
+       "start": 78.065,
+       "end": 78.819,
+       "voice": "n",
+       "text": "RADIO."
+      },
+      {
+       "start": 78.819,
+       "end": 79.449,
+       "voice": "n",
+       "text": "HE MOVED A"
+      },
+      {
+       "start": 79.449,
+       "end": 80.139,
+       "voice": "n",
+       "text": "DISPLAY STAND."
+      },
+      {
+       "start": 80.139,
+       "end": 80.924,
+       "voice": "n",
+       "text": "HE EVEN LOCKED"
+      },
+      {
+       "start": 80.924,
+       "end": 81.399,
+       "voice": "n",
+       "text": "THE FRONT DOOR."
+      }
+     ]
+    },
+    {
+     "text": "But every time he answered the stranger's question, everything returned to exactly how it was.",
+     "voice": "n",
+     "file": "assets/vo/10c1214c677d.wav",
+     "start": 82.339,
+     "end": 87.611,
+     "words": [
+      {
+       "w": "But",
+       "s": 82.379,
+       "e": 82.499
+      },
+      {
+       "w": "every",
+       "s": 82.499,
+       "e": 83.038
+      },
+      {
+       "w": "time",
+       "s": 83.038,
+       "e": 83.269
+      },
+      {
+       "w": "he",
+       "s": 83.269,
+       "e": 83.416
+      },
+      {
+       "w": "answered",
+       "s": 83.416,
+       "e": 83.839
+      },
+      {
+       "w": "the",
+       "s": 83.839,
+       "e": 84.075
+      },
+      {
+       "w": "stranger's",
+       "s": 84.075,
+       "e": 84.349
+      },
+      {
+       "w": "question,",
+       "s": 84.349,
+       "e": 84.819
+      },
+      {
+       "w": "everything",
+       "s": 85.189,
+       "e": 85.794
+      },
+      {
+       "w": "returned",
+       "s": 85.794,
+       "e": 86.149
+      },
+      {
+       "w": "to",
+       "s": 86.149,
+       "e": 86.447
+      },
+      {
+       "w": "exactly",
+       "s": 86.447,
+       "e": 86.912
+      },
+      {
+       "w": "how",
+       "s": 86.912,
+       "e": 87.114
+      },
+      {
+       "w": "it",
+       "s": 87.114,
+       "e": 87.389
+      },
+      {
+       "w": "was.",
+       "s": 87.389,
+       "e": 87.559
+      }
+     ],
+     "caps": [
+      {
+       "start": 82.379,
+       "end": 83.269,
+       "voice": "n",
+       "text": "BUT EVERY TIME"
+      },
+      {
+       "start": 83.269,
+       "end": 84.075,
+       "voice": "n",
+       "text": "HE ANSWERED THE"
+      },
+      {
+       "start": 84.075,
+       "end": 85.189,
+       "voice": "n",
+       "text": "STRANGER'S QUESTION"
+      },
+      {
+       "start": 85.189,
+       "end": 86.149,
+       "voice": "n",
+       "text": "EVERYTHING RETURNED"
+      },
+      {
+       "start": 86.149,
+       "end": 87.114,
+       "voice": "n",
+       "text": "TO EXACTLY HOW"
+      },
+      {
+       "start": 87.114,
+       "end": 87.559,
+       "voice": "n",
+       "text": "IT WAS."
+      }
+     ]
+    },
+    {
+     "text": "What time is it?",
+     "voice": "x",
+     "file": "assets/vo/4144e113e294.wav",
+     "start": 88.461,
+     "end": 90.065,
+     "words": [
+      {
+       "w": "What",
+       "s": 88.481,
+       "e": 88.801
+      },
+      {
+       "w": "time",
+       "s": 88.801,
+       "e": 89.152
+      },
+      {
+       "w": "is",
+       "s": 89.152,
+       "e": 89.386
+      },
+      {
+       "w": "it?",
+       "s": 89.386,
+       "e": 89.971
+      }
+     ],
+     "caps": [
+      {
+       "start": 88.481,
+       "end": 89.971,
+       "voice": "x",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "unplug": 1.882,
+    "moved": 3.384,
+    "locked": 4.956,
+    "every": 6.72,
+    "returned": 10.175,
+    "q": 12.842
+   }
+  },
+  {
+   "id": "camera",
+   "tag": "11:58 PM",
+   "right": "pauses",
+   "start": 90.065,
+   "end": 104.349,
+   "lines": [
+    {
+     "text": "Then Kai noticed something even stranger.",
+     "voice": "n",
+     "file": "assets/vo/5ff8be3ea26a.wav",
+     "start": 90.565,
+     "end": 92.961,
+     "words": [
+      {
+       "w": "Then",
+       "s": 90.595,
+       "e": 90.88
+      },
+      {
+       "w": "Kai",
+       "s": 90.88,
+       "e": 91.019
+      },
+      {
+       "w": "noticed",
+       "s": 91.019,
+       "e": 91.505
+      },
+      {
+       "w": "something",
+       "s": 91.505,
+       "e": 92.072
+      },
+      {
+       "w": "even",
+       "s": 92.072,
+       "e": 92.441
+      },
+      {
+       "w": "stranger.",
+       "s": 92.441,
+       "e": 92.905
+      }
+     ],
+     "caps": [
+      {
+       "start": 90.595,
+       "end": 91.505,
+       "voice": "n",
+       "text": "THEN KAI NOTICED"
+      },
+      {
+       "start": 91.505,
+       "end": 92.441,
+       "voice": "n",
+       "text": "SOMETHING EVEN"
+      },
+      {
+       "start": 92.441,
+       "end": 92.905,
+       "voice": "n",
+       "text": "STRANGER."
+      }
+     ]
+    },
+    {
+     "text": "The security monitor was showing the last few minutes. But every time the loop restarted, a new recording appeared.",
+     "voice": "n",
+     "file": "assets/vo/b863659394db.wav",
+     "start": 93.711,
+     "end": 99.648,
+     "words": [
+      {
+       "w": "The",
+       "s": 93.731,
+       "e": 93.899
+      },
+      {
+       "w": "security",
+       "s": 93.899,
+       "e": 94.44
+      },
+      {
+       "w": "monitor",
+       "s": 94.44,
+       "e": 94.856
+      },
+      {
+       "w": "was",
+       "s": 94.856,
+       "e": 95.024
+      },
+      {
+       "w": "showing",
+       "s": 95.024,
+       "e": 95.316
+      },
+      {
+       "w": "the",
+       "s": 95.316,
+       "e": 95.484
+      },
+      {
+       "w": "last",
+       "s": 95.484,
+       "e": 95.652
+      },
+      {
+       "w": "few",
+       "s": 95.652,
+       "e": 95.751
+      },
+      {
+       "w": "minutes.",
+       "s": 95.751,
+       "e": 96.311
+      },
+      {
+       "w": "But",
+       "s": 96.751,
+       "e": 96.846
+      },
+      {
+       "w": "every",
+       "s": 96.846,
+       "e": 97.201
+      },
+      {
+       "w": "time",
+       "s": 97.201,
+       "e": 97.484
+      },
+      {
+       "w": "the",
+       "s": 97.484,
+       "e": 97.711
+      },
+      {
+       "w": "loop",
+       "s": 97.711,
+       "e": 97.812
+      },
+      {
+       "w": "restarted,",
+       "s": 97.812,
+       "e": 98.291
+      },
+      {
+       "w": "a",
+       "s": 98.391,
+       "e": 98.553
+      },
+      {
+       "w": "new",
+       "s": 98.553,
+       "e": 98.715
+      },
+      {
+       "w": "recording",
+       "s": 98.715,
+       "e": 99.117
+      },
+      {
+       "w": "appeared.",
+       "s": 99.117,
+       "e": 99.591
+      }
+     ],
+     "caps": [
+      {
+       "start": 93.731,
+       "end": 94.856,
+       "voice": "n",
+       "text": "THE SECURITY MONITOR"
+      },
+      {
+       "start": 94.856,
+       "end": 95.484,
+       "voice": "n",
+       "text": "WAS SHOWING THE"
+      },
+      {
+       "start": 95.484,
+       "end": 96.751,
+       "voice": "n",
+       "text": "LAST FEW MINUTES."
+      },
+      {
+       "start": 96.751,
+       "end": 97.484,
+       "voice": "n",
+       "text": "BUT EVERY TIME"
+      },
+      {
+       "start": 97.484,
+       "end": 98.391,
+       "voice": "n",
+       "text": "THE LOOP RESTARTED"
+      },
+      {
+       "start": 98.391,
+       "end": 99.117,
+       "voice": "n",
+       "text": "A NEW RECORDING"
+      },
+      {
+       "start": 99.117,
+       "end": 99.591,
+       "voice": "n",
+       "text": "APPEARED."
+      }
+     ]
+    },
+    {
+     "text": "And in every recording, Kai was talking to someone the camera couldn't see.",
+     "voice": "n",
+     "file": "assets/vo/66d2b30eb19c.wav",
+     "start": 100.598,
+     "end": 104.349,
+     "words": [
+      {
+       "w": "And",
+       "s": 100.618,
+       "e": 100.777
+      },
+      {
+       "w": "in",
+       "s": 100.777,
+       "e": 100.908
+      },
+      {
+       "w": "every",
+       "s": 100.908,
+       "e": 101.388
+      },
+      {
+       "w": "recording,",
+       "s": 101.388,
+       "e": 101.798
+      },
+      {
+       "w": "Kai",
+       "s": 101.998,
+       "e": 102.18
+      },
+      {
+       "w": "was",
+       "s": 102.18,
+       "e": 102.398
+      },
+      {
+       "w": "talking",
+       "s": 102.398,
+       "e": 102.633
+      },
+      {
+       "w": "to",
+       "s": 102.633,
+       "e": 102.862
+      },
+      {
+       "w": "someone",
+       "s": 102.862,
+       "e": 103.179
+      },
+      {
+       "w": "the",
+       "s": 103.179,
+       "e": 103.333
+      },
+      {
+       "w": "camera",
+       "s": 103.333,
+       "e": 103.693
+      },
+      {
+       "w": "couldn't",
+       "s": 103.693,
+       "e": 103.995
+      },
+      {
+       "w": "see.",
+       "s": 103.995,
+       "e": 104.258
+      }
+     ],
+     "caps": [
+      {
+       "start": 100.618,
+       "end": 101.388,
+       "voice": "n",
+       "text": "AND IN EVERY"
+      },
+      {
+       "start": 101.388,
+       "end": 101.998,
+       "voice": "n",
+       "text": "RECORDING"
+      },
+      {
+       "start": 101.998,
+       "end": 102.633,
+       "voice": "n",
+       "text": "KAI WAS TALKING"
+      },
+      {
+       "start": 102.633,
+       "end": 103.333,
+       "voice": "n",
+       "text": "TO SOMEONE THE"
+      },
+      {
+       "start": 103.333,
+       "end": 104.258,
+       "voice": "n",
+       "text": "CAMERA COULDN'T SEE."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "monitor": 4.375,
+    "new": 8.488,
+    "every": 10.533,
+    "talk": 12.333
+   }
+  },
+  {
+   "id": "realize",
+   "tag": "11:58 PM",
+   "right": "pauses",
+   "start": 104.349,
+   "end": 117.473,
+   "lines": [
+    {
+     "text": "Kai finally understood one thing. The loop only happened when he answered.",
+     "voice": "n",
+     "file": "assets/vo/8d72ac3bea83.wav",
+     "start": 104.949,
+     "end": 108.939,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 104.969,
+       "e": 105.157
+      },
+      {
+       "w": "finally",
+       "s": 105.157,
+       "e": 105.623
+      },
+      {
+       "w": "understood",
+       "s": 105.623,
+       "e": 106.104
+      },
+      {
+       "w": "one",
+       "s": 106.104,
+       "e": 106.277
+      },
+      {
+       "w": "thing.",
+       "s": 106.277,
+       "e": 106.549
+      },
+      {
+       "w": "The",
+       "s": 106.599,
+       "e": 106.803
+      },
+      {
+       "w": "loop",
+       "s": 106.803,
+       "e": 106.964
+      },
+      {
+       "w": "only",
+       "s": 106.964,
+       "e": 107.364
+      },
+      {
+       "w": "happened",
+       "s": 107.364,
+       "e": 107.871
+      },
+      {
+       "w": "when",
+       "s": 107.871,
+       "e": 108.014
+      },
+      {
+       "w": "he",
+       "s": 108.014,
+       "e": 108.369
+      },
+      {
+       "w": "answered.",
+       "s": 108.369,
+       "e": 108.879
+      }
+     ],
+     "caps": [
+      {
+       "start": 104.969,
+       "end": 106.104,
+       "voice": "n",
+       "text": "KAI FINALLY UNDERSTOOD"
+      },
+      {
+       "start": 106.104,
+       "end": 106.599,
+       "voice": "n",
+       "text": "ONE THING."
+      },
+      {
+       "start": 106.599,
+       "end": 107.364,
+       "voice": "n",
+       "text": "THE LOOP ONLY"
+      },
+      {
+       "start": 107.364,
+       "end": 108.369,
+       "voice": "n",
+       "text": "HAPPENED WHEN HE"
+      },
+      {
+       "start": 108.369,
+       "end": 108.879,
+       "voice": "n",
+       "text": "ANSWERED."
+      }
+     ]
+    },
+    {
+     "text": "Every time he gave the stranger the time, the night repeated.",
+     "voice": "n",
+     "file": "assets/vo/25bf40218e6d.wav",
+     "start": 109.789,
+     "end": 112.962,
+     "words": [
+      {
+       "w": "Every",
+       "s": 109.809,
+       "e": 110.307
+      },
+      {
+       "w": "time",
+       "s": 110.307,
+       "e": 110.589
+      },
+      {
+       "w": "he",
+       "s": 110.589,
+       "e": 110.709
+      },
+      {
+       "w": "gave",
+       "s": 110.709,
+       "e": 110.974
+      },
+      {
+       "w": "the",
+       "s": 110.974,
+       "e": 111.11
+      },
+      {
+       "w": "stranger",
+       "s": 111.11,
+       "e": 111.494
+      },
+      {
+       "w": "the",
+       "s": 111.494,
+       "e": 111.66
+      },
+      {
+       "w": "time,",
+       "s": 111.66,
+       "e": 111.949
+      },
+      {
+       "w": "the",
+       "s": 112.029,
+       "e": 112.206
+      },
+      {
+       "w": "night",
+       "s": 112.206,
+       "e": 112.339
+      },
+      {
+       "w": "repeated.",
+       "s": 112.339,
+       "e": 112.899
+      }
+     ],
+     "caps": [
+      {
+       "start": 109.809,
+       "end": 110.709,
+       "voice": "n",
+       "text": "EVERY TIME HE"
+      },
+      {
+       "start": 110.709,
+       "end": 111.494,
+       "voice": "n",
+       "text": "GAVE THE STRANGER"
+      },
+      {
+       "start": 111.494,
+       "end": 112.029,
+       "voice": "n",
+       "text": "THE TIME"
+      },
+      {
+       "start": 112.029,
+       "end": 112.899,
+       "voice": "n",
+       "text": "THE NIGHT REPEATED."
+      }
+     ]
+    },
+    {
+     "text": "So this time, he decided to stay silent.",
+     "voice": "n",
+     "file": "assets/vo/a471230a60d3.wav",
+     "start": 113.912,
+     "end": 116.373,
+     "words": [
+      {
+       "w": "So",
+       "s": 113.942,
+       "e": 114.064
+      },
+      {
+       "w": "this",
+       "s": 114.064,
+       "e": 114.186
+      },
+      {
+       "w": "time,",
+       "s": 114.186,
+       "e": 114.362
+      },
+      {
+       "w": "he",
+       "s": 114.402,
+       "e": 114.649
+      },
+      {
+       "w": "decided",
+       "s": 114.649,
+       "e": 115.367
+      },
+      {
+       "w": "to",
+       "s": 115.367,
+       "e": 115.537
+      },
+      {
+       "w": "stay",
+       "s": 115.537,
+       "e": 115.827
+      },
+      {
+       "w": "silent.",
+       "s": 115.827,
+       "e": 116.292
+      }
+     ],
+     "caps": [
+      {
+       "start": 113.942,
+       "end": 114.402,
+       "voice": "n",
+       "text": "SO THIS TIME"
+      },
+      {
+       "start": 114.402,
+       "end": 115.537,
+       "voice": "n",
+       "text": "HE DECIDED TO"
+      },
+      {
+       "start": 115.537,
+       "end": 116.292,
+       "voice": "n",
+       "text": "STAY SILENT."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "loop": 2.454,
+    "repeated": 7.99,
+    "silent": 11.478,
+    "bell": 12.574
+   }
+  },
+  {
+   "id": "dont",
+   "tag": "11:59 PM",
+   "right": "pauses",
+   "start": 117.473,
+   "end": 132.225,
+   "lines": [
+    {
+     "text": "What time is it?",
+     "voice": "x",
+     "file": "assets/vo/4144e113e294.wav",
+     "start": 118.073,
+     "end": 119.677,
+     "words": [
+      {
+       "w": "What",
+       "s": 118.093,
+       "e": 118.413
+      },
+      {
+       "w": "time",
+       "s": 118.413,
+       "e": 118.764
+      },
+      {
+       "w": "is",
+       "s": 118.764,
+       "e": 118.998
+      },
+      {
+       "w": "it?",
+       "s": 118.998,
+       "e": 119.583
+      }
+     ],
+     "caps": [
+      {
+       "start": 118.093,
+       "end": 119.583,
+       "voice": "x",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    },
+    {
+     "text": "the stranger asked. Kai said nothing. The man took one step closer.",
+     "voice": "n",
+     "file": "assets/vo/945c3b05cc5a.wav",
+     "start": 120.327,
+     "end": 124.433,
+     "words": [
+      {
+       "w": "the",
+       "s": 120.347,
+       "e": 120.552
+      },
+      {
+       "w": "stranger",
+       "s": 120.552,
+       "e": 120.898
+      },
+      {
+       "w": "asked.",
+       "s": 120.898,
+       "e": 121.337
+      },
+      {
+       "w": "Kai",
+       "s": 121.747,
+       "e": 121.957
+      },
+      {
+       "w": "said",
+       "s": 121.957,
+       "e": 122.168
+      },
+      {
+       "w": "nothing.",
+       "s": 122.168,
+       "e": 122.627
+      },
+      {
+       "w": "The",
+       "s": 122.727,
+       "e": 122.958
+      },
+      {
+       "w": "man",
+       "s": 122.958,
+       "e": 123.272
+      },
+      {
+       "w": "took",
+       "s": 123.272,
+       "e": 123.42
+      },
+      {
+       "w": "one",
+       "s": 123.42,
+       "e": 123.632
+      },
+      {
+       "w": "step",
+       "s": 123.632,
+       "e": 123.842
+      },
+      {
+       "w": "closer.",
+       "s": 123.842,
+       "e": 124.387
+      }
+     ],
+     "caps": [
+      {
+       "start": 120.347,
+       "end": 121.747,
+       "voice": "n",
+       "text": "THE STRANGER ASKED."
+      },
+      {
+       "start": 121.747,
+       "end": 122.727,
+       "voice": "n",
+       "text": "KAI SAID NOTHING."
+      },
+      {
+       "start": 122.727,
+       "end": 123.42,
+       "voice": "n",
+       "text": "THE MAN TOOK"
+      },
+      {
+       "start": 123.42,
+       "end": 124.387,
+       "voice": "n",
+       "text": "ONE STEP CLOSER."
+      }
+     ]
+    },
+    {
+     "text": "You heard me.",
+     "voice": "x",
+     "file": "assets/vo/d49f83fa9331.wav",
+     "start": 125.683,
+     "end": 126.98,
+     "words": [
+      {
+       "w": "You",
+       "s": 125.713,
+       "e": 126.067
+      },
+      {
+       "w": "heard",
+       "s": 126.067,
+       "e": 126.422
+      },
+      {
+       "w": "me.",
+       "s": 126.422,
+       "e": 126.933
+      }
+     ],
+     "caps": [
+      {
+       "start": 125.713,
+       "end": 126.933,
+       "voice": "x",
+       "text": "YOU HEARD ME."
+      }
+     ]
+    },
+    {
+     "text": "Kai kept staring at the clock. Twenty seconds remained until midnight.",
+     "voice": "n",
+     "file": "assets/vo/f06e552af793.wav",
+     "start": 128.33,
+     "end": 132.225,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 128.35,
+       "e": 128.65
+      },
+      {
+       "w": "kept",
+       "s": 128.65,
+       "e": 128.825
+      },
+      {
+       "w": "staring",
+       "s": 128.825,
+       "e": 128.985
+      },
+      {
+       "w": "at",
+       "s": 128.985,
+       "e": 129.34
+      },
+      {
+       "w": "the",
+       "s": 129.34,
+       "e": 129.49
+      },
+      {
+       "w": "clock.",
+       "s": 129.49,
+       "e": 129.76
+      },
+      {
+       "w": "Twenty",
+       "s": 130.21,
+       "e": 130.551
+      },
+      {
+       "w": "seconds",
+       "s": 130.551,
+       "e": 130.893
+      },
+      {
+       "w": "remained",
+       "s": 130.893,
+       "e": 131.48
+      },
+      {
+       "w": "until",
+       "s": 131.48,
+       "e": 131.721
+      },
+      {
+       "w": "midnight.",
+       "s": 131.721,
+       "e": 132.15
+      }
+     ],
+     "caps": [
+      {
+       "start": 128.35,
+       "end": 128.985,
+       "voice": "n",
+       "text": "KAI KEPT STARING"
+      },
+      {
+       "start": 128.985,
+       "end": 129.76,
+       "voice": "n",
+       "text": "AT THE CLOCK."
+      },
+      {
+       "start": 130.21,
+       "end": 131.48,
+       "voice": "n",
+       "text": "20 SECONDS REMAINED"
+      },
+      {
+       "start": 131.48,
+       "end": 132.15,
+       "voice": "n",
+       "text": "UNTIL MIDNIGHT."
+      }
+     ]
+    }
+   ],
+   "pauses": [
+    {
+     "start": 130.21,
+     "end": 140.21,
+     "owner": "clock"
+    }
+   ],
+   "ev": {
+    "q": 0.6,
+    "nothing": 4.695,
+    "step": 6.159,
+    "heard": 8.21,
+    "staring": 10.857,
+    "twenty": 12.737
+   }
+  },
+  {
+   "id": "midnight",
+   "tag": "11:59 PM",
+   "right": "pauses",
+   "start": 132.225,
+   "end": 155.817,
+   "lines": [
+    {
+     "text": "The stranger leaned forward, and whispered.",
+     "voice": "n",
+     "file": "assets/vo/13d659a4c03a.wav",
+     "start": 133.61,
+     "end": 135.899,
+     "words": [
+      {
+       "w": "The",
+       "s": 133.64,
+       "e": 133.855
+      },
+      {
+       "w": "stranger",
+       "s": 133.855,
+       "e": 134.051
+      },
+      {
+       "w": "leaned",
+       "s": 134.051,
+       "e": 134.312
+      },
+      {
+       "w": "forward,",
+       "s": 134.312,
+       "e": 134.64
+      },
+      {
+       "w": "and",
+       "s": 134.74,
+       "e": 135.015
+      },
+      {
+       "w": "whispered.",
+       "s": 135.015,
+       "e": 135.82
+      }
+     ],
+     "caps": [
+      {
+       "start": 133.64,
+       "end": 134.312,
+       "voice": "n",
+       "text": "THE STRANGER LEANED"
+      },
+      {
+       "start": 134.312,
+       "end": 134.74,
+       "voice": "n",
+       "text": "FORWARD"
+      },
+      {
+       "start": 134.74,
+       "end": 135.82,
+       "voice": "n",
+       "text": "AND WHISPERED."
+      }
+     ]
+    },
+    {
+     "text": "Please. Just tell me.",
+     "voice": "xw",
+     "file": "assets/vo/da59f98fc560.wav",
+     "start": 136.449,
+     "end": 138.576,
+     "words": [
+      {
+       "w": "Please.",
+       "s": 136.469,
+       "e": 137.199
+      },
+      {
+       "w": "Just",
+       "s": 137.349,
+       "e": 137.654
+      },
+      {
+       "w": "tell",
+       "s": 137.654,
+       "e": 138.022
+      },
+      {
+       "w": "me.",
+       "s": 138.022,
+       "e": 138.509
+      }
+     ],
+     "caps": [
+      {
+       "start": 136.469,
+       "end": 137.349,
+       "voice": "xw",
+       "text": "PLEASE."
+      },
+      {
+       "start": 137.349,
+       "end": 138.509,
+       "voice": "xw",
+       "text": "JUST TELL ME."
+      }
+     ]
+    },
+    {
+     "text": "Ten seconds.",
+     "voice": "n",
+     "file": "assets/vo/8f91e0eacab0.wav",
+     "start": 140.21,
+     "end": 141.345,
+     "words": [
+      {
+       "w": "Ten",
+       "s": 140.24,
+       "e": 140.68
+      },
+      {
+       "w": "seconds.",
+       "s": 140.68,
+       "e": 141.28
+      }
+     ],
+     "caps": [
+      {
+       "start": 140.24,
+       "end": 141.28,
+       "voice": "n",
+       "text": "10 SECONDS."
+      }
+     ]
+    },
+    {
+     "text": "Five.",
+     "voice": "n",
+     "file": "assets/vo/c948398225b5.wav",
+     "start": 145.21,
+     "end": 145.919,
+     "words": [
+      {
+       "w": "Five.",
+       "s": 145.24,
+       "e": 145.85
+      }
+     ],
+     "caps": [
+      {
+       "start": 145.24,
+       "end": 145.85,
+       "voice": "n",
+       "text": "5."
+      }
+     ]
+    },
+    {
+     "text": "Three.",
+     "voice": "n",
+     "file": "assets/vo/eaa634ec10ec.wav",
+     "start": 147.21,
+     "end": 147.91,
+     "words": [
+      {
+       "w": "Three.",
+       "s": 147.25,
+       "e": 147.84
+      }
+     ],
+     "caps": [
+      {
+       "start": 147.25,
+       "end": 147.84,
+       "voice": "n",
+       "text": "3."
+      }
+     ]
+    },
+    {
+     "text": "Then the clock struck midnight.",
+     "voice": "n",
+     "file": "assets/vo/e3beed7f5d95.wav",
+     "start": 149.06,
+     "end": 150.816,
+     "words": [
+      {
+       "w": "Then",
+       "s": 149.09,
+       "e": 149.455
+      },
+      {
+       "w": "the",
+       "s": 149.455,
+       "e": 149.63
+      },
+      {
+       "w": "clock",
+       "s": 149.63,
+       "e": 149.91
+      },
+      {
+       "w": "struck",
+       "s": 149.91,
+       "e": 150.09
+      },
+      {
+       "w": "midnight.",
+       "s": 150.09,
+       "e": 150.76
+      }
+     ],
+     "caps": [
+      {
+       "start": 149.09,
+       "end": 149.91,
+       "voice": "n",
+       "text": "THEN THE CLOCK"
+      },
+      {
+       "start": 149.91,
+       "end": 150.76,
+       "voice": "n",
+       "text": "STRUCK MIDNIGHT."
+      }
+     ]
+    },
+    {
+     "text": "Every light went out. And when they came back on... he was gone.",
+     "voice": "n",
+     "file": "assets/vo/3356dd116ef3.wav",
+     "start": 152.666,
+     "end": 155.817,
+     "words": [
+      {
+       "w": "Every",
+       "s": 152.696,
+       "e": 153.086
+      },
+      {
+       "w": "light",
+       "s": 153.086,
+       "e": 153.226
+      },
+      {
+       "w": "went",
+       "s": 153.226,
+       "e": 153.4
+      },
+      {
+       "w": "out.",
+       "s": 153.4,
+       "e": 153.626
+      },
+      {
+       "w": "And",
+       "s": 153.746,
+       "e": 153.936
+      },
+      {
+       "w": "when",
+       "s": 153.936,
+       "e": 154.111
+      },
+      {
+       "w": "they",
+       "s": 154.111,
+       "e": 154.314
+      },
+      {
+       "w": "came",
+       "s": 154.314,
+       "e": 154.596
+      },
+      {
+       "w": "back",
+       "s": 154.596,
+       "e": 154.693
+      },
+      {
+       "w": "on...",
+       "s": 154.693,
+       "e": 154.966
+      },
+      {
+       "w": "he",
+       "s": 155.106,
+       "e": 155.331
+      },
+      {
+       "w": "was",
+       "s": 155.331,
+       "e": 155.478
+      },
+      {
+       "w": "gone.",
+       "s": 155.478,
+       "e": 155.746
+      }
+     ],
+     "caps": [
+      {
+       "start": 152.696,
+       "end": 153.746,
+       "voice": "n",
+       "text": "EVERY LIGHT WENT OUT."
+      },
+      {
+       "start": 153.746,
+       "end": 154.314,
+       "voice": "n",
+       "text": "AND WHEN THEY"
+      },
+      {
+       "start": 154.314,
+       "end": 155.106,
+       "voice": "n",
+       "text": "CAME BACK ON..."
+      },
+      {
+       "start": 155.106,
+       "end": 155.746,
+       "voice": "n",
+       "text": "HE WAS GONE."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "twenty": -2.015,
+    "lean": 1.385,
+    "whisper": 4.224,
+    "ten": 7.985,
+    "five": 12.985,
+    "three": 14.985,
+    "midnight": 17.985,
+    "on": 22.371,
+    "gone": 23.253
+   }
+  },
+  {
+   "id": "reveal",
+   "tag": "12:00 AM",
+   "right": "pauses",
+   "start": 155.817,
+   "end": 178.72,
+   "lines": [
+    {
+     "text": "Kai ran outside, and never returned to that gas station.",
+     "voice": "n",
+     "file": "assets/vo/c18f2bf73d83.wav",
+     "start": 156.317,
+     "end": 159.345,
+     "words": [
+      {
+       "w": "Kai",
+       "s": 156.337,
+       "e": 156.54
+      },
+      {
+       "w": "ran",
+       "s": 156.54,
+       "e": 156.743
+      },
+      {
+       "w": "outside,",
+       "s": 156.743,
+       "e": 157.186
+      },
+      {
+       "w": "and",
+       "s": 157.186,
+       "e": 157.447
+      },
+      {
+       "w": "never",
+       "s": 157.447,
+       "e": 157.742
+      },
+      {
+       "w": "returned",
+       "s": 157.742,
+       "e": 158.245
+      },
+      {
+       "w": "to",
+       "s": 158.245,
+       "e": 158.527
+      },
+      {
+       "w": "that",
+       "s": 158.527,
+       "e": 158.651
+      },
+      {
+       "w": "gas",
+       "s": 158.651,
+       "e": 158.872
+      },
+      {
+       "w": "station.",
+       "s": 158.872,
+       "e": 159.297
+      }
+     ],
+     "caps": [
+      {
+       "start": 156.337,
+       "end": 157.186,
+       "voice": "n",
+       "text": "KAI RAN OUTSIDE"
+      },
+      {
+       "start": 157.186,
+       "end": 158.245,
+       "voice": "n",
+       "text": "AND NEVER RETURNED"
+      },
+      {
+       "start": 158.245,
+       "end": 158.872,
+       "voice": "n",
+       "text": "TO THAT GAS"
+      },
+      {
+       "start": 158.872,
+       "end": 159.297,
+       "voice": "n",
+       "text": "STATION."
+      }
+     ]
+    },
+    {
+     "text": "The next morning, his manager reviewed the security footage. Thirty-seven recordings of the same minute.",
+     "voice": "n",
+     "file": "assets/vo/162b6185b933.wav",
+     "start": 160.295,
+     "end": 166.086,
+     "words": [
+      {
+       "w": "The",
+       "s": 160.335,
+       "e": 160.409
+      },
+      {
+       "w": "next",
+       "s": 160.409,
+       "e": 160.56
+      },
+      {
+       "w": "morning,",
+       "s": 160.56,
+       "e": 160.645
+      },
+      {
+       "w": "his",
+       "s": 160.685,
+       "e": 160.901
+      },
+      {
+       "w": "manager",
+       "s": 160.901,
+       "e": 161.437
+      },
+      {
+       "w": "reviewed",
+       "s": 161.437,
+       "e": 161.972
+      },
+      {
+       "w": "the",
+       "s": 161.972,
+       "e": 162.188
+      },
+      {
+       "w": "security",
+       "s": 162.188,
+       "e": 162.915
+      },
+      {
+       "w": "footage.",
+       "s": 162.915,
+       "e": 163.355
+      },
+      {
+       "w": "Thirty-seven",
+       "s": 163.885,
+       "e": 164.522
+      },
+      {
+       "w": "recordings",
+       "s": 164.522,
+       "e": 165.011
+      },
+      {
+       "w": "of",
+       "s": 165.011,
+       "e": 165.165
+      },
+      {
+       "w": "the",
+       "s": 165.165,
+       "e": 165.406
+      },
+      {
+       "w": "same",
+       "s": 165.406,
+       "e": 165.604
+      },
+      {
+       "w": "minute.",
+       "s": 165.604,
+       "e": 166.035
+      }
+     ],
+     "caps": [
+      {
+       "start": 160.335,
+       "end": 160.685,
+       "voice": "n",
+       "text": "THE NEXT MORNING"
+      },
+      {
+       "start": 160.685,
+       "end": 161.972,
+       "voice": "n",
+       "text": "HIS MANAGER REVIEWED"
+      },
+      {
+       "start": 161.972,
+       "end": 163.355,
+       "voice": "n",
+       "text": "THE SECURITY FOOTAGE."
+      },
+      {
+       "start": 163.885,
+       "end": 165.165,
+       "voice": "n",
+       "text": "37 RECORDINGS OF"
+      },
+      {
+       "start": 165.165,
+       "end": 166.035,
+       "voice": "n",
+       "text": "THE SAME MINUTE."
+      }
+     ]
+    },
+    {
+     "text": "In every single one, Kai was speaking to an empty doorway.",
+     "voice": "n",
+     "file": "assets/vo/8ec3340956a2.wav",
+     "start": 166.936,
+     "end": 170.199,
+     "words": [
+      {
+       "w": "In",
+       "s": 166.956,
+       "e": 167.116
+      },
+      {
+       "w": "every",
+       "s": 167.116,
+       "e": 167.535
+      },
+      {
+       "w": "single",
+       "s": 167.535,
+       "e": 167.825
+      },
+      {
+       "w": "one,",
+       "s": 167.825,
+       "e": 168.066
+      },
+      {
+       "w": "Kai",
+       "s": 168.146,
+       "e": 168.352
+      },
+      {
+       "w": "was",
+       "s": 168.352,
+       "e": 168.671
+      },
+      {
+       "w": "speaking",
+       "s": 168.671,
+       "e": 168.851
+      },
+      {
+       "w": "to",
+       "s": 168.851,
+       "e": 169.096
+      },
+      {
+       "w": "an",
+       "s": 169.096,
+       "e": 169.301
+      },
+      {
+       "w": "empty",
+       "s": 169.301,
+       "e": 169.686
+      },
+      {
+       "w": "doorway.",
+       "s": 169.686,
+       "e": 170.136
+      }
+     ],
+     "caps": [
+      {
+       "start": 166.956,
+       "end": 168.146,
+       "voice": "n",
+       "text": "IN EVERY SINGLE ONE"
+      },
+      {
+       "start": 168.146,
+       "end": 168.851,
+       "voice": "n",
+       "text": "KAI WAS SPEAKING"
+      },
+      {
+       "start": 168.851,
+       "end": 169.686,
+       "voice": "n",
+       "text": "TO AN EMPTY"
+      },
+      {
+       "start": 169.686,
+       "end": 170.136,
+       "voice": "n",
+       "text": "DOORWAY."
+      }
+     ]
+    },
+    {
+     "text": "Except the last.",
+     "voice": "n",
+     "file": "assets/vo/51b96f36cb77.wav",
+     "start": 170.949,
+     "end": 172.264,
+     "words": [
+      {
+       "w": "Except",
+       "s": 170.969,
+       "e": 171.399
+      },
+      {
+       "w": "the",
+       "s": 171.399,
+       "e": 171.781
+      },
+      {
+       "w": "last.",
+       "s": 171.781,
+       "e": 172.209
+      }
+     ],
+     "caps": [
+      {
+       "start": 170.969,
+       "end": 172.209,
+       "voice": "n",
+       "text": "EXCEPT THE LAST."
+      }
+     ]
+    },
+    {
+     "text": "In that one... Kai was staring directly at the camera.",
+     "voice": "n",
+     "file": "assets/vo/523a62470ff9.wav",
+     "start": 173.314,
+     "end": 175.991,
+     "words": [
+      {
+       "w": "In",
+       "s": 173.334,
+       "e": 173.526
+      },
+      {
+       "w": "that",
+       "s": 173.526,
+       "e": 173.724
+      },
+      {
+       "w": "one...",
+       "s": 173.724,
+       "e": 173.994
+      },
+      {
+       "w": "Kai",
+       "s": 174.054,
+       "e": 174.223
+      },
+      {
+       "w": "was",
+       "s": 174.223,
+       "e": 174.504
+      },
+      {
+       "w": "staring",
+       "s": 174.504,
+       "e": 174.685
+      },
+      {
+       "w": "directly",
+       "s": 174.685,
+       "e": 175.139
+      },
+      {
+       "w": "at",
+       "s": 175.139,
+       "e": 175.272
+      },
+      {
+       "w": "the",
+       "s": 175.272,
+       "e": 175.494
+      },
+      {
+       "w": "camera.",
+       "s": 175.494,
+       "e": 175.934
+      }
+     ],
+     "caps": [
+      {
+       "start": 173.334,
+       "end": 174.054,
+       "voice": "n",
+       "text": "IN THAT ONE..."
+      },
+      {
+       "start": 174.054,
+       "end": 174.685,
+       "voice": "n",
+       "text": "KAI WAS STARING"
+      },
+      {
+       "start": 174.685,
+       "end": 175.494,
+       "voice": "n",
+       "text": "DIRECTLY AT THE"
+      },
+      {
+       "start": 175.494,
+       "end": 175.934,
+       "voice": "n",
+       "text": "CAMERA."
+      }
+     ]
+    },
+    {
+     "text": "What time is it?",
+     "voice": "kw",
+     "file": "assets/vo/0a7e606b9cb6.wav",
+     "start": 177.241,
+     "end": 178.52,
+     "words": [
+      {
+       "w": "What",
+       "s": 177.281,
+       "e": 177.561
+      },
+      {
+       "w": "time",
+       "s": 177.561,
+       "e": 177.701
+      },
+      {
+       "w": "is",
+       "s": 177.701,
+       "e": 177.983
+      },
+      {
+       "w": "it?",
+       "s": 177.983,
+       "e": 178.321
+      }
+     ],
+     "caps": [
+      {
+       "start": 177.281,
+       "end": 178.321,
+       "voice": "kw",
+       "text": "WHAT TIME IS IT?"
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "twenty": -25.607,
+    "morning": 4.478,
+    "footage": 7.098,
+    "clips": 11.119,
+    "last": 15.132,
+    "stare": 17.497,
+    "turn": 18.687,
+    "whisper": 21.424,
+    "end": 22.753
+   }
+  }
+ ]
+}

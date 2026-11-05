@@ -1,0 +1,192 @@
+{
+ "fps": 30,
+ "total": 10.0,
+ "durationInFrames": 300,
+ "ev": {
+  "off": 2.9,
+  "cereal": 4.324,
+  "cat": 5.904,
+  "you0": 7.389,
+  "you": 8.667,
+  "end": 9.164
+ },
+ "lines": [
+  {
+   "text": "What if, every morning, gravity just... switched off?",
+   "start": 0.35,
+   "end": 3.339,
+   "words": [
+    {
+     "w": "What",
+     "s": 0.38,
+     "e": 0.507
+    },
+    {
+     "w": "if,",
+     "s": 0.507,
+     "e": 0.69
+    },
+    {
+     "w": "every",
+     "s": 0.74,
+     "e": 1.5
+    },
+    {
+     "w": "morning,",
+     "s": 1.5,
+     "e": 2.26
+    },
+    {
+     "w": "gravity",
+     "s": 2.3,
+     "e": 2.675
+    },
+    {
+     "w": "just...",
+     "s": 2.675,
+     "e": 2.86
+    },
+    {
+     "w": "switched",
+     "s": 2.9,
+     "e": 3.097
+    },
+    {
+     "w": "off?",
+     "s": 3.097,
+     "e": 3.26
+    }
+   ],
+   "caps": [
+    {
+     "start": 0.38,
+     "end": 0.74,
+     "text": "WHAT IF"
+    },
+    {
+     "start": 0.74,
+     "end": 2.3,
+     "text": "EVERY MORNING"
+    },
+    {
+     "start": 2.3,
+     "end": 2.9,
+     "text": "GRAVITY JUST..."
+    },
+    {
+     "start": 2.9,
+     "end": 3.26,
+     "text": "SWITCHED OFF?"
+    }
+   ]
+  },
+  {
+   "text": "Your cereal floats away. Your cat floats away.",
+   "start": 4.039,
+   "end": 7.039,
+   "words": [
+    {
+     "w": "Your",
+     "s": 4.069,
+     "e": 4.324
+    },
+    {
+     "w": "cereal",
+     "s": 4.324,
+     "e": 4.804
+    },
+    {
+     "w": "floats",
+     "s": 4.804,
+     "e": 5.049
+    },
+    {
+     "w": "away.",
+     "s": 5.049,
+     "e": 5.579
+    },
+    {
+     "w": "Your",
+     "s": 5.719,
+     "e": 5.904
+    },
+    {
+     "w": "cat",
+     "s": 5.904,
+     "e": 6.174
+    },
+    {
+     "w": "floats",
+     "s": 6.174,
+     "e": 6.444
+    },
+    {
+     "w": "away.",
+     "s": 6.444,
+     "e": 6.979
+    }
+   ],
+   "caps": [
+    {
+     "start": 4.069,
+     "end": 5.049,
+     "text": "YOUR CEREAL FLOATS"
+    },
+    {
+     "start": 5.049,
+     "end": 5.719,
+     "text": "AWAY."
+    },
+    {
+     "start": 5.719,
+     "end": 6.444,
+     "text": "YOUR CAT FLOATS"
+    },
+    {
+     "start": 6.444,
+     "end": 6.979,
+     "text": "AWAY."
+    }
+   ]
+  },
+  {
+   "text": "And so do you.",
+   "start": 7.739,
+   "end": 9.164,
+   "words": [
+    {
+     "w": "And",
+     "s": 7.769,
+     "e": 8.068
+    },
+    {
+     "w": "so",
+     "s": 8.068,
+     "e": 8.367
+    },
+    {
+     "w": "do",
+     "s": 8.367,
+     "e": 8.667
+    },
+    {
+     "w": "you.",
+     "s": 8.667,
+     "e": 9.099
+    }
+   ],
+   "caps": [
+    {
+     "start": 7.769,
+     "end": 8.667,
+     "text": "AND SO DO"
+    },
+    {
+     "start": 8.667,
+     "end": 9.099,
+     "text": "YOU."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+.tts_cache/
+kokoro
+preview/
+__pycache__/
+*_audio.wav

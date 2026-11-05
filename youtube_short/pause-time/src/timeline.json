@@ -1,0 +1,3334 @@
+{
+ "fps": 30,
+ "total": 176.397,
+ "durationInFrames": 5292,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": null,
+   "right": "pauses",
+   "start": 0.0,
+   "end": 13.0,
+   "lines": [
+    {
+     "text": "What if you could freeze the entire world for ten seconds every day?",
+     "voice": "n",
+     "file": "assets/vo/894ebaeb7653.wav",
+     "start": 0.75,
+     "end": 4.352,
+     "words": [
+      {
+       "w": "What",
+       "s": 0.78,
+       "e": 1.085
+      },
+      {
+       "w": "if",
+       "s": 1.085,
+       "e": 1.245
+      },
+      {
+       "w": "you",
+       "s": 1.245,
+       "e": 1.47
+      },
+      {
+       "w": "could",
+       "s": 1.47,
+       "e": 1.628
+      },
+      {
+       "w": "freeze",
+       "s": 1.628,
+       "e": 1.78
+      },
+      {
+       "w": "the",
+       "s": 1.78,
+       "e": 2.04
+      },
+      {
+       "w": "entire",
+       "s": 2.04,
+       "e": 2.422
+      },
+      {
+       "w": "world",
+       "s": 2.422,
+       "e": 2.735
+      },
+      {
+       "w": "for",
+       "s": 2.735,
+       "e": 2.905
+      },
+      {
+       "w": "ten",
+       "s": 2.905,
+       "e": 3.005
+      },
+      {
+       "w": "seconds",
+       "s": 3.005,
+       "e": 3.425
+      },
+      {
+       "w": "every",
+       "s": 3.425,
+       "e": 3.954
+      },
+      {
+       "w": "day?",
+       "s": 3.954,
+       "e": 4.26
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.78,
+       "end": 1.47,
+       "voice": "n",
+       "text": "WHAT IF YOU"
+      },
+      {
+       "start": 1.47,
+       "end": 2.04,
+       "voice": "n",
+       "text": "COULD FREEZE THE"
+      },
+      {
+       "start": 2.04,
+       "end": 2.905,
+       "voice": "n",
+       "text": "ENTIRE WORLD FOR"
+      },
+      {
+       "start": 2.905,
+       "end": 4.26,
+       "voice": "n",
+       "text": "10 SECONDS EVERY DAY?"
+      }
+     ]
+    },
+    {
+     "text": "Rain stops falling. Cars stop moving.",
+     "voice": "n",
+     "file": "assets/vo/52dd44d5cedb.wav",
+     "start": 5.252,
+     "end": 7.822,
+     "words": [
+      {
+       "w": "Rain",
+       "s": 5.282,
+       "e": 5.576
+      },
+      {
+       "w": "stops",
+       "s": 5.576,
+       "e": 5.917
+      },
+      {
+       "w": "falling.",
+       "s": 5.917,
+       "e": 6.512
+      },
+      {
+       "w": "Cars",
+       "s": 6.602,
+       "e": 6.879
+      },
+      {
+       "w": "stop",
+       "s": 6.879,
+       "e": 7.247
+      },
+      {
+       "w": "moving.",
+       "s": 7.247,
+       "e": 7.762
+      }
+     ],
+     "caps": [
+      {
+       "start": 5.282,
+       "end": 6.602,
+       "voice": "n",
+       "text": "RAIN STOPS FALLING."
+      },
+      {
+       "start": 6.602,
+       "end": 7.762,
+       "voice": "n",
+       "text": "CARS STOP MOVING."
+      }
+     ]
+    },
+    {
+     "text": "And you're the only one who can move...",
+     "voice": "n",
+     "file": "assets/vo/d0b9af18437a.wav",
+     "start": 8.672,
+     "end": 10.866,
+     "words": [
+      {
+       "w": "And",
+       "s": 8.702,
+       "e": 8.931
+      },
+      {
+       "w": "you're",
+       "s": 8.931,
+       "e": 9.159
+      },
+      {
+       "w": "the",
+       "s": 9.159,
+       "e": 9.282
+      },
+      {
+       "w": "only",
+       "s": 9.282,
+       "e": 9.786
+      },
+      {
+       "w": "one",
+       "s": 9.786,
+       "e": 9.952
+      },
+      {
+       "w": "who",
+       "s": 9.952,
+       "e": 10.243
+      },
+      {
+       "w": "can",
+       "s": 10.243,
+       "e": 10.472
+      },
+      {
+       "w": "move...",
+       "s": 10.472,
+       "e": 10.802
+      }
+     ],
+     "caps": [
+      {
+       "start": 8.702,
+       "end": 9.282,
+       "voice": "n",
+       "text": "AND YOU'RE THE"
+      },
+      {
+       "start": 9.282,
+       "end": 10.243,
+       "voice": "n",
+       "text": "ONLY ONE WHO"
+      },
+      {
+       "start": 10.243,
+       "end": 10.802,
+       "voice": "n",
+       "text": "CAN MOVE..."
+      }
+     ]
+    },
+    {
+     "text": "or so you think.",
+     "voice": "n",
+     "file": "assets/vo/0a6518c48528.wav",
+     "start": 11.466,
+     "end": 12.891,
+     "words": [
+      {
+       "w": "or",
+       "s": 11.486,
+       "e": 11.787
+      },
+      {
+       "w": "so",
+       "s": 11.787,
+       "e": 12.089
+      },
+      {
+       "w": "you",
+       "s": 12.089,
+       "e": 12.276
+      },
+      {
+       "w": "think.",
+       "s": 12.276,
+       "e": 12.826
+      }
+     ],
+     "caps": [
+      {
+       "start": 11.486,
+       "end": 12.276,
+       "voice": "n",
+       "text": "OR SO YOU"
+      },
+      {
+       "start": 12.276,
+       "end": 12.826,
+       "voice": "n",
+       "text": "THINK."
+      }
+     ]
+    }
+   ],
+   "pauses": [
+    {
+     "start": 1.78,
+     "end": 11.78,
+     "owner": "alex"
+    }
+   ],
+   "ev": {
+    "freeze": 1.78,
+    "resume": 11.78,
+    "rain": 5.282,
+    "cars": 6.602,
+    "alex": 7.772,
+    "only": 9.282,
+    "touch": 10.472,
+    "think": 11.466
+   }
+  },
+  {
+   "id": "morning",
+   "tag": "DAY 1 \u00b7 8:00 AM",
+   "right": "bank",
+   "start": 13.0,
+   "end": 29.0,
+   "lines": [
+    {
+     "text": "At first, nobody believes it.",
+     "voice": "n",
+     "file": "assets/vo/50b6d5dfce38.wav",
+     "start": 13.4,
+     "end": 15.389,
+     "words": [
+      {
+       "w": "At",
+       "s": 13.43,
+       "e": 13.64
+      },
+      {
+       "w": "first,",
+       "s": 13.64,
+       "e": 13.98
+      },
+      {
+       "w": "nobody",
+       "s": 14.06,
+       "e": 14.548
+      },
+      {
+       "w": "believes",
+       "s": 14.548,
+       "e": 15.036
+      },
+      {
+       "w": "it.",
+       "s": 15.036,
+       "e": 15.32
+      }
+     ],
+     "caps": [
+      {
+       "start": 13.43,
+       "end": 14.06,
+       "voice": "n",
+       "text": "AT FIRST"
+      },
+      {
+       "start": 14.06,
+       "end": 15.32,
+       "voice": "n",
+       "text": "NOBODY BELIEVES IT."
+      }
+     ]
+    },
+    {
+     "text": "Alex refreshes his banking app five times. The money is still there.",
+     "voice": "n",
+     "file": "assets/vo/9d33d74bef3c.wav",
+     "start": 16.139,
+     "end": 20.331,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 16.179,
+       "e": 16.589
+      },
+      {
+       "w": "refreshes",
+       "s": 16.589,
+       "e": 17.152
+      },
+      {
+       "w": "his",
+       "s": 17.152,
+       "e": 17.304
+      },
+      {
+       "w": "banking",
+       "s": 17.304,
+       "e": 17.864
+      },
+      {
+       "w": "app",
+       "s": 17.864,
+       "e": 18.015
+      },
+      {
+       "w": "five",
+       "s": 18.015,
+       "e": 18.269
+      },
+      {
+       "w": "times.",
+       "s": 18.269,
+       "e": 18.749
+      },
+      {
+       "w": "The",
+       "s": 19.079,
+       "e": 19.273
+      },
+      {
+       "w": "money",
+       "s": 19.273,
+       "e": 19.679
+      },
+      {
+       "w": "is",
+       "s": 19.679,
+       "e": 19.805
+      },
+      {
+       "w": "still",
+       "s": 19.805,
+       "e": 19.999
+      },
+      {
+       "w": "there.",
+       "s": 19.999,
+       "e": 20.279
+      }
+     ],
+     "caps": [
+      {
+       "start": 16.179,
+       "end": 17.152,
+       "voice": "n",
+       "text": "ALEX REFRESHES"
+      },
+      {
+       "start": 17.152,
+       "end": 18.015,
+       "voice": "n",
+       "text": "HIS BANKING APP"
+      },
+      {
+       "start": 18.015,
+       "end": 19.079,
+       "voice": "n",
+       "text": "5 TIMES."
+      },
+      {
+       "start": 19.079,
+       "end": 19.805,
+       "voice": "n",
+       "text": "THE MONEY IS"
+      },
+      {
+       "start": 19.805,
+       "end": 20.279,
+       "voice": "n",
+       "text": "STILL THERE."
+      }
+     ]
+    },
+    {
+     "text": "Then the news confirms it.",
+     "voice": "n",
+     "file": "assets/vo/b72703dfaa7e.wav",
+     "start": 22.081,
+     "end": 23.923,
+     "words": [
+      {
+       "w": "Then",
+       "s": 22.111,
+       "e": 22.394
+      },
+      {
+       "w": "the",
+       "s": 22.394,
+       "e": 22.677
+      },
+      {
+       "w": "news",
+       "s": 22.677,
+       "e": 22.941
+      },
+      {
+       "w": "confirms",
+       "s": 22.941,
+       "e": 23.452
+      },
+      {
+       "w": "it.",
+       "s": 23.452,
+       "e": 23.861
+      }
+     ],
+     "caps": [
+      {
+       "start": 22.111,
+       "end": 22.941,
+       "voice": "n",
+       "text": "THEN THE NEWS"
+      },
+      {
+       "start": 22.941,
+       "end": 23.861,
+       "voice": "n",
+       "text": "CONFIRMS IT."
+      }
+     ]
+    },
+    {
+     "text": "Overnight, billions of people have become millionaires.",
+     "voice": "n",
+     "file": "assets/vo/bb98f16bfa11.wav",
+     "start": 24.673,
+     "end": 27.703,
+     "words": [
+      {
+       "w": "Overnight,",
+       "s": 24.703,
+       "e": 25.183
+      },
+      {
+       "w": "billions",
+       "s": 25.243,
+       "e": 25.627
+      },
+      {
+       "w": "of",
+       "s": 25.627,
+       "e": 25.908
+      },
+      {
+       "w": "people",
+       "s": 25.908,
+       "e": 26.231
+      },
+      {
+       "w": "have",
+       "s": 26.231,
+       "e": 26.463
+      },
+      {
+       "w": "become",
+       "s": 26.463,
+       "e": 26.835
+      },
+      {
+       "w": "millionaires.",
+       "s": 26.835,
+       "e": 27.643
+      }
+     ],
+     "caps": [
+      {
+       "start": 24.703,
+       "end": 25.243,
+       "voice": "n",
+       "text": "OVERNIGHT"
+      },
+      {
+       "start": 25.243,
+       "end": 26.231,
+       "voice": "n",
+       "text": "BILLIONS OF PEOPLE"
+      },
+      {
+       "start": 26.231,
+       "end": 27.643,
+       "voice": "n",
+       "text": "HAVE BECOME MILLIONAIRES."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "refresh": 3.589,
+    "still": 6.805,
+    "news": 8.481,
+    "tvon": 9.677,
+    "confirm": 9.941,
+    "party": 11.423,
+    "calls": 13.635
+   }
+  },
+  {
+   "id": "spend",
+   "tag": "DAY 1 \u00b7 9:00 AM",
+   "right": "bank",
+   "start": 29.0,
+   "end": 45.0,
+   "lines": [
+    {
+     "text": "By nine o'clock, everybody has the same idea.",
+     "voice": "n",
+     "file": "assets/vo/9055de88584c.wav",
+     "start": 29.4,
+     "end": 32.461,
+     "words": [
+      {
+       "w": "By",
+       "s": 29.43,
+       "e": 29.652
+      },
+      {
+       "w": "nine",
+       "s": 29.652,
+       "e": 29.874
+      },
+      {
+       "w": "o'clock,",
+       "s": 29.874,
+       "e": 30.36
+      },
+      {
+       "w": "everybody",
+       "s": 30.59,
+       "e": 31.395
+      },
+      {
+       "w": "has",
+       "s": 31.395,
+       "e": 31.567
+      },
+      {
+       "w": "the",
+       "s": 31.567,
+       "e": 31.763
+      },
+      {
+       "w": "same",
+       "s": 31.763,
+       "e": 32.04
+      },
+      {
+       "w": "idea.",
+       "s": 32.04,
+       "e": 32.39
+      }
+     ],
+     "caps": [
+      {
+       "start": 29.43,
+       "end": 30.59,
+       "voice": "n",
+       "text": "BY 9 O'CLOCK"
+      },
+      {
+       "start": 30.59,
+       "end": 31.763,
+       "voice": "n",
+       "text": "EVERYBODY HAS THE"
+      },
+      {
+       "start": 31.763,
+       "end": 32.39,
+       "voice": "n",
+       "text": "SAME IDEA."
+      }
+     ]
+    },
+    {
+     "text": "Buy the things they could never afford. New cars, expensive clothes, dream houses.",
+     "voice": "n",
+     "file": "assets/vo/d9dbd074c26c.wav",
+     "start": 33.211,
+     "end": 38.249,
+     "words": [
+      {
+       "w": "Buy",
+       "s": 33.241,
+       "e": 33.432
+      },
+      {
+       "w": "the",
+       "s": 33.432,
+       "e": 33.591
+      },
+      {
+       "w": "things",
+       "s": 33.591,
+       "e": 33.906
+      },
+      {
+       "w": "they",
+       "s": 33.906,
+       "e": 34.061
+      },
+      {
+       "w": "could",
+       "s": 34.061,
+       "e": 34.193
+      },
+      {
+       "w": "never",
+       "s": 34.193,
+       "e": 34.626
+      },
+      {
+       "w": "afford.",
+       "s": 34.626,
+       "e": 34.941
+      },
+      {
+       "w": "New",
+       "s": 35.431,
+       "e": 35.606
+      },
+      {
+       "w": "cars,",
+       "s": 35.606,
+       "e": 36.091
+      },
+      {
+       "w": "expensive",
+       "s": 36.131,
+       "e": 36.696
+      },
+      {
+       "w": "clothes,",
+       "s": 36.696,
+       "e": 37.211
+      },
+      {
+       "w": "dream",
+       "s": 37.281,
+       "e": 37.567
+      },
+      {
+       "w": "houses.",
+       "s": 37.567,
+       "e": 38.191
+      }
+     ],
+     "caps": [
+      {
+       "start": 33.241,
+       "end": 33.906,
+       "voice": "n",
+       "text": "BUY THE THINGS"
+      },
+      {
+       "start": 33.906,
+       "end": 34.626,
+       "voice": "n",
+       "text": "THEY COULD NEVER"
+      },
+      {
+       "start": 34.626,
+       "end": 34.941,
+       "voice": "n",
+       "text": "AFFORD."
+      },
+      {
+       "start": 35.431,
+       "end": 36.131,
+       "voice": "n",
+       "text": "NEW CARS"
+      },
+      {
+       "start": 36.131,
+       "end": 37.281,
+       "voice": "n",
+       "text": "EXPENSIVE CLOTHES"
+      },
+      {
+       "start": 37.281,
+       "end": 38.191,
+       "voice": "n",
+       "text": "DREAM HOUSES."
+      }
+     ]
+    },
+    {
+     "text": "Alex immediately opens a website to buy his first sports car.",
+     "voice": "n",
+     "file": "assets/vo/a17895a8dee2.wav",
+     "start": 39.099,
+     "end": 42.68,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 39.139,
+       "e": 39.503
+      },
+      {
+       "w": "immediately",
+       "s": 39.503,
+       "e": 40.344
+      },
+      {
+       "w": "opens",
+       "s": 40.344,
+       "e": 40.697
+      },
+      {
+       "w": "a",
+       "s": 40.697,
+       "e": 40.906
+      },
+      {
+       "w": "website",
+       "s": 40.906,
+       "e": 41.27
+      },
+      {
+       "w": "to",
+       "s": 41.27,
+       "e": 41.589
+      },
+      {
+       "w": "buy",
+       "s": 41.589,
+       "e": 41.689
+      },
+      {
+       "w": "his",
+       "s": 41.689,
+       "e": 41.934
+      },
+      {
+       "w": "first",
+       "s": 41.934,
+       "e": 42.149
+      },
+      {
+       "w": "sports",
+       "s": 42.149,
+       "e": 42.304
+      },
+      {
+       "w": "car.",
+       "s": 42.304,
+       "e": 42.619
+      }
+     ],
+     "caps": [
+      {
+       "start": 39.139,
+       "end": 40.344,
+       "voice": "n",
+       "text": "ALEX IMMEDIATELY"
+      },
+      {
+       "start": 40.344,
+       "end": 41.27,
+       "voice": "n",
+       "text": "OPENS A WEBSITE"
+      },
+      {
+       "start": 41.27,
+       "end": 41.934,
+       "voice": "n",
+       "text": "TO BUY HIS"
+      },
+      {
+       "start": 41.934,
+       "end": 42.619,
+       "voice": "n",
+       "text": "FIRST SPORTS CAR."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "cars": 6.606,
+    "clothes": 7.696,
+    "houses": 8.567,
+    "alex": 9.849,
+    "buy": 13.149,
+    "queue": 13.93
+   }
+  },
+  {
+   "id": "problem",
+   "tag": "DAY 1 \u00b7 2:00 PM",
+   "right": "bank",
+   "start": 45.0,
+   "end": 61.0,
+   "lines": [
+    {
+     "text": "But there's one tiny problem.",
+     "voice": "n",
+     "file": "assets/vo/32afca46c250.wav",
+     "start": 45.4,
+     "end": 47.5,
+     "words": [
+      {
+       "w": "But",
+       "s": 45.43,
+       "e": 45.61
+      },
+      {
+       "w": "there's",
+       "s": 45.61,
+       "e": 46.149
+      },
+      {
+       "w": "one",
+       "s": 46.149,
+       "e": 46.435
+      },
+      {
+       "w": "tiny",
+       "s": 46.435,
+       "e": 46.815
+      },
+      {
+       "w": "problem.",
+       "s": 46.815,
+       "e": 47.44
+      }
+     ],
+     "caps": [
+      {
+       "start": 45.43,
+       "end": 46.435,
+       "voice": "n",
+       "text": "BUT THERE'S ONE"
+      },
+      {
+       "start": 46.435,
+       "end": 47.44,
+       "voice": "n",
+       "text": "TINY PROBLEM."
+      }
+     ]
+    },
+    {
+     "text": "Everyone wants the same things.",
+     "voice": "n",
+     "file": "assets/vo/d8d85d168f18.wav",
+     "start": 48.35,
+     "end": 50.428,
+     "words": [
+      {
+       "w": "Everyone",
+       "s": 48.38,
+       "e": 49.093
+      },
+      {
+       "w": "wants",
+       "s": 49.093,
+       "e": 49.325
+      },
+      {
+       "w": "the",
+       "s": 49.325,
+       "e": 49.668
+      },
+      {
+       "w": "same",
+       "s": 49.668,
+       "e": 49.955
+      },
+      {
+       "w": "things.",
+       "s": 49.955,
+       "e": 50.37
+      }
+     ],
+     "caps": [
+      {
+       "start": 48.38,
+       "end": 49.325,
+       "voice": "n",
+       "text": "EVERYONE WANTS"
+      },
+      {
+       "start": 49.325,
+       "end": 50.37,
+       "voice": "n",
+       "text": "THE SAME THINGS."
+      }
+     ]
+    },
+    {
+     "text": "The car dealership sells out. Houses disappear from listings.",
+     "voice": "n",
+     "file": "assets/vo/0dcc82905e6f.wav",
+     "start": 51.278,
+     "end": 55.07,
+     "words": [
+      {
+       "w": "The",
+       "s": 51.298,
+       "e": 51.453
+      },
+      {
+       "w": "car",
+       "s": 51.453,
+       "e": 51.737
+      },
+      {
+       "w": "dealership",
+       "s": 51.737,
+       "e": 52.328
+      },
+      {
+       "w": "sells",
+       "s": 52.328,
+       "e": 52.501
+      },
+      {
+       "w": "out.",
+       "s": 52.501,
+       "e": 52.818
+      },
+      {
+       "w": "Houses",
+       "s": 53.218,
+       "e": 53.723
+      },
+      {
+       "w": "disappear",
+       "s": 53.723,
+       "e": 54.243
+      },
+      {
+       "w": "from",
+       "s": 54.243,
+       "e": 54.598
+      },
+      {
+       "w": "listings.",
+       "s": 54.598,
+       "e": 55.018
+      }
+     ],
+     "caps": [
+      {
+       "start": 51.298,
+       "end": 52.328,
+       "voice": "n",
+       "text": "THE CAR DEALERSHIP"
+      },
+      {
+       "start": 52.328,
+       "end": 53.218,
+       "voice": "n",
+       "text": "SELLS OUT."
+      },
+      {
+       "start": 53.218,
+       "end": 54.243,
+       "voice": "n",
+       "text": "HOUSES DISAPPEAR"
+      },
+      {
+       "start": 54.243,
+       "end": 55.018,
+       "voice": "n",
+       "text": "FROM LISTINGS."
+      }
+     ]
+    },
+    {
+     "text": "And suddenly, having a million dollars doesn't guarantee you can actually buy anything.",
+     "voice": "n",
+     "file": "assets/vo/cdf7e3551d2b.wav",
+     "start": 55.92,
+     "end": 60.529,
+     "words": [
+      {
+       "w": "And",
+       "s": 55.94,
+       "e": 56.101
+      },
+      {
+       "w": "suddenly,",
+       "s": 56.101,
+       "e": 56.57
+      },
+      {
+       "w": "having",
+       "s": 56.77,
+       "e": 57.127
+      },
+      {
+       "w": "a",
+       "s": 57.127,
+       "e": 57.332
+      },
+      {
+       "w": "million",
+       "s": 57.332,
+       "e": 57.688
+      },
+      {
+       "w": "dollars",
+       "s": 57.688,
+       "e": 58.045
+      },
+      {
+       "w": "doesn't",
+       "s": 58.045,
+       "e": 58.25
+      },
+      {
+       "w": "guarantee",
+       "s": 58.25,
+       "e": 58.76
+      },
+      {
+       "w": "you",
+       "s": 58.76,
+       "e": 59.055
+      },
+      {
+       "w": "can",
+       "s": 59.055,
+       "e": 59.24
+      },
+      {
+       "w": "actually",
+       "s": 59.24,
+       "e": 59.765
+      },
+      {
+       "w": "buy",
+       "s": 59.765,
+       "e": 59.881
+      },
+      {
+       "w": "anything.",
+       "s": 59.881,
+       "e": 60.48
+      }
+     ],
+     "caps": [
+      {
+       "start": 55.94,
+       "end": 56.77,
+       "voice": "n",
+       "text": "AND SUDDENLY"
+      },
+      {
+       "start": 56.77,
+       "end": 57.688,
+       "voice": "n",
+       "text": "HAVING A MILLION"
+      },
+      {
+       "start": 57.688,
+       "end": 58.25,
+       "voice": "n",
+       "text": "DOLLARS DOESN'T"
+      },
+      {
+       "start": 58.25,
+       "end": 59.24,
+       "voice": "n",
+       "text": "GUARANTEE YOU CAN"
+      },
+      {
+       "start": 59.24,
+       "end": 60.48,
+       "voice": "n",
+       "text": "ACTUALLY BUY ANYTHING."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "customer": 3.15,
+    "sells": 7.328,
+    "phone": 7.968,
+    "houses": 8.723,
+    "alex": 10.67
+   }
+  },
+  {
+   "id": "week1",
+   "tag": "WEEK 1",
+   "right": "bank",
+   "start": 61.0,
+   "end": 77.0,
+   "lines": [
+    {
+     "text": "A week later, things start getting weird.",
+     "voice": "n",
+     "file": "assets/vo/f64622c37040.wav",
+     "start": 61.4,
+     "end": 63.665,
+     "words": [
+      {
+       "w": "A",
+       "s": 61.42,
+       "e": 61.604
+      },
+      {
+       "w": "week",
+       "s": 61.604,
+       "e": 61.73
+      },
+      {
+       "w": "later,",
+       "s": 61.73,
+       "e": 62.19
+      },
+      {
+       "w": "things",
+       "s": 62.28,
+       "e": 62.61
+      },
+      {
+       "w": "start",
+       "s": 62.61,
+       "e": 62.81
+      },
+      {
+       "w": "getting",
+       "s": 62.81,
+       "e": 63.232
+      },
+      {
+       "w": "weird.",
+       "s": 63.232,
+       "e": 63.6
+      }
+     ],
+     "caps": [
+      {
+       "start": 61.42,
+       "end": 62.28,
+       "voice": "n",
+       "text": "A WEEK LATER"
+      },
+      {
+       "start": 62.28,
+       "end": 63.232,
+       "voice": "n",
+       "text": "THINGS START GETTING"
+      },
+      {
+       "start": 63.232,
+       "end": 63.6,
+       "voice": "n",
+       "text": "WEIRD."
+      }
+     ]
+    },
+    {
+     "text": "Supermarkets are packed. Deliveries are delayed. Popular products vanish from shelves.",
+     "voice": "n",
+     "file": "assets/vo/4630ff2ae7b0.wav",
+     "start": 64.515,
+     "end": 69.585,
+     "words": [
+      {
+       "w": "Supermarkets",
+       "s": 64.535,
+       "e": 65.205
+      },
+      {
+       "w": "are",
+       "s": 65.205,
+       "e": 65.43
+      },
+      {
+       "w": "packed.",
+       "s": 65.43,
+       "e": 65.815
+      },
+      {
+       "w": "Deliveries",
+       "s": 66.055,
+       "e": 66.653
+      },
+      {
+       "w": "are",
+       "s": 66.653,
+       "e": 66.839
+      },
+      {
+       "w": "delayed.",
+       "s": 66.839,
+       "e": 67.245
+      },
+      {
+       "w": "Popular",
+       "s": 67.525,
+       "e": 67.97
+      },
+      {
+       "w": "products",
+       "s": 67.97,
+       "e": 68.38
+      },
+      {
+       "w": "vanish",
+       "s": 68.38,
+       "e": 68.795
+      },
+      {
+       "w": "from",
+       "s": 68.795,
+       "e": 69.055
+      },
+      {
+       "w": "shelves.",
+       "s": 69.055,
+       "e": 69.535
+      }
+     ],
+     "caps": [
+      {
+       "start": 64.535,
+       "end": 65.43,
+       "voice": "n",
+       "text": "SUPERMARKETS ARE"
+      },
+      {
+       "start": 65.43,
+       "end": 66.055,
+       "voice": "n",
+       "text": "PACKED."
+      },
+      {
+       "start": 66.055,
+       "end": 66.839,
+       "voice": "n",
+       "text": "DELIVERIES ARE"
+      },
+      {
+       "start": 66.839,
+       "end": 67.525,
+       "voice": "n",
+       "text": "DELAYED."
+      },
+      {
+       "start": 67.525,
+       "end": 68.38,
+       "voice": "n",
+       "text": "POPULAR PRODUCTS"
+      },
+      {
+       "start": 68.38,
+       "end": 69.535,
+       "voice": "n",
+       "text": "VANISH FROM SHELVES."
+      }
+     ]
+    },
+    {
+     "text": "Not because the world has run out of money, but because it can't produce everything fast enough.",
+     "voice": "n",
+     "file": "assets/vo/de7a93be4d84.wav",
+     "start": 70.335,
+     "end": 75.534,
+     "words": [
+      {
+       "w": "Not",
+       "s": 70.355,
+       "e": 70.554
+      },
+      {
+       "w": "because",
+       "s": 70.554,
+       "e": 70.835
+      },
+      {
+       "w": "the",
+       "s": 70.835,
+       "e": 71.075
+      },
+      {
+       "w": "world",
+       "s": 71.075,
+       "e": 71.297
+      },
+      {
+       "w": "has",
+       "s": 71.297,
+       "e": 71.495
+      },
+      {
+       "w": "run",
+       "s": 71.495,
+       "e": 71.694
+      },
+      {
+       "w": "out",
+       "s": 71.694,
+       "e": 71.892
+      },
+      {
+       "w": "of",
+       "s": 71.892,
+       "e": 72.16
+      },
+      {
+       "w": "money,",
+       "s": 72.16,
+       "e": 72.525
+      },
+      {
+       "w": "but",
+       "s": 72.895,
+       "e": 72.985
+      },
+      {
+       "w": "because",
+       "s": 72.985,
+       "e": 73.4
+      },
+      {
+       "w": "it",
+       "s": 73.4,
+       "e": 73.675
+      },
+      {
+       "w": "can't",
+       "s": 73.675,
+       "e": 73.833
+      },
+      {
+       "w": "produce",
+       "s": 73.833,
+       "e": 74.155
+      },
+      {
+       "w": "everything",
+       "s": 74.155,
+       "e": 74.755
+      },
+      {
+       "w": "fast",
+       "s": 74.755,
+       "e": 75.05
+      },
+      {
+       "w": "enough.",
+       "s": 75.05,
+       "e": 75.445
+      }
+     ],
+     "caps": [
+      {
+       "start": 70.355,
+       "end": 71.075,
+       "voice": "n",
+       "text": "NOT BECAUSE THE"
+      },
+      {
+       "start": 71.075,
+       "end": 71.694,
+       "voice": "n",
+       "text": "WORLD HAS RUN"
+      },
+      {
+       "start": 71.694,
+       "end": 72.895,
+       "voice": "n",
+       "text": "OUT OF MONEY"
+      },
+      {
+       "start": 72.895,
+       "end": 73.675,
+       "voice": "n",
+       "text": "BUT BECAUSE IT"
+      },
+      {
+       "start": 73.675,
+       "end": 74.755,
+       "voice": "n",
+       "text": "CAN'T PRODUCE EVERYTHING"
+      },
+      {
+       "start": 74.755,
+       "end": 75.445,
+       "voice": "n",
+       "text": "FAST ENOUGH."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "store": 3.265,
+    "delayed": 4.805,
+    "vanish": 6.325,
+    "graph": 9.085,
+    "fast": 13.755
+   }
+  },
+  {
+   "id": "work",
+   "tag": "WEEK 2",
+   "right": "bank",
+   "start": 77.0,
+   "end": 93.0,
+   "lines": [
+    {
+     "text": "And there's another problem. Some people decide they don't need their jobs anymore.",
+     "voice": "n",
+     "file": "assets/vo/266b2e339395.wav",
+     "start": 77.3,
+     "end": 81.74,
+     "words": [
+      {
+       "w": "And",
+       "s": 77.32,
+       "e": 77.497
+      },
+      {
+       "w": "there's",
+       "s": 77.497,
+       "e": 77.805
+      },
+      {
+       "w": "another",
+       "s": 77.805,
+       "e": 78.125
+      },
+      {
+       "w": "problem.",
+       "s": 78.125,
+       "e": 78.63
+      },
+      {
+       "w": "Some",
+       "s": 78.95,
+       "e": 79.275
+      },
+      {
+       "w": "people",
+       "s": 79.275,
+       "e": 79.455
+      },
+      {
+       "w": "decide",
+       "s": 79.455,
+       "e": 79.936
+      },
+      {
+       "w": "they",
+       "s": 79.936,
+       "e": 80.156
+      },
+      {
+       "w": "don't",
+       "s": 80.156,
+       "e": 80.33
+      },
+      {
+       "w": "need",
+       "s": 80.33,
+       "e": 80.596
+      },
+      {
+       "w": "their",
+       "s": 80.596,
+       "e": 80.816
+      },
+      {
+       "w": "jobs",
+       "s": 80.816,
+       "e": 81.036
+      },
+      {
+       "w": "anymore.",
+       "s": 81.036,
+       "e": 81.68
+      }
+     ],
+     "caps": [
+      {
+       "start": 77.32,
+       "end": 78.125,
+       "voice": "n",
+       "text": "AND THERE'S ANOTHER"
+      },
+      {
+       "start": 78.125,
+       "end": 78.95,
+       "voice": "n",
+       "text": "PROBLEM."
+      },
+      {
+       "start": 78.95,
+       "end": 79.936,
+       "voice": "n",
+       "text": "SOME PEOPLE DECIDE"
+      },
+      {
+       "start": 79.936,
+       "end": 80.596,
+       "voice": "n",
+       "text": "THEY DON'T NEED"
+      },
+      {
+       "start": 80.596,
+       "end": 81.68,
+       "voice": "n",
+       "text": "THEIR JOBS ANYMORE."
+      }
+     ]
+    },
+    {
+     "text": "Alex quits the grocery store.",
+     "voice": "n",
+     "file": "assets/vo/60189d033601.wav",
+     "start": 82.24,
+     "end": 84.269,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 82.27,
+       "e": 82.75
+      },
+      {
+       "w": "quits",
+       "s": 82.75,
+       "e": 82.92
+      },
+      {
+       "w": "the",
+       "s": 82.92,
+       "e": 83.217
+      },
+      {
+       "w": "grocery",
+       "s": 83.217,
+       "e": 83.785
+      },
+      {
+       "w": "store.",
+       "s": 83.785,
+       "e": 84.21
+      }
+     ],
+     "caps": [
+      {
+       "start": 82.27,
+       "end": 83.217,
+       "voice": "n",
+       "text": "ALEX QUITS THE"
+      },
+      {
+       "start": 83.217,
+       "end": 84.21,
+       "voice": "n",
+       "text": "GROCERY STORE."
+      }
+     ]
+    },
+    {
+     "text": "But so do several delivery drivers, warehouse workers, and store employees.",
+     "voice": "n",
+     "file": "assets/vo/c97ae736d080.wav",
+     "start": 84.869,
+     "end": 89.241,
+     "words": [
+      {
+       "w": "But",
+       "s": 84.889,
+       "e": 85.13
+      },
+      {
+       "w": "so",
+       "s": 85.13,
+       "e": 85.371
+      },
+      {
+       "w": "do",
+       "s": 85.371,
+       "e": 85.569
+      },
+      {
+       "w": "several",
+       "s": 85.569,
+       "e": 86.208
+      },
+      {
+       "w": "delivery",
+       "s": 86.208,
+       "e": 86.969
+      },
+      {
+       "w": "drivers,",
+       "s": 86.969,
+       "e": 87.509
+      },
+      {
+       "w": "warehouse",
+       "s": 87.559,
+       "e": 88.014
+      },
+      {
+       "w": "workers,",
+       "s": 88.014,
+       "e": 88.229
+      },
+      {
+       "w": "and",
+       "s": 88.269,
+       "e": 88.604
+      },
+      {
+       "w": "store",
+       "s": 88.604,
+       "e": 88.709
+      },
+      {
+       "w": "employees.",
+       "s": 88.709,
+       "e": 89.189
+      }
+     ],
+     "caps": [
+      {
+       "start": 84.889,
+       "end": 85.569,
+       "voice": "n",
+       "text": "BUT SO DO"
+      },
+      {
+       "start": 85.569,
+       "end": 86.969,
+       "voice": "n",
+       "text": "SEVERAL DELIVERY"
+      },
+      {
+       "start": 86.969,
+       "end": 87.559,
+       "voice": "n",
+       "text": "DRIVERS"
+      },
+      {
+       "start": 87.559,
+       "end": 88.269,
+       "voice": "n",
+       "text": "WAREHOUSE WORKERS"
+      },
+      {
+       "start": 88.269,
+       "end": 89.189,
+       "voice": "n",
+       "text": "AND STORE EMPLOYEES."
+      }
+     ]
+    },
+    {
+     "text": "Suddenly, getting basic supplies becomes much harder.",
+     "voice": "n",
+     "file": "assets/vo/b7bb551fb320.wav",
+     "start": 89.691,
+     "end": 92.887,
+     "words": [
+      {
+       "w": "Suddenly,",
+       "s": 89.721,
+       "e": 90.361
+      },
+      {
+       "w": "getting",
+       "s": 90.361,
+       "e": 90.771
+      },
+      {
+       "w": "basic",
+       "s": 90.771,
+       "e": 91.051
+      },
+      {
+       "w": "supplies",
+       "s": 91.051,
+       "e": 91.555
+      },
+      {
+       "w": "becomes",
+       "s": 91.555,
+       "e": 92.114
+      },
+      {
+       "w": "much",
+       "s": 92.114,
+       "e": 92.371
+      },
+      {
+       "w": "harder.",
+       "s": 92.371,
+       "e": 92.831
+      }
+     ],
+     "caps": [
+      {
+       "start": 89.721,
+       "end": 90.361,
+       "voice": "n",
+       "text": "SUDDENLY"
+      },
+      {
+       "start": 90.361,
+       "end": 91.555,
+       "voice": "n",
+       "text": "GETTING BASIC SUPPLIES"
+      },
+      {
+       "start": 91.555,
+       "end": 92.831,
+       "voice": "n",
+       "text": "BECOMES MUCH HARDER."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "bank": 2.455,
+    "quits": 5.75,
+    "drivers": 7.619,
+    "trucks": 10.359,
+    "manager": 12.441
+   }
+  },
+  {
+   "id": "prices",
+   "tag": "WEEK 3",
+   "right": "bank",
+   "start": 93.0,
+   "end": 111.0,
+   "lines": [
+    {
+     "text": "Then prices begin climbing.",
+     "voice": "n",
+     "file": "assets/vo/2821a4c58615.wav",
+     "start": 93.4,
+     "end": 95.448,
+     "words": [
+      {
+       "w": "Then",
+       "s": 93.44,
+       "e": 93.785
+      },
+      {
+       "w": "prices",
+       "s": 93.785,
+       "e": 94.217
+      },
+      {
+       "w": "begin",
+       "s": 94.217,
+       "e": 94.715
+      },
+      {
+       "w": "climbing.",
+       "s": 94.715,
+       "e": 95.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 93.44,
+       "end": 94.715,
+       "voice": "n",
+       "text": "THEN PRICES BEGIN"
+      },
+      {
+       "start": 94.715,
+       "end": 95.33,
+       "voice": "n",
+       "text": "CLIMBING."
+      }
+     ]
+    },
+    {
+     "text": "Businesses have more customers than products, and many struggle to hire workers.",
+     "voice": "n",
+     "file": "assets/vo/4ceb7807e41f.wav",
+     "start": 96.198,
+     "end": 100.834,
+     "words": [
+      {
+       "w": "Businesses",
+       "s": 96.228,
+       "e": 96.868
+      },
+      {
+       "w": "have",
+       "s": 96.868,
+       "e": 97.178
+      },
+      {
+       "w": "more",
+       "s": 97.178,
+       "e": 97.373
+      },
+      {
+       "w": "customers",
+       "s": 97.373,
+       "e": 97.913
+      },
+      {
+       "w": "than",
+       "s": 97.913,
+       "e": 98.128
+      },
+      {
+       "w": "products,",
+       "s": 98.128,
+       "e": 98.678
+      },
+      {
+       "w": "and",
+       "s": 99.018,
+       "e": 99.221
+      },
+      {
+       "w": "many",
+       "s": 99.221,
+       "e": 99.575
+      },
+      {
+       "w": "struggle",
+       "s": 99.575,
+       "e": 99.943
+      },
+      {
+       "w": "to",
+       "s": 99.943,
+       "e": 100.131
+      },
+      {
+       "w": "hire",
+       "s": 100.131,
+       "e": 100.423
+      },
+      {
+       "w": "workers.",
+       "s": 100.423,
+       "e": 100.778
+      }
+     ],
+     "caps": [
+      {
+       "start": 96.228,
+       "end": 97.178,
+       "voice": "n",
+       "text": "BUSINESSES HAVE"
+      },
+      {
+       "start": 97.178,
+       "end": 97.913,
+       "voice": "n",
+       "text": "MORE CUSTOMERS"
+      },
+      {
+       "start": 97.913,
+       "end": 99.018,
+       "voice": "n",
+       "text": "THAN PRODUCTS"
+      },
+      {
+       "start": 99.018,
+       "end": 99.943,
+       "voice": "n",
+       "text": "AND MANY STRUGGLE"
+      },
+      {
+       "start": 99.943,
+       "end": 100.778,
+       "voice": "n",
+       "text": "TO HIRE WORKERS."
+      }
+     ]
+    },
+    {
+     "text": "Some raise prices. Others simply close.",
+     "voice": "n",
+     "file": "assets/vo/87a05c3510ea.wav",
+     "start": 101.284,
+     "end": 103.744,
+     "words": [
+      {
+       "w": "Some",
+       "s": 101.314,
+       "e": 101.596
+      },
+      {
+       "w": "raise",
+       "s": 101.596,
+       "e": 101.954
+      },
+      {
+       "w": "prices.",
+       "s": 101.954,
+       "e": 102.494
+      },
+      {
+       "w": "Others",
+       "s": 102.594,
+       "e": 102.924
+      },
+      {
+       "w": "simply",
+       "s": 102.924,
+       "e": 103.289
+      },
+      {
+       "w": "close.",
+       "s": 103.289,
+       "e": 103.684
+      }
+     ],
+     "caps": [
+      {
+       "start": 101.314,
+       "end": 102.594,
+       "voice": "n",
+       "text": "SOME RAISE PRICES."
+      },
+      {
+       "start": 102.594,
+       "end": 103.684,
+       "voice": "n",
+       "text": "OTHERS SIMPLY CLOSE."
+      }
+     ]
+    },
+    {
+     "text": "Alex still has almost a million dollars. But each week, that money buys less.",
+     "voice": "n",
+     "file": "assets/vo/a2d478f89fea.wav",
+     "start": 104.594,
+     "end": 109.305,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 104.634,
+       "e": 104.929
+      },
+      {
+       "w": "still",
+       "s": 104.929,
+       "e": 105.232
+      },
+      {
+       "w": "has",
+       "s": 105.232,
+       "e": 105.509
+      },
+      {
+       "w": "almost",
+       "s": 105.509,
+       "e": 105.884
+      },
+      {
+       "w": "a",
+       "s": 105.884,
+       "e": 106.048
+      },
+      {
+       "w": "million",
+       "s": 106.048,
+       "e": 106.428
+      },
+      {
+       "w": "dollars.",
+       "s": 106.428,
+       "e": 106.904
+      },
+      {
+       "w": "But",
+       "s": 107.294,
+       "e": 107.399
+      },
+      {
+       "w": "each",
+       "s": 107.399,
+       "e": 107.664
+      },
+      {
+       "w": "week,",
+       "s": 107.664,
+       "e": 107.864
+      },
+      {
+       "w": "that",
+       "s": 108.004,
+       "e": 108.134
+      },
+      {
+       "w": "money",
+       "s": 108.134,
+       "e": 108.66
+      },
+      {
+       "w": "buys",
+       "s": 108.66,
+       "e": 108.809
+      },
+      {
+       "w": "less.",
+       "s": 108.809,
+       "e": 109.244
+      }
+     ],
+     "caps": [
+      {
+       "start": 104.634,
+       "end": 105.509,
+       "voice": "n",
+       "text": "ALEX STILL HAS"
+      },
+      {
+       "start": 105.509,
+       "end": 106.428,
+       "voice": "n",
+       "text": "ALMOST A MILLION"
+      },
+      {
+       "start": 106.428,
+       "end": 107.294,
+       "voice": "n",
+       "text": "DOLLARS."
+      },
+      {
+       "start": 107.294,
+       "end": 108.004,
+       "voice": "n",
+       "text": "BUT EACH WEEK"
+      },
+      {
+       "start": 108.004,
+       "end": 108.809,
+       "voice": "n",
+       "text": "THAT MONEY BUYS"
+      },
+      {
+       "start": 108.809,
+       "end": 109.244,
+       "voice": "n",
+       "text": "LESS."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "climb": 1.715,
+    "cafe": 2.948,
+    "raise": 8.596,
+    "close": 10.289,
+    "alex": 11.344,
+    "less": 15.809
+   }
+  },
+  {
+   "id": "month1",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 111.0,
+   "end": 128.0,
+   "lines": [
+    {
+     "text": "One month later, the world looks completely different.",
+     "voice": "n",
+     "file": "assets/vo/7488d383fd87.wav",
+     "start": 111.4,
+     "end": 114.307,
+     "words": [
+      {
+       "w": "One",
+       "s": 111.43,
+       "e": 111.538
+      },
+      {
+       "w": "month",
+       "s": 111.538,
+       "e": 111.645
+      },
+      {
+       "w": "later,",
+       "s": 111.645,
+       "e": 111.88
+      },
+      {
+       "w": "the",
+       "s": 111.93,
+       "e": 112.184
+      },
+      {
+       "w": "world",
+       "s": 112.184,
+       "e": 112.36
+      },
+      {
+       "w": "looks",
+       "s": 112.36,
+       "e": 112.691
+      },
+      {
+       "w": "completely",
+       "s": 112.691,
+       "e": 113.505
+      },
+      {
+       "w": "different.",
+       "s": 113.505,
+       "e": 114.25
+      }
+     ],
+     "caps": [
+      {
+       "start": 111.43,
+       "end": 111.93,
+       "voice": "n",
+       "text": "ONE MONTH LATER"
+      },
+      {
+       "start": 111.93,
+       "end": 112.691,
+       "voice": "n",
+       "text": "THE WORLD LOOKS"
+      },
+      {
+       "start": 112.691,
+       "end": 114.25,
+       "voice": "n",
+       "text": "COMPLETELY DIFFERENT."
+      }
+     ]
+    },
+    {
+     "text": "Some businesses offer huge wages to attract workers. Others can't afford to stay open.",
+     "voice": "n",
+     "file": "assets/vo/bbc2ab7cdb70.wav",
+     "start": 115.157,
+     "end": 120.757,
+     "words": [
+      {
+       "w": "Some",
+       "s": 115.177,
+       "e": 115.419
+      },
+      {
+       "w": "businesses",
+       "s": 115.419,
+       "e": 116.252
+      },
+      {
+       "w": "offer",
+       "s": 116.252,
+       "e": 116.617
+      },
+      {
+       "w": "huge",
+       "s": 116.617,
+       "e": 116.858
+      },
+      {
+       "w": "wages",
+       "s": 116.858,
+       "e": 117.302
+      },
+      {
+       "w": "to",
+       "s": 117.302,
+       "e": 117.537
+      },
+      {
+       "w": "attract",
+       "s": 117.537,
+       "e": 117.852
+      },
+      {
+       "w": "workers.",
+       "s": 117.852,
+       "e": 118.467
+      },
+      {
+       "w": "Others",
+       "s": 118.947,
+       "e": 119.302
+      },
+      {
+       "w": "can't",
+       "s": 119.302,
+       "e": 119.504
+      },
+      {
+       "w": "afford",
+       "s": 119.504,
+       "e": 119.877
+      },
+      {
+       "w": "to",
+       "s": 119.877,
+       "e": 120.042
+      },
+      {
+       "w": "stay",
+       "s": 120.042,
+       "e": 120.257
+      },
+      {
+       "w": "open.",
+       "s": 120.257,
+       "e": 120.707
+      }
+     ],
+     "caps": [
+      {
+       "start": 115.177,
+       "end": 116.252,
+       "voice": "n",
+       "text": "SOME BUSINESSES"
+      },
+      {
+       "start": 116.252,
+       "end": 117.302,
+       "voice": "n",
+       "text": "OFFER HUGE WAGES"
+      },
+      {
+       "start": 117.302,
+       "end": 118.467,
+       "voice": "n",
+       "text": "TO ATTRACT WORKERS."
+      },
+      {
+       "start": 118.947,
+       "end": 119.877,
+       "voice": "n",
+       "text": "OTHERS CAN'T AFFORD"
+      },
+      {
+       "start": 119.877,
+       "end": 120.707,
+       "voice": "n",
+       "text": "TO STAY OPEN."
+      }
+     ]
+    },
+    {
+     "text": "New factories and delivery services are needed, but building them takes time.",
+     "voice": "n",
+     "file": "assets/vo/402b3593ccec.wav",
+     "start": 121.607,
+     "end": 126.252,
+     "words": [
+      {
+       "w": "New",
+       "s": 121.637,
+       "e": 121.827
+      },
+      {
+       "w": "factories",
+       "s": 121.827,
+       "e": 122.207
+      },
+      {
+       "w": "and",
+       "s": 122.207,
+       "e": 122.488
+      },
+      {
+       "w": "delivery",
+       "s": 122.488,
+       "e": 123.1
+      },
+      {
+       "w": "services",
+       "s": 123.1,
+       "e": 123.572
+      },
+      {
+       "w": "are",
+       "s": 123.572,
+       "e": 123.762
+      },
+      {
+       "w": "needed,",
+       "s": 123.762,
+       "e": 124.177
+      },
+      {
+       "w": "but",
+       "s": 124.617,
+       "e": 124.777
+      },
+      {
+       "w": "building",
+       "s": 124.777,
+       "e": 125.246
+      },
+      {
+       "w": "them",
+       "s": 125.246,
+       "e": 125.437
+      },
+      {
+       "w": "takes",
+       "s": 125.437,
+       "e": 125.787
+      },
+      {
+       "w": "time.",
+       "s": 125.787,
+       "e": 126.207
+      }
+     ],
+     "caps": [
+      {
+       "start": 121.637,
+       "end": 122.488,
+       "voice": "n",
+       "text": "NEW FACTORIES AND"
+      },
+      {
+       "start": 122.488,
+       "end": 123.572,
+       "voice": "n",
+       "text": "DELIVERY SERVICES"
+      },
+      {
+       "start": 123.572,
+       "end": 124.617,
+       "voice": "n",
+       "text": "ARE NEEDED"
+      },
+      {
+       "start": 124.617,
+       "end": 125.437,
+       "voice": "n",
+       "text": "BUT BUILDING THEM"
+      },
+      {
+       "start": 125.437,
+       "end": 126.207,
+       "voice": "n",
+       "text": "TAKES TIME."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "hiring": 3.907,
+    "closed": 7.947,
+    "factory": 10.357,
+    "trucks": 13.777
+   }
+  },
+  {
+   "id": "bakery",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 128.0,
+   "end": 144.0,
+   "lines": [
+    {
+     "text": "One afternoon, Alex passes a bakery where he used to buy breakfast.",
+     "voice": "n",
+     "file": "assets/vo/40438eb317c1.wav",
+     "start": 128.4,
+     "end": 132.38,
+     "words": [
+      {
+       "w": "One",
+       "s": 128.42,
+       "e": 128.665
+      },
+      {
+       "w": "afternoon,",
+       "s": 128.665,
+       "e": 129.38
+      },
+      {
+       "w": "Alex",
+       "s": 129.5,
+       "e": 129.885
+      },
+      {
+       "w": "passes",
+       "s": 129.885,
+       "e": 130.162
+      },
+      {
+       "w": "a",
+       "s": 130.162,
+       "e": 130.415
+      },
+      {
+       "w": "bakery",
+       "s": 130.415,
+       "e": 130.91
+      },
+      {
+       "w": "where",
+       "s": 130.91,
+       "e": 131.014
+      },
+      {
+       "w": "he",
+       "s": 131.014,
+       "e": 131.204
+      },
+      {
+       "w": "used",
+       "s": 131.204,
+       "e": 131.535
+      },
+      {
+       "w": "to",
+       "s": 131.535,
+       "e": 131.76
+      },
+      {
+       "w": "buy",
+       "s": 131.76,
+       "e": 131.975
+      },
+      {
+       "w": "breakfast.",
+       "s": 131.975,
+       "e": 132.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 128.42,
+       "end": 129.5,
+       "voice": "n",
+       "text": "ONE AFTERNOON"
+      },
+      {
+       "start": 129.5,
+       "end": 130.415,
+       "voice": "n",
+       "text": "ALEX PASSES A"
+      },
+      {
+       "start": 130.415,
+       "end": 131.204,
+       "voice": "n",
+       "text": "BAKERY WHERE HE"
+      },
+      {
+       "start": 131.204,
+       "end": 131.975,
+       "voice": "n",
+       "text": "USED TO BUY"
+      },
+      {
+       "start": 131.975,
+       "end": 132.33,
+       "voice": "n",
+       "text": "BREAKFAST."
+      }
+     ]
+    },
+    {
+     "text": "The owner is still working. But the shelves are almost empty.",
+     "voice": "n",
+     "file": "assets/vo/ad738d7ea7d3.wav",
+     "start": 133.13,
+     "end": 136.792,
+     "words": [
+      {
+       "w": "The",
+       "s": 133.16,
+       "e": 133.335
+      },
+      {
+       "w": "owner",
+       "s": 133.335,
+       "e": 133.722
+      },
+      {
+       "w": "is",
+       "s": 133.722,
+       "e": 133.9
+      },
+      {
+       "w": "still",
+       "s": 133.9,
+       "e": 134.132
+      },
+      {
+       "w": "working.",
+       "s": 134.132,
+       "e": 134.58
+      },
+      {
+       "w": "But",
+       "s": 134.89,
+       "e": 134.985
+      },
+      {
+       "w": "the",
+       "s": 134.985,
+       "e": 135.315
+      },
+      {
+       "w": "shelves",
+       "s": 135.315,
+       "e": 135.72
+      },
+      {
+       "w": "are",
+       "s": 135.72,
+       "e": 135.897
+      },
+      {
+       "w": "almost",
+       "s": 135.897,
+       "e": 136.15
+      },
+      {
+       "w": "empty.",
+       "s": 136.15,
+       "e": 136.73
+      }
+     ],
+     "caps": [
+      {
+       "start": 133.16,
+       "end": 133.9,
+       "voice": "n",
+       "text": "THE OWNER IS"
+      },
+      {
+       "start": 133.9,
+       "end": 134.89,
+       "voice": "n",
+       "text": "STILL WORKING."
+      },
+      {
+       "start": 134.89,
+       "end": 135.72,
+       "voice": "n",
+       "text": "BUT THE SHELVES"
+      },
+      {
+       "start": 135.72,
+       "end": 136.73,
+       "voice": "n",
+       "text": "ARE ALMOST EMPTY."
+      }
+     ]
+    },
+    {
+     "text": "She explains that her ingredients are expensive and deliveries have become unreliable.",
+     "voice": "n",
+     "file": "assets/vo/a5fe65208f4a.wav",
+     "start": 137.542,
+     "end": 142.487,
+     "words": [
+      {
+       "w": "She",
+       "s": 137.572,
+       "e": 137.799
+      },
+      {
+       "w": "explains",
+       "s": 137.799,
+       "e": 138.195
+      },
+      {
+       "w": "that",
+       "s": 138.195,
+       "e": 138.317
+      },
+      {
+       "w": "her",
+       "s": 138.317,
+       "e": 138.757
+      },
+      {
+       "w": "ingredients",
+       "s": 138.757,
+       "e": 139.214
+      },
+      {
+       "w": "are",
+       "s": 139.214,
+       "e": 139.487
+      },
+      {
+       "w": "expensive",
+       "s": 139.487,
+       "e": 140.005
+      },
+      {
+       "w": "and",
+       "s": 140.005,
+       "e": 140.152
+      },
+      {
+       "w": "deliveries",
+       "s": 140.152,
+       "e": 141.072
+      },
+      {
+       "w": "have",
+       "s": 141.072,
+       "e": 141.287
+      },
+      {
+       "w": "become",
+       "s": 141.287,
+       "e": 141.647
+      },
+      {
+       "w": "unreliable.",
+       "s": 141.647,
+       "e": 142.422
+      }
+     ],
+     "caps": [
+      {
+       "start": 137.572,
+       "end": 138.317,
+       "voice": "n",
+       "text": "SHE EXPLAINS THAT"
+      },
+      {
+       "start": 138.317,
+       "end": 139.214,
+       "voice": "n",
+       "text": "HER INGREDIENTS"
+      },
+      {
+       "start": 139.214,
+       "end": 140.152,
+       "voice": "n",
+       "text": "ARE EXPENSIVE AND"
+      },
+      {
+       "start": 140.152,
+       "end": 141.287,
+       "voice": "n",
+       "text": "DELIVERIES HAVE"
+      },
+      {
+       "start": 141.287,
+       "end": 142.422,
+       "voice": "n",
+       "text": "BECOME UNRELIABLE."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "memory": 3.204,
+    "inside": 4.88,
+    "empty": 8.15,
+    "explain": 9.542,
+    "flour": 10.757
+   }
+  },
+  {
+   "id": "discover",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 144.0,
+   "end": 160.0,
+   "lines": [
+    {
+     "text": "Alex realizes something important.",
+     "voice": "n",
+     "file": "assets/vo/44cf7fd1bf40.wav",
+     "start": 144.4,
+     "end": 146.813,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 144.42,
+       "e": 144.855
+      },
+      {
+       "w": "realizes",
+       "s": 144.855,
+       "e": 145.433
+      },
+      {
+       "w": "something",
+       "s": 145.433,
+       "e": 146.028
+      },
+      {
+       "w": "important.",
+       "s": 146.028,
+       "e": 146.73
+      }
+     ],
+     "caps": [
+      {
+       "start": 144.42,
+       "end": 146.028,
+       "voice": "n",
+       "text": "ALEX REALIZES SOMETHING"
+      },
+      {
+       "start": 146.028,
+       "end": 146.73,
+       "voice": "n",
+       "text": "IMPORTANT."
+      }
+     ]
+    },
+    {
+     "text": "Everyone received more money, but nobody received more food, houses, or time.",
+     "voice": "n",
+     "file": "assets/vo/0a7e88b6bdec.wav",
+     "start": 147.663,
+     "end": 152.251,
+     "words": [
+      {
+       "w": "Everyone",
+       "s": 147.683,
+       "e": 148.112
+      },
+      {
+       "w": "received",
+       "s": 148.112,
+       "e": 148.503
+      },
+      {
+       "w": "more",
+       "s": 148.503,
+       "e": 148.715
+      },
+      {
+       "w": "money,",
+       "s": 148.715,
+       "e": 149.093
+      },
+      {
+       "w": "but",
+       "s": 149.413,
+       "e": 149.562
+      },
+      {
+       "w": "nobody",
+       "s": 149.562,
+       "e": 149.93
+      },
+      {
+       "w": "received",
+       "s": 149.93,
+       "e": 150.299
+      },
+      {
+       "w": "more",
+       "s": 150.299,
+       "e": 150.448
+      },
+      {
+       "w": "food,",
+       "s": 150.448,
+       "e": 150.663
+      },
+      {
+       "w": "houses,",
+       "s": 150.783,
+       "e": 151.439
+      },
+      {
+       "w": "or",
+       "s": 151.439,
+       "e": 151.783
+      },
+      {
+       "w": "time.",
+       "s": 151.783,
+       "e": 152.173
+      }
+     ],
+     "caps": [
+      {
+       "start": 147.683,
+       "end": 148.503,
+       "voice": "n",
+       "text": "EVERYONE RECEIVED"
+      },
+      {
+       "start": 148.503,
+       "end": 149.413,
+       "voice": "n",
+       "text": "MORE MONEY"
+      },
+      {
+       "start": 149.413,
+       "end": 150.299,
+       "voice": "n",
+       "text": "BUT NOBODY RECEIVED"
+      },
+      {
+       "start": 150.299,
+       "end": 150.783,
+       "voice": "n",
+       "text": "MORE FOOD"
+      },
+      {
+       "start": 150.783,
+       "end": 151.439,
+       "voice": "n",
+       "text": "HOUSES"
+      },
+      {
+       "start": 151.439,
+       "end": 152.173,
+       "voice": "n",
+       "text": "OR TIME."
+      }
+     ]
+    },
+    {
+     "text": "So he starts helping at the bakery.",
+     "voice": "n",
+     "file": "assets/vo/a2777ac44779.wav",
+     "start": 153.201,
+     "end": 155.252,
+     "words": [
+      {
+       "w": "So",
+       "s": 153.241,
+       "e": 153.442
+      },
+      {
+       "w": "he",
+       "s": 153.442,
+       "e": 153.616
+      },
+      {
+       "w": "starts",
+       "s": 153.616,
+       "e": 153.831
+      },
+      {
+       "w": "helping",
+       "s": 153.831,
+       "e": 154.141
+      },
+      {
+       "w": "at",
+       "s": 154.141,
+       "e": 154.426
+      },
+      {
+       "w": "the",
+       "s": 154.426,
+       "e": 154.601
+      },
+      {
+       "w": "bakery.",
+       "s": 154.601,
+       "e": 155.191
+      }
+     ],
+     "caps": [
+      {
+       "start": 153.241,
+       "end": 153.831,
+       "voice": "n",
+       "text": "SO HE STARTS"
+      },
+      {
+       "start": 153.831,
+       "end": 154.601,
+       "voice": "n",
+       "text": "HELPING AT THE"
+      },
+      {
+       "start": 154.601,
+       "end": 155.191,
+       "voice": "n",
+       "text": "BAKERY."
+      }
+     ]
+    },
+    {
+     "text": "And for the first time in weeks, something actually improves.",
+     "voice": "n",
+     "file": "assets/vo/c1d21096d8e3.wav",
+     "start": 156.102,
+     "end": 159.513,
+     "words": [
+      {
+       "w": "And",
+       "s": 156.122,
+       "e": 156.307
+      },
+      {
+       "w": "for",
+       "s": 156.307,
+       "e": 156.547
+      },
+      {
+       "w": "the",
+       "s": 156.547,
+       "e": 156.822
+      },
+      {
+       "w": "first",
+       "s": 156.822,
+       "e": 156.928
+      },
+      {
+       "w": "time",
+       "s": 156.928,
+       "e": 157.129
+      },
+      {
+       "w": "in",
+       "s": 157.129,
+       "e": 157.331
+      },
+      {
+       "w": "weeks,",
+       "s": 157.331,
+       "e": 157.622
+      },
+      {
+       "w": "something",
+       "s": 157.772,
+       "e": 158.237
+      },
+      {
+       "w": "actually",
+       "s": 158.237,
+       "e": 158.902
+      },
+      {
+       "w": "improves.",
+       "s": 158.902,
+       "e": 159.462
+      }
+     ],
+     "caps": [
+      {
+       "start": 156.122,
+       "end": 156.822,
+       "voice": "n",
+       "text": "AND FOR THE"
+      },
+      {
+       "start": 156.822,
+       "end": 157.772,
+       "voice": "n",
+       "text": "FIRST TIME IN WEEKS"
+      },
+      {
+       "start": 157.772,
+       "end": 158.902,
+       "voice": "n",
+       "text": "SOMETHING ACTUALLY"
+      },
+      {
+       "start": 158.902,
+       "end": 159.462,
+       "voice": "n",
+       "text": "IMPROVES."
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "compare": 3.413,
+    "help": 8.951,
+    "improves": 11.852
+   }
+  },
+  {
+   "id": "final",
+   "tag": "MONTH 1",
+   "right": "bank",
+   "start": 160.0,
+   "end": 176.397,
+   "lines": [
+    {
+     "text": "Alex finally understands.",
+     "voice": "n",
+     "file": "assets/vo/dbad88a9795a.wav",
+     "start": 160.4,
+     "end": 162.391,
+     "words": [
+      {
+       "w": "Alex",
+       "s": 160.43,
+       "e": 160.915
+      },
+      {
+       "w": "finally",
+       "s": 160.915,
+       "e": 161.445
+      },
+      {
+       "w": "understands.",
+       "s": 161.445,
+       "e": 162.33
+      }
+     ],
+     "caps": [
+      {
+       "start": 160.43,
+       "end": 162.33,
+       "voice": "n",
+       "text": "ALEX FINALLY UNDERSTANDS."
+      }
+     ]
+    },
+    {
+     "text": "Money can help you buy what exists. It can't magically create what everyone needs.",
+     "voice": "n",
+     "file": "assets/vo/802555fcee17.wav",
+     "start": 163.191,
+     "end": 168.148,
+     "words": [
+      {
+       "w": "Money",
+       "s": 163.221,
+       "e": 163.601
+      },
+      {
+       "w": "can",
+       "s": 163.601,
+       "e": 163.844
+      },
+      {
+       "w": "help",
+       "s": 163.844,
+       "e": 163.986
+      },
+      {
+       "w": "you",
+       "s": 163.986,
+       "e": 164.211
+      },
+      {
+       "w": "buy",
+       "s": 164.211,
+       "e": 164.526
+      },
+      {
+       "w": "what",
+       "s": 164.526,
+       "e": 164.754
+      },
+      {
+       "w": "exists.",
+       "s": 164.754,
+       "e": 165.251
+      },
+      {
+       "w": "It",
+       "s": 165.611,
+       "e": 165.731
+      },
+      {
+       "w": "can't",
+       "s": 165.731,
+       "e": 165.971
+      },
+      {
+       "w": "magically",
+       "s": 165.971,
+       "e": 166.772
+      },
+      {
+       "w": "create",
+       "s": 166.772,
+       "e": 166.976
+      },
+      {
+       "w": "what",
+       "s": 166.976,
+       "e": 167.151
+      },
+      {
+       "w": "everyone",
+       "s": 167.151,
+       "e": 167.886
+      },
+      {
+       "w": "needs.",
+       "s": 167.886,
+       "e": 168.091
+      }
+     ],
+     "caps": [
+      {
+       "start": 163.221,
+       "end": 163.986,
+       "voice": "n",
+       "text": "MONEY CAN HELP"
+      },
+      {
+       "start": 163.986,
+       "end": 164.754,
+       "voice": "n",
+       "text": "YOU BUY WHAT"
+      },
+      {
+       "start": 164.754,
+       "end": 165.611,
+       "voice": "n",
+       "text": "EXISTS."
+      },
+      {
+       "start": 165.611,
+       "end": 166.772,
+       "voice": "n",
+       "text": "IT CAN'T MAGICALLY"
+      },
+      {
+       "start": 166.772,
+       "end": 167.886,
+       "voice": "n",
+       "text": "CREATE WHAT EVERYONE"
+      },
+      {
+       "start": 167.886,
+       "end": 168.091,
+       "voice": "n",
+       "text": "NEEDS."
+      }
+     ]
+    },
+    {
+     "text": "So if you became a millionaire tomorrow, would you still go to work?",
+     "voice": "n",
+     "file": "assets/vo/8af0fb4cb923.wav",
+     "start": 169.098,
+     "end": 172.647,
+     "words": [
+      {
+       "w": "So",
+       "s": 169.118,
+       "e": 169.309
+      },
+      {
+       "w": "if",
+       "s": 169.309,
+       "e": 169.493
+      },
+      {
+       "w": "you",
+       "s": 169.493,
+       "e": 169.803
+      },
+      {
+       "w": "became",
+       "s": 169.803,
+       "e": 170.024
+      },
+      {
+       "w": "a",
+       "s": 170.024,
+       "e": 170.215
+      },
+      {
+       "w": "millionaire",
+       "s": 170.215,
+       "e": 170.693
+      },
+      {
+       "w": "tomorrow,",
+       "s": 170.693,
+       "e": 171.248
+      },
+      {
+       "w": "would",
+       "s": 171.348,
+       "e": 171.537
+      },
+      {
+       "w": "you",
+       "s": 171.537,
+       "e": 171.658
+      },
+      {
+       "w": "still",
+       "s": 171.658,
+       "e": 171.916
+      },
+      {
+       "w": "go",
+       "s": 171.916,
+       "e": 172.138
+      },
+      {
+       "w": "to",
+       "s": 172.138,
+       "e": 172.295
+      },
+      {
+       "w": "work?",
+       "s": 172.295,
+       "e": 172.568
+      }
+     ],
+     "caps": [
+      {
+       "start": 169.118,
+       "end": 169.803,
+       "voice": "n",
+       "text": "SO IF YOU"
+      },
+      {
+       "start": 169.803,
+       "end": 170.693,
+       "voice": "n",
+       "text": "BECAME A MILLIONAIRE"
+      },
+      {
+       "start": 170.693,
+       "end": 171.348,
+       "voice": "n",
+       "text": "TOMORROW"
+      },
+      {
+       "start": 171.348,
+       "end": 171.916,
+       "voice": "n",
+       "text": "WOULD YOU STILL"
+      },
+      {
+       "start": 171.916,
+       "end": 172.568,
+       "voice": "n",
+       "text": "GO TO WORK?"
+      }
+     ]
+    }
+   ],
+   "pauses": [],
+   "ev": {
+    "split": 2.891,
+    "question": 9.098,
+    "final": 12.897
+   }
+  }
+ ]
+}

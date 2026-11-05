@@ -1,0 +1,3065 @@
+{
+ "fps": 30,
+ "total": 169.116,
+ "durationInFrames": 5074,
+ "scenes": [
+  {
+   "id": "hook",
+   "tag": "PARIS \u00b7 1925",
+   "start": 0.0,
+   "end": 15.668,
+   "lines": [
+    {
+     "text": "In nineteen twenty-five, one man actually sold the Eiffel Tower.",
+     "file": "assets/vo/33f0e086bca7.wav",
+     "start": 0.5,
+     "end": 4.531,
+     "words": [
+      {
+       "w": "In",
+       "s": 0.52,
+       "e": 0.715
+      },
+      {
+       "w": "1925,",
+       "s": 0.715,
+       "e": 1.16
+      },
+      {
+       "w": "twenty-five,",
+       "s": 1.16,
+       "e": 1.77
+      },
+      {
+       "w": "one",
+       "s": 2.12,
+       "e": 2.348
+      },
+      {
+       "w": "man",
+       "s": 2.348,
+       "e": 2.575
+      },
+      {
+       "w": "actually",
+       "s": 2.575,
+       "e": 3.141
+      },
+      {
+       "w": "sold",
+       "s": 3.141,
+       "e": 3.368
+      },
+      {
+       "w": "the",
+       "s": 3.368,
+       "e": 3.675
+      },
+      {
+       "w": "Eiffel",
+       "s": 3.675,
+       "e": 4.02
+      },
+      {
+       "w": "Tower.",
+       "s": 4.02,
+       "e": 4.49
+      }
+     ],
+     "caps": [
+      {
+       "start": 0.52,
+       "end": 2.12,
+       "text": "IN 1925"
+      },
+      {
+       "start": 2.12,
+       "end": 3.141,
+       "text": "ONE MAN ACTUALLY"
+      },
+      {
+       "start": 3.141,
+       "end": 4.49,
+       "text": "SOLD THE EIFFEL TOWER."
+      }
+     ]
+    },
+    {
+     "text": "The buyer handed over a fortune.",
+     "file": "assets/vo/10f0b3504672.wav",
+     "start": 5.381,
+     "end": 7.425,
+     "words": [
+      {
+       "w": "The",
+       "s": 5.401,
+       "e": 5.631
+      },
+      {
+       "w": "buyer",
+       "s": 5.631,
+       "e": 5.86
+      },
+      {
+       "w": "handed",
+       "s": 5.86,
+       "e": 6.26
+      },
+      {
+       "w": "over",
+       "s": 6.26,
+       "e": 6.766
+      },
+      {
+       "w": "a",
+       "s": 6.766,
+       "e": 7.001
+      },
+      {
+       "w": "fortune.",
+       "s": 7.001,
+       "e": 7.391
+      }
+     ],
+     "caps": [
+      {
+       "start": 5.401,
+       "end": 6.26,
+       "text": "THE BUYER HANDED"
+      },
+      {
+       "start": 6.26,
+       "end": 7.391,
+       "text": "OVER A FORTUNE."
+      }
+     ]
+    },
+    {
+     "text": "But there was one enormous problem.",
+     "file": "assets/vo/bfed29b0ca9a.wav",
+     "start": 8.125,
+     "end": 10.306,
+     "words": [
+      {
+       "w": "But",
+       "s": 8.145,
+       "e": 8.389
+      },
+      {
+       "w": "there",
+       "s": 8.389,
+       "e": 8.632
+      },
+      {
+       "w": "was",
+       "s": 8.632,
+       "e": 8.876
+      },
+      {
+       "w": "one",
+       "s": 8.876,
+       "e": 9.14
+      },
+      {
+       "w": "enormous",
+       "s": 9.14,
+       "e": 9.765
+      },
+      {
+       "w": "problem.",
+       "s": 9.765,
+       "e": 10.255
+      }
+     ],
+     "caps": [
+      {
+       "start": 8.145,
+       "end": 8.876,
+       "text": "BUT THERE WAS"
+      },
+      {
+       "start": 8.876,
+       "end": 10.255,
+       "text": "ONE ENORMOUS PROBLEM."
+      }
+     ]
+    },
+    {
+     "text": "The seller didn't own it.",
+     "file": "assets/vo/5a8333f8a344.wav",
+     "start": 10.956,
+     "end": 12.448,
+     "words": [
+      {
+       "w": "The",
+       "s": 10.976,
+       "e": 11.204
+      },
+      {
+       "w": "seller",
+       "s": 11.204,
+       "e": 11.601
+      },
+      {
+       "w": "didn't",
+       "s": 11.601,
+       "e": 11.886
+      },
+      {
+       "w": "own",
+       "s": 11.886,
+       "e": 12.057
+      },
+      {
+       "w": "it.",
+       "s": 12.057,
+       "e": 12.386
+      }
+     ],
+     "caps": [
+      {
+       "start": 10.976,
+       "end": 11.886,
+       "text": "THE SELLER DIDN'T"
+      },
+      {
+       "start": 11.886,
+       "end": 12.386,
+       "text": "OWN IT."
+      }
+     ]
+    },
+    {
+     "text": "And somehow, he got away with it.",
+     "file": "assets/vo/9edbd7a80c36.wav",
+     "start": 13.348,
+     "end": 15.268,
+     "words": [
+      {
+       "w": "And",
+       "s": 13.368,
+       "e": 13.551
+      },
+      {
+       "w": "somehow,",
+       "s": 13.551,
+       "e": 14.088
+      },
+      {
+       "w": "he",
+       "s": 14.198,
+       "e": 14.363
+      },
+      {
+       "w": "got",
+       "s": 14.363,
+       "e": 14.528
+      },
+      {
+       "w": "away",
+       "s": 14.528,
+       "e": 14.815
+      },
+      {
+       "w": "with",
+       "s": 14.815,
+       "e": 14.933
+      },
+      {
+       "w": "it.",
+       "s": 14.933,
+       "e": 15.218
+      }
+     ],
+     "caps": [
+      {
+       "start": 13.368,
+       "end": 14.198,
+       "text": "AND SOMEHOW"
+      },
+      {
+       "start": 14.198,
+       "end": 14.815,
+       "text": "HE GOT AWAY"
+      },
+      {
+       "start": 14.815,
+       "end": 15.218,
+       "text": "WITH IT."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "paris",
+   "tag": "PARIS \u00b7 1925",
+   "start": 15.668,
+   "end": 30.269,
+   "lines": [
+    {
+     "text": "To understand how this happened, we need to go back to Paris in the nineteen-twenties.",
+     "file": "assets/vo/48c16f8fe96b.wav",
+     "start": 16.168,
+     "end": 20.843,
+     "words": [
+      {
+       "w": "To",
+       "s": 16.188,
+       "e": 16.318
+      },
+      {
+       "w": "understand",
+       "s": 16.318,
+       "e": 16.859
+      },
+      {
+       "w": "how",
+       "s": 16.859,
+       "e": 17.052
+      },
+      {
+       "w": "this",
+       "s": 17.052,
+       "e": 17.244
+      },
+      {
+       "w": "happened,",
+       "s": 17.244,
+       "e": 17.808
+      },
+      {
+       "w": "we",
+       "s": 18.148,
+       "e": 18.335
+      },
+      {
+       "w": "need",
+       "s": 18.335,
+       "e": 18.521
+      },
+      {
+       "w": "to",
+       "s": 18.521,
+       "e": 18.708
+      },
+      {
+       "w": "go",
+       "s": 18.708,
+       "e": 18.943
+      },
+      {
+       "w": "back",
+       "s": 18.943,
+       "e": 19.113
+      },
+      {
+       "w": "to",
+       "s": 19.113,
+       "e": 19.268
+      },
+      {
+       "w": "Paris",
+       "s": 19.268,
+       "e": 19.583
+      },
+      {
+       "w": "in",
+       "s": 19.583,
+       "e": 19.779
+      },
+      {
+       "w": "the",
+       "s": 19.779,
+       "e": 19.966
+      },
+      {
+       "w": "1920s.",
+       "s": 19.966,
+       "e": 20.788
+      }
+     ],
+     "caps": [
+      {
+       "start": 16.188,
+       "end": 17.052,
+       "text": "TO UNDERSTAND HOW"
+      },
+      {
+       "start": 17.052,
+       "end": 18.148,
+       "text": "THIS HAPPENED"
+      },
+      {
+       "start": 18.148,
+       "end": 18.708,
+       "text": "WE NEED TO"
+      },
+      {
+       "start": 18.708,
+       "end": 19.268,
+       "text": "GO BACK TO"
+      },
+      {
+       "start": 19.268,
+       "end": 19.966,
+       "text": "PARIS IN THE"
+      },
+      {
+       "start": 19.966,
+       "end": 20.788,
+       "text": "1920S."
+      }
+     ]
+    },
+    {
+     "text": "The Eiffel Tower was already famous, but not everyone loved it.",
+     "file": "assets/vo/e9381c74a814.wav",
+     "start": 21.643,
+     "end": 25.49,
+     "words": [
+      {
+       "w": "The",
+       "s": 21.663,
+       "e": 21.798
+      },
+      {
+       "w": "Eiffel",
+       "s": 21.798,
+       "e": 22.193
+      },
+      {
+       "w": "Tower",
+       "s": 22.193,
+       "e": 22.586
+      },
+      {
+       "w": "was",
+       "s": 22.586,
+       "e": 22.828
+      },
+      {
+       "w": "already",
+       "s": 22.828,
+       "e": 23.243
+      },
+      {
+       "w": "famous,",
+       "s": 23.243,
+       "e": 23.753
+      },
+      {
+       "w": "but",
+       "s": 24.063,
+       "e": 24.243
+      },
+      {
+       "w": "not",
+       "s": 24.243,
+       "e": 24.378
+      },
+      {
+       "w": "everyone",
+       "s": 24.378,
+       "e": 24.87
+      },
+      {
+       "w": "loved",
+       "s": 24.87,
+       "e": 25.208
+      },
+      {
+       "w": "it.",
+       "s": 25.208,
+       "e": 25.443
+      }
+     ],
+     "caps": [
+      {
+       "start": 21.663,
+       "end": 22.586,
+       "text": "THE EIFFEL TOWER"
+      },
+      {
+       "start": 22.586,
+       "end": 24.063,
+       "text": "WAS ALREADY FAMOUS"
+      },
+      {
+       "start": 24.063,
+       "end": 24.87,
+       "text": "BUT NOT EVERYONE"
+      },
+      {
+       "start": 24.87,
+       "end": 25.443,
+       "text": "LOVED IT."
+      }
+     ]
+    },
+    {
+     "text": "Maintaining the enormous iron structure was expensive.",
+     "file": "assets/vo/3d4c06f18f83.wav",
+     "start": 26.19,
+     "end": 29.669,
+     "words": [
+      {
+       "w": "Maintaining",
+       "s": 26.21,
+       "e": 26.839
+      },
+      {
+       "w": "the",
+       "s": 26.839,
+       "e": 27.092
+      },
+      {
+       "w": "enormous",
+       "s": 27.092,
+       "e": 27.722
+      },
+      {
+       "w": "iron",
+       "s": 27.722,
+       "e": 28.2
+      },
+      {
+       "w": "structure",
+       "s": 28.2,
+       "e": 28.57
+      },
+      {
+       "w": "was",
+       "s": 28.57,
+       "e": 28.93
+      },
+      {
+       "w": "expensive.",
+       "s": 28.93,
+       "e": 29.6
+      }
+     ],
+     "caps": [
+      {
+       "start": 26.21,
+       "end": 27.092,
+       "text": "MAINTAINING THE"
+      },
+      {
+       "start": 27.092,
+       "end": 28.57,
+       "text": "ENORMOUS IRON STRUCTURE"
+      },
+      {
+       "start": 28.57,
+       "end": 29.6,
+       "text": "WAS EXPENSIVE."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "tag": "PARIS \u00b7 1925",
+   "start": 30.269,
+   "end": 45.378,
+   "lines": [
+    {
+     "text": "Then a man named Victor Lustig arrived in Paris.",
+     "file": "assets/vo/14193ff33bd1.wav",
+     "start": 30.669,
+     "end": 33.856,
+     "words": [
+      {
+       "w": "Then",
+       "s": 30.689,
+       "e": 30.913
+      },
+      {
+       "w": "a",
+       "s": 30.913,
+       "e": 31.138
+      },
+      {
+       "w": "man",
+       "s": 31.138,
+       "e": 31.363
+      },
+      {
+       "w": "named",
+       "s": 31.363,
+       "e": 31.859
+      },
+      {
+       "w": "Victor",
+       "s": 31.859,
+       "e": 32.259
+      },
+      {
+       "w": "Lustig",
+       "s": 32.259,
+       "e": 32.569
+      },
+      {
+       "w": "arrived",
+       "s": 32.569,
+       "e": 33.099
+      },
+      {
+       "w": "in",
+       "s": 33.099,
+       "e": 33.309
+      },
+      {
+       "w": "Paris.",
+       "s": 33.309,
+       "e": 33.809
+      }
+     ],
+     "caps": [
+      {
+       "start": 30.689,
+       "end": 31.363,
+       "text": "THEN A MAN"
+      },
+      {
+       "start": 31.363,
+       "end": 32.569,
+       "text": "NAMED VICTOR LUSTIG"
+      },
+      {
+       "start": 32.569,
+       "end": 33.809,
+       "text": "ARRIVED IN PARIS."
+      }
+     ]
+    },
+    {
+     "text": "He was an experienced con artist, known for his expensive suits and convincing manners.",
+     "file": "assets/vo/807d51d8b938.wav",
+     "start": 34.556,
+     "end": 39.639,
+     "words": [
+      {
+       "w": "He",
+       "s": 34.576,
+       "e": 34.766
+      },
+      {
+       "w": "was",
+       "s": 34.766,
+       "e": 34.946
+      },
+      {
+       "w": "an",
+       "s": 34.946,
+       "e": 35.086
+      },
+      {
+       "w": "experienced",
+       "s": 35.086,
+       "e": 35.759
+      },
+      {
+       "w": "con",
+       "s": 35.759,
+       "e": 35.95
+      },
+      {
+       "w": "artist,",
+       "s": 35.95,
+       "e": 36.366
+      },
+      {
+       "w": "known",
+       "s": 36.746,
+       "e": 37.041
+      },
+      {
+       "w": "for",
+       "s": 37.041,
+       "e": 37.213
+      },
+      {
+       "w": "his",
+       "s": 37.213,
+       "e": 37.376
+      },
+      {
+       "w": "expensive",
+       "s": 37.376,
+       "e": 38.027
+      },
+      {
+       "w": "suits",
+       "s": 38.027,
+       "e": 38.216
+      },
+      {
+       "w": "and",
+       "s": 38.216,
+       "e": 38.495
+      },
+      {
+       "w": "convincing",
+       "s": 38.495,
+       "e": 39.075
+      },
+      {
+       "w": "manners.",
+       "s": 39.075,
+       "e": 39.586
+      }
+     ],
+     "caps": [
+      {
+       "start": 34.576,
+       "end": 35.086,
+       "text": "HE WAS AN"
+      },
+      {
+       "start": 35.086,
+       "end": 35.95,
+       "text": "EXPERIENCED CON"
+      },
+      {
+       "start": 35.95,
+       "end": 36.746,
+       "text": "ARTIST"
+      },
+      {
+       "start": 36.746,
+       "end": 37.376,
+       "text": "KNOWN FOR HIS"
+      },
+      {
+       "start": 37.376,
+       "end": 38.216,
+       "text": "EXPENSIVE SUITS"
+      },
+      {
+       "start": 38.216,
+       "end": 39.075,
+       "text": "AND CONVINCING"
+      },
+      {
+       "start": 39.075,
+       "end": 39.586,
+       "text": "MANNERS."
+      }
+     ]
+    },
+    {
+     "text": "When he read about the tower's maintenance problems, he saw an opportunity.",
+     "file": "assets/vo/58ac97889117.wav",
+     "start": 40.439,
+     "end": 44.578,
+     "words": [
+      {
+       "w": "When",
+       "s": 40.459,
+       "e": 40.659
+      },
+      {
+       "w": "he",
+       "s": 40.659,
+       "e": 40.858
+      },
+      {
+       "w": "read",
+       "s": 40.858,
+       "e": 41.164
+      },
+      {
+       "w": "about",
+       "s": 41.164,
+       "e": 41.294
+      },
+      {
+       "w": "the",
+       "s": 41.294,
+       "e": 41.603
+      },
+      {
+       "w": "tower's",
+       "s": 41.603,
+       "e": 41.95
+      },
+      {
+       "w": "maintenance",
+       "s": 41.95,
+       "e": 42.374
+      },
+      {
+       "w": "problems,",
+       "s": 42.374,
+       "e": 42.879
+      },
+      {
+       "w": "he",
+       "s": 43.229,
+       "e": 43.406
+      },
+      {
+       "w": "saw",
+       "s": 43.406,
+       "e": 43.583
+      },
+      {
+       "w": "an",
+       "s": 43.583,
+       "e": 43.849
+      },
+      {
+       "w": "opportunity.",
+       "s": 43.849,
+       "e": 44.539
+      }
+     ],
+     "caps": [
+      {
+       "start": 40.459,
+       "end": 41.164,
+       "text": "WHEN HE READ"
+      },
+      {
+       "start": 41.164,
+       "end": 41.95,
+       "text": "ABOUT THE TOWER'S"
+      },
+      {
+       "start": 41.95,
+       "end": 43.229,
+       "text": "MAINTENANCE PROBLEMS"
+      },
+      {
+       "start": 43.229,
+       "end": 43.849,
+       "text": "HE SAW AN"
+      },
+      {
+       "start": 43.849,
+       "end": 44.539,
+       "text": "OPPORTUNITY."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "official",
+   "tag": "H\u00d4TEL DE CRILLON",
+   "start": 45.378,
+   "end": 60.636,
+   "lines": [
+    {
+     "text": "Lustig pretended to be a senior French government official.",
+     "file": "assets/vo/9a15b16003d0.wav",
+     "start": 45.778,
+     "end": 49.078,
+     "words": [
+      {
+       "w": "Lustig",
+       "s": 45.798,
+       "e": 46.083
+      },
+      {
+       "w": "pretended",
+       "s": 46.083,
+       "e": 46.683
+      },
+      {
+       "w": "to",
+       "s": 46.683,
+       "e": 46.892
+      },
+      {
+       "w": "be",
+       "s": 46.892,
+       "e": 47.102
+      },
+      {
+       "w": "a",
+       "s": 47.102,
+       "e": 47.311
+      },
+      {
+       "w": "senior",
+       "s": 47.311,
+       "e": 47.778
+      },
+      {
+       "w": "French",
+       "s": 47.778,
+       "e": 47.886
+      },
+      {
+       "w": "government",
+       "s": 47.886,
+       "e": 48.405
+      },
+      {
+       "w": "official.",
+       "s": 48.405,
+       "e": 49.018
+      }
+     ],
+     "caps": [
+      {
+       "start": 45.798,
+       "end": 46.683,
+       "text": "LUSTIG PRETENDED"
+      },
+      {
+       "start": 46.683,
+       "end": 47.311,
+       "text": "TO BE A"
+      },
+      {
+       "start": 47.311,
+       "end": 48.405,
+       "text": "SENIOR FRENCH GOVERNMENT"
+      },
+      {
+       "start": 48.405,
+       "end": 49.018,
+       "text": "OFFICIAL."
+      }
+     ]
+    },
+    {
+     "text": "He arranged a private meeting with scrap-metal businessmen at the luxurious H\u00f4tel de Crillon.",
+     "file": "assets/vo/825900750258.wav",
+     "start": 49.778,
+     "end": 55.422,
+     "words": [
+      {
+       "w": "He",
+       "s": 49.818,
+       "e": 50.056
+      },
+      {
+       "w": "arranged",
+       "s": 50.056,
+       "e": 50.648
+      },
+      {
+       "w": "a",
+       "s": 50.648,
+       "e": 50.813
+      },
+      {
+       "w": "private",
+       "s": 50.813,
+       "e": 51.348
+      },
+      {
+       "w": "meeting",
+       "s": 51.348,
+       "e": 51.673
+      },
+      {
+       "w": "with",
+       "s": 51.673,
+       "e": 51.868
+      },
+      {
+       "w": "scrap-metal",
+       "s": 51.868,
+       "e": 52.628
+      },
+      {
+       "w": "businessmen",
+       "s": 52.628,
+       "e": 53.368
+      },
+      {
+       "w": "at",
+       "s": 53.368,
+       "e": 53.551
+      },
+      {
+       "w": "the",
+       "s": 53.551,
+       "e": 53.79
+      },
+      {
+       "w": "luxurious",
+       "s": 53.79,
+       "e": 54.418
+      },
+      {
+       "w": "H\u00f4tel",
+       "s": 54.418,
+       "e": 54.619
+      },
+      {
+       "w": "de",
+       "s": 54.619,
+       "e": 54.848
+      },
+      {
+       "w": "Crillon.",
+       "s": 54.848,
+       "e": 55.378
+      }
+     ],
+     "caps": [
+      {
+       "start": 49.818,
+       "end": 50.813,
+       "text": "HE ARRANGED A"
+      },
+      {
+       "start": 50.813,
+       "end": 51.673,
+       "text": "PRIVATE MEETING"
+      },
+      {
+       "start": 51.673,
+       "end": 52.628,
+       "text": "WITH SCRAP-METAL"
+      },
+      {
+       "start": 52.628,
+       "end": 53.551,
+       "text": "BUSINESSMEN AT"
+      },
+      {
+       "start": 53.551,
+       "end": 54.619,
+       "text": "THE LUXURIOUS H\u00d4TEL"
+      },
+      {
+       "start": 54.619,
+       "end": 55.378,
+       "text": "DE CRILLON."
+      }
+     ]
+    },
+    {
+     "text": "They believed they were about to hear an important government announcement.",
+     "file": "assets/vo/c2069384156a.wav",
+     "start": 56.222,
+     "end": 60.036,
+     "words": [
+      {
+       "w": "They",
+       "s": 56.242,
+       "e": 56.441
+      },
+      {
+       "w": "believed",
+       "s": 56.441,
+       "e": 56.972
+      },
+      {
+       "w": "they",
+       "s": 56.972,
+       "e": 57.133
+      },
+      {
+       "w": "were",
+       "s": 57.133,
+       "e": 57.332
+      },
+      {
+       "w": "about",
+       "s": 57.332,
+       "e": 57.702
+      },
+      {
+       "w": "to",
+       "s": 57.702,
+       "e": 57.877
+      },
+      {
+       "w": "hear",
+       "s": 57.877,
+       "e": 58.077
+      },
+      {
+       "w": "an",
+       "s": 58.077,
+       "e": 58.275
+      },
+      {
+       "w": "important",
+       "s": 58.275,
+       "e": 58.827
+      },
+      {
+       "w": "government",
+       "s": 58.827,
+       "e": 59.262
+      },
+      {
+       "w": "announcement.",
+       "s": 59.262,
+       "e": 59.992
+      }
+     ],
+     "caps": [
+      {
+       "start": 56.242,
+       "end": 57.133,
+       "text": "THEY BELIEVED THEY"
+      },
+      {
+       "start": 57.133,
+       "end": 57.877,
+       "text": "WERE ABOUT TO"
+      },
+      {
+       "start": 57.877,
+       "end": 58.827,
+       "text": "HEAR AN IMPORTANT"
+      },
+      {
+       "start": 58.827,
+       "end": 59.992,
+       "text": "GOVERNMENT ANNOUNCEMENT."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "announce",
+   "tag": "H\u00d4TEL DE CRILLON",
+   "start": 60.636,
+   "end": 78.146,
+   "lines": [
+    {
+     "text": "He told them the government had decided to dismantle the Eiffel Tower and sell its metal.",
+     "file": "assets/vo/6ab1a9358b31.wav",
+     "start": 61.036,
+     "end": 66.327,
+     "words": [
+      {
+       "w": "He",
+       "s": 61.076,
+       "e": 61.301
+      },
+      {
+       "w": "told",
+       "s": 61.301,
+       "e": 61.526
+      },
+      {
+       "w": "them",
+       "s": 61.526,
+       "e": 61.816
+      },
+      {
+       "w": "the",
+       "s": 61.816,
+       "e": 61.976
+      },
+      {
+       "w": "government",
+       "s": 61.976,
+       "e": 62.534
+      },
+      {
+       "w": "had",
+       "s": 62.534,
+       "e": 62.759
+      },
+      {
+       "w": "decided",
+       "s": 62.759,
+       "e": 63.436
+      },
+      {
+       "w": "to",
+       "s": 63.436,
+       "e": 63.543
+      },
+      {
+       "w": "dismantle",
+       "s": 63.543,
+       "e": 64.011
+      },
+      {
+       "w": "the",
+       "s": 64.011,
+       "e": 64.251
+      },
+      {
+       "w": "Eiffel",
+       "s": 64.251,
+       "e": 64.718
+      },
+      {
+       "w": "Tower",
+       "s": 64.718,
+       "e": 65.061
+      },
+      {
+       "w": "and",
+       "s": 65.061,
+       "e": 65.334
+      },
+      {
+       "w": "sell",
+       "s": 65.334,
+       "e": 65.559
+      },
+      {
+       "w": "its",
+       "s": 65.559,
+       "e": 65.801
+      },
+      {
+       "w": "metal.",
+       "s": 65.801,
+       "e": 66.276
+      }
+     ],
+     "caps": [
+      {
+       "start": 61.076,
+       "end": 61.816,
+       "text": "HE TOLD THEM"
+      },
+      {
+       "start": 61.816,
+       "end": 62.534,
+       "text": "THE GOVERNMENT"
+      },
+      {
+       "start": 62.534,
+       "end": 63.543,
+       "text": "HAD DECIDED TO"
+      },
+      {
+       "start": 63.543,
+       "end": 65.061,
+       "text": "DISMANTLE THE EIFFEL TOWER"
+      },
+      {
+       "start": 65.061,
+       "end": 65.801,
+       "text": "AND SELL ITS"
+      },
+      {
+       "start": 65.801,
+       "end": 66.276,
+       "text": "METAL."
+      }
+     ]
+    },
+    {
+     "text": "The businessmen were stunned.",
+     "file": "assets/vo/89cc5ed9a171.wav",
+     "start": 67.327,
+     "end": 68.971,
+     "words": [
+      {
+       "w": "The",
+       "s": 67.347,
+       "e": 67.561
+      },
+      {
+       "w": "businessmen",
+       "s": 67.561,
+       "e": 68.248
+      },
+      {
+       "w": "were",
+       "s": 68.248,
+       "e": 68.472
+      },
+      {
+       "w": "stunned.",
+       "s": 68.472,
+       "e": 68.927
+      }
+     ],
+     "caps": [
+      {
+       "start": 67.347,
+       "end": 68.248,
+       "text": "THE BUSINESSMEN"
+      },
+      {
+       "start": 68.248,
+       "end": 68.927,
+       "text": "WERE STUNNED."
+      }
+     ]
+    },
+    {
+     "text": "One of the world's most famous landmarks, about to be taken apart?",
+     "file": "assets/vo/4e9b8abda0d1.wav",
+     "start": 69.77,
+     "end": 73.546,
+     "words": [
+      {
+       "w": "One",
+       "s": 69.79,
+       "e": 70.02
+      },
+      {
+       "w": "of",
+       "s": 70.02,
+       "e": 70.25
+      },
+      {
+       "w": "the",
+       "s": 70.25,
+       "e": 70.48
+      },
+      {
+       "w": "world's",
+       "s": 70.48,
+       "e": 70.77
+      },
+      {
+       "w": "most",
+       "s": 70.77,
+       "e": 70.939
+      },
+      {
+       "w": "famous",
+       "s": 70.939,
+       "e": 71.339
+      },
+      {
+       "w": "landmarks,",
+       "s": 71.339,
+       "e": 71.84
+      },
+      {
+       "w": "about",
+       "s": 72.1,
+       "e": 72.37
+      },
+      {
+       "w": "to",
+       "s": 72.37,
+       "e": 72.615
+      },
+      {
+       "w": "be",
+       "s": 72.615,
+       "e": 72.865
+      },
+      {
+       "w": "taken",
+       "s": 72.865,
+       "e": 73.105
+      },
+      {
+       "w": "apart?",
+       "s": 73.105,
+       "e": 73.49
+      }
+     ],
+     "caps": [
+      {
+       "start": 69.79,
+       "end": 70.48,
+       "text": "ONE OF THE"
+      },
+      {
+       "start": 70.48,
+       "end": 71.339,
+       "text": "WORLD'S MOST FAMOUS"
+      },
+      {
+       "start": 71.339,
+       "end": 72.1,
+       "text": "LANDMARKS"
+      },
+      {
+       "start": 72.1,
+       "end": 72.865,
+       "text": "ABOUT TO BE"
+      },
+      {
+       "start": 72.865,
+       "end": 73.49,
+       "text": "TAKEN APART?"
+      }
+     ]
+    },
+    {
+     "text": "But Lustig insisted the decision was confidential.",
+     "file": "assets/vo/cbfca7f14adf.wav",
+     "start": 74.346,
+     "end": 77.546,
+     "words": [
+      {
+       "w": "But",
+       "s": 74.366,
+       "e": 74.597
+      },
+      {
+       "w": "Lustig",
+       "s": 74.597,
+       "e": 75.031
+      },
+      {
+       "w": "insisted",
+       "s": 75.031,
+       "e": 75.501
+      },
+      {
+       "w": "the",
+       "s": 75.501,
+       "e": 75.808
+      },
+      {
+       "w": "decision",
+       "s": 75.808,
+       "e": 76.384
+      },
+      {
+       "w": "was",
+       "s": 76.384,
+       "e": 76.676
+      },
+      {
+       "w": "confidential.",
+       "s": 76.676,
+       "e": 77.466
+      }
+     ],
+     "caps": [
+      {
+       "start": 74.366,
+       "end": 75.501,
+       "text": "BUT LUSTIG INSISTED"
+      },
+      {
+       "start": 75.501,
+       "end": 76.676,
+       "text": "THE DECISION WAS"
+      },
+      {
+       "start": 76.676,
+       "end": 77.466,
+       "text": "CONFIDENTIAL."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "poisson",
+   "tag": "H\u00d4TEL DE CRILLON",
+   "start": 78.146,
+   "end": 93.452,
+   "lines": [
+    {
+     "text": "Among them was Andr\u00e9 Poisson, a businessman eager to establish himself in Paris.",
+     "file": "assets/vo/566f6492c7c5.wav",
+     "start": 78.546,
+     "end": 83.844,
+     "words": [
+      {
+       "w": "Among",
+       "s": 78.566,
+       "e": 78.903
+      },
+      {
+       "w": "them",
+       "s": 78.903,
+       "e": 79.096
+      },
+      {
+       "w": "was",
+       "s": 79.096,
+       "e": 79.386
+      },
+      {
+       "w": "Andr\u00e9",
+       "s": 79.386,
+       "e": 79.483
+      },
+      {
+       "w": "Poisson,",
+       "s": 79.483,
+       "e": 79.906
+      },
+      {
+       "w": "a",
+       "s": 79.956,
+       "e": 80.223
+      },
+      {
+       "w": "businessman",
+       "s": 80.223,
+       "e": 81.066
+      },
+      {
+       "w": "eager",
+       "s": 81.066,
+       "e": 81.636
+      },
+      {
+       "w": "to",
+       "s": 81.636,
+       "e": 81.817
+      },
+      {
+       "w": "establish",
+       "s": 81.817,
+       "e": 82.48
+      },
+      {
+       "w": "himself",
+       "s": 82.48,
+       "e": 82.945
+      },
+      {
+       "w": "in",
+       "s": 82.945,
+       "e": 83.111
+      },
+      {
+       "w": "Paris.",
+       "s": 83.111,
+       "e": 83.796
+      }
+     ],
+     "caps": [
+      {
+       "start": 78.566,
+       "end": 79.386,
+       "text": "AMONG THEM WAS"
+      },
+      {
+       "start": 79.386,
+       "end": 79.956,
+       "text": "ANDR\u00c9 POISSON"
+      },
+      {
+       "start": 79.956,
+       "end": 81.636,
+       "text": "A BUSINESSMAN EAGER"
+      },
+      {
+       "start": 81.636,
+       "end": 82.945,
+       "text": "TO ESTABLISH HIMSELF"
+      },
+      {
+       "start": 82.945,
+       "end": 83.796,
+       "text": "IN PARIS."
+      }
+     ]
+    },
+    {
+     "text": "He believed buying the tower's metal could be a huge opportunity.",
+     "file": "assets/vo/e5180b7fba9a.wav",
+     "start": 84.544,
+     "end": 88.126,
+     "words": [
+      {
+       "w": "He",
+       "s": 84.574,
+       "e": 84.776
+      },
+      {
+       "w": "believed",
+       "s": 84.776,
+       "e": 85.169
+      },
+      {
+       "w": "buying",
+       "s": 85.169,
+       "e": 85.48
+      },
+      {
+       "w": "the",
+       "s": 85.48,
+       "e": 85.624
+      },
+      {
+       "w": "tower's",
+       "s": 85.624,
+       "e": 86.034
+      },
+      {
+       "w": "metal",
+       "s": 86.034,
+       "e": 86.459
+      },
+      {
+       "w": "could",
+       "s": 86.459,
+       "e": 86.587
+      },
+      {
+       "w": "be",
+       "s": 86.587,
+       "e": 86.789
+      },
+      {
+       "w": "a",
+       "s": 86.789,
+       "e": 86.954
+      },
+      {
+       "w": "huge",
+       "s": 86.954,
+       "e": 87.194
+      },
+      {
+       "w": "opportunity.",
+       "s": 87.194,
+       "e": 88.084
+      }
+     ],
+     "caps": [
+      {
+       "start": 84.574,
+       "end": 85.48,
+       "text": "HE BELIEVED BUYING"
+      },
+      {
+       "start": 85.48,
+       "end": 86.459,
+       "text": "THE TOWER'S METAL"
+      },
+      {
+       "start": 86.459,
+       "end": 86.954,
+       "text": "COULD BE A"
+      },
+      {
+       "start": 86.954,
+       "end": 88.084,
+       "text": "HUGE OPPORTUNITY."
+      }
+     ]
+    },
+    {
+     "text": "And Lustig's convincing performance made the impossible sound real.",
+     "file": "assets/vo/747c82c9a96e.wav",
+     "start": 88.826,
+     "end": 92.852,
+     "words": [
+      {
+       "w": "And",
+       "s": 88.846,
+       "e": 89.211
+      },
+      {
+       "w": "Lustig's",
+       "s": 89.211,
+       "e": 89.486
+      },
+      {
+       "w": "convincing",
+       "s": 89.486,
+       "e": 90.236
+      },
+      {
+       "w": "performance",
+       "s": 90.236,
+       "e": 90.856
+      },
+      {
+       "w": "made",
+       "s": 90.856,
+       "e": 91.083
+      },
+      {
+       "w": "the",
+       "s": 91.083,
+       "e": 91.34
+      },
+      {
+       "w": "impossible",
+       "s": 91.34,
+       "e": 92.168
+      },
+      {
+       "w": "sound",
+       "s": 92.168,
+       "e": 92.425
+      },
+      {
+       "w": "real.",
+       "s": 92.425,
+       "e": 92.796
+      }
+     ],
+     "caps": [
+      {
+       "start": 88.846,
+       "end": 90.236,
+       "text": "AND LUSTIG'S CONVINCING"
+      },
+      {
+       "start": 90.236,
+       "end": 91.083,
+       "text": "PERFORMANCE MADE"
+      },
+      {
+       "start": 91.083,
+       "end": 92.168,
+       "text": "THE IMPOSSIBLE"
+      },
+      {
+       "start": 92.168,
+       "end": 92.796,
+       "text": "SOUND REAL."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "payment",
+   "tag": "PARIS \u00b7 1925",
+   "start": 93.452,
+   "end": 107.16,
+   "lines": [
+    {
+     "text": "Eventually, Poisson paid Lustig a substantial sum, believing he had secured the deal.",
+     "file": "assets/vo/3077e40ea92b.wav",
+     "start": 93.852,
+     "end": 99.008,
+     "words": [
+      {
+       "w": "Eventually,",
+       "s": 93.872,
+       "e": 94.512
+      },
+      {
+       "w": "Poisson",
+       "s": 94.652,
+       "e": 95.067
+      },
+      {
+       "w": "paid",
+       "s": 95.067,
+       "e": 95.319
+      },
+      {
+       "w": "Lustig",
+       "s": 95.319,
+       "e": 95.743
+      },
+      {
+       "w": "a",
+       "s": 95.743,
+       "e": 95.986
+      },
+      {
+       "w": "substantial",
+       "s": 95.986,
+       "e": 96.59
+      },
+      {
+       "w": "sum,",
+       "s": 96.59,
+       "e": 96.942
+      },
+      {
+       "w": "believing",
+       "s": 97.322,
+       "e": 97.754
+      },
+      {
+       "w": "he",
+       "s": 97.754,
+       "e": 97.929
+      },
+      {
+       "w": "had",
+       "s": 97.929,
+       "e": 98.217
+      },
+      {
+       "w": "secured",
+       "s": 98.217,
+       "e": 98.535
+      },
+      {
+       "w": "the",
+       "s": 98.535,
+       "e": 98.71
+      },
+      {
+       "w": "deal.",
+       "s": 98.71,
+       "e": 98.962
+      }
+     ],
+     "caps": [
+      {
+       "start": 93.872,
+       "end": 94.652,
+       "text": "EVENTUALLY"
+      },
+      {
+       "start": 94.652,
+       "end": 95.743,
+       "text": "POISSON PAID LUSTIG"
+      },
+      {
+       "start": 95.743,
+       "end": 97.322,
+       "text": "A SUBSTANTIAL SUM"
+      },
+      {
+       "start": 97.322,
+       "end": 98.217,
+       "text": "BELIEVING HE HAD"
+      },
+      {
+       "start": 98.217,
+       "end": 98.962,
+       "text": "SECURED THE DEAL."
+      }
+     ]
+    },
+    {
+     "text": "He thought he had purchased thousands of tons of iron.",
+     "file": "assets/vo/9a06d740925e.wav",
+     "start": 99.708,
+     "end": 102.505,
+     "words": [
+      {
+       "w": "He",
+       "s": 99.748,
+       "e": 99.883
+      },
+      {
+       "w": "thought",
+       "s": 99.883,
+       "e": 100.151
+      },
+      {
+       "w": "he",
+       "s": 100.151,
+       "e": 100.283
+      },
+      {
+       "w": "had",
+       "s": 100.283,
+       "e": 100.478
+      },
+      {
+       "w": "purchased",
+       "s": 100.478,
+       "e": 101.053
+      },
+      {
+       "w": "thousands",
+       "s": 101.053,
+       "e": 101.428
+      },
+      {
+       "w": "of",
+       "s": 101.428,
+       "e": 101.605
+      },
+      {
+       "w": "tons",
+       "s": 101.605,
+       "e": 101.807
+      },
+      {
+       "w": "of",
+       "s": 101.807,
+       "e": 101.983
+      },
+      {
+       "w": "iron.",
+       "s": 101.983,
+       "e": 102.448
+      }
+     ],
+     "caps": [
+      {
+       "start": 99.748,
+       "end": 100.283,
+       "text": "HE THOUGHT HE"
+      },
+      {
+       "start": 100.283,
+       "end": 101.428,
+       "text": "HAD PURCHASED THOUSANDS"
+      },
+      {
+       "start": 101.428,
+       "end": 101.983,
+       "text": "OF TONS OF"
+      },
+      {
+       "start": 101.983,
+       "end": 102.448,
+       "text": "IRON."
+      }
+     ]
+    },
+    {
+     "text": "Lustig took the money and disappeared from Paris.",
+     "file": "assets/vo/d1bd199d8219.wav",
+     "start": 103.305,
+     "end": 106.36,
+     "words": [
+      {
+       "w": "Lustig",
+       "s": 103.325,
+       "e": 103.83
+      },
+      {
+       "w": "took",
+       "s": 103.83,
+       "e": 104.045
+      },
+      {
+       "w": "the",
+       "s": 104.045,
+       "e": 104.19
+      },
+      {
+       "w": "money",
+       "s": 104.19,
+       "e": 104.592
+      },
+      {
+       "w": "and",
+       "s": 104.592,
+       "e": 104.715
+      },
+      {
+       "w": "disappeared",
+       "s": 104.715,
+       "e": 105.615
+      },
+      {
+       "w": "from",
+       "s": 105.615,
+       "e": 105.805
+      },
+      {
+       "w": "Paris.",
+       "s": 105.805,
+       "e": 106.305
+      }
+     ],
+     "caps": [
+      {
+       "start": 103.325,
+       "end": 104.19,
+       "text": "LUSTIG TOOK THE"
+      },
+      {
+       "start": 104.19,
+       "end": 105.615,
+       "text": "MONEY AND DISAPPEARED"
+      },
+      {
+       "start": 105.615,
+       "end": 106.305,
+       "text": "FROM PARIS."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "tag": "PARIS \u00b7 1925",
+   "start": 107.16,
+   "end": 123.741,
+   "lines": [
+    {
+     "text": "Only afterward did Poisson discover the truth.",
+     "file": "assets/vo/93719268824e.wav",
+     "start": 107.66,
+     "end": 110.615,
+     "words": [
+      {
+       "w": "Only",
+       "s": 107.68,
+       "e": 108.1
+      },
+      {
+       "w": "afterward",
+       "s": 108.1,
+       "e": 108.74
+      },
+      {
+       "w": "did",
+       "s": 108.74,
+       "e": 108.97
+      },
+      {
+       "w": "Poisson",
+       "s": 108.97,
+       "e": 109.361
+      },
+      {
+       "w": "discover",
+       "s": 109.361,
+       "e": 109.96
+      },
+      {
+       "w": "the",
+       "s": 109.96,
+       "e": 110.12
+      },
+      {
+       "w": "truth.",
+       "s": 110.12,
+       "e": 110.55
+      }
+     ],
+     "caps": [
+      {
+       "start": 107.68,
+       "end": 108.74,
+       "text": "ONLY AFTERWARD"
+      },
+      {
+       "start": 108.74,
+       "end": 109.96,
+       "text": "DID POISSON DISCOVER"
+      },
+      {
+       "start": 109.96,
+       "end": 110.55,
+       "text": "THE TRUTH."
+      }
+     ]
+    },
+    {
+     "text": "The French government had never agreed to sell the tower.",
+     "file": "assets/vo/47d99d91e41d.wav",
+     "start": 111.715,
+     "end": 114.969,
+     "words": [
+      {
+       "w": "The",
+       "s": 111.745,
+       "e": 111.89
+      },
+      {
+       "w": "French",
+       "s": 111.89,
+       "e": 112.225
+      },
+      {
+       "w": "government",
+       "s": 112.225,
+       "e": 112.825
+      },
+      {
+       "w": "had",
+       "s": 112.825,
+       "e": 112.977
+      },
+      {
+       "w": "never",
+       "s": 112.977,
+       "e": 113.368
+      },
+      {
+       "w": "agreed",
+       "s": 113.368,
+       "e": 113.855
+      },
+      {
+       "w": "to",
+       "s": 113.855,
+       "e": 113.984
+      },
+      {
+       "w": "sell",
+       "s": 113.984,
+       "e": 114.209
+      },
+      {
+       "w": "the",
+       "s": 114.209,
+       "e": 114.465
+      },
+      {
+       "w": "tower.",
+       "s": 114.465,
+       "e": 114.925
+      }
+     ],
+     "caps": [
+      {
+       "start": 111.745,
+       "end": 112.825,
+       "text": "THE FRENCH GOVERNMENT"
+      },
+      {
+       "start": 112.825,
+       "end": 113.855,
+       "text": "HAD NEVER AGREED"
+      },
+      {
+       "start": 113.855,
+       "end": 114.465,
+       "text": "TO SELL THE"
+      },
+      {
+       "start": 114.465,
+       "end": 114.925,
+       "text": "TOWER."
+      }
+     ]
+    },
+    {
+     "text": "The entire deal was a fraud.",
+     "file": "assets/vo/9d17f7703af9.wav",
+     "start": 115.769,
+     "end": 117.856,
+     "words": [
+      {
+       "w": "The",
+       "s": 115.789,
+       "e": 116.069
+      },
+      {
+       "w": "entire",
+       "s": 116.069,
+       "e": 116.556
+      },
+      {
+       "w": "deal",
+       "s": 116.556,
+       "e": 116.914
+      },
+      {
+       "w": "was",
+       "s": 116.914,
+       "e": 117.115
+      },
+      {
+       "w": "a",
+       "s": 117.115,
+       "e": 117.299
+      },
+      {
+       "w": "fraud.",
+       "s": 117.299,
+       "e": 117.799
+      }
+     ],
+     "caps": [
+      {
+       "start": 115.789,
+       "end": 116.914,
+       "text": "THE ENTIRE DEAL"
+      },
+      {
+       "start": 116.914,
+       "end": 117.799,
+       "text": "WAS A FRAUD."
+      }
+     ]
+    },
+    {
+     "text": "But Poisson was so embarrassed that he reportedly never went to the police.",
+     "file": "assets/vo/c69564eb5404.wav",
+     "start": 118.856,
+     "end": 122.941,
+     "words": [
+      {
+       "w": "But",
+       "s": 118.876,
+       "e": 119.006
+      },
+      {
+       "w": "Poisson",
+       "s": 119.006,
+       "e": 119.424
+      },
+      {
+       "w": "was",
+       "s": 119.424,
+       "e": 119.624
+      },
+      {
+       "w": "so",
+       "s": 119.624,
+       "e": 119.824
+      },
+      {
+       "w": "embarrassed",
+       "s": 119.824,
+       "e": 120.468
+      },
+      {
+       "w": "that",
+       "s": 120.468,
+       "e": 120.611
+      },
+      {
+       "w": "he",
+       "s": 120.611,
+       "e": 120.868
+      },
+      {
+       "w": "reportedly",
+       "s": 120.868,
+       "e": 121.512
+      },
+      {
+       "w": "never",
+       "s": 121.512,
+       "e": 121.86
+      },
+      {
+       "w": "went",
+       "s": 121.86,
+       "e": 122.141
+      },
+      {
+       "w": "to",
+       "s": 122.141,
+       "e": 122.366
+      },
+      {
+       "w": "the",
+       "s": 122.366,
+       "e": 122.46
+      },
+      {
+       "w": "police.",
+       "s": 122.46,
+       "e": 122.896
+      }
+     ],
+     "caps": [
+      {
+       "start": 118.876,
+       "end": 119.624,
+       "text": "BUT POISSON WAS"
+      },
+      {
+       "start": 119.624,
+       "end": 120.468,
+       "text": "SO EMBARRASSED"
+      },
+      {
+       "start": 120.468,
+       "end": 121.512,
+       "text": "THAT HE REPORTEDLY"
+      },
+      {
+       "start": 121.512,
+       "end": 122.366,
+       "text": "NEVER WENT TO"
+      },
+      {
+       "start": 122.366,
+       "end": 122.896,
+       "text": "THE POLICE."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "again",
+   "tag": "LATER",
+   "start": 123.741,
+   "end": 139.113,
+   "lines": [
+    {
+     "text": "And here's the unbelievable part.",
+     "file": "assets/vo/b0ff1ffa8150.wav",
+     "start": 124.141,
+     "end": 126.302,
+     "words": [
+      {
+       "w": "And",
+       "s": 124.161,
+       "e": 124.388
+      },
+      {
+       "w": "here's",
+       "s": 124.388,
+       "e": 124.736
+      },
+      {
+       "w": "the",
+       "s": 124.736,
+       "e": 124.906
+      },
+      {
+       "w": "unbelievable",
+       "s": 124.906,
+       "e": 125.913
+      },
+      {
+       "w": "part.",
+       "s": 125.913,
+       "e": 126.241
+      }
+     ],
+     "caps": [
+      {
+       "start": 124.161,
+       "end": 124.906,
+       "text": "AND HERE'S THE"
+      },
+      {
+       "start": 124.906,
+       "end": 126.241,
+       "text": "UNBELIEVABLE PART."
+      }
+     ]
+    },
+    {
+     "text": "Lustig later returned to Paris and tried to sell the Eiffel Tower again.",
+     "file": "assets/vo/69fc04fd70d8.wav",
+     "start": 127.102,
+     "end": 131.376,
+     "words": [
+      {
+       "w": "Lustig",
+       "s": 127.122,
+       "e": 127.387
+      },
+      {
+       "w": "later",
+       "s": 127.387,
+       "e": 127.876
+      },
+      {
+       "w": "returned",
+       "s": 127.876,
+       "e": 128.492
+      },
+      {
+       "w": "to",
+       "s": 128.492,
+       "e": 128.631
+      },
+      {
+       "w": "Paris",
+       "s": 128.631,
+       "e": 129.097
+      },
+      {
+       "w": "and",
+       "s": 129.097,
+       "e": 129.226
+      },
+      {
+       "w": "tried",
+       "s": 129.226,
+       "e": 129.442
+      },
+      {
+       "w": "to",
+       "s": 129.442,
+       "e": 129.659
+      },
+      {
+       "w": "sell",
+       "s": 129.659,
+       "e": 129.876
+      },
+      {
+       "w": "the",
+       "s": 129.876,
+       "e": 130.162
+      },
+      {
+       "w": "Eiffel",
+       "s": 130.162,
+       "e": 130.532
+      },
+      {
+       "w": "Tower",
+       "s": 130.532,
+       "e": 130.848
+      },
+      {
+       "w": "again.",
+       "s": 130.848,
+       "e": 131.322
+      }
+     ],
+     "caps": [
+      {
+       "start": 127.122,
+       "end": 128.492,
+       "text": "LUSTIG LATER RETURNED"
+      },
+      {
+       "start": 128.492,
+       "end": 129.226,
+       "text": "TO PARIS AND"
+      },
+      {
+       "start": 129.226,
+       "end": 129.876,
+       "text": "TRIED TO SELL"
+      },
+      {
+       "start": 129.876,
+       "end": 130.848,
+       "text": "THE EIFFEL TOWER"
+      },
+      {
+       "start": 130.848,
+       "end": 131.322,
+       "text": "AGAIN."
+      }
+     ]
+    },
+    {
+     "text": "This time, the plan failed.",
+     "file": "assets/vo/b61fe011c525.wav",
+     "start": 132.176,
+     "end": 133.953,
+     "words": [
+      {
+       "w": "This",
+       "s": 132.196,
+       "e": 132.416
+      },
+      {
+       "w": "time,",
+       "s": 132.416,
+       "e": 132.936
+      },
+      {
+       "w": "the",
+       "s": 132.976,
+       "e": 133.198
+      },
+      {
+       "w": "plan",
+       "s": 133.198,
+       "e": 133.421
+      },
+      {
+       "w": "failed.",
+       "s": 133.421,
+       "e": 133.906
+      }
+     ],
+     "caps": [
+      {
+       "start": 132.196,
+       "end": 132.976,
+       "text": "THIS TIME"
+      },
+      {
+       "start": 132.976,
+       "end": 133.906,
+       "text": "THE PLAN FAILED."
+      }
+     ]
+    },
+    {
+     "text": "Suspecting that the authorities had been alerted, he left France.",
+     "file": "assets/vo/7acaf222531d.wav",
+     "start": 134.753,
+     "end": 138.513,
+     "words": [
+      {
+       "w": "Suspecting",
+       "s": 134.773,
+       "e": 135.369
+      },
+      {
+       "w": "that",
+       "s": 135.369,
+       "e": 135.588
+      },
+      {
+       "w": "the",
+       "s": 135.588,
+       "e": 135.893
+      },
+      {
+       "w": "authorities",
+       "s": 135.893,
+       "e": 136.622
+      },
+      {
+       "w": "had",
+       "s": 136.622,
+       "e": 136.861
+      },
+      {
+       "w": "been",
+       "s": 136.861,
+       "e": 137.073
+      },
+      {
+       "w": "alerted,",
+       "s": 137.073,
+       "e": 137.803
+      },
+      {
+       "w": "he",
+       "s": 137.853,
+       "e": 138.03
+      },
+      {
+       "w": "left",
+       "s": 138.03,
+       "e": 138.288
+      },
+      {
+       "w": "France.",
+       "s": 138.288,
+       "e": 138.463
+      }
+     ],
+     "caps": [
+      {
+       "start": 134.773,
+       "end": 135.588,
+       "text": "SUSPECTING THAT"
+      },
+      {
+       "start": 135.588,
+       "end": 136.622,
+       "text": "THE AUTHORITIES"
+      },
+      {
+       "start": 136.622,
+       "end": 137.853,
+       "text": "HAD BEEN ALERTED"
+      },
+      {
+       "start": 137.853,
+       "end": 138.463,
+       "text": "HE LEFT FRANCE."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "caught",
+   "tag": "USA",
+   "start": 139.113,
+   "end": 155.513,
+   "lines": [
+    {
+     "text": "Lustig continued committing fraud in America.",
+     "file": "assets/vo/a939b8b26621.wav",
+     "start": 139.513,
+     "end": 142.565,
+     "words": [
+      {
+       "w": "Lustig",
+       "s": 139.533,
+       "e": 139.954
+      },
+      {
+       "w": "continued",
+       "s": 139.954,
+       "e": 140.554
+      },
+      {
+       "w": "committing",
+       "s": 140.554,
+       "e": 141.203
+      },
+      {
+       "w": "fraud",
+       "s": 141.203,
+       "e": 141.395
+      },
+      {
+       "w": "in",
+       "s": 141.395,
+       "e": 141.708
+      },
+      {
+       "w": "America.",
+       "s": 141.708,
+       "e": 142.523
+      }
+     ],
+     "caps": [
+      {
+       "start": 139.533,
+       "end": 140.554,
+       "text": "LUSTIG CONTINUED"
+      },
+      {
+       "start": 140.554,
+       "end": 141.395,
+       "text": "COMMITTING FRAUD"
+      },
+      {
+       "start": 141.395,
+       "end": 142.523,
+       "text": "IN AMERICA."
+      }
+     ]
+    },
+    {
+     "text": "But in nineteen thirty-five, he was arrested.",
+     "file": "assets/vo/b9f5716b1efc.wav",
+     "start": 143.265,
+     "end": 145.886,
+     "words": [
+      {
+       "w": "But",
+       "s": 143.285,
+       "e": 143.495
+      },
+      {
+       "w": "in",
+       "s": 143.495,
+       "e": 143.704
+      },
+      {
+       "w": "1935,",
+       "s": 143.704,
+       "e": 144.223
+      },
+      {
+       "w": "thirty-five,",
+       "s": 144.223,
+       "e": 144.835
+      },
+      {
+       "w": "he",
+       "s": 145.055,
+       "e": 145.216
+      },
+      {
+       "w": "was",
+       "s": 145.216,
+       "e": 145.376
+      },
+      {
+       "w": "arrested.",
+       "s": 145.376,
+       "e": 145.845
+      }
+     ],
+     "caps": [
+      {
+       "start": 143.285,
+       "end": 145.055,
+       "text": "BUT IN 1935"
+      },
+      {
+       "start": 145.055,
+       "end": 145.845,
+       "text": "HE WAS ARRESTED."
+      }
+     ]
+    },
+    {
+     "text": "He was eventually sentenced to twenty years in prison for other crimes.",
+     "file": "assets/vo/7e029c935f50.wav",
+     "start": 146.686,
+     "end": 150.741,
+     "words": [
+      {
+       "w": "He",
+       "s": 146.716,
+       "e": 146.924
+      },
+      {
+       "w": "was",
+       "s": 146.924,
+       "e": 147.132
+      },
+      {
+       "w": "eventually",
+       "s": 147.132,
+       "e": 147.756
+      },
+      {
+       "w": "sentenced",
+       "s": 147.756,
+       "e": 148.317
+      },
+      {
+       "w": "to",
+       "s": 148.317,
+       "e": 148.524
+      },
+      {
+       "w": "20",
+       "s": 148.524,
+       "e": 148.886
+      },
+      {
+       "w": "years",
+       "s": 148.886,
+       "e": 149.141
+      },
+      {
+       "w": "in",
+       "s": 149.141,
+       "e": 149.361
+      },
+      {
+       "w": "prison",
+       "s": 149.361,
+       "e": 149.776
+      },
+      {
+       "w": "for",
+       "s": 149.776,
+       "e": 149.886
+      },
+      {
+       "w": "other",
+       "s": 149.886,
+       "e": 150.146
+      },
+      {
+       "w": "crimes.",
+       "s": 150.146,
+       "e": 150.686
+      }
+     ],
+     "caps": [
+      {
+       "start": 146.716,
+       "end": 147.756,
+       "text": "HE WAS EVENTUALLY"
+      },
+      {
+       "start": 147.756,
+       "end": 148.886,
+       "text": "SENTENCED TO 20"
+      },
+      {
+       "start": 148.886,
+       "end": 149.776,
+       "text": "YEARS IN PRISON"
+      },
+      {
+       "start": 149.776,
+       "end": 150.686,
+       "text": "FOR OTHER CRIMES."
+      }
+     ]
+    },
+    {
+     "text": "The man who had sold a famous landmark was finally caught.",
+     "file": "assets/vo/382c5b2910ca.wav",
+     "start": 151.441,
+     "end": 154.913,
+     "words": [
+      {
+       "w": "The",
+       "s": 151.471,
+       "e": 151.706
+      },
+      {
+       "w": "man",
+       "s": 151.706,
+       "e": 151.942
+      },
+      {
+       "w": "who",
+       "s": 151.942,
+       "e": 152.177
+      },
+      {
+       "w": "had",
+       "s": 152.177,
+       "e": 152.412
+      },
+      {
+       "w": "sold",
+       "s": 152.412,
+       "e": 152.626
+      },
+      {
+       "w": "a",
+       "s": 152.626,
+       "e": 153.001
+      },
+      {
+       "w": "famous",
+       "s": 153.001,
+       "e": 153.292
+      },
+      {
+       "w": "landmark",
+       "s": 153.292,
+       "e": 153.656
+      },
+      {
+       "w": "was",
+       "s": 153.656,
+       "e": 153.996
+      },
+      {
+       "w": "finally",
+       "s": 153.996,
+       "e": 154.481
+      },
+      {
+       "w": "caught.",
+       "s": 154.481,
+       "e": 154.861
+      }
+     ],
+     "caps": [
+      {
+       "start": 151.471,
+       "end": 152.177,
+       "text": "THE MAN WHO"
+      },
+      {
+       "start": 152.177,
+       "end": 153.001,
+       "text": "HAD SOLD A"
+      },
+      {
+       "start": 153.001,
+       "end": 153.656,
+       "text": "FAMOUS LANDMARK"
+      },
+      {
+       "start": 153.656,
+       "end": 154.861,
+       "text": "WAS FINALLY CAUGHT."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "tag": "TODAY",
+   "start": 155.513,
+   "end": 169.116,
+   "lines": [
+    {
+     "text": "And almost a century later, the Eiffel Tower is still standing.",
+     "file": "assets/vo/b42c754f7ac9.wav",
+     "start": 156.013,
+     "end": 159.604,
+     "words": [
+      {
+       "w": "And",
+       "s": 156.033,
+       "e": 156.25
+      },
+      {
+       "w": "almost",
+       "s": 156.25,
+       "e": 156.626
+      },
+      {
+       "w": "a",
+       "s": 156.626,
+       "e": 156.843
+      },
+      {
+       "w": "century",
+       "s": 156.843,
+       "e": 157.38
+      },
+      {
+       "w": "later,",
+       "s": 157.38,
+       "e": 157.853
+      },
+      {
+       "w": "the",
+       "s": 157.893,
+       "e": 158.098
+      },
+      {
+       "w": "Eiffel",
+       "s": 158.098,
+       "e": 158.421
+      },
+      {
+       "w": "Tower",
+       "s": 158.421,
+       "e": 158.818
+      },
+      {
+       "w": "is",
+       "s": 158.818,
+       "e": 158.949
+      },
+      {
+       "w": "still",
+       "s": 158.949,
+       "e": 159.098
+      },
+      {
+       "w": "standing.",
+       "s": 159.098,
+       "e": 159.563
+      }
+     ],
+     "caps": [
+      {
+       "start": 156.033,
+       "end": 156.843,
+       "text": "AND ALMOST A"
+      },
+      {
+       "start": 156.843,
+       "end": 157.893,
+       "text": "CENTURY LATER"
+      },
+      {
+       "start": 157.893,
+       "end": 158.818,
+       "text": "THE EIFFEL TOWER"
+      },
+      {
+       "start": 158.818,
+       "end": 159.563,
+       "text": "IS STILL STANDING."
+      }
+     ]
+    },
+    {
+     "text": "Imagine discovering you'd paid for a landmark that was never yours.",
+     "file": "assets/vo/368b7c107a24.wav",
+     "start": 160.404,
+     "end": 164.425,
+     "words": [
+      {
+       "w": "Imagine",
+       "s": 160.424,
+       "e": 161.014
+      },
+      {
+       "w": "discovering",
+       "s": 161.014,
+       "e": 161.864
+      },
+      {
+       "w": "you'd",
+       "s": 161.864,
+       "e": 162.017
+      },
+      {
+       "w": "paid",
+       "s": 162.017,
+       "e": 162.199
+      },
+      {
+       "w": "for",
+       "s": 162.199,
+       "e": 162.492
+      },
+      {
+       "w": "a",
+       "s": 162.492,
+       "e": 162.729
+      },
+      {
+       "w": "landmark",
+       "s": 162.729,
+       "e": 163.089
+      },
+      {
+       "w": "that",
+       "s": 163.089,
+       "e": 163.384
+      },
+      {
+       "w": "was",
+       "s": 163.384,
+       "e": 163.618
+      },
+      {
+       "w": "never",
+       "s": 163.618,
+       "e": 164.031
+      },
+      {
+       "w": "yours.",
+       "s": 164.031,
+       "e": 164.374
+      }
+     ],
+     "caps": [
+      {
+       "start": 160.424,
+       "end": 161.864,
+       "text": "IMAGINE DISCOVERING"
+      },
+      {
+       "start": 161.864,
+       "end": 162.492,
+       "text": "YOU'D PAID FOR"
+      },
+      {
+       "start": 162.492,
+       "end": 163.384,
+       "text": "A LANDMARK THAT"
+      },
+      {
+       "start": 163.384,
+       "end": 164.374,
+       "text": "WAS NEVER YOURS."
+      }
+     ]
+    },
+    {
+     "text": "Would you have believed him?",
+     "file": "assets/vo/6243a46701c1.wav",
+     "start": 165.425,
+     "end": 166.916,
+     "words": [
+      {
+       "w": "Would",
+       "s": 165.445,
+       "e": 165.651
+      },
+      {
+       "w": "you",
+       "s": 165.651,
+       "e": 165.858
+      },
+      {
+       "w": "have",
+       "s": 165.858,
+       "e": 166.065
+      },
+      {
+       "w": "believed",
+       "s": 166.065,
+       "e": 166.565
+      },
+      {
+       "w": "him?",
+       "s": 166.565,
+       "e": 166.875
+      }
+     ],
+     "caps": [
+      {
+       "start": 165.445,
+       "end": 166.065,
+       "text": "WOULD YOU HAVE"
+      },
+      {
+       "start": 166.065,
+       "end": 166.875,
+       "text": "BELIEVED HIM?"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
